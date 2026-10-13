@@ -1,0 +1,13 @@
+cascade stage 2 trained only on the 1701 turn windows of sessions 1-30, 5-fold grouped CV
+
+features                    model                   direction   4-class
+monitor signals             logistic regression         92.4%    84.93%
+monitor signals             random forest               91.6%    84.56%
+monitor + rest-normalised   logistic regression         92.7%    85.06%
+monitor + rest-normalised   random forest               91.0%    84.30%
+tangent space               logistic regression         61.9%    71.45%
+tangent space               random forest               48.5%    65.47%
+tangent + monitor signals   logistic regression         83.8%    81.10%
+tangent + monitor signals   random forest               92.7%    85.06%
+
+the monitor rule (turn > 0)                             92.6%    85.01%

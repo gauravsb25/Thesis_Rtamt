@@ -1,0 +1,641 @@
+{
+  "stamp": "a637e25b73900f43353a5ca11e5f51d3f8c3d0091c47584176918142adde6cd0",
+  "fingerprint": "f28e3c944d98",
+  "mode": "positive",
+  "budget": 16,
+  "seed": 29,
+  "train_folds": [
+    0
+  ],
+  "indices": [
+    3651,
+    6387,
+    5716,
+    5333,
+    670,
+    5156,
+    6593,
+    2591,
+    4629,
+    1552,
+    3964,
+    6328,
+    5773,
+    5392,
+    578,
+    5097,
+    407,
+    6538,
+    5609,
+    3440,
+    2489,
+    5072,
+    4080,
+    6297,
+    1303,
+    5300,
+    194,
+    6519,
+    5627,
+    3451,
+    2497,
+    5001,
+    4069,
+    6488,
+    4943,
+    106,
+    5264,
+    6098,
+    1262,
+    2386,
+    3382,
+    6506,
+    4908,
+    148,
+    6067,
+    2460,
+    3412,
+    6492,
+    2123,
+    6430,
+    5306,
+    3927,
+    4806,
+    6164,
+    5539,
+    872,
+    3271,
+    4524,
+    1733,
+    6710,
+    5510,
+    3585,
+    5246,
+    5978
+  ],
+  "trial_keys": [
+    "sub_01/ses-04/left/6",
+    "sub_01/ses-09/left/10",
+    "sub_01/ses-08/left/3",
+    "sub_01/ses-07/left/2",
+    "sub_01/ses-01/left/9",
+    "sub_01/ses-06/left/3",
+    "sub_01/ses-10/left/6",
+    "sub_01/ses-03/left/9",
+    "sub_01/ses-05/left/1",
+    "sub_01/ses-02/left/6",
+    "sub_01/ses-04/left/9",
+    "sub_01/ses-09/left/3",
+    "sub_01/ses-08/left/6",
+    "sub_01/ses-07/left/10",
+    "sub_01/ses-01/left/1",
+    "sub_01/ses-06/left/6",
+    "sub_01/ses-01/right/6",
+    "sub_01/ses-10/right/5",
+    "sub_01/ses-08/right/5",
+    "sub_01/ses-04/right/7",
+    "sub_01/ses-03/right/4",
+    "sub_01/ses-06/right/9",
+    "sub_01/ses-05/right/6",
+    "sub_01/ses-09/right/8",
+    "sub_01/ses-02/right/7",
+    "sub_01/ses-07/right/4",
+    "sub_01/ses-01/right/2",
+    "sub_01/ses-10/right/10",
+    "sub_01/ses-08/right/1",
+    "sub_01/ses-04/right/8",
+    "sub_01/ses-03/right/8",
+    "sub_01/ses-06/right/4",
+    "sub_01/ses-05/down/10",
+    "sub_01/ses-10/down/4",
+    "sub_01/ses-06/down/7",
+    "sub_01/ses-01/down/10",
+    "sub_01/ses-07/down/9",
+    "sub_01/ses-09/down/7",
+    "sub_01/ses-02/down/4",
+    "sub_01/ses-03/down/10",
+    "sub_01/ses-04/down/4",
+    "sub_01/ses-10/down/3",
+    "sub_01/ses-06/down/5",
+    "sub_01/ses-01/down/5",
+    "sub_01/ses-09/down/2",
+    "sub_01/ses-03/down/3",
+    "sub_01/ses-04/down/5",
+    "sub_01/ses-10/down/9",
+    "sub_01/ses-02/left/9",
+    "sub_01/ses-10/straight/7",
+    "sub_01/ses-07/right/8",
+    "sub_01/ses-04/left/2",
+    "sub_01/ses-06/straight/8",
+    "sub_01/ses-09/right/4",
+    "sub_01/ses-08/straight/7",
+    "sub_01/ses-01/left/7",
+    "sub_01/ses-03/left/7",
+    "sub_01/ses-05/right/9",
+    "sub_01/ses-02/left/2",
+    "sub_01/ses-10/left/2",
+    "sub_01/ses-07/left/6",
+    "sub_01/ses-04/left/3",
+    "sub_01/ses-06/left/10",
+    "sub_01/ses-09/straight/6"
+  ],
+  "labels": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "trees": [
+    [
+      {
+        "op": "F",
+        "a": 0,
+        "b": 15,
+        "child": {
+          "op": "atom",
+          "signal": 43,
+          "sign": -1,
+          "threshold": -0.23926237892219085
+        }
+      },
+      {
+        "op": "G",
+        "a": 0,
+        "b": 3,
+        "child": {
+          "op": "aug",
+          "sign": 1,
+          "child": {
+            "op": "F",
+            "a": 0,
+            "b": 15,
+            "child": {
+              "op": "atom",
+              "signal": 43,
+              "sign": -1,
+              "threshold": -0.23926237892219085
+            }
+          }
+        }
+      },
+      {
+        "op": "F",
+        "a": 0,
+        "b": 3,
+        "child": {
+          "op": "aug",
+          "sign": 1,
+          "child": {
+            "op": "G",
+            "a": 0,
+            "b": 3,
+            "child": {
+              "op": "aug",
+              "sign": 1,
+              "child": {
+                "op": "F",
+                "a": 0,
+                "b": 15,
+                "child": {
+                  "op": "atom",
+                  "signal": 43,
+                  "sign": -1,
+                  "threshold": -0.23926237892219085
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    [
+      {
+        "op": "F",
+        "a": 0,
+        "b": 15,
+        "child": {
+          "op": "atom",
+          "signal": 41,
+          "sign": -1,
+          "threshold": -0.23926515585315186
+        }
+      },
+      {
+        "op": "U",
+        "a": 0,
+        "b": 15,
+        "left": {
+          "op": "aug",
+          "sign": 1,
+          "child": {
+            "op": "F",
+            "a": 0,
+            "b": 15,
+            "child": {
+              "op": "atom",
+              "signal": 41,
+              "sign": -1,
+              "threshold": -0.23926515585315186
+            }
+          }
+        },
+        "right": {
+          "op": "aug",
+          "sign": 1,
+          "child": {
+            "op": "F",
+            "a": 0,
+            "b": 15,
+            "child": {
+              "op": "atom",
+              "signal": 43,
+              "sign": -1,
+              "threshold": -0.23926856006988573
+            }
+          }
+        }
+      },
+      {
+        "op": "U",
+        "a": 0,
+        "b": 15,
+        "left": {
+          "op": "aug",
+          "sign": 1,
+          "child": {
+            "op": "F",
+            "a": 0,
+            "b": 15,
+            "child": {
+              "op": "atom",
+              "signal": 41,
+              "sign": -1,
+              "threshold": -0.23926515585315186
+            }
+          }
+        },
+        "right": {
+          "op": "aug",
+          "sign": 1,
+          "child": {
+            "op": "F",
+            "a": 0,
+            "b": 15,
+            "child": {
+              "op": "atom",
+              "signal": 43,
+              "sign": -1,
+              "threshold": -0.23926856006988573
+            }
+          }
+        }
+      }
+    ],
+    [
+      {
+        "op": "F",
+        "a": 0,
+        "b": 15,
+        "child": {
+          "op": "atom",
+          "signal": 42,
+          "sign": 1,
+          "threshold": -0.23925280550947808
+        }
+      },
+      {
+        "op": "U",
+        "a": 0,
+        "b": 15,
+        "left": {
+          "op": "aug",
+          "sign": 1,
+          "child": {
+            "op": "F",
+            "a": 0,
+            "b": 15,
+            "child": {
+              "op": "atom",
+              "signal": 42,
+              "sign": 1,
+              "threshold": -0.23925280550947808
+            }
+          }
+        },
+        "right": {
+          "op": "aug",
+          "sign": 1,
+          "child": {
+            "op": "F",
+            "a": 0,
+            "b": 15,
+            "child": {
+              "op": "atom",
+              "signal": 42,
+              "sign": -1,
+              "threshold": -0.23926474976611928
+            }
+          }
+        }
+      },
+      {
+        "op": "U",
+        "a": 0,
+        "b": 15,
+        "left": {
+          "op": "aug",
+          "sign": 1,
+          "child": {
+            "op": "F",
+            "a": 0,
+            "b": 15,
+            "child": {
+              "op": "atom",
+              "signal": 42,
+              "sign": 1,
+              "threshold": -0.23925280550947808
+            }
+          }
+        },
+        "right": {
+          "op": "aug",
+          "sign": 1,
+          "child": {
+            "op": "F",
+            "a": 0,
+            "b": 15,
+            "child": {
+              "op": "atom",
+              "signal": 42,
+              "sign": -1,
+              "threshold": -0.23926474976611928
+            }
+          }
+        }
+      }
+    ],
+    [
+      {
+        "op": "F",
+        "a": 0,
+        "b": 15,
+        "child": {
+          "op": "atom",
+          "signal": 42,
+          "sign": -1,
+          "threshold": -0.23927602416269828
+        }
+      },
+      {
+        "op": "F",
+        "a": 0,
+        "b": 31,
+        "child": {
+          "op": "aug",
+          "sign": -1,
+          "child": {
+            "op": "F",
+            "a": 0,
+            "b": 15,
+            "child": {
+              "op": "atom",
+              "signal": 38,
+              "sign": -1,
+              "threshold": -0.23927945049083427
+            }
+          }
+        }
+      },
+      {
+        "op": "or",
+        "left": {
+          "op": "F",
+          "a": 0,
+          "b": 31,
+          "child": {
+            "op": "aug",
+            "sign": -1,
+            "child": {
+              "op": "F",
+              "a": 0,
+              "b": 15,
+              "child": {
+                "op": "atom",
+                "signal": 38,
+                "sign": -1,
+                "threshold": -0.23927945049083427
+              }
+            }
+          }
+        },
+        "right": {
+          "op": "or",
+          "left": {
+            "op": "F",
+            "a": 0,
+            "b": 15,
+            "child": {
+              "op": "atom",
+              "signal": 42,
+              "sign": -1,
+              "threshold": 0.2607239758373017
+            }
+          },
+          "right": {
+            "op": "F",
+            "a": 0,
+            "b": 15,
+            "child": {
+              "op": "atom",
+              "signal": 38,
+              "sign": 1,
+              "threshold": 0.2607608727836391
+            }
+          }
+        }
+      }
+    ]
+  ],
+  "scales": [
+    [
+      0.1,
+      0.10434956406466663,
+      0.10434956406466663
+    ],
+    [
+      0.1,
+      0.1,
+      0.1
+    ],
+    [
+      0.34825456239581104,
+      0.1,
+      0.1
+    ],
+    [
+      0.1,
+      0.2680656208544969,
+      0.25257443266346474
+    ]
+  ],
+  "diagnostics": [
+    {
+      "counts": {
+        "templates": 2660,
+        "refinements": 12,
+        "nested_candidates": 196
+      },
+      "history": [
+        {
+          "depth": 2,
+          "consistent": 73,
+          "in_band": 1
+        },
+        {
+          "depth": 3,
+          "consistent": 5,
+          "in_band": 0
+        }
+      ]
+    },
+    {
+      "counts": {
+        "templates": 2744,
+        "refinements": 12,
+        "nested_candidates": 280
+      },
+      "history": [
+        {
+          "depth": 2,
+          "consistent": 80,
+          "in_band": 0
+        },
+        {
+          "depth": 3,
+          "consistent": 26,
+          "in_band": 0
+        }
+      ]
+    },
+    {
+      "counts": {
+        "templates": 2744,
+        "refinements": 12,
+        "nested_candidates": 280
+      },
+      "history": [
+        {
+          "depth": 2,
+          "consistent": 78,
+          "in_band": 0
+        },
+        {
+          "depth": 3,
+          "consistent": 25,
+          "in_band": 0
+        }
+      ]
+    },
+    {
+      "counts": {
+        "templates": 2791,
+        "refinements": 12,
+        "nested_candidates": 330
+      },
+      "history": [
+        {
+          "depth": 2,
+          "consistent": 86,
+          "in_band": 6
+        },
+        {
+          "depth": 3,
+          "consistent": 100,
+          "in_band": 0
+        }
+      ]
+    }
+  ],
+  "formulas": [
+    [
+      "eventually[0:15]((energy_T4 <= 0.23926237892219085))",
+      "always[0:3](eventually[0:15]((energy_T4 <= 0.23926237892219085)))",
+      "eventually[0:3](always[0:3](eventually[0:15]((energy_T4 <= 0.23926237892219085))))"
+    ],
+    [
+      "eventually[0:15]((energy_T3 <= 0.23926515585315186))",
+      "(eventually[0:15]((energy_T3 <= 0.23926515585315186)) until[0:15] eventually[0:15]((energy_T4 <= 0.23926856006988573)))",
+      "(eventually[0:15]((energy_T3 <= 0.23926515585315186)) until[0:15] eventually[0:15]((energy_T4 <= 0.23926856006988573)))"
+    ],
+    [
+      "eventually[0:15]((energy_Cz >= -0.23925280550947808))",
+      "(eventually[0:15]((energy_Cz >= -0.23925280550947808)) until[0:15] eventually[0:15]((energy_Cz <= 0.23926474976611928)))",
+      "(eventually[0:15]((energy_Cz >= -0.23925280550947808)) until[0:15] eventually[0:15]((energy_Cz <= 0.23926474976611928)))"
+    ],
+    [
+      "eventually[0:15]((energy_Cz <= 0.23927602416269828))",
+      "eventually[0:31](not(eventually[0:15]((energy_F3 <= 0.23927945049083427))))",
+      "(eventually[0:31](not(eventually[0:15]((energy_F3 <= 0.23927945049083427)))) or (eventually[0:15]((energy_Cz <= -0.26072397583730172)) or eventually[0:15]((energy_F3 >= 0.26076087278363907))))"
+    ]
+  ]
+}

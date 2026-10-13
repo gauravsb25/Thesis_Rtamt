@@ -1,0 +1,17 @@
+current monitor, sessions 1-30: 82.74%  (L  83.6 R  79.4 D  77.5 S  90.3)
+
+design                   CV    gain  sessions +/-   per class (CV)                       chosen per fold
+G_and[lc]            82.78%   +0.04        +24/-5   L  83.2 R  78.9 D  77.3 S  91.7   ['t=3.6 k=1', 't=3.33 k=1', 't=3.6 k=1'] 
+G_and[lp]            82.35%   -0.39        +11/-3   L  83.6 R  79.4 D  75.8 S  90.5   ['t=1.21 k=1', 't=1.05 k=3', 't=1.19 k=1'] 
+G_and[dr]            82.74%   +0.00         +0/-0   L  83.6 R  79.4 D  77.5 S  90.3   ['current', 'current', 'current'] 
+G_or[lc]             83.01%   +0.27        +9/-18   L  85.6 R  80.7 D  78.9 S  86.9   ['t=3.6 k=2', 't=3 k=5', 't=3.97 k=2'] 
+G_or[lp]             82.74%   +0.00        +3/-21   L  84.9 R  79.4 D  77.5 S  89.1   ['t=1.28 k=6', 't=1.22 k=6', 't=1.22 k=6'] 
+G_or[dr]             82.74%   +0.00         +0/-0   L  83.6 R  79.4 D  77.5 S  90.3   ['current', 'current', 'current'] 
+G_focal[lc]          82.74%   +0.00         +0/-0   L  83.6 R  79.4 D  77.5 S  90.3   ['current', 'current', 'current'] 
+G_focal[lp]          82.74%   +0.00         +0/-0   L  83.6 R  79.4 D  77.5 S  90.3   ['current', 'current', 'current'] 
+G_focal[dr]          82.74%   +0.00         +0/-0   L  83.6 R  79.4 D  77.5 S  90.3   ['current', 'current', 'current'] 
+D_agree_and          82.74%   +0.00         +0/-0   L  83.6 R  79.4 D  77.5 S  90.3   ['current', 'current', 'current'] 
+D_agree_or           82.74%   +0.00         +0/-0   L  83.6 R  79.4 D  77.5 S  90.3   ['current', 'current', 'current'] 
+D_coh_and            82.74%   +0.00         +0/-0   L  83.6 R  79.4 D  77.5 S  90.3   ['current', 'current', 'current'] 
+D_coh_or             82.40%   -0.34         +0/-1   L  82.3 R  79.4 D  77.5 S  90.3   ['current', 'current', 't=0.571'] 
+D_top                82.74%   +0.00         +0/-0   L  83.6 R  79.4 D  77.5 S  90.3   ['current', 'current', 'current'] 

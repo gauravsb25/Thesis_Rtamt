@@ -1,0 +1,42 @@
+measuring 30 session(s) with compute_signals (cached afterwards) ...
+================================================================================================
+sessions 1-30 (design): 30 sessions, 18560 windows (LEFT 959  RIGHT 963  DOWN 748  STRAIGHT 15890)
+  measurements identical to the old dataset for the same windows: max relative difference 0.0e+00
+  OLD dataset (with spliced windows): 4-class 82.30%   LEFT 84.1  RIGHT 78.3  DOWN 77.5  STRAIGHT 89.2
+  NEW dataset v2:                     4-class 82.74%   LEFT 83.6 (802/959)  RIGHT 79.4 (765/963)  DOWN 77.5 (580/748)  STRAIGHT 90.3 (14356/15890)
+  raw accuracy 88.9%
+  confusion (rows true, columns predicted LEFT RIGHT DOWN STRAIGHT):
+     LEFT         802     36     82     39
+     RIGHT         86    765     67     45
+     DOWN          42     23    580    103
+     STRAIGHT     347    192    995  14356
+  per session 4-class: 01:90  02:97  03:80  04:89  05:92  06:76  07:66  08:75  09:97  10:78  11:99  12:85  13:70  14:74  15:84  16:85  17:69  18:66  19:83  20:98  21:83  22:91  23:63  24:89  25:90  26:99  27:93  28:66  29:83  30:88
+  RTAMT monitor agrees with the scored decisions on 40/40 sampled windows
+measuring 6 session(s) with compute_signals (cached afterwards) ...
+================================================================================================
+TEST sub_01 31-36: 6 sessions, 1269 windows (LEFT 117  RIGHT 183  DOWN 123  STRAIGHT 846)
+  measurements identical to the old dataset for the same windows: max relative difference 0.0e+00
+  OLD dataset (with spliced windows): 4-class 66.28%   LEFT 54.3  RIGHT 66.7  DOWN 57.7  STRAIGHT 86.4
+  NEW dataset v2:                     4-class 67.22%   LEFT 59.0 (69/117)  RIGHT 64.5 (118/183)  DOWN 57.7 (71/123)  STRAIGHT 87.7 (742/846)
+  raw accuracy 78.8%
+  confusion (rows true, columns predicted LEFT RIGHT DOWN STRAIGHT):
+     LEFT          69      0     41      7
+     RIGHT          0    118     53     12
+     DOWN           9      4     71     39
+     STRAIGHT       2      8     94    742
+  per session 4-class: 31:88  32:64  33:66  34:58  35:65  36:76
+  RTAMT monitor agrees with the scored decisions on 40/40 sampled windows
+measuring 10 session(s) with compute_signals (cached afterwards) ...
+================================================================================================
+TEST sub_11: 10 sessions, 1200 windows (LEFT 187  RIGHT 221  DOWN 285  STRAIGHT 507)
+  measurements identical to the old dataset for the same windows: max relative difference 0.0e+00
+  OLD dataset (with spliced windows): 4-class 76.40%   LEFT 56.1  RIGHT 74.7  DOWN 88.4  STRAIGHT 86.4
+  NEW dataset v2:                     4-class 77.00%   LEFT 56.1 (105/187)  RIGHT 74.7 (165/221)  DOWN 88.4 (252/285)  STRAIGHT 88.8 (450/507)
+  raw accuracy 81.0%
+  confusion (rows true, columns predicted LEFT RIGHT DOWN STRAIGHT):
+     LEFT         105     62      4     16
+     RIGHT         51    165      0      5
+     DOWN           3      1    252     29
+     STRAIGHT       5      1     51    450
+  per session 4-class: 01:82  02:56  03:80  04:78  05:79  06:85  07:89  08:49  09:62  10:85
+  RTAMT monitor agrees with the scored decisions on 40/40 sampled windows

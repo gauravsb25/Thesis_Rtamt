@@ -1,0 +1,21 @@
+====================================================================================================
+sessions 1-30 (design): 18560 windows
+  without extra vetoes:  82.74%  (LEFT  83.6  RIGHT  79.4  DOWN  77.5  STRAIGHT  90.3)
+  WITH extra vetoes:     83.86%  (LEFT  86.9  RIGHT  82.0  DOWN  76.2  STRAIGHT  90.3)
+  windows fixed 56 ({np.str_('LEFT'): np.int64(31), np.str_('RIGHT'): np.int64(25)}), broken 10 ({np.str_('DOWN'): np.int64(10)}); sessions better 6, worse 6
+  RTAMT monitor agrees with the scored decisions on 40/40 sampled windows
+  module decisions == selected rule on 1.00000 of windows (0 differ)
+measuring 6 session(s) with compute_signals (cached afterwards) ...
+====================================================================================================
+TEST sub_01 31-36: 1269 windows
+  without extra vetoes:  67.22%  (LEFT  59.0  RIGHT  64.5  DOWN  57.7  STRAIGHT  87.7)
+  WITH extra vetoes:     68.04%  (LEFT  59.0  RIGHT  69.4  DOWN  56.1  STRAIGHT  87.7)
+  windows fixed 9 ({np.str_('RIGHT'): np.int64(9)}), broken 2 ({np.str_('DOWN'): np.int64(2)}); sessions better 2, worse 1
+  RTAMT monitor agrees with the scored decisions on 40/40 sampled windows
+measuring 10 session(s) with compute_signals (cached afterwards) ...
+====================================================================================================
+TEST sub_11: 1200 windows
+  without extra vetoes:  77.00%  (LEFT  56.1  RIGHT  74.7  DOWN  88.4  STRAIGHT  88.8)
+  WITH extra vetoes:     74.72%  (LEFT  56.1  RIGHT  74.7  DOWN  79.3  STRAIGHT  88.8)
+  windows fixed 0 ({}), broken 26 ({np.str_('DOWN'): np.int64(26)}); sessions better 0, worse 3
+  RTAMT monitor agrees with the scored decisions on 40/40 sampled windows

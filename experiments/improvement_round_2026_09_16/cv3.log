@@ -1,0 +1,17 @@
+design                                        pooled     f1     f2     f3   dpooled  sess +/-
+BASELINE (refit)                               80.55  78.66  77.78  84.43  
+CUSUM gate                                     81.28  78.63  78.92  85.34     +0.73   22/8   
+CUSUM AND contrast gate                        80.07  78.61  79.05  81.93     -0.48   20/10  
+CUSUM gate, no deflect                         79.94  78.15  78.46  82.61     -0.61   18/11  
+CUSUM gate, no delta                           79.79  78.71  78.54  81.68     -0.76   12/18  
+two-tier gate (strong CUSUM alone)             81.12  78.63  78.95  84.99     +0.57   21/9   
+two-tier DOWN (strong nod ignores veto)        81.02  78.42  78.60  85.05     +0.47   19/11  
+DOWN: nod OR weak lateral peak                 81.28  78.63  78.92  85.34     +0.73   22/8   
+DOWN: AND weak lateral peak                    79.07  78.63  78.92  79.06     -1.48   19/11  
+two-tier DOWN, veto sideways|turn              81.00  79.12  78.60  84.41     +0.45   18/12  
+DOWN: nod + 2atanh r(F4,T3)                    80.87  78.99  78.51  84.38     +0.32   18/12  
+DOWN: balance + 2atanh r(F4,T3)                81.14  80.67  79.41  82.62     +0.59   22/8   
+DOWN: r(F4,T3) only                            80.68  80.25  78.51  82.81     +0.13   17/13  
+DOWN: AND r(F4,T3)                             79.82  79.56  78.92  80.25     -0.73   20/10  
+DOWN: nod + 2atanh r(F3,F4)                    81.73  79.78  80.05  84.58     +1.18   20/10  
+check: redundant                               81.83  82.66  78.92  83.34     +1.28   21/9   

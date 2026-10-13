@@ -1,0 +1,46 @@
+====================================================================================================
+1 STRUCTURE (all sessions)
+  shape_ok                             all True: True
+  finite                               all True: True
+  flat_windows                         total 0
+  t3t4_channel_max_err_V               worst 2.93e-11
+  dc_max_abs_mean_uV                   worst 3.16e-14
+  windows_peak_over_200uV              total 212   sessions: ['sub_01/ses-11', 'sub_01/ses-15', 'sub_11/ses-02', 'sub_11/ses-03', 'sub_11/ses-04', 'sub_11/ses-05', 'sub_11/ses-06', 'sub_11/ses-07', 'sub_11/ses-08', 'sub_11/ses-09', 'sub_11/ses-10']
+  duplicate_windows                    total 0
+  duplicates_with_different_labels     total 0
+  label_task_mismatch                  total 0
+  movement_meta_missing                total 0
+  straight_meta_present                total 0
+  movement_not_fully_inside            total 0
+  margin_violations                    total 0
+  label_vs_parent_label_agree          worst 1.0000
+  consecutive-window step 25/26 samples: median 0.968, worst 0.896 (the rest are gaps)
+  median window peak amplitude 20.2 uV
+
+5 PARENT labelled_epochs_ds.npz
+  max |extracted - parent row| over all windows: 0.00e+00 V
+  label agreement with parent: worst session 1.0000
+  parent -> extracted label changes: none
+
+2 ARE THE WINDOWS REAL CONTINUOUS 3-s SLICES? (per-run CSVs)
+  windows 21029: inside ONE run 21029 (100.0%), SPLICED across two runs 0 (0.0%), unexplained 0
+  spliced by label: LEFT 0/1263 (0.0%), RIGHT 0/1367 (0.0%), DOWN 0/1156 (0.0%), STRAIGHT 0/17243 (0.0%)
+    sub_01 1-30   0/18560 spliced (0.0%)
+    sub_01 31-36  0/1269 spliced (0.0%)
+    sub_11        0/1200 spliced (0.0%)
+
+3 TIMING against the CSV markers
+  movements found: 384;  runs with more than one movement: 0;  movements outside trial begin/end: 0
+  movement onset minus 'move_head_now' cue (s): median -0.49, 5-95% [-2.90, +1.65], range [-3.89, +3.41]  (n=276; DOWN runs have no cue: 108)
+
+4 SIGNAL: does each labelled movement contain a movement burst where the label says?
+  rest windows (sampled 12308): contrast median 4.7, 90% 10.2, 99% 20.3
+  sub_01 1-30   LEFT  movements  92: burst weaker than typical rest (< rest 90% = 10.2) 11;  burst mostly outside the labelled interval  0;  T3-T4 turn shape matches label 0.89
+  sub_01 1-30   RIGHT movements  92: burst weaker than typical rest (< rest 90% = 10.2)  9;  burst mostly outside the labelled interval  1;  T3-T4 turn shape matches label 0.86
+  sub_01 1-30   DOWN  movements  68: burst weaker than typical rest (< rest 90% = 10.2) 16;  burst mostly outside the labelled interval  0
+  sub_01 31-36  LEFT  movements  11: burst weaker than typical rest (< rest 90% = 10.2)  1;  burst mostly outside the labelled interval  0;  T3-T4 turn shape matches label 0.82
+  sub_01 31-36  RIGHT movements  16: burst weaker than typical rest (< rest 90% = 10.2)  1;  burst mostly outside the labelled interval  0;  T3-T4 turn shape matches label 0.62
+  sub_01 31-36  DOWN  movements  10: burst weaker than typical rest (< rest 90% = 10.2)  3;  burst mostly outside the labelled interval  0
+  sub_11        LEFT  movements  31: burst weaker than typical rest (< rest 90% = 10.2)  4;  burst mostly outside the labelled interval  0;  T3-T4 turn shape matches label 0.68
+  sub_11        RIGHT movements  34: burst weaker than typical rest (< rest 90% = 10.2)  3;  burst mostly outside the labelled interval  0;  T3-T4 turn shape matches label 0.71
+  sub_11        DOWN  movements  30: burst weaker than typical rest (< rest 90% = 10.2)  5;  burst mostly outside the labelled interval  0

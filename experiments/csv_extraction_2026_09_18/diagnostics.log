@@ -1,0 +1,23 @@
+sub_01 1-30: rest windows 4071; from runs where no movement was found 88 (false alarms 12%), others 3983 (false alarms 6%)
+sub_01 31-36: rest windows 439; from runs where no movement was found 64 (false alarms 9%), others 375 (false alarms 6%)
+sub_11: rest windows 252; from runs where no movement was found 0 (false alarms 0%), others 252 (false alarms 27%)
+
+LEFT/RIGHT confusion among turn windows the monitor calls a turn
+   v3 sub_01 1-30    direction right in  92.9% of 2646 windows
+   v3 sub_01 31-36   direction right in  96.6% of 264 windows
+   v3 sub_11         direction right in  65.8% of 1117 windows
+   v2 sub_01 1-30    direction right in  92.6% of 1701 windows
+   v2 sub_01 31-36   direction right in 100.0% of 187 windows
+   v2 sub_11         direction right in  70.5% of 383 windows
+
+v3 confusion, shipped thresholds (rows true, cols predicted L R D S)
+  sub_01 31-36
+    LEFT     [84, 7, 89, 0]
+    RIGHT    [2, 171, 70, 38]
+    DOWN     [12, 8, 94, 47]
+    STRAIGHT [5, 5, 17, 412]
+  sub_11
+    LEFT     [349, 213, 17, 39]
+    RIGHT    [169, 386, 0, 11]
+    DOWN     [9, 9, 410, 23]
+    STRAIGHT [14, 8, 45, 185]

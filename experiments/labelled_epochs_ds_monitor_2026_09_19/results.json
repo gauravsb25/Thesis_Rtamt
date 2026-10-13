@@ -1,0 +1,636 @@
+{
+  "windows": 39269,
+  "in_v2": 21029,
+  "with the stream before each window": {
+    "sub_01 sessions 1-30": {
+      "windows": 31203,
+      "LEFT": [
+        2188,
+        3003
+      ],
+      "RIGHT": [
+        2102,
+        2838
+      ],
+      "DOWN": [
+        1726,
+        2338
+      ],
+      "STRAIGHT": [
+        21631,
+        23024
+      ],
+      "balanced": 78.67507230636464,
+      "plain": 88.60365990449637,
+      "always_straight_plain": 73.78777681633176,
+      "false_alarms": [
+        1393,
+        23024
+      ]
+    },
+    "sub_01 sessions 31-36": {
+      "windows": 2781,
+      "LEFT": [
+        169,
+        368
+      ],
+      "RIGHT": [
+        249,
+        459
+      ],
+      "DOWN": [
+        213,
+        336
+      ],
+      "STRAIGHT": [
+        1509,
+        1618
+      ],
+      "balanced": 64.20710605232401,
+      "plain": 76.95073714491191,
+      "always_straight_plain": 58.18051060769507,
+      "false_alarms": [
+        109,
+        1618
+      ]
+    },
+    "sub_11": {
+      "windows": 5285,
+      "LEFT": [
+        678,
+        1165
+      ],
+      "RIGHT": [
+        621,
+        1159
+      ],
+      "DOWN": [
+        644,
+        762
+      ],
+      "STRAIGHT": [
+        1883,
+        2199
+      ],
+      "balanced": 70.48059133097576,
+      "plain": 72.39356669820246,
+      "always_straight_plain": 41.608325449385056,
+      "false_alarms": [
+        316,
+        2199
+      ]
+    },
+    "all 46 sessions": {
+      "windows": 39269,
+      "LEFT": [
+        3035,
+        4536
+      ],
+      "RIGHT": [
+        2972,
+        4456
+      ],
+      "DOWN": [
+        2583,
+        3436
+      ],
+      "STRAIGHT": [
+        25023,
+        26841
+      ],
+      "balanced": 75.50179038102394,
+      "plain": 85.59678117599124,
+      "always_straight_plain": 68.35162596450127,
+      "false_alarms": [
+        1818,
+        26841
+      ]
+    },
+    "sub_01 sessions 1-30 | kept in v2": {
+      "windows": 18560,
+      "LEFT": [
+        818,
+        959
+      ],
+      "RIGHT": [
+        770,
+        963
+      ],
+      "DOWN": [
+        597,
+        748
+      ],
+      "STRAIGHT": [
+        15613,
+        15890
+      ],
+      "balanced": 85.83131179726506,
+      "plain": 95.89439655172414,
+      "always_straight_plain": 85.61422413793103,
+      "false_alarms": [
+        277,
+        15890
+      ]
+    },
+    "sub_01 sessions 1-30 | NOT in v2": {
+      "windows": 12643,
+      "LEFT": [
+        1370,
+        2044
+      ],
+      "RIGHT": [
+        1332,
+        1875
+      ],
+      "DOWN": [
+        1129,
+        1590
+      ],
+      "STRAIGHT": [
+        6018,
+        7134
+      ],
+      "balanced": 73.35708295199979,
+      "plain": 77.90081468006011,
+      "always_straight_plain": 56.42648105671122,
+      "false_alarms": [
+        1116,
+        7134
+      ]
+    },
+    "sub_01 sessions 31-36 | kept in v2": {
+      "windows": 1269,
+      "LEFT": [
+        69,
+        117
+      ],
+      "RIGHT": [
+        118,
+        183
+      ],
+      "DOWN": [
+        78,
+        123
+      ],
+      "STRAIGHT": [
+        828,
+        846
+      ],
+      "balanced": 71.18555196579305,
+      "plain": 86.13081166272656,
+      "always_straight_plain": 66.66666666666666,
+      "false_alarms": [
+        18,
+        846
+      ]
+    },
+    "sub_01 sessions 31-36 | NOT in v2": {
+      "windows": 1512,
+      "LEFT": [
+        100,
+        251
+      ],
+      "RIGHT": [
+        131,
+        276
+      ],
+      "DOWN": [
+        135,
+        213
+      ],
+      "STRAIGHT": [
+        681,
+        772
+      ],
+      "balanced": 59.72428062236068,
+      "plain": 69.24603174603175,
+      "always_straight_plain": 51.05820105820106,
+      "false_alarms": [
+        91,
+        772
+      ]
+    },
+    "sub_11 | kept in v2": {
+      "windows": 1200,
+      "LEFT": [
+        107,
+        187
+      ],
+      "RIGHT": [
+        168,
+        221
+      ],
+      "DOWN": [
+        247,
+        285
+      ],
+      "STRAIGHT": [
+        497,
+        507
+      ],
+      "balanced": 79.48290774082629,
+      "plain": 84.91666666666666,
+      "always_straight_plain": 42.25,
+      "false_alarms": [
+        10,
+        507
+      ]
+    },
+    "sub_11 | NOT in v2": {
+      "windows": 4085,
+      "LEFT": [
+        571,
+        978
+      ],
+      "RIGHT": [
+        453,
+        938
+      ],
+      "DOWN": [
+        397,
+        477
+      ],
+      "STRAIGHT": [
+        1386,
+        1692
+      ],
+      "balanced": 67.95552657387293,
+      "plain": 68.71481028151774,
+      "always_straight_plain": 41.41982864137087,
+      "false_alarms": [
+        306,
+        1692
+      ]
+    },
+    "all 46 sessions | kept in v2": {
+      "windows": 21029,
+      "LEFT": [
+        994,
+        1263
+      ],
+      "RIGHT": [
+        1056,
+        1367
+      ],
+      "DOWN": [
+        922,
+        1156
+      ],
+      "STRAIGHT": [
+        16938,
+        17243
+      ],
+      "balanced": 83.48497686138452,
+      "plain": 94.67877692710067,
+      "always_straight_plain": 81.99629083646393,
+      "false_alarms": [
+        305,
+        17243
+      ]
+    },
+    "all 46 sessions | NOT in v2": {
+      "windows": 18240,
+      "LEFT": [
+        2041,
+        3273
+      ],
+      "RIGHT": [
+        1916,
+        3089
+      ],
+      "DOWN": [
+        1661,
+        2280
+      ],
+      "STRAIGHT": [
+        8085,
+        9598
+      ],
+      "balanced": 70.36810364022197,
+      "plain": 75.12609649122807,
+      "always_straight_plain": 52.62061403508772,
+      "false_alarms": [
+        1513,
+        9598
+      ]
+    }
+  },
+  "each window alone": {
+    "sub_01 sessions 1-30": {
+      "windows": 31203,
+      "LEFT": [
+        2160,
+        3003
+      ],
+      "RIGHT": [
+        2088,
+        2838
+      ],
+      "DOWN": [
+        1704,
+        2338
+      ],
+      "STRAIGHT": [
+        19939,
+        23024
+      ],
+      "balanced": 76.24618864643034,
+      "plain": 82.97599589783033,
+      "always_straight_plain": 73.78777681633176,
+      "false_alarms": [
+        3085,
+        23024
+      ]
+    },
+    "sub_01 sessions 31-36": {
+      "windows": 2781,
+      "LEFT": [
+        173,
+        368
+      ],
+      "RIGHT": [
+        255,
+        459
+      ],
+      "DOWN": [
+        213,
+        336
+      ],
+      "STRAIGHT": [
+        1398,
+        1618
+      ],
+      "balanced": 63.090562222273405,
+      "plain": 73.31895001797915,
+      "always_straight_plain": 58.18051060769507,
+      "false_alarms": [
+        220,
+        1618
+      ]
+    },
+    "sub_11": {
+      "windows": 5285,
+      "LEFT": [
+        665,
+        1165
+      ],
+      "RIGHT": [
+        623,
+        1159
+      ],
+      "DOWN": [
+        653,
+        762
+      ],
+      "STRAIGHT": [
+        1769,
+        2199
+      ],
+      "balanced": 69.24399394671947,
+      "plain": 70.19867549668875,
+      "always_straight_plain": 41.608325449385056,
+      "false_alarms": [
+        430,
+        2199
+      ]
+    },
+    "all 46 sessions": {
+      "windows": 39269,
+      "LEFT": [
+        2998,
+        4536
+      ],
+      "RIGHT": [
+        2966,
+        4456
+      ],
+      "DOWN": [
+        2570,
+        3436
+      ],
+      "STRAIGHT": [
+        23106,
+        26841
+      ],
+      "balanced": 73.38410231478971,
+      "plain": 80.57246173826684,
+      "always_straight_plain": 68.35162596450127,
+      "false_alarms": [
+        3735,
+        26841
+      ]
+    },
+    "sub_01 sessions 1-30 | kept in v2": {
+      "windows": 18560,
+      "LEFT": [
+        802,
+        959
+      ],
+      "RIGHT": [
+        765,
+        963
+      ],
+      "DOWN": [
+        580,
+        748
+      ],
+      "STRAIGHT": [
+        14356,
+        15890
+      ],
+      "balanced": 82.73856722718726,
+      "plain": 88.91702586206897,
+      "always_straight_plain": 85.61422413793103,
+      "false_alarms": [
+        1534,
+        15890
+      ]
+    },
+    "sub_01 sessions 1-30 | NOT in v2": {
+      "windows": 12643,
+      "LEFT": [
+        1358,
+        2044
+      ],
+      "RIGHT": [
+        1323,
+        1875
+      ],
+      "DOWN": [
+        1124,
+        1590
+      ],
+      "STRAIGHT": [
+        5583,
+        7134
+      ],
+      "balanced": 71.4873053187141,
+      "plain": 74.2545281974215,
+      "always_straight_plain": 56.42648105671122,
+      "false_alarms": [
+        1551,
+        7134
+      ]
+    },
+    "sub_01 sessions 31-36 | kept in v2": {
+      "windows": 1269,
+      "LEFT": [
+        69,
+        117
+      ],
+      "RIGHT": [
+        118,
+        183
+      ],
+      "DOWN": [
+        71,
+        123
+      ],
+      "STRAIGHT": [
+        742,
+        846
+      ],
+      "balanced": 67.22141657975835,
+      "plain": 78.80220646178093,
+      "always_straight_plain": 66.66666666666666,
+      "false_alarms": [
+        104,
+        846
+      ]
+    },
+    "sub_01 sessions 31-36 | NOT in v2": {
+      "windows": 1512,
+      "LEFT": [
+        104,
+        251
+      ],
+      "RIGHT": [
+        137,
+        276
+      ],
+      "DOWN": [
+        142,
+        213
+      ],
+      "STRAIGHT": [
+        656,
+        772
+      ],
+      "balanced": 60.678176009635706,
+      "plain": 68.71693121693121,
+      "always_straight_plain": 51.05820105820106,
+      "false_alarms": [
+        116,
+        772
+      ]
+    },
+    "sub_11 | kept in v2": {
+      "windows": 1200,
+      "LEFT": [
+        105,
+        187
+      ],
+      "RIGHT": [
+        165,
+        221
+      ],
+      "DOWN": [
+        252,
+        285
+      ],
+      "STRAIGHT": [
+        450,
+        507
+      ],
+      "balanced": 76.99720379644171,
+      "plain": 81.0,
+      "always_straight_plain": 42.25,
+      "false_alarms": [
+        57,
+        507
+      ]
+    },
+    "sub_11 | NOT in v2": {
+      "windows": 4085,
+      "LEFT": [
+        560,
+        978
+      ],
+      "RIGHT": [
+        458,
+        938
+      ],
+      "DOWN": [
+        401,
+        477
+      ],
+      "STRAIGHT": [
+        1319,
+        1692
+      ],
+      "balanced": 67.02729362712522,
+      "plain": 67.02570379436963,
+      "always_straight_plain": 41.41982864137087,
+      "false_alarms": [
+        373,
+        1692
+      ]
+    },
+    "all 46 sessions | kept in v2": {
+      "windows": 21029,
+      "LEFT": [
+        976,
+        1263
+      ],
+      "RIGHT": [
+        1048,
+        1367
+      ],
+      "DOWN": [
+        903,
+        1156
+      ],
+      "STRAIGHT": [
+        15548,
+        17243
+      ],
+      "balanced": 80.55616633070262,
+      "plain": 87.85486708830662,
+      "always_straight_plain": 81.99629083646393,
+      "false_alarms": [
+        1695,
+        17243
+      ]
+    },
+    "all 46 sessions | NOT in v2": {
+      "windows": 18240,
+      "LEFT": [
+        2022,
+        3273
+      ],
+      "RIGHT": [
+        1918,
+        3089
+      ],
+      "DOWN": [
+        1667,
+        2280
+      ],
+      "STRAIGHT": [
+        7558,
+        9598
+      ],
+      "balanced": 68.93227097831938,
+      "plain": 72.1765350877193,
+      "always_straight_plain": 52.62061403508772,
+      "false_alarms": [
+        2040,
+        9598
+      ]
+    }
+  },
+  "rtamt_agreement": [
+    240,
+    240
+  ]
+}

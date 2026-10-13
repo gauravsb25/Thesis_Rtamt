@@ -1,0 +1,1 @@
+VERIFIED 64 formula/real-trace RTAMT comparisons; 8 raw-window checks; {'positive': {'decoder_rows': 21029, 'formulas': 8}, 'supervised': {'decoder_rows': 21029, 'formulas': 8}}

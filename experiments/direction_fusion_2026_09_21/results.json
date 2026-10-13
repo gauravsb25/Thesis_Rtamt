@@ -1,0 +1,1475 @@
+{
+  "protocol": "PROTOCOL.md",
+  "baseline": {
+    "development": {
+      "n": 18560,
+      "correct": 17719,
+      "accuracy": 95.46875,
+      "balanced_accuracy": 85.00638850281845,
+      "recall": {
+        "LEFT": 83.94160583941606,
+        "RIGHT": 79.95846313603323,
+        "DOWN": 78.20855614973262,
+        "STRAIGHT": 97.91692888609188
+      },
+      "confusion": [
+        [
+          805,
+          36,
+          76,
+          42
+        ],
+        [
+          90,
+          770,
+          67,
+          36
+        ],
+        [
+          42,
+          23,
+          585,
+          98
+        ],
+        [
+          67,
+          19,
+          245,
+          15559
+        ]
+      ],
+      "movement_macro": 80.7028750417273,
+      "movement_correct": 2160,
+      "movement_total": 2670,
+      "false_movements": 331
+    },
+    "external_sub01": {
+      "n": 1269,
+      "correct": 1081,
+      "accuracy": 85.18518518518519,
+      "balanced_accuracy": 69.61503360103494,
+      "recall": {
+        "LEFT": 58.97435897435898,
+        "RIGHT": 64.48087431693989,
+        "DOWN": 57.72357723577236,
+        "STRAIGHT": 97.28132387706856
+      },
+      "confusion": [
+        [
+          69,
+          0,
+          41,
+          7
+        ],
+        [
+          0,
+          118,
+          53,
+          12
+        ],
+        [
+          9,
+          4,
+          71,
+          39
+        ],
+        [
+          0,
+          0,
+          23,
+          823
+        ]
+      ],
+      "movement_macro": 60.392936842357074,
+      "movement_correct": 258,
+      "movement_total": 423,
+      "false_movements": 23
+    },
+    "external_sub11": {
+      "n": 1200,
+      "correct": 1006,
+      "accuracy": 83.83333333333333,
+      "balanced_accuracy": 78.67373239604724,
+      "recall": {
+        "LEFT": 56.14973262032086,
+        "RIGHT": 74.6606334841629,
+        "DOWN": 88.42105263157895,
+        "STRAIGHT": 95.46351084812623
+      },
+      "confusion": [
+        [
+          105,
+          62,
+          4,
+          16
+        ],
+        [
+          51,
+          165,
+          0,
+          5
+        ],
+        [
+          5,
+          0,
+          252,
+          28
+        ],
+        [
+          5,
+          1,
+          17,
+          484
+        ]
+      ],
+      "movement_macro": 73.07713957868758,
+      "movement_correct": 522,
+      "movement_total": 693,
+      "false_movements": 23
+    }
+  },
+  "families": {
+    "nod_specialist": {
+      "nested_validation": {
+        "n": 18560,
+        "correct": 17771,
+        "accuracy": 95.74892241379311,
+        "balanced_accuracy": 86.40608905988269,
+        "recall": {
+          "LEFT": 88.73826903023983,
+          "RIGHT": 79.95846313603323,
+          "DOWN": 79.01069518716578,
+          "STRAIGHT": 97.91692888609188
+        },
+        "confusion": [
+          [
+            851,
+            47,
+            19,
+            42
+          ],
+          [
+            107,
+            770,
+            50,
+            36
+          ],
+          [
+            20,
+            39,
+            591,
+            98
+          ],
+          [
+            31,
+            17,
+            283,
+            15559
+          ]
+        ],
+        "movement_macro": 82.56914245114628,
+        "movement_correct": 2212,
+        "movement_total": 2670,
+        "false_movements": 331
+      },
+      "outer_selections": [
+        {
+          "family": "nod_specialist",
+          "config": [
+            128,
+            0.5
+          ],
+          "inner_movement_macro": 82.0475982793569
+        },
+        {
+          "family": "nod_specialist",
+          "config": [
+            128,
+            0.0
+          ],
+          "inner_movement_macro": 83.63538383541497
+        },
+        {
+          "family": "nod_specialist",
+          "config": [
+            32,
+            0.0
+          ],
+          "inner_movement_macro": 84.22796285393476
+        }
+      ],
+      "final_family": "nod_specialist",
+      "final_config": [
+        32,
+        0.0
+      ],
+      "development_selection_score": 84.15928242826394,
+      "validation_gain_ci": [
+        -1.0759830517662958,
+        4.882249624614326
+      ],
+      "training_fit": {
+        "n": 18560,
+        "correct": 17826,
+        "accuracy": 96.04525862068965,
+        "balanced_accuracy": 88.20668990930116,
+        "recall": {
+          "LEFT": 88.42544316996872,
+          "RIGHT": 80.78920041536864,
+          "DOWN": 85.6951871657754,
+          "STRAIGHT": 97.91692888609188
+        },
+        "confusion": [
+          [
+            848,
+            47,
+            22,
+            42
+          ],
+          [
+            108,
+            778,
+            41,
+            36
+          ],
+          [
+            0,
+            9,
+            641,
+            98
+          ],
+          [
+            21,
+            3,
+            307,
+            15559
+          ]
+        ],
+        "movement_macro": 84.96994358370425,
+        "movement_correct": 2267,
+        "movement_total": 2670,
+        "false_movements": 331
+      },
+      "external": {
+        "external_sub01": {
+          "metrics": {
+            "n": 1269,
+            "correct": 1084,
+            "accuracy": 85.42159180457053,
+            "balanced_accuracy": 70.29553063299139,
+            "recall": {
+              "LEFT": 53.84615384615385,
+              "RIGHT": 63.387978142076506,
+              "DOWN": 66.66666666666666,
+              "STRAIGHT": 97.28132387706856
+            },
+            "confusion": [
+              [
+                63,
+                15,
+                32,
+                7
+              ],
+              [
+                0,
+                116,
+                55,
+                12
+              ],
+              [
+                2,
+                0,
+                82,
+                39
+              ],
+              [
+                0,
+                0,
+                23,
+                823
+              ]
+            ],
+            "movement_macro": 61.30026621829901,
+            "movement_correct": 261,
+            "movement_total": 423,
+            "false_movements": 23
+          },
+          "movement_gain": 0.9073293759419343,
+          "gain_ci": [
+            -5.432607079544803,
+            5.688187677690671
+          ]
+        },
+        "external_sub11": {
+          "metrics": {
+            "n": 1200,
+            "correct": 975,
+            "accuracy": 81.25,
+            "balanced_accuracy": 75.28544369816102,
+            "recall": {
+              "LEFT": 48.663101604278076,
+              "RIGHT": 74.2081447963801,
+              "DOWN": 82.80701754385966,
+              "STRAIGHT": 95.46351084812623
+            },
+            "confusion": [
+              [
+                91,
+                65,
+                15,
+                16
+              ],
+              [
+                45,
+                164,
+                7,
+                5
+              ],
+              [
+                8,
+                13,
+                236,
+                28
+              ],
+              [
+                1,
+                0,
+                22,
+                484
+              ]
+            ],
+            "movement_macro": 68.55942131483927,
+            "movement_correct": 491,
+            "movement_total": 693,
+            "false_movements": 23
+          },
+          "movement_gain": -4.517718263848309,
+          "gain_ci": [
+            -9.235999722248222,
+            -1.0097386049972463
+          ]
+        }
+      },
+      "eligible": false
+    },
+    "turn_specialist": {
+      "nested_validation": {
+        "n": 18560,
+        "correct": 17748,
+        "accuracy": 95.625,
+        "balanced_accuracy": 85.75783649998581,
+        "recall": {
+          "LEFT": 82.58602711157455,
+          "RIGHT": 84.31983385254414,
+          "DOWN": 78.20855614973262,
+          "STRAIGHT": 97.91692888609188
+        },
+        "confusion": [
+          [
+            792,
+            49,
+            76,
+            42
+          ],
+          [
+            48,
+            812,
+            67,
+            36
+          ],
+          [
+            42,
+            23,
+            585,
+            98
+          ],
+          [
+            57,
+            29,
+            245,
+            15559
+          ]
+        ],
+        "movement_macro": 81.7048057046171,
+        "movement_correct": 2189,
+        "movement_total": 2670,
+        "false_movements": 331
+      },
+      "outer_selections": [
+        {
+          "family": "turn_specialist",
+          "config": [
+            128,
+            0.0
+          ],
+          "inner_movement_macro": 81.75045800192969
+        },
+        {
+          "family": "turn_specialist",
+          "config": [
+            32,
+            0.0
+          ],
+          "inner_movement_macro": 82.46276031440581
+        },
+        {
+          "family": "turn_specialist",
+          "config": [
+            32,
+            0.5
+          ],
+          "inner_movement_macro": 80.99997357081362
+        }
+      ],
+      "final_family": "turn_specialist",
+      "final_config": [
+        128,
+        0.0
+      ],
+      "development_selection_score": 81.9495584631839,
+      "validation_gain_ci": [
+        -0.5809352895846127,
+        2.614473822434859
+      ],
+      "training_fit": {
+        "n": 18560,
+        "correct": 17839,
+        "accuracy": 96.11530172413794,
+        "balanced_accuracy": 88.12490175162708,
+        "recall": {
+          "LEFT": 87.06986444212723,
+          "RIGHT": 89.30425752855659,
+          "DOWN": 78.20855614973262,
+          "STRAIGHT": 97.91692888609188
+        },
+        "confusion": [
+          [
+            835,
+            6,
+            76,
+            42
+          ],
+          [
+            0,
+            860,
+            67,
+            36
+          ],
+          [
+            43,
+            22,
+            585,
+            98
+          ],
+          [
+            58,
+            28,
+            245,
+            15559
+          ]
+        ],
+        "movement_macro": 84.86089270680547,
+        "movement_correct": 2280,
+        "movement_total": 2670,
+        "false_movements": 331
+      },
+      "external": {
+        "external_sub01": {
+          "metrics": {
+            "n": 1269,
+            "correct": 1059,
+            "accuracy": 83.451536643026,
+            "balanced_accuracy": 65.37655805108398,
+            "recall": {
+              "LEFT": 45.2991452991453,
+              "RIGHT": 61.20218579234973,
+              "DOWN": 57.72357723577236,
+              "STRAIGHT": 97.28132387706856
+            },
+            "confusion": [
+              [
+                53,
+                16,
+                41,
+                7
+              ],
+              [
+                6,
+                112,
+                53,
+                12
+              ],
+              [
+                10,
+                3,
+                71,
+                39
+              ],
+              [
+                0,
+                0,
+                23,
+                823
+              ]
+            ],
+            "movement_macro": 54.741636109089136,
+            "movement_correct": 236,
+            "movement_total": 423,
+            "false_movements": 23
+          },
+          "movement_gain": -5.651300733267938,
+          "gain_ci": [
+            -8.80830010632642,
+            -1.1111111111111107
+          ]
+        },
+        "external_sub11": {
+          "metrics": {
+            "n": 1200,
+            "correct": 893,
+            "accuracy": 74.41666666666667,
+            "balanced_accuracy": 65.89092696618299,
+            "recall": {
+              "LEFT": 56.14973262032086,
+              "RIGHT": 23.52941176470588,
+              "DOWN": 88.42105263157895,
+              "STRAIGHT": 95.46351084812623
+            },
+            "confusion": [
+              [
+                105,
+                62,
+                4,
+                16
+              ],
+              [
+                164,
+                52,
+                0,
+                5
+              ],
+              [
+                5,
+                0,
+                252,
+                28
+              ],
+              [
+                4,
+                2,
+                17,
+                484
+              ]
+            ],
+            "movement_macro": 56.03339900553524,
+            "movement_correct": 409,
+            "movement_total": 693,
+            "false_movements": 23
+          },
+          "movement_gain": -17.04374057315234,
+          "gain_ci": [
+            -24.64461600703087,
+            -6.315193612623428
+          ]
+        }
+      },
+      "eligible": false
+    },
+    "nested_specialists": {
+      "nested_validation": {
+        "n": 18560,
+        "correct": 17847,
+        "accuracy": 96.1584051724138,
+        "balanced_accuracy": 88.3437295695157,
+        "recall": {
+          "LEFT": 90.61522419186653,
+          "RIGHT": 86.50051921079958,
+          "DOWN": 78.34224598930481,
+          "STRAIGHT": 97.91692888609188
+        },
+        "confusion": [
+          [
+            869,
+            29,
+            19,
+            42
+          ],
+          [
+            52,
+            833,
+            42,
+            36
+          ],
+          [
+            32,
+            32,
+            586,
+            98
+          ],
+          [
+            28,
+            22,
+            281,
+            15559
+          ]
+        ],
+        "movement_macro": 85.15266313065698,
+        "movement_correct": 2288,
+        "movement_total": 2670,
+        "false_movements": 331
+      },
+      "outer_selections": [
+        {
+          "family": "nested_specialists",
+          "config": [
+            128,
+            0.5
+          ],
+          "inner_movement_macro": 82.36455549013344
+        },
+        {
+          "family": "nested_specialists",
+          "config": [
+            128,
+            0.0
+          ],
+          "inner_movement_macro": 82.78477172131801
+        },
+        {
+          "family": "nested_specialists",
+          "config": [
+            128,
+            0.0
+          ],
+          "inner_movement_macro": 86.1348895688
+        }
+      ],
+      "final_family": "nested_specialists",
+      "final_config": [
+        128,
+        0.0
+      ],
+      "development_selection_score": 85.71147651806793,
+      "validation_gain_ci": [
+        0.8089218263388057,
+        8.064010806690138
+      ],
+      "training_fit": {
+        "n": 18560,
+        "correct": 18038,
+        "accuracy": 97.1875,
+        "balanced_accuracy": 93.78397856672429,
+        "recall": {
+          "LEFT": 94.68196037539103,
+          "RIGHT": 95.6386292834891,
+          "DOWN": 86.89839572192514,
+          "STRAIGHT": 97.91692888609188
+        },
+        "confusion": [
+          [
+            908,
+            6,
+            3,
+            42
+          ],
+          [
+            3,
+            921,
+            3,
+            36
+          ],
+          [
+            0,
+            0,
+            650,
+            98
+          ],
+          [
+            31,
+            17,
+            283,
+            15559
+          ]
+        ],
+        "movement_macro": 92.40632846026843,
+        "movement_correct": 2479,
+        "movement_total": 2670,
+        "false_movements": 331
+      },
+      "external": {
+        "external_sub01": {
+          "metrics": {
+            "n": 1269,
+            "correct": 1086,
+            "accuracy": 85.57919621749409,
+            "balanced_accuracy": 70.05648095371781,
+            "recall": {
+              "LEFT": 55.55555555555556,
+              "RIGHT": 68.85245901639344,
+              "DOWN": 58.536585365853654,
+              "STRAIGHT": 97.28132387706856
+            },
+            "confusion": [
+              [
+                65,
+                14,
+                31,
+                7
+              ],
+              [
+                5,
+                126,
+                40,
+                12
+              ],
+              [
+                10,
+                2,
+                72,
+                39
+              ],
+              [
+                0,
+                0,
+                23,
+                823
+              ]
+            ],
+            "movement_macro": 60.98153331260088,
+            "movement_correct": 263,
+            "movement_total": 423,
+            "false_movements": 23
+          },
+          "movement_gain": 0.5885964702438073,
+          "gain_ci": [
+            -13.048623063683303,
+            10.17046745693298
+          ]
+        },
+        "external_sub11": {
+          "metrics": {
+            "n": 1200,
+            "correct": 843,
+            "accuracy": 70.25,
+            "balanced_accuracy": 60.785165854229916,
+            "recall": {
+              "LEFT": 48.663101604278076,
+              "RIGHT": 22.171945701357465,
+              "DOWN": 76.84210526315789,
+              "STRAIGHT": 95.46351084812623
+            },
+            "confusion": [
+              [
+                91,
+                66,
+                14,
+                16
+              ],
+              [
+                145,
+                49,
+                22,
+                5
+              ],
+              [
+                21,
+                17,
+                219,
+                28
+              ],
+              [
+                2,
+                0,
+                21,
+                484
+              ]
+            ],
+            "movement_macro": 49.22571752293114,
+            "movement_correct": 359,
+            "movement_total": 693,
+            "false_movements": 23
+          },
+          "movement_gain": -23.851422055756437,
+          "gain_ci": [
+            -30.29478683050388,
+            -14.867731984049994
+          ]
+        }
+      },
+      "eligible": false
+    },
+    "agreement": {
+      "nested_validation": {
+        "n": 18560,
+        "correct": 17928,
+        "accuracy": 96.59482758620689,
+        "balanced_accuracy": 90.72457341542518,
+        "recall": {
+          "LEFT": 92.49217935349321,
+          "RIGHT": 89.20041536863967,
+          "DOWN": 83.28877005347593,
+          "STRAIGHT": 97.91692888609188
+        },
+        "confusion": [
+          [
+            887,
+            20,
+            10,
+            42
+          ],
+          [
+            27,
+            859,
+            41,
+            36
+          ],
+          [
+            26,
+            1,
+            623,
+            98
+          ],
+          [
+            22,
+            13,
+            296,
+            15559
+          ]
+        ],
+        "movement_macro": 88.32712159186958,
+        "movement_correct": 2369,
+        "movement_total": 2670,
+        "false_movements": 331
+      },
+      "outer_selections": [
+        {
+          "family": "agreement",
+          "config": [
+            128,
+            0.0
+          ],
+          "inner_movement_macro": 85.72362515957832
+        },
+        {
+          "family": "agreement",
+          "config": [
+            128,
+            0.0
+          ],
+          "inner_movement_macro": 85.1075670335904
+        },
+        {
+          "family": "agreement",
+          "config": [
+            128,
+            0.0
+          ],
+          "inner_movement_macro": 86.34967044429088
+        }
+      ],
+      "final_family": "agreement",
+      "final_config": [
+        128,
+        0.0
+      ],
+      "development_selection_score": 88.32712159186958,
+      "validation_gain_ci": [
+        3.9787798808890944,
+        11.31794110982295
+      ],
+      "training_fit": {
+        "n": 18560,
+        "correct": 18031,
+        "accuracy": 97.14978448275862,
+        "balanced_accuracy": 93.6016050966095,
+        "recall": {
+          "LEFT": 94.05630865484879,
+          "RIGHT": 95.53478712357217,
+          "DOWN": 86.89839572192514,
+          "STRAIGHT": 97.91692888609188
+        },
+        "confusion": [
+          [
+            902,
+            12,
+            3,
+            42
+          ],
+          [
+            1,
+            920,
+            6,
+            36
+          ],
+          [
+            0,
+            0,
+            650,
+            98
+          ],
+          [
+            33,
+            15,
+            283,
+            15559
+          ]
+        ],
+        "movement_macro": 92.1631638334487,
+        "movement_correct": 2472,
+        "movement_total": 2670,
+        "false_movements": 331
+      },
+      "external": {
+        "external_sub01": {
+          "metrics": {
+            "n": 1269,
+            "correct": 1084,
+            "accuracy": 85.42159180457053,
+            "balanced_accuracy": 69.22296820497115,
+            "recall": {
+              "LEFT": 47.863247863247864,
+              "RIGHT": 71.58469945355192,
+              "DOWN": 60.16260162601627,
+              "STRAIGHT": 97.28132387706856
+            },
+            "confusion": [
+              [
+                56,
+                11,
+                43,
+                7
+              ],
+              [
+                0,
+                131,
+                40,
+                12
+              ],
+              [
+                7,
+                3,
+                74,
+                39
+              ],
+              [
+                0,
+                0,
+                23,
+                823
+              ]
+            ],
+            "movement_macro": 59.87018298093869,
+            "movement_correct": 261,
+            "movement_total": 423,
+            "false_movements": 23
+          },
+          "movement_gain": -0.5227538614183871,
+          "gain_ci": [
+            -9.980782085561497,
+            5.847400353678752
+          ]
+        },
+        "external_sub11": {
+          "metrics": {
+            "n": 1200,
+            "correct": 904,
+            "accuracy": 75.33333333333333,
+            "balanced_accuracy": 67.47279710842464,
+            "recall": {
+              "LEFT": 60.962566844919785,
+              "RIGHT": 27.149321266968325,
+              "DOWN": 86.31578947368422,
+              "STRAIGHT": 95.46351084812623
+            },
+            "confusion": [
+              [
+                114,
+                49,
+                8,
+                16
+              ],
+              [
+                155,
+                60,
+                1,
+                5
+              ],
+              [
+                11,
+                0,
+                246,
+                28
+              ],
+              [
+                2,
+                0,
+                21,
+                484
+              ]
+            ],
+            "movement_macro": 58.14255919519078,
+            "movement_correct": 420,
+            "movement_total": 693,
+            "false_movements": 23
+          },
+          "movement_gain": -14.934580383496801,
+          "gain_ci": [
+            -21.23328735627771,
+            -7.600168622989986
+          ]
+        }
+      },
+      "eligible": false
+    },
+    "prior_fusion": {
+      "nested_validation": {
+        "n": 18560,
+        "correct": 17863,
+        "accuracy": 96.24461206896552,
+        "balanced_accuracy": 88.85696942174324,
+        "recall": {
+          "LEFT": 91.44942648592284,
+          "RIGHT": 85.98130841121495,
+          "DOWN": 80.08021390374331,
+          "STRAIGHT": 97.91692888609188
+        },
+        "confusion": [
+          [
+            877,
+            24,
+            16,
+            42
+          ],
+          [
+            39,
+            828,
+            60,
+            36
+          ],
+          [
+            33,
+            18,
+            599,
+            98
+          ],
+          [
+            31,
+            13,
+            287,
+            15559
+          ]
+        ],
+        "movement_macro": 85.83698293362704,
+        "movement_correct": 2304,
+        "movement_total": 2670,
+        "false_movements": 331
+      },
+      "outer_selections": [
+        {
+          "family": "prior_fusion",
+          "config": [
+            32,
+            0.5
+          ],
+          "inner_movement_macro": 83.26378523460436
+        },
+        {
+          "family": "prior_fusion",
+          "config": [
+            128,
+            0.25
+          ],
+          "inner_movement_macro": 84.4156258574654
+        },
+        {
+          "family": "prior_fusion",
+          "config": [
+            128,
+            0.25
+          ],
+          "inner_movement_macro": 85.91157231603334
+        }
+      ],
+      "final_family": "prior_fusion",
+      "final_config": [
+        128,
+        0.25
+      ],
+      "development_selection_score": 87.10093077355911,
+      "validation_gain_ci": [
+        1.9838427965915664,
+        8.580075865161385
+      ],
+      "training_fit": {
+        "n": 18560,
+        "correct": 18028,
+        "accuracy": 97.13362068965517,
+        "balanced_accuracy": 93.50879963684416,
+        "recall": {
+          "LEFT": 94.05630865484879,
+          "RIGHT": 95.43094496365524,
+          "DOWN": 86.63101604278076,
+          "STRAIGHT": 97.91692888609188
+        },
+        "confusion": [
+          [
+            902,
+            15,
+            0,
+            42
+          ],
+          [
+            0,
+            919,
+            8,
+            36
+          ],
+          [
+            0,
+            2,
+            648,
+            98
+          ],
+          [
+            37,
+            11,
+            283,
+            15559
+          ]
+        ],
+        "movement_macro": 92.03942322042826,
+        "movement_correct": 2469,
+        "movement_total": 2670,
+        "false_movements": 331
+      },
+      "external": {
+        "external_sub01": {
+          "metrics": {
+            "n": 1269,
+            "correct": 1088,
+            "accuracy": 85.73680063041765,
+            "balanced_accuracy": 70.28391134908102,
+            "recall": {
+              "LEFT": 57.26495726495726,
+              "RIGHT": 70.49180327868852,
+              "DOWN": 56.09756097560976,
+              "STRAIGHT": 97.28132387706856
+            },
+            "confusion": [
+              [
+                67,
+                8,
+                35,
+                7
+              ],
+              [
+                0,
+                129,
+                42,
+                12
+              ],
+              [
+                14,
+                1,
+                69,
+                39
+              ],
+              [
+                0,
+                0,
+                23,
+                823
+              ]
+            ],
+            "movement_macro": 61.28477383975184,
+            "movement_correct": 265,
+            "movement_total": 423,
+            "false_movements": 23
+          },
+          "movement_gain": 0.8918369973947691,
+          "gain_ci": [
+            -3.7311067266274422,
+            5.422288855572216
+          ]
+        },
+        "external_sub11": {
+          "metrics": {
+            "n": 1200,
+            "correct": 912,
+            "accuracy": 76.0,
+            "balanced_accuracy": 68.318525167775,
+            "recall": {
+              "LEFT": 64.70588235294117,
+              "RIGHT": 23.981900452488688,
+              "DOWN": 89.12280701754386,
+              "STRAIGHT": 95.46351084812623
+            },
+            "confusion": [
+              [
+                121,
+                50,
+                0,
+                16
+              ],
+              [
+                162,
+                53,
+                1,
+                5
+              ],
+              [
+                3,
+                0,
+                254,
+                28
+              ],
+              [
+                2,
+                0,
+                21,
+                484
+              ]
+            ],
+            "movement_macro": 59.27019660765791,
+            "movement_correct": 428,
+            "movement_total": 693,
+            "false_movements": 23
+          },
+          "movement_gain": -13.80694297102967,
+          "gain_ci": [
+            -20.253744119349154,
+            -7.562184941443815
+          ]
+        }
+      },
+      "eligible": false
+    },
+    "selected_pipeline": {
+      "nested_validation": {
+        "n": 18560,
+        "correct": 17928,
+        "accuracy": 96.59482758620689,
+        "balanced_accuracy": 90.72457341542518,
+        "recall": {
+          "LEFT": 92.49217935349321,
+          "RIGHT": 89.20041536863967,
+          "DOWN": 83.28877005347593,
+          "STRAIGHT": 97.91692888609188
+        },
+        "confusion": [
+          [
+            887,
+            20,
+            10,
+            42
+          ],
+          [
+            27,
+            859,
+            41,
+            36
+          ],
+          [
+            26,
+            1,
+            623,
+            98
+          ],
+          [
+            22,
+            13,
+            296,
+            15559
+          ]
+        ],
+        "movement_macro": 88.32712159186958,
+        "movement_correct": 2369,
+        "movement_total": 2670,
+        "false_movements": 331
+      },
+      "outer_selections": [
+        {
+          "family": "agreement",
+          "config": [
+            128,
+            0.0
+          ],
+          "inner_movement_macro": 85.72362515957832
+        },
+        {
+          "family": "agreement",
+          "config": [
+            128,
+            0.0
+          ],
+          "inner_movement_macro": 85.1075670335904
+        },
+        {
+          "family": "agreement",
+          "config": [
+            128,
+            0.0
+          ],
+          "inner_movement_macro": 86.34967044429088
+        }
+      ],
+      "final_family": "agreement",
+      "final_config": [
+        128,
+        0.0
+      ],
+      "development_selection_score": 88.32712159186958,
+      "validation_gain_ci": [
+        3.9787798808890944,
+        11.31794110982295
+      ],
+      "training_fit": {
+        "n": 18560,
+        "correct": 18031,
+        "accuracy": 97.14978448275862,
+        "balanced_accuracy": 93.6016050966095,
+        "recall": {
+          "LEFT": 94.05630865484879,
+          "RIGHT": 95.53478712357217,
+          "DOWN": 86.89839572192514,
+          "STRAIGHT": 97.91692888609188
+        },
+        "confusion": [
+          [
+            902,
+            12,
+            3,
+            42
+          ],
+          [
+            1,
+            920,
+            6,
+            36
+          ],
+          [
+            0,
+            0,
+            650,
+            98
+          ],
+          [
+            33,
+            15,
+            283,
+            15559
+          ]
+        ],
+        "movement_macro": 92.1631638334487,
+        "movement_correct": 2472,
+        "movement_total": 2670,
+        "false_movements": 331
+      },
+      "external": {
+        "external_sub01": {
+          "metrics": {
+            "n": 1269,
+            "correct": 1084,
+            "accuracy": 85.42159180457053,
+            "balanced_accuracy": 69.22296820497115,
+            "recall": {
+              "LEFT": 47.863247863247864,
+              "RIGHT": 71.58469945355192,
+              "DOWN": 60.16260162601627,
+              "STRAIGHT": 97.28132387706856
+            },
+            "confusion": [
+              [
+                56,
+                11,
+                43,
+                7
+              ],
+              [
+                0,
+                131,
+                40,
+                12
+              ],
+              [
+                7,
+                3,
+                74,
+                39
+              ],
+              [
+                0,
+                0,
+                23,
+                823
+              ]
+            ],
+            "movement_macro": 59.87018298093869,
+            "movement_correct": 261,
+            "movement_total": 423,
+            "false_movements": 23
+          },
+          "movement_gain": -0.5227538614183871,
+          "gain_ci": [
+            -9.980782085561497,
+            5.847400353678752
+          ]
+        },
+        "external_sub11": {
+          "metrics": {
+            "n": 1200,
+            "correct": 904,
+            "accuracy": 75.33333333333333,
+            "balanced_accuracy": 67.47279710842464,
+            "recall": {
+              "LEFT": 60.962566844919785,
+              "RIGHT": 27.149321266968325,
+              "DOWN": 86.31578947368422,
+              "STRAIGHT": 95.46351084812623
+            },
+            "confusion": [
+              [
+                114,
+                49,
+                8,
+                16
+              ],
+              [
+                155,
+                60,
+                1,
+                5
+              ],
+              [
+                11,
+                0,
+                246,
+                28
+              ],
+              [
+                2,
+                0,
+                21,
+                484
+              ]
+            ],
+            "movement_macro": 58.14255919519078,
+            "movement_correct": 420,
+            "movement_total": 693,
+            "false_movements": 23
+          },
+          "movement_gain": -14.934580383496801,
+          "gain_ci": [
+            -21.23328735627771,
+            -7.600168622989986
+          ]
+        }
+      },
+      "eligible": false
+    }
+  },
+  "source_hash": "6fb1f328c02e110f07285dc71afbffef8b5264fdd33fdae7a231f16e1e562775",
+  "fits": 42,
+  "elapsed_seconds": 8.429288864135742,
+  "concurrent_changes": []
+}

@@ -1,0 +1,65 @@
+
+======================================================================================
+  EEG HEAD-MOVEMENT MONITORS  |  ACCURACY REPORT
+  LEFT / RIGHT / DOWN / STRAIGHT     |     Genuine RTAMT predictions
+======================================================================================
+  Dataset: extracted_npz_dataset_v2    Windows: 21,029
+  Monitor fingerprint: f28e3c944d98    Stream history: enabled
+  Verdict cache: MATCHES current monitor/settings/dataset
+
+  ACCURACY BY EVALUATION POPULATION
++--------------------------+-----------------+----------+-------------------+
+| Population               | Correct / total | Accuracy | Balanced accuracy |
++--------------------------+-----------------+----------+-------------------+
+| Development: sub_01 1-30 | 17,719 / 18,560 | 95.47%   | 85.01%            |
+| External: sub_01 31-36   | 1,081 / 1,269   | 85.19%   | 69.62%            |
+| External: sub_11         | 1,006 / 1,200   | 83.83%   | 78.67%            |
++--------------------------+-----------------+----------+-------------------+
+
+  CLASS RECALL  |  correct / total (percentage)
++--------------+------------------------+------------------+------------------+
+| Actual class | Development            | Later sub_01     | sub_11           |
++--------------+------------------------+------------------+------------------+
+| LEFT         | 805/959 (83.94%)       | 69/117 (58.97%)  | 105/187 (56.15%) |
+| RIGHT        | 770/963 (79.96%)       | 118/183 (64.48%) | 165/221 (74.66%) |
+| DOWN         | 585/748 (78.21%)       | 71/123 (57.72%)  | 252/285 (88.42%) |
+| STRAIGHT     | 15,559/15,890 (97.92%) | 823/846 (97.28%) | 484/507 (95.46%) |
++--------------+------------------------+------------------+------------------+
+
+  CONFUSION MATRIX: Development: sub_01 1-30
++--------------------+------+-------+------+----------+
+| Actual / predicted | LEFT | RIGHT | DOWN | STRAIGHT |
++--------------------+------+-------+------+----------+
+| LEFT               | 805  | 36    | 76   | 42       |
+| RIGHT              | 90   | 770   | 67   | 36       |
+| DOWN               | 42   | 23    | 585  | 98       |
+| STRAIGHT           | 67   | 19    | 245  | 15559    |
++--------------------+------+-------+------+----------+
+
+  CONFUSION MATRIX: External: sub_01 31-36
++--------------------+------+-------+------+----------+
+| Actual / predicted | LEFT | RIGHT | DOWN | STRAIGHT |
++--------------------+------+-------+------+----------+
+| LEFT               | 69   | 0     | 41   | 7        |
+| RIGHT              | 0    | 118   | 53   | 12       |
+| DOWN               | 9    | 4     | 71   | 39       |
+| STRAIGHT           | 0    | 0     | 23   | 823      |
++--------------------+------+-------+------+----------+
+
+  CONFUSION MATRIX: External: sub_11
++--------------------+------+-------+------+----------+
+| Actual / predicted | LEFT | RIGHT | DOWN | STRAIGHT |
++--------------------+------+-------+------+----------+
+| LEFT               | 105  | 62    | 4    | 16       |
+| RIGHT              | 51   | 165   | 0    | 5        |
+| DOWN               | 5    | 0     | 252  | 28       |
+| STRAIGHT           | 5    | 1     | 17   | 484      |
++--------------------+------+-------+------+----------+
+
+  Accuracy          = correct windows / all windows.
+  Balanced accuracy = average recall across the four classes.
+  Development data were used for design/threshold selection, not a blind test.
+  External results are retrospective; these populations were previously inspected.
+  Windows overlap. These are window scores, not independent gesture/command accuracy.
+======================================================================================
+

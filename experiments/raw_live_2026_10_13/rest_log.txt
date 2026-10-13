@@ -1,0 +1,5 @@
+T3 re-selected + blink veto        | CV/fit 1-20  77.45 (FA 1008) | sub_01 21-36  83.33 (FA 482) | sub_01 31-36  69.92 (FA 62) | sub_11  78.43 (FA 121) | sessions +12/-8
+   final model: thresholds {'b': 5.5, 'g': 5.0, 'd': 0.16, 'q': 2.3, 'n': 0.0, 'v': 8.75}, veto (np.float64(2.0), 0.2)
+baseline ICA (current thresholds)  | CV/fit 1-20  85.46 (FA 301) | sub_01 21-36  81.22 (FA 122) | sub_01 31-36  69.98 (FA 50) | sub_11  77.37 (FA 72)
+T1 thresholds re-selected (ICA)    | CV/fit 1-20  82.18 (FA 438) | sub_01 21-36  80.96 (FA 113) | sub_01 31-36  70.02 (FA 51) | sub_11  78.31 (FA 53) | sessions +8/-10
+   final model: thresholds {'b': 8.0, 'g': 5.5, 'd': 0.14, 'q': 2.8, 'n': -0.6, 'v': 7.5}, veto None

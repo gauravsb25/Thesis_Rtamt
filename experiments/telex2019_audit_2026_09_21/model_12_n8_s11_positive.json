@@ -1,0 +1,496 @@
+{
+  "stamp": "a637e25b73900f43353a5ca11e5f51d3f8c3d0091c47584176918142adde6cd0",
+  "fingerprint": "f28e3c944d98",
+  "mode": "positive",
+  "budget": 8,
+  "seed": 11,
+  "train_folds": [
+    1,
+    2
+  ],
+  "indices": [
+    18139,
+    8602,
+    16320,
+    13269,
+    13007,
+    7674,
+    14284,
+    11675,
+    16997,
+    6864,
+    11324,
+    12714,
+    16247,
+    15733,
+    14069,
+    10040,
+    16711,
+    8862,
+    13885,
+    13423,
+    14604,
+    16197,
+    10701,
+    15238,
+    18289,
+    15211,
+    16568,
+    18037,
+    15690,
+    10736,
+    13939,
+    7084
+  ],
+  "trial_keys": [
+    "sub_01/ses-29/left/10",
+    "sub_01/ses-13/left/6",
+    "sub_01/ses-26/left/4",
+    "sub_01/ses-20/left/2",
+    "sub_01/ses-19/left/5",
+    "sub_01/ses-12/left/5",
+    "sub_01/ses-22/left/3",
+    "sub_01/ses-17/left/1",
+    "sub_01/ses-27/right/7",
+    "sub_01/ses-11/right/4",
+    "sub_01/ses-17/right/6",
+    "sub_01/ses-19/right/6",
+    "sub_01/ses-26/right/3",
+    "sub_01/ses-25/right/7",
+    "sub_01/ses-22/right/7",
+    "sub_01/ses-15/right/9",
+    "sub_01/ses-27/down/3",
+    "sub_01/ses-14/down/6",
+    "sub_01/ses-22/down/1",
+    "sub_01/ses-21/down/2",
+    "sub_01/ses-23/down/1",
+    "sub_01/ses-26/down/7",
+    "sub_01/ses-16/down/4",
+    "sub_01/ses-24/down/2",
+    "sub_01/ses-30/right/10",
+    "sub_01/ses-23/left/5",
+    "sub_01/ses-26/left/9",
+    "sub_01/ses-29/right/4",
+    "sub_01/ses-25/down/3",
+    "sub_01/ses-16/down/8",
+    "sub_01/ses-22/right/9",
+    "sub_01/ses-11/left/10"
+  ],
+  "labels": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "trees": [
+    [
+      {
+        "op": "F",
+        "a": 0,
+        "b": 15,
+        "child": {
+          "op": "atom",
+          "signal": 43,
+          "sign": 1,
+          "threshold": -0.23925564389593407
+        }
+      },
+      {
+        "op": "or",
+        "left": {
+          "op": "F",
+          "a": 0,
+          "b": 15,
+          "child": {
+            "op": "atom",
+            "signal": 40,
+            "sign": -1,
+            "threshold": 0.2607382176574363
+          }
+        },
+        "right": {
+          "op": "F",
+          "a": 0,
+          "b": 15,
+          "child": {
+            "op": "atom",
+            "signal": 40,
+            "sign": 1,
+            "threshold": 0.2607422766487031
+          }
+        }
+      },
+      {
+        "op": "or",
+        "left": {
+          "op": "F",
+          "a": 0,
+          "b": 15,
+          "child": {
+            "op": "atom",
+            "signal": 40,
+            "sign": -1,
+            "threshold": 0.2607382176574363
+          }
+        },
+        "right": {
+          "op": "F",
+          "a": 0,
+          "b": 15,
+          "child": {
+            "op": "atom",
+            "signal": 40,
+            "sign": 1,
+            "threshold": 0.2607422766487031
+          }
+        }
+      }
+    ],
+    [
+      {
+        "op": "F",
+        "a": 0,
+        "b": 15,
+        "child": {
+          "op": "atom",
+          "signal": 40,
+          "sign": -1,
+          "threshold": -0.23926084028226113
+        }
+      },
+      {
+        "op": "F",
+        "a": 0,
+        "b": 31,
+        "child": {
+          "op": "aug",
+          "sign": -1,
+          "child": {
+            "op": "F",
+            "a": 0,
+            "b": 15,
+            "child": {
+              "op": "atom",
+              "signal": 40,
+              "sign": -1,
+              "threshold": -0.23926084028226113
+            }
+          }
+        }
+      },
+      {
+        "op": "or",
+        "left": {
+          "op": "F",
+          "a": 0,
+          "b": 31,
+          "child": {
+            "op": "aug",
+            "sign": -1,
+            "child": {
+              "op": "F",
+              "a": 0,
+              "b": 15,
+              "child": {
+                "op": "atom",
+                "signal": 36,
+                "sign": -1,
+                "threshold": -0.23926595168250056
+              }
+            }
+          }
+        },
+        "right": {
+          "op": "or",
+          "left": {
+            "op": "F",
+            "a": 0,
+            "b": 15,
+            "child": {
+              "op": "atom",
+              "signal": 40,
+              "sign": -1,
+              "threshold": 0.26073915971773887
+            }
+          },
+          "right": {
+            "op": "F",
+            "a": 0,
+            "b": 15,
+            "child": {
+              "op": "atom",
+              "signal": 40,
+              "sign": 1,
+              "threshold": 0.2607430699589943
+            }
+          }
+        }
+      }
+    ],
+    [
+      {
+        "op": "F",
+        "a": 0,
+        "b": 15,
+        "child": {
+          "op": "atom",
+          "signal": 41,
+          "sign": -1,
+          "threshold": -0.2392624390325375
+        }
+      },
+      {
+        "op": "G",
+        "a": 0,
+        "b": 3,
+        "child": {
+          "op": "aug",
+          "sign": 1,
+          "child": {
+            "op": "F",
+            "a": 0,
+            "b": 15,
+            "child": {
+              "op": "atom",
+              "signal": 37,
+              "sign": -1,
+              "threshold": -0.23926388174806767
+            }
+          }
+        }
+      },
+      {
+        "op": "G",
+        "a": 0,
+        "b": 3,
+        "child": {
+          "op": "aug",
+          "sign": 1,
+          "child": {
+            "op": "F",
+            "a": 0,
+            "b": 15,
+            "child": {
+              "op": "atom",
+              "signal": 37,
+              "sign": -1,
+              "threshold": -0.23926388174806767
+            }
+          }
+        }
+      }
+    ],
+    [
+      {
+        "op": "F",
+        "a": 0,
+        "b": 15,
+        "child": {
+          "op": "atom",
+          "signal": 42,
+          "sign": -1,
+          "threshold": -0.23926048443522627
+        }
+      },
+      {
+        "op": "F",
+        "a": 0,
+        "b": 7,
+        "child": {
+          "op": "aug",
+          "sign": -1,
+          "child": {
+            "op": "F",
+            "a": 0,
+            "b": 15,
+            "child": {
+              "op": "atom",
+              "signal": 42,
+              "sign": -1,
+              "threshold": -0.23926048443522627
+            }
+          }
+        }
+      },
+      {
+        "op": "G",
+        "a": 0,
+        "b": 7,
+        "child": {
+          "op": "aug",
+          "sign": 1,
+          "child": {
+            "op": "F",
+            "a": 0,
+            "b": 7,
+            "child": {
+              "op": "aug",
+              "sign": -1,
+              "child": {
+                "op": "F",
+                "a": 0,
+                "b": 15,
+                "child": {
+                  "op": "atom",
+                  "signal": 42,
+                  "sign": -1,
+                  "threshold": -0.23926048443522627
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  ],
+  "scales": [
+    [
+      0.2617116300702095,
+      0.3247919042497873,
+      0.3247919042497873
+    ],
+    [
+      0.1,
+      0.2258660809278488,
+      0.3387247911995061
+    ],
+    [
+      0.1,
+      0.10726846427433193,
+      0.10726846427433193
+    ],
+    [
+      0.1,
+      0.20605179398059845,
+      0.20116211364269254
+    ]
+  ],
+  "diagnostics": [
+    {
+      "counts": {
+        "templates": 2684,
+        "refinements": 12,
+        "nested_candidates": 222
+      },
+      "history": [
+        {
+          "depth": 2,
+          "consistent": 92,
+          "in_band": 2
+        },
+        {
+          "depth": 3,
+          "consistent": 30,
+          "in_band": 2
+        }
+      ]
+    },
+    {
+      "counts": {
+        "templates": 2791,
+        "refinements": 12,
+        "nested_candidates": 330
+      },
+      "history": [
+        {
+          "depth": 2,
+          "consistent": 81,
+          "in_band": 8
+        },
+        {
+          "depth": 3,
+          "consistent": 106,
+          "in_band": 0
+        }
+      ]
+    },
+    {
+      "counts": {
+        "templates": 2660,
+        "refinements": 12,
+        "nested_candidates": 196
+      },
+      "history": [
+        {
+          "depth": 2,
+          "consistent": 73,
+          "in_band": 1
+        },
+        {
+          "depth": 3,
+          "consistent": 6,
+          "in_band": 0
+        }
+      ]
+    },
+    {
+      "counts": {
+        "templates": 2660,
+        "refinements": 12,
+        "nested_candidates": 196
+      },
+      "history": [
+        {
+          "depth": 2,
+          "consistent": 89,
+          "in_band": 1
+        },
+        {
+          "depth": 3,
+          "consistent": 15,
+          "in_band": 4
+        }
+      ]
+    }
+  ],
+  "formulas": [
+    [
+      "eventually[0:15]((energy_T4 >= -0.23925564389593407))",
+      "(eventually[0:15]((energy_F4 <= -0.26073821765743632)) or eventually[0:15]((energy_F4 >= 0.26074227664870309)))",
+      "(eventually[0:15]((energy_F4 <= -0.26073821765743632)) or eventually[0:15]((energy_F4 >= 0.26074227664870309)))"
+    ],
+    [
+      "eventually[0:15]((energy_F4 <= 0.23926084028226113))",
+      "eventually[0:31](not(eventually[0:15]((energy_F4 <= 0.23926084028226113))))",
+      "(eventually[0:31](not(eventually[0:15]((energy_Fp1 <= 0.23926595168250056)))) or (eventually[0:15]((energy_F4 <= -0.26073915971773887)) or eventually[0:15]((energy_F4 >= 0.26074306995899432))))"
+    ],
+    [
+      "eventually[0:15]((energy_T3 <= 0.23926243903253749))",
+      "always[0:3](eventually[0:15]((energy_Fp2 <= 0.23926388174806767)))",
+      "always[0:3](eventually[0:15]((energy_Fp2 <= 0.23926388174806767)))"
+    ],
+    [
+      "eventually[0:15]((energy_Cz <= 0.23926048443522627))",
+      "eventually[0:7](not(eventually[0:15]((energy_Cz <= 0.23926048443522627))))",
+      "always[0:7](eventually[0:7](not(eventually[0:15]((energy_Cz <= 0.23926048443522627)))))"
+    ]
+  ]
+}

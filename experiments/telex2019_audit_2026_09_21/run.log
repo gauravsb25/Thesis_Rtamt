@@ -1,0 +1,59 @@
+fit 2_n8_s11_positive examples/class 8 elapsed 4.1
+fit 2_n8_s29_positive examples/class 8 elapsed 7.7
+fit 1_n8_s11_positive examples/class 8 elapsed 11.5
+fit 1_n8_s29_positive examples/class 8 elapsed 15.3
+fit 2_n16_s11_positive examples/class 16 elapsed 19.3
+fit 2_n16_s29_positive examples/class 16 elapsed 23.5
+fit 1_n16_s11_positive examples/class 16 elapsed 28.0
+fit 1_n16_s29_positive examples/class 16 elapsed 31.8
+outer positive 0 None
+fit 0_n8_s11_positive examples/class 8 elapsed 35.4
+fit 0_n8_s29_positive examples/class 8 elapsed 39.2
+fit 0_n16_s11_positive examples/class 16 elapsed 43.4
+fit 0_n16_s29_positive examples/class 16 elapsed 47.9
+outer positive 1 None
+outer positive 2 None
+fit 12_n8_s11_positive examples/class 8 elapsed 51.6
+fit 12_n8_s29_positive examples/class 8 elapsed 55.2
+fit 02_n8_s11_positive examples/class 8 elapsed 59.0
+fit 02_n8_s29_positive examples/class 8 elapsed 62.8
+fit 01_n8_s11_positive examples/class 8 elapsed 66.5
+fit 01_n8_s29_positive examples/class 8 elapsed 70.3
+fit 12_n16_s11_positive examples/class 16 elapsed 76.3
+fit 12_n16_s29_positive examples/class 16 elapsed 80.3
+fit 02_n16_s11_positive examples/class 16 elapsed 84.6
+fit 02_n16_s29_positive examples/class 16 elapsed 88.7
+fit 01_n16_s11_positive examples/class 16 elapsed 92.7
+fit 01_n16_s29_positive examples/class 16 elapsed 96.9
+development positive {'correct': 17719, 'n': 18560, 'accuracy': 95.46875, 'balanced_accuracy': 85.00638850281845, 'movement_macro': 80.7028750417273, 'recall': {'LEFT': 83.94160583941606, 'RIGHT': 79.95846313603323, 'DOWN': 78.20855614973262, 'STRAIGHT': 97.91692888609188}, 'confusion': [[805, 36, 76, 42], [90, 770, 67, 36], [42, 23, 585, 98], [67, 19, 245, 15559]]}
+fit 2_n8_s11_supervised examples/class 8 elapsed 101.4
+fit 2_n8_s29_supervised examples/class 8 elapsed 106.4
+fit 1_n8_s11_supervised examples/class 8 elapsed 110.9
+fit 1_n8_s29_supervised examples/class 8 elapsed 115.3
+fit 2_n16_s11_supervised examples/class 16 elapsed 120.6
+fit 2_n16_s29_supervised examples/class 16 elapsed 125.7
+fit 1_n16_s11_supervised examples/class 16 elapsed 131.4
+fit 1_n16_s29_supervised examples/class 16 elapsed 137.3
+outer supervised 0 None
+fit 0_n8_s11_supervised examples/class 8 elapsed 141.7
+fit 0_n8_s29_supervised examples/class 8 elapsed 145.9
+fit 0_n16_s11_supervised examples/class 16 elapsed 150.6
+fit 0_n16_s29_supervised examples/class 16 elapsed 155.9
+outer supervised 1 None
+outer supervised 2 None
+fit 12_n8_s11_supervised examples/class 8 elapsed 160.1
+fit 12_n8_s29_supervised examples/class 8 elapsed 164.6
+fit 02_n8_s11_supervised examples/class 8 elapsed 169.0
+fit 02_n8_s29_supervised examples/class 8 elapsed 173.5
+fit 01_n8_s11_supervised examples/class 8 elapsed 177.7
+fit 01_n8_s29_supervised examples/class 8 elapsed 181.7
+fit 12_n16_s11_supervised examples/class 16 elapsed 187.0
+fit 12_n16_s29_supervised examples/class 16 elapsed 192.8
+fit 02_n16_s11_supervised examples/class 16 elapsed 199.1
+fit 02_n16_s29_supervised examples/class 16 elapsed 204.4
+fit 01_n16_s11_supervised examples/class 16 elapsed 209.6
+fit 01_n16_s29_supervised examples/class 16 elapsed 215.0
+development supervised {'correct': 17719, 'n': 18560, 'accuracy': 95.46875, 'balanced_accuracy': 85.00638850281845, 'movement_macro': 80.7028750417273, 'recall': {'LEFT': 83.94160583941606, 'RIGHT': 79.95846313603323, 'DOWN': 78.20855614973262, 'STRAIGHT': 97.91692888609188}, 'confusion': [[805, 36, 76, 42], [90, 770, 67, 36], [42, 23, 585, 98], [67, 19, 245, 15559]]}
+EXTERNAL positive {'external_sub01': {'correct': 1081, 'n': 1269, 'accuracy': 85.18518518518519, 'balanced_accuracy': 69.61503360103495, 'movement_macro': 60.392936842357074, 'recall': {'LEFT': 58.97435897435898, 'RIGHT': 64.48087431693989, 'DOWN': 57.72357723577236, 'STRAIGHT': 97.28132387706856}, 'confusion': [[69, 0, 41, 7], [0, 118, 53, 12], [9, 4, 71, 39], [0, 0, 23, 823]]}, 'external_sub11': {'correct': 1006, 'n': 1200, 'accuracy': 83.83333333333333, 'balanced_accuracy': 78.67373239604724, 'movement_macro': 73.07713957868758, 'recall': {'LEFT': 56.14973262032086, 'RIGHT': 74.6606334841629, 'DOWN': 88.42105263157895, 'STRAIGHT': 95.46351084812623}, 'confusion': [[105, 62, 4, 16], [51, 165, 0, 5], [5, 0, 252, 28], [5, 1, 17, 484]]}} eligible False
+EXTERNAL supervised {'external_sub01': {'correct': 1081, 'n': 1269, 'accuracy': 85.18518518518519, 'balanced_accuracy': 69.61503360103495, 'movement_macro': 60.392936842357074, 'recall': {'LEFT': 58.97435897435898, 'RIGHT': 64.48087431693989, 'DOWN': 57.72357723577236, 'STRAIGHT': 97.28132387706856}, 'confusion': [[69, 0, 41, 7], [0, 118, 53, 12], [9, 4, 71, 39], [0, 0, 23, 823]]}, 'external_sub11': {'correct': 1006, 'n': 1200, 'accuracy': 83.83333333333333, 'balanced_accuracy': 78.67373239604724, 'movement_macro': 73.07713957868758, 'recall': {'LEFT': 56.14973262032086, 'RIGHT': 74.6606334841629, 'DOWN': 88.42105263157895, 'STRAIGHT': 95.46351084812623}, 'confusion': [[105, 62, 4, 16], [51, 165, 0, 5], [5, 0, 252, 28], [5, 1, 17, 484]]}} eligible False
+COMPLETE 215.0613739490509

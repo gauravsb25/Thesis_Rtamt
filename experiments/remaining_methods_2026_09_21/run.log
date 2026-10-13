@@ -1,0 +1,13 @@
+original_ridge: nested BA 84.72%, gain -0.29; 19 fits, 2.5s
+operator_ridge: nested BA 82.44%, gain -2.56; 44 fits, 14.5s
+operator_lda: nested BA 86.88%, gain +1.87; 69 fits, 26.0s
+nonlinear_ridge: nested BA 83.04%, gain -1.97; 88 fits, 39.8s
+hybrid_gate: nested BA 89.38%, gain +4.37; 113 fits, 42.9s
+polarity_invariant: nested BA 69.15%, gain -15.86; 138 fits, 51.6s
+original_ridge: external BA external_sub01=67.77%, external_sub11=65.44%
+operator_ridge: external BA external_sub01=65.61%, external_sub11=51.68%
+operator_lda: external BA external_sub01=65.75%, external_sub11=62.54%
+nonlinear_ridge: external BA external_sub01=65.78%, external_sub11=53.20%
+hybrid_gate: external BA external_sub01=69.87%, external_sub11=62.86%
+polarity_invariant: external BA external_sub01=52.28%, external_sub11=55.79%
+COMPLETE 138 fits; 54.3 seconds; concurrent changes: []

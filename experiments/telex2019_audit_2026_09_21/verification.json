@@ -1,0 +1,14 @@
+{
+  "rtamt_real_trace_checks": 64,
+  "raw_window_checks": 8,
+  "modes": {
+    "positive": {
+      "decoder_rows": 21029,
+      "formulas": 8
+    },
+    "supervised": {
+      "decoder_rows": 21029,
+      "formulas": 8
+    }
+  }
+}

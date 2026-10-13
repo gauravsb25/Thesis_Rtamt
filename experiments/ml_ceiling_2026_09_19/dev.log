@@ -1,0 +1,39 @@
+87 signals per window, 21029 windows (design 18560, sub_01 31-36 1269, sub_11 1200)
+monitors for comparison: 4-class 85.01 / 69.62 / 78.67 ; direction 92.6 / 100.0 / 70.5
+
+5-fold grouped cross-validation inside sub_01 sessions 1-30 (whole sessions held out)
+
+model                    4-class   direction only
+logistic regression       83.84%            85.9%
+random forest             87.58%            90.2%
+gradient boosting         85.21%            88.5%
+
+what the random forest leans on (4-class, trained on sessions 1-30):
+   paradigms.rob_max                   5.2%
+   proposed.dir_temporal               5.1%
+   proposed.yaw_ratio_loud             5.0%
+   round2.turn                         4.9%
+   turn                                4.9%
+   fifteen.phase_t                     4.5%
+   paradigms.sprt_0.0                  4.5%
+   proposed.yaw_ratio                  3.9%
+   proposed.dir_frontal                2.9%
+   fifteen.delta_share                 2.8%
+   round2.nod                          2.5%
+   fifteen.cm_diff                     2.5%
+
+what it leans on for LEFT versus RIGHT:
+   round2.turn                        16.1%
+   turn                               15.9%
+   proposed.dir_temporal              14.4%
+   paradigms.lap_turn                  6.8%
+   proposed.dir_frontal                6.7%
+   proposed.lat_signed                 5.1%
+   proposed.lateral_imbalance          1.2%
+   fifteen.ocular_decay_loud           1.2%
+
+real	10m41.554s
+user	0m0.312s
+sys	0m1.249s
+
+[exited with code 0]

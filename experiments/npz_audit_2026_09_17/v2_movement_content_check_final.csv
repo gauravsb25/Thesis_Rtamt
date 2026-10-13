@@ -1,0 +1,385 @@
+session,task,run,label,windows,onset_s_in_run,r_t3t4,r_f4t3,shape_t3t4,shape_f4t3,first_check,presence,verdict
+sub_01/ses-01,left,1,LEFT,10,17.94,0.64,0.63,LEFT,LEFT,OK,clear,direction confirmed
+sub_01/ses-01,right,2,RIGHT,7,7.67,-0.13,-0.14,unclear,unclear,OK,clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-01,left,4,LEFT,13,9.17,0.71,0.66,LEFT,LEFT,OK,clear,direction confirmed
+sub_01/ses-01,down,5,DOWN,8,7.71,-0.58,0.37,unclear,unclear,OK,clear,no turn shape
+sub_01/ses-01,right,6,RIGHT,11,2.54,-0.81,-0.75,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_01/ses-01,left,7,LEFT,9,1.14,0.79,0.85,LEFT,LEFT,OK,clear,direction confirmed
+sub_01/ses-01,left,9,LEFT,11,2.85,0.53,0.56,unclear,unclear,OK,clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-01,down,10,DOWN,8,4.0,-0.26,0.37,unclear,unclear,OK,clear,no turn shape
+sub_01/ses-02,right,3,RIGHT,8,11.89,-0.4,-0.39,unclear,unclear,OK,clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-02,down,4,DOWN,11,5.21,0.28,-0.6,unclear,RIGHT,OK,clear,no turn shape
+sub_01/ses-02,left,5,LEFT,8,1.1,0.65,0.66,LEFT,LEFT,OK,clear,direction confirmed
+sub_01/ses-02,left,6,LEFT,12,6.52,0.49,0.43,unclear,unclear,OK,clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-02,right,7,RIGHT,9,2.02,0.27,-0.28,unclear,unclear,"present, direction unclear",clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-02,right,8,RIGHT,11,1.31,-0.68,-0.63,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_01/ses-02,left,9,LEFT,11,2.07,0.56,0.61,unclear,LEFT,LOOKS LIKE THE OTHER DIRECTION,clear,direction confirmed
+sub_01/ses-02,right,10,RIGHT,11,3.54,-0.72,-0.71,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_01/ses-03,left,1,LEFT,13,12.42,0.79,0.79,LEFT,LEFT,OK,clear,direction confirmed
+sub_01/ses-03,down,3,DOWN,11,3.89,0.25,-0.53,unclear,unclear,OK,clear,no turn shape
+sub_01/ses-03,right,4,RIGHT,13,4.75,0.34,0.57,unclear,unclear,"present, direction unclear",clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-03,down,5,DOWN,8,11.15,-0.43,0.26,unclear,unclear,weak but present,weak,no turn shape
+sub_01/ses-03,left,7,LEFT,15,2.52,0.5,0.36,unclear,unclear,OK,clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-03,right,8,RIGHT,11,1.89,-0.3,-0.33,unclear,unclear,"present, direction unclear",clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-03,left,9,LEFT,15,2.57,0.68,0.57,LEFT,unclear,OK,clear,direction confirmed
+sub_01/ses-03,down,10,DOWN,6,12.64,0.41,0.49,unclear,unclear,LOOKS LIKE A TURN,clear,no turn shape
+sub_01/ses-04,right,1,RIGHT,8,1.07,-0.63,-0.68,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_01/ses-04,left,2,LEFT,12,4.99,0.56,0.6,unclear,LEFT,"present, direction unclear",clear,direction confirmed
+sub_01/ses-04,left,3,LEFT,13,1.45,0.58,0.59,unclear,LEFT,OK,clear,direction confirmed
+sub_01/ses-04,down,4,DOWN,11,3.58,0.48,-0.56,unclear,unclear,OK,clear,no turn shape
+sub_01/ses-04,down,5,DOWN,14,5.65,0.29,0.06,unclear,unclear,OK,clear,no turn shape
+sub_01/ses-04,left,6,LEFT,8,1.06,0.69,0.67,LEFT,LEFT,weak but present,weak,direction confirmed
+sub_01/ses-04,right,7,RIGHT,14,1.87,-0.67,-0.64,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_01/ses-04,right,8,RIGHT,13,2.51,-0.69,-0.68,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_01/ses-04,left,9,LEFT,7,0.96,-0.46,-0.55,unclear,unclear,LOOKS LIKE THE OTHER DIRECTION,clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-04,down,10,DOWN,13,11.07,-0.48,0.32,unclear,unclear,OK,clear,no turn shape
+sub_01/ses-05,left,1,LEFT,7,4.33,-0.38,-0.44,unclear,unclear,LOOKS LIKE THE OTHER DIRECTION,clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-05,right,2,RIGHT,15,3.7,-0.51,-0.58,unclear,unclear,"present, direction unclear",clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-05,right,3,RIGHT,7,1.28,-0.21,-0.22,unclear,unclear,weak but present,weak,direction not confirmed (weak/unclear shape)
+sub_01/ses-05,right,6,RIGHT,10,3.16,-0.81,-0.79,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_01/ses-05,right,7,RIGHT,6,0.84,-0.39,-0.45,unclear,unclear,OK,clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-05,right,8,RIGHT,9,2.82,-0.56,-0.53,unclear,unclear,OK,clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-05,right,9,RIGHT,12,14.66,-0.52,-0.56,unclear,unclear,OK,clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-05,down,10,DOWN,9,4.38,0.2,-0.79,unclear,RIGHT,OK,clear,no turn shape
+sub_01/ses-06,down,1,DOWN,15,3.08,0.36,-0.45,unclear,unclear,OK,clear,no turn shape
+sub_01/ses-06,right,2,RIGHT,15,1.66,-0.66,-0.62,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_01/ses-06,left,3,LEFT,14,1.66,0.66,0.65,LEFT,LEFT,weak but present,weak,direction confirmed
+sub_01/ses-06,right,4,RIGHT,14,7.06,-0.75,-0.75,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_01/ses-06,down,5,DOWN,14,4.16,0.22,-0.68,unclear,RIGHT,OK,clear,no turn shape
+sub_01/ses-06,left,6,LEFT,12,2.1,0.86,0.82,LEFT,LEFT,OK,clear,direction confirmed
+sub_01/ses-06,down,7,DOWN,14,1.98,0.4,-0.28,unclear,unclear,weak but present,weak,no turn shape
+sub_01/ses-06,right,9,RIGHT,11,1.46,-0.79,-0.75,RIGHT,RIGHT,weak but present,weak,direction confirmed
+sub_01/ses-06,left,10,LEFT,15,2.33,0.61,0.48,unclear,unclear,OK,clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-07,right,1,RIGHT,10,1.19,0.51,0.74,unclear,LEFT,LOOKS LIKE THE OTHER DIRECTION,clear,OTHER DIRECTION (both checks)
+sub_01/ses-07,left,2,LEFT,15,2.05,0.75,0.67,LEFT,LEFT,OK,clear,direction confirmed
+sub_01/ses-07,right,3,RIGHT,9,1.13,0.39,0.35,unclear,unclear,LOOKS LIKE THE OTHER DIRECTION,clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-07,right,4,RIGHT,7,0.9,0.47,0.54,unclear,unclear,LOOKS LIKE THE OTHER DIRECTION,clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-07,left,6,LEFT,7,0.97,0.66,0.71,LEFT,LEFT,OK,clear,direction confirmed
+sub_01/ses-07,right,8,RIGHT,11,4.16,0.52,0.58,unclear,unclear,LOOKS LIKE THE OTHER DIRECTION,weak,direction not confirmed (weak/unclear shape)
+sub_01/ses-07,down,9,DOWN,13,2.63,-0.37,-0.1,unclear,unclear,weak but present,weak,no turn shape
+sub_01/ses-07,left,10,LEFT,10,1.27,0.81,0.84,LEFT,LEFT,OK,clear,direction confirmed
+sub_01/ses-08,right,1,RIGHT,10,1.2,-0.56,-0.26,unclear,unclear,weak but present,weak,direction not confirmed (weak/unclear shape)
+sub_01/ses-08,right,2,RIGHT,8,1.08,-0.75,-0.69,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_01/ses-08,left,3,LEFT,3,0.57,0.57,0.55,unclear,unclear,OK,clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-08,left,4,LEFT,8,1.08,0.6,0.73,unclear,LEFT,weak but present,weak,direction confirmed
+sub_01/ses-08,right,5,RIGHT,13,2.18,-0.23,-0.61,unclear,RIGHT,OK,clear,direction confirmed
+sub_01/ses-08,left,6,LEFT,8,1.05,0.27,0.38,unclear,unclear,weak but present,weak,direction not confirmed (weak/unclear shape)
+sub_01/ses-08,left,8,LEFT,12,1.37,0.75,0.78,LEFT,LEFT,OK,clear,direction confirmed
+sub_01/ses-09,right,1,RIGHT,6,0.82,-0.72,-0.78,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_01/ses-09,down,2,DOWN,14,2.33,0.61,-0.59,LEFT,RIGHT,OK,clear,no turn shape
+sub_01/ses-09,left,3,LEFT,14,7.27,0.81,0.82,LEFT,LEFT,OK,clear,direction confirmed
+sub_01/ses-09,right,4,RIGHT,15,8.14,-0.69,-0.72,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_01/ses-09,down,5,DOWN,12,3.4,0.47,-0.82,unclear,RIGHT,OK,clear,no turn shape
+sub_01/ses-09,down,7,DOWN,16,2.13,-0.5,-0.77,unclear,RIGHT,LOOKS LIKE A TURN,clear,no turn shape
+sub_01/ses-09,right,8,RIGHT,13,3.45,-0.74,-0.79,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_01/ses-09,left,10,LEFT,6,0.86,0.33,0.44,unclear,unclear,"present, direction unclear",clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-10,left,1,LEFT,7,1.0,0.75,0.82,LEFT,LEFT,OK,clear,direction confirmed
+sub_01/ses-10,left,2,LEFT,11,1.39,0.48,0.51,unclear,unclear,OK,clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-10,down,3,DOWN,13,2.69,0.57,-0.15,unclear,unclear,OK,clear,no turn shape
+sub_01/ses-10,down,4,DOWN,15,1.85,0.23,-0.8,unclear,RIGHT,OK,clear,no turn shape
+sub_01/ses-10,right,5,RIGHT,12,4.73,-0.77,-0.8,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_01/ses-10,left,6,LEFT,11,1.84,0.74,0.85,LEFT,LEFT,OK,clear,direction confirmed
+sub_01/ses-10,left,8,LEFT,5,0.74,-0.11,0.12,unclear,unclear,OK,clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-10,down,9,DOWN,14,2.7,0.56,0.56,unclear,unclear,weak but present,weak,no turn shape
+sub_01/ses-10,right,10,RIGHT,3,0.49,0.28,-0.24,unclear,unclear,weak but present,weak,direction not confirmed (weak/unclear shape)
+sub_01/ses-11,left,1,LEFT,7,1.0,0.67,0.74,LEFT,LEFT,OK,clear,direction confirmed
+sub_01/ses-11,down,2,DOWN,8,7.83,-0.22,0.67,unclear,LEFT,OK,clear,no turn shape
+sub_01/ses-11,left,3,LEFT,15,2.05,0.59,0.82,unclear,LEFT,OK,clear,direction confirmed
+sub_01/ses-11,right,4,RIGHT,15,4.47,0.73,0.39,LEFT,unclear,LOOKS LIKE THE OTHER DIRECTION,clear,OTHER DIRECTION (both checks)
+sub_01/ses-11,left,5,LEFT,7,0.96,0.35,0.36,unclear,unclear,OK,clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-11,left,6,LEFT,8,1.07,0.51,-0.23,unclear,unclear,"present, direction unclear",clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-11,left,7,LEFT,16,7.63,0.6,0.52,unclear,unclear,OK,clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-11,left,9,LEFT,8,0.97,0.49,0.57,unclear,unclear,OK,clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-11,left,10,LEFT,14,7.97,0.73,0.73,LEFT,LEFT,OK,clear,direction confirmed
+sub_01/ses-12,down,1,DOWN,12,5.98,-0.2,0.33,unclear,unclear,OK,clear,no turn shape
+sub_01/ses-12,right,2,RIGHT,9,1.14,-0.63,-0.6,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_01/ses-12,left,3,LEFT,11,1.33,0.71,0.83,LEFT,LEFT,OK,clear,direction confirmed
+sub_01/ses-12,left,5,LEFT,13,4.53,0.51,0.51,unclear,unclear,OK,clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-12,right,6,RIGHT,12,4.53,-0.31,-0.48,unclear,unclear,OK,clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-12,down,7,DOWN,14,3.71,-0.63,-0.8,RIGHT,RIGHT,OK,clear,no turn shape
+sub_01/ses-12,down,8,DOWN,12,4.75,-0.42,0.48,unclear,unclear,OK,clear,no turn shape
+sub_01/ses-13,right,1,RIGHT,12,1.49,0.48,-0.44,unclear,unclear,LOOKS LIKE THE OTHER DIRECTION,clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-13,down,2,DOWN,15,3.32,-0.51,-0.52,unclear,unclear,weak but present,weak,no turn shape
+sub_01/ses-13,left,3,LEFT,4,0.65,-0.42,-0.43,unclear,unclear,LOOKS LIKE THE OTHER DIRECTION,clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-13,right,4,RIGHT,8,1.04,-0.5,-0.69,unclear,RIGHT,OK,clear,direction confirmed
+sub_01/ses-13,left,5,LEFT,9,3.19,0.6,0.57,unclear,unclear,OK,clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-13,left,6,LEFT,9,11.39,0.36,0.35,unclear,unclear,OK,clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-13,left,7,LEFT,13,11.06,0.8,0.78,LEFT,LEFT,OK,clear,direction confirmed
+sub_01/ses-13,down,9,DOWN,12,4.75,0.24,-0.2,unclear,unclear,OK,clear,no turn shape
+sub_01/ses-13,right,10,RIGHT,10,12.6,-0.64,-0.63,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_01/ses-14,left,1,LEFT,10,7.59,-0.82,-0.51,RIGHT,unclear,LOOKS LIKE THE OTHER DIRECTION,weak,OTHER DIRECTION (both checks)
+sub_01/ses-14,left,2,LEFT,9,1.13,0.78,0.75,LEFT,LEFT,OK,clear,direction confirmed
+sub_01/ses-14,right,3,RIGHT,9,1.2,-0.83,-0.91,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_01/ses-14,right,4,RIGHT,12,2.21,-0.45,-0.29,unclear,unclear,"present, direction unclear",clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-14,down,6,DOWN,14,5.34,-0.52,0.29,unclear,unclear,OK,clear,no turn shape
+sub_01/ses-14,left,7,LEFT,12,10.88,0.8,0.76,LEFT,LEFT,OK,clear,direction confirmed
+sub_01/ses-14,right,8,RIGHT,8,1.43,-0.17,0.16,unclear,unclear,OK,clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-14,right,9,RIGHT,11,8.68,-0.73,-0.78,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_01/ses-14,left,10,LEFT,6,0.82,-0.66,-0.68,RIGHT,RIGHT,"present, direction unclear",clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-15,down,1,DOWN,14,6.29,0.44,-0.34,unclear,unclear,OK,clear,no turn shape
+sub_01/ses-15,down,2,DOWN,11,3.75,-0.38,-0.57,unclear,unclear,LOOKS LIKE A TURN,clear,no turn shape
+sub_01/ses-15,left,3,LEFT,9,1.17,0.79,0.7,LEFT,LEFT,OK,clear,direction confirmed
+sub_01/ses-15,down,5,DOWN,9,8.79,-0.48,-0.72,unclear,RIGHT,LOOKS LIKE A TURN,clear,no turn shape
+sub_01/ses-15,right,6,RIGHT,12,10.19,-0.69,-0.69,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_01/ses-15,right,9,RIGHT,10,6.94,-0.73,-0.73,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_01/ses-15,left,10,LEFT,11,2.38,0.59,0.53,unclear,unclear,OK,clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-16,left,1,LEFT,6,0.83,0.39,0.36,unclear,unclear,OK,clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-16,left,3,LEFT,9,1.2,0.79,0.77,LEFT,LEFT,OK,clear,direction confirmed
+sub_01/ses-16,down,4,DOWN,7,2.93,0.36,0.41,unclear,unclear,OK,clear,no turn shape
+sub_01/ses-16,right,5,RIGHT,11,1.37,-0.65,-0.79,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_01/ses-16,right,6,RIGHT,8,1.04,-0.69,-0.63,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_01/ses-16,left,7,LEFT,11,5.07,0.87,0.66,LEFT,LEFT,OK,clear,direction confirmed
+sub_01/ses-16,down,8,DOWN,9,4.46,0.56,0.36,unclear,unclear,LOOKS LIKE A TURN,clear,no turn shape
+sub_01/ses-16,right,9,RIGHT,14,2.17,-0.8,-0.78,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_01/ses-16,down,10,DOWN,8,4.29,0.35,0.56,unclear,unclear,OK,clear,no turn shape
+sub_01/ses-17,left,1,LEFT,13,1.92,0.8,0.74,LEFT,LEFT,OK,clear,direction confirmed
+sub_01/ses-17,down,2,DOWN,10,9.61,0.06,-0.25,unclear,unclear,OK,clear,no turn shape
+sub_01/ses-17,right,3,RIGHT,9,1.17,-0.72,-0.7,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_01/ses-17,left,4,LEFT,12,2.41,0.71,0.81,LEFT,LEFT,OK,clear,direction confirmed
+sub_01/ses-17,down,5,DOWN,12,5.14,0.55,-0.49,unclear,unclear,OK,clear,no turn shape
+sub_01/ses-17,right,6,RIGHT,13,13.35,-0.77,-0.84,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_01/ses-18,down,1,DOWN,12,3.53,0.33,-0.21,unclear,unclear,OK,clear,no turn shape
+sub_01/ses-18,right,2,RIGHT,11,2.0,0.55,-0.45,unclear,unclear,"present, direction unclear",clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-18,left,3,LEFT,10,1.82,0.65,0.42,LEFT,unclear,OK,clear,direction confirmed
+sub_01/ses-18,left,4,LEFT,10,5.09,0.83,0.84,LEFT,LEFT,OK,clear,direction confirmed
+sub_01/ses-18,down,5,DOWN,10,5.6,0.46,0.58,unclear,unclear,LOOKS LIKE A TURN,clear,no turn shape
+sub_01/ses-18,left,6,LEFT,12,11.95,0.87,0.89,LEFT,LEFT,OK,clear,direction confirmed
+sub_01/ses-18,right,7,RIGHT,13,2.17,-0.69,-0.56,RIGHT,unclear,OK,clear,direction confirmed
+sub_01/ses-18,right,8,RIGHT,11,1.55,-0.56,-0.39,unclear,unclear,OK,clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-18,left,9,LEFT,3,0.55,-0.81,-0.7,RIGHT,RIGHT,LOOKS LIKE THE OTHER DIRECTION,clear,OTHER DIRECTION (both checks)
+sub_01/ses-18,left,10,LEFT,13,1.53,0.25,0.14,unclear,unclear,LOOKS LIKE THE OTHER DIRECTION,clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-19,right,1,RIGHT,11,2.78,-0.62,-0.58,RIGHT,unclear,OK,clear,direction confirmed
+sub_01/ses-19,right,2,RIGHT,11,5.52,-0.74,-0.72,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_01/ses-19,down,3,DOWN,12,2.94,0.59,-0.23,unclear,unclear,OK,clear,no turn shape
+sub_01/ses-19,down,4,DOWN,12,7.78,0.44,-0.6,unclear,RIGHT,OK,clear,no turn shape
+sub_01/ses-19,left,5,LEFT,6,0.93,0.34,0.3,unclear,unclear,OK,clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-19,right,6,RIGHT,12,2.4,-0.78,-0.71,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_01/ses-19,down,8,DOWN,12,4.7,0.66,-0.38,LEFT,unclear,OK,clear,no turn shape
+sub_01/ses-19,left,9,LEFT,8,2.61,0.74,0.7,LEFT,LEFT,OK,clear,direction confirmed
+sub_01/ses-19,right,10,RIGHT,13,1.75,-0.71,-0.65,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_01/ses-20,down,1,DOWN,10,3.92,0.53,-0.49,unclear,unclear,OK,clear,no turn shape
+sub_01/ses-20,left,2,LEFT,13,1.92,0.7,0.66,LEFT,LEFT,OK,clear,direction confirmed
+sub_01/ses-20,right,4,RIGHT,12,1.43,-0.6,-0.46,unclear,unclear,OK,clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-20,down,5,DOWN,10,3.71,0.54,-0.65,unclear,RIGHT,OK,clear,no turn shape
+sub_01/ses-20,right,6,RIGHT,12,1.38,-0.7,-0.6,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_01/ses-21,left,1,LEFT,14,2.82,0.75,0.76,LEFT,LEFT,OK,clear,direction confirmed
+sub_01/ses-21,down,2,DOWN,8,3.79,-0.5,-0.7,unclear,RIGHT,OK,clear,no turn shape
+sub_01/ses-21,right,3,RIGHT,9,5.23,0.36,0.45,unclear,unclear,LOOKS LIKE THE OTHER DIRECTION,clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-21,down,4,DOWN,8,4.1,-0.48,-0.73,unclear,RIGHT,LOOKS LIKE A TURN,clear,no turn shape
+sub_01/ses-21,right,5,RIGHT,9,11.17,-0.56,-0.55,unclear,unclear,OK,clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-21,right,6,RIGHT,6,0.88,-0.73,-0.81,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_01/ses-21,right,7,RIGHT,8,7.68,-0.52,-0.55,unclear,unclear,OK,clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-21,down,8,DOWN,5,4.34,-0.43,-0.76,unclear,RIGHT,OK,clear,no turn shape
+sub_01/ses-21,right,9,RIGHT,6,0.86,-0.48,-0.52,unclear,unclear,OK,clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-21,down,10,DOWN,12,6.2,-0.44,0.28,unclear,unclear,OK,clear,no turn shape
+sub_01/ses-22,down,1,DOWN,15,4.47,-0.65,-0.75,RIGHT,RIGHT,weak but present,weak,no turn shape
+sub_01/ses-22,left,2,LEFT,11,2.48,0.78,0.83,LEFT,LEFT,OK,clear,direction confirmed
+sub_01/ses-22,left,3,LEFT,13,2.36,0.68,0.78,LEFT,LEFT,OK,clear,direction confirmed
+sub_01/ses-22,left,4,LEFT,8,5.36,0.83,0.74,LEFT,LEFT,OK,clear,direction confirmed
+sub_01/ses-22,right,5,RIGHT,7,0.94,-0.26,-0.62,unclear,RIGHT,OK,clear,direction confirmed
+sub_01/ses-22,left,6,LEFT,13,6.23,0.66,0.57,LEFT,unclear,weak but present,weak,direction confirmed
+sub_01/ses-22,right,7,RIGHT,12,1.42,0.43,-0.14,unclear,unclear,"present, direction unclear",clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-22,right,9,RIGHT,12,1.59,-0.64,-0.67,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_01/ses-23,down,1,DOWN,10,4.54,0.64,0.56,LEFT,unclear,weak but present,weak,no turn shape
+sub_01/ses-23,left,2,LEFT,9,1.22,0.85,0.88,LEFT,LEFT,weak but present,weak,direction confirmed
+sub_01/ses-23,left,3,LEFT,9,1.09,0.53,0.36,unclear,unclear,OK,clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-23,down,4,DOWN,11,8.0,0.25,0.11,unclear,unclear,weak but present,weak,no turn shape
+sub_01/ses-23,left,5,LEFT,10,11.3,0.82,0.78,LEFT,LEFT,OK,clear,direction confirmed
+sub_01/ses-23,right,6,RIGHT,10,3.55,-0.87,-0.88,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_01/ses-23,right,7,RIGHT,13,4.76,-0.65,-0.44,RIGHT,unclear,weak but present,weak,direction confirmed
+sub_01/ses-23,right,9,RIGHT,9,1.09,-0.86,-0.86,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_01/ses-23,left,10,LEFT,12,6.55,0.86,0.86,LEFT,LEFT,weak but present,weak,direction confirmed
+sub_01/ses-24,down,1,DOWN,5,3.02,-0.62,-0.57,RIGHT,unclear,LOOKS LIKE A TURN,clear,no turn shape
+sub_01/ses-24,down,2,DOWN,17,2.96,0.33,-0.24,unclear,unclear,OK,clear,no turn shape
+sub_01/ses-24,left,3,LEFT,10,2.54,0.63,0.56,LEFT,unclear,OK,clear,direction confirmed
+sub_01/ses-24,right,4,RIGHT,6,1.02,-0.69,-0.74,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_01/ses-24,left,5,LEFT,8,1.06,0.42,0.41,unclear,unclear,OK,clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-24,right,6,RIGHT,16,2.45,-0.49,-0.47,unclear,unclear,"present, direction unclear",clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-24,left,7,LEFT,10,1.26,0.8,0.73,LEFT,LEFT,OK,clear,direction confirmed
+sub_01/ses-24,right,8,RIGHT,8,1.2,-0.66,-0.78,RIGHT,RIGHT,weak but present,weak,direction confirmed
+sub_01/ses-24,left,9,LEFT,12,3.77,0.51,0.31,unclear,unclear,OK,clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-24,down,10,DOWN,12,5.25,-0.67,-0.76,RIGHT,RIGHT,LOOKS LIKE A TURN,clear,TURN-SHAPED (both checks)
+sub_01/ses-25,right,1,RIGHT,9,6.41,-0.85,-0.87,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_01/ses-25,left,2,LEFT,6,0.86,-0.3,0.22,unclear,unclear,weak but present,weak,direction not confirmed (weak/unclear shape)
+sub_01/ses-25,down,3,DOWN,10,3.41,-0.48,-0.5,unclear,unclear,LOOKS LIKE A TURN,weak,no turn shape
+sub_01/ses-25,down,4,DOWN,10,2.41,0.29,-0.77,unclear,RIGHT,weak but present,weak,no turn shape
+sub_01/ses-25,right,5,RIGHT,9,1.64,-0.7,-0.73,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_01/ses-25,left,6,LEFT,14,3.3,0.87,0.84,LEFT,LEFT,OK,clear,direction confirmed
+sub_01/ses-25,right,7,RIGHT,9,1.34,-0.73,-0.82,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_01/ses-25,right,8,RIGHT,7,0.94,-0.84,-0.89,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_01/ses-25,down,9,DOWN,12,2.74,0.49,0.69,unclear,LEFT,OK,clear,no turn shape
+sub_01/ses-26,right,1,RIGHT,11,1.84,-0.91,-0.92,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_01/ses-26,down,2,DOWN,12,2.45,0.37,0.67,unclear,LEFT,OK,clear,no turn shape
+sub_01/ses-26,right,3,RIGHT,9,2.09,-0.62,-0.66,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_01/ses-26,left,4,LEFT,14,1.57,0.81,0.78,LEFT,LEFT,weak but present,weak,direction confirmed
+sub_01/ses-26,down,5,DOWN,12,4.61,-0.33,-0.58,unclear,unclear,weak but present,weak,no turn shape
+sub_01/ses-26,right,6,RIGHT,7,0.91,-0.87,-0.9,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_01/ses-26,down,7,DOWN,13,4.53,-0.51,-0.52,unclear,unclear,OK,clear,no turn shape
+sub_01/ses-26,left,8,LEFT,13,10.48,0.78,0.71,LEFT,LEFT,OK,clear,direction confirmed
+sub_01/ses-26,left,9,LEFT,10,1.31,0.52,0.54,unclear,unclear,OK,clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-26,down,10,DOWN,9,2.73,0.53,-0.26,unclear,unclear,OK,clear,no turn shape
+sub_01/ses-27,right,1,RIGHT,11,6.96,-0.48,-0.43,unclear,unclear,OK,clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-27,left,2,LEFT,10,1.52,0.49,0.5,unclear,unclear,weak but present,weak,direction not confirmed (weak/unclear shape)
+sub_01/ses-27,down,3,DOWN,7,3.57,-0.5,0.19,unclear,unclear,OK,clear,no turn shape
+sub_01/ses-27,right,4,RIGHT,11,10.11,-0.72,-0.76,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_01/ses-27,left,5,LEFT,10,3.88,0.62,0.54,LEFT,unclear,OK,clear,direction confirmed
+sub_01/ses-27,right,6,RIGHT,10,1.2,-0.74,-0.73,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_01/ses-27,right,7,RIGHT,12,3.61,-0.7,-0.72,RIGHT,RIGHT,weak but present,weak,direction confirmed
+sub_01/ses-27,right,8,RIGHT,13,6.38,-0.74,-0.89,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_01/ses-27,left,9,LEFT,10,1.18,0.8,0.79,LEFT,LEFT,OK,clear,direction confirmed
+sub_01/ses-27,left,10,LEFT,10,3.48,0.21,0.16,unclear,unclear,OK,clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-28,down,1,DOWN,5,3.86,-0.44,-0.52,unclear,unclear,LOOKS LIKE A TURN,weak,no turn shape
+sub_01/ses-28,left,2,LEFT,9,1.11,0.36,0.39,unclear,unclear,OK,clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-28,left,3,LEFT,13,1.48,0.72,0.76,LEFT,LEFT,OK,clear,direction confirmed
+sub_01/ses-28,down,5,DOWN,5,4.01,-0.57,-0.47,unclear,unclear,OK,clear,no turn shape
+sub_01/ses-28,right,6,RIGHT,11,4.32,-0.54,-0.68,unclear,RIGHT,OK,clear,direction confirmed
+sub_01/ses-28,right,7,RIGHT,10,1.15,-0.88,-0.87,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_01/ses-28,left,9,LEFT,13,4.16,0.52,0.49,unclear,unclear,OK,clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-28,down,10,DOWN,15,3.13,-0.38,-0.31,unclear,unclear,weak but present,weak,no turn shape
+sub_01/ses-29,right,2,RIGHT,8,1.02,-0.76,-0.65,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_01/ses-29,right,4,RIGHT,8,1.03,-0.8,-0.73,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_01/ses-29,right,7,RIGHT,15,3.26,0.55,0.07,unclear,unclear,LOOKS LIKE THE OTHER DIRECTION,weak,direction not confirmed (weak/unclear shape)
+sub_01/ses-29,down,9,DOWN,10,3.45,-0.19,-0.48,unclear,unclear,weak but present,weak,no turn shape
+sub_01/ses-29,left,10,LEFT,14,2.69,0.85,0.69,LEFT,LEFT,OK,clear,direction confirmed
+sub_01/ses-30,down,1,DOWN,11,1.73,0.43,-0.29,unclear,unclear,weak but present,weak,no turn shape
+sub_01/ses-30,down,2,DOWN,10,2.29,0.59,0.22,unclear,unclear,weak but present,weak,no turn shape
+sub_01/ses-30,down,3,DOWN,9,1.05,0.32,0.31,unclear,unclear,NO VISIBLE MOVEMENT,none,no turn shape
+sub_01/ses-30,down,4,DOWN,11,6.88,0.86,0.53,LEFT,unclear,LOOKS LIKE A TURN,clear,no turn shape
+sub_01/ses-30,left,5,LEFT,14,2.11,0.79,0.73,LEFT,LEFT,OK,clear,direction confirmed
+sub_01/ses-30,left,6,LEFT,13,7.39,0.6,0.6,unclear,LEFT,OK,clear,direction confirmed
+sub_01/ses-30,left,7,LEFT,8,1.02,0.71,0.74,LEFT,LEFT,OK,clear,direction confirmed
+sub_01/ses-30,right,8,RIGHT,15,1.77,-0.63,-0.61,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_01/ses-30,right,9,RIGHT,14,3.2,-0.74,-0.78,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_01/ses-30,right,10,RIGHT,12,1.4,-0.78,-0.78,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_01/ses-31,right,2,RIGHT,12,1.43,-0.79,-0.85,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_01/ses-31,right,3,RIGHT,8,1.01,-0.82,-0.88,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_01/ses-31,down,4,DOWN,14,2.21,0.69,0.68,LEFT,LEFT,OK,clear,no turn shape
+sub_01/ses-31,down,5,DOWN,10,1.93,-0.37,-0.37,unclear,unclear,weak but present,weak,no turn shape
+sub_01/ses-31,left,6,LEFT,14,3.76,0.86,0.8,LEFT,LEFT,OK,clear,direction confirmed
+sub_01/ses-31,down,8,DOWN,12,2.38,-0.23,-0.7,unclear,RIGHT,OK,clear,no turn shape
+sub_01/ses-31,right,9,RIGHT,11,1.52,-0.82,-0.82,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_01/ses-32,left,1,LEFT,9,7.48,-0.14,-0.55,unclear,unclear,LOOKS LIKE THE OTHER DIRECTION,clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-32,down,2,DOWN,12,2.94,0.41,0.69,unclear,LEFT,OK,clear,no turn shape
+sub_01/ses-32,right,3,RIGHT,14,1.64,-0.75,-0.6,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_01/ses-32,left,4,LEFT,9,5.0,0.35,0.36,unclear,unclear,OK,clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-32,down,5,DOWN,8,1.72,-0.36,-0.28,unclear,unclear,OK,clear,no turn shape
+sub_01/ses-32,down,6,DOWN,14,2.33,0.13,0.16,unclear,unclear,weak but present,weak,no turn shape
+sub_01/ses-33,right,1,RIGHT,11,3.55,-0.28,-0.19,unclear,unclear,"present, direction unclear",clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-33,right,2,RIGHT,12,1.87,-0.5,-0.44,unclear,unclear,OK,clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-33,right,3,RIGHT,15,2.04,-0.68,-0.65,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_01/ses-33,right,5,RIGHT,8,1.05,-0.63,-0.53,RIGHT,unclear,OK,clear,direction confirmed
+sub_01/ses-33,left,6,LEFT,13,11.35,0.75,0.73,LEFT,LEFT,OK,clear,direction confirmed
+sub_01/ses-33,left,8,LEFT,15,1.92,0.67,0.53,LEFT,unclear,"present, direction unclear",clear,direction confirmed
+sub_01/ses-33,left,9,LEFT,10,1.17,-0.88,0.64,RIGHT,LEFT,LOOKS LIKE THE OTHER DIRECTION,clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-34,left,5,LEFT,13,5.55,0.62,0.76,LEFT,LEFT,OK,clear,direction confirmed
+sub_01/ses-34,right,6,RIGHT,14,1.9,-0.57,-0.52,unclear,unclear,weak but present,weak,direction not confirmed (weak/unclear shape)
+sub_01/ses-34,right,7,RIGHT,12,4.86,0.3,0.39,unclear,unclear,LOOKS LIKE THE OTHER DIRECTION,clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-34,down,9,DOWN,16,2.66,0.51,0.44,unclear,unclear,weak but present,weak,no turn shape
+sub_01/ses-35,left,1,LEFT,6,0.88,0.45,0.32,unclear,unclear,OK,clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-35,left,3,LEFT,9,1.12,0.29,0.34,unclear,unclear,weak but present,weak,direction not confirmed (weak/unclear shape)
+sub_01/ses-35,left,7,LEFT,10,2.85,0.6,0.52,unclear,unclear,OK,clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-35,right,9,RIGHT,14,1.85,0.43,0.0,unclear,unclear,"present, direction unclear",clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-35,left,10,LEFT,9,1.05,0.54,0.57,unclear,unclear,"present, direction unclear",clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-36,right,1,RIGHT,11,5.32,-0.6,-0.72,unclear,RIGHT,OK,clear,direction confirmed
+sub_01/ses-36,right,2,RIGHT,15,2.62,0.52,0.53,unclear,unclear,LOOKS LIKE THE OTHER DIRECTION,clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-36,down,4,DOWN,16,2.17,0.36,0.17,unclear,unclear,OK,clear,no turn shape
+sub_01/ses-36,right,5,RIGHT,4,0.72,0.3,0.45,unclear,unclear,LOOKS LIKE THE OTHER DIRECTION,clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-36,right,6,RIGHT,13,1.58,-0.35,0.43,unclear,unclear,"present, direction unclear",clear,direction not confirmed (weak/unclear shape)
+sub_01/ses-36,down,7,DOWN,9,3.62,0.29,-0.26,unclear,unclear,OK,clear,no turn shape
+sub_01/ses-36,down,9,DOWN,12,2.85,0.88,0.81,LEFT,LEFT,LOOKS LIKE A TURN,clear,TURN-SHAPED (both checks)
+sub_01/ses-36,right,10,RIGHT,9,1.19,-0.63,-0.63,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_11/ses-01,down,1,DOWN,4,2.7,0.47,0.56,unclear,unclear,LOOKS LIKE A TURN,clear,no turn shape
+sub_11/ses-01,down,2,DOWN,9,18.19,-0.92,-0.78,RIGHT,RIGHT,LOOKS LIKE A TURN,clear,TURN-SHAPED (both checks)
+sub_11/ses-01,down,3,DOWN,10,6.19,-0.72,-0.64,RIGHT,RIGHT,weak but present,weak,no turn shape
+sub_11/ses-01,right,4,RIGHT,4,6.77,-0.77,-0.77,RIGHT,RIGHT,weak but present,weak,direction confirmed
+sub_11/ses-01,right,5,RIGHT,6,7.35,-0.75,-0.78,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_11/ses-01,right,6,RIGHT,9,3.79,0.63,0.58,LEFT,unclear,LOOKS LIKE THE OTHER DIRECTION,clear,OTHER DIRECTION (both checks)
+sub_11/ses-01,right,7,RIGHT,6,1.65,-0.77,-0.75,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_11/ses-01,left,8,LEFT,15,2.13,-0.6,0.47,unclear,unclear,"present, direction unclear",clear,direction not confirmed (weak/unclear shape)
+sub_11/ses-01,down,9,DOWN,12,2.97,-0.41,0.63,unclear,LEFT,weak but present,weak,no turn shape
+sub_11/ses-01,down,10,DOWN,11,2.35,-0.71,-0.83,RIGHT,RIGHT,LOOKS LIKE A TURN,clear,TURN-SHAPED (both checks)
+sub_11/ses-02,right,1,RIGHT,14,2.96,0.67,0.67,LEFT,LEFT,LOOKS LIKE THE OTHER DIRECTION,clear,OTHER DIRECTION (both checks)
+sub_11/ses-02,down,2,DOWN,10,2.9,0.5,-0.53,unclear,unclear,weak but present,weak,no turn shape
+sub_11/ses-02,left,3,LEFT,6,2.46,0.66,-0.39,LEFT,unclear,weak but present,weak,direction confirmed
+sub_11/ses-02,right,4,RIGHT,7,1.85,0.79,0.75,LEFT,LEFT,LOOKS LIKE THE OTHER DIRECTION,clear,OTHER DIRECTION (both checks)
+sub_11/ses-02,right,5,RIGHT,7,2.11,-0.55,-0.69,unclear,RIGHT,weak but present,weak,direction confirmed
+sub_11/ses-02,right,6,RIGHT,8,2.33,-0.64,-0.65,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_11/ses-02,right,7,RIGHT,9,1.74,0.73,0.8,LEFT,LEFT,LOOKS LIKE THE OTHER DIRECTION,clear,OTHER DIRECTION (both checks)
+sub_11/ses-02,left,8,LEFT,3,1.51,0.76,0.36,LEFT,unclear,OK,clear,direction confirmed
+sub_11/ses-02,left,9,LEFT,5,1.99,0.63,-0.46,LEFT,unclear,weak but present,weak,direction confirmed
+sub_11/ses-02,left,10,LEFT,4,1.48,0.74,0.75,LEFT,LEFT,OK,clear,direction confirmed
+sub_11/ses-03,left,1,LEFT,3,7.21,0.75,-0.65,LEFT,RIGHT,weak but present,weak,direction not confirmed (weak/unclear shape)
+sub_11/ses-03,down,2,DOWN,9,2.51,-0.86,-0.82,RIGHT,RIGHT,LOOKS LIKE A TURN,clear,TURN-SHAPED (both checks)
+sub_11/ses-03,left,3,LEFT,7,1.89,0.62,-0.46,LEFT,unclear,weak but present,weak,direction confirmed
+sub_11/ses-03,down,4,DOWN,8,2.07,-0.83,-0.8,RIGHT,RIGHT,LOOKS LIKE A TURN,clear,TURN-SHAPED (both checks)
+sub_11/ses-03,left,5,LEFT,4,6.14,0.78,-0.25,LEFT,unclear,"present, direction unclear",clear,direction confirmed
+sub_11/ses-03,down,6,DOWN,10,2.19,-0.91,-0.82,RIGHT,RIGHT,LOOKS LIKE A TURN,clear,TURN-SHAPED (both checks)
+sub_11/ses-03,down,7,DOWN,15,3.14,-0.76,-0.76,RIGHT,RIGHT,LOOKS LIKE A TURN,weak,TURN-SHAPED (both checks)
+sub_11/ses-03,left,8,LEFT,5,3.07,0.63,0.52,LEFT,unclear,OK,clear,direction confirmed
+sub_11/ses-03,right,9,RIGHT,10,2.57,0.6,0.79,unclear,LEFT,LOOKS LIKE THE OTHER DIRECTION,clear,OTHER DIRECTION (both checks)
+sub_11/ses-03,left,10,LEFT,5,1.62,0.71,-0.55,LEFT,unclear,"present, direction unclear",clear,direction confirmed
+sub_11/ses-04,right,1,RIGHT,5,1.81,-0.79,-0.76,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_11/ses-04,right,2,RIGHT,5,1.78,-0.73,-0.75,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_11/ses-04,right,3,RIGHT,5,2.42,-0.76,-0.78,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_11/ses-04,left,5,LEFT,5,2.49,0.77,0.55,LEFT,unclear,OK,clear,direction confirmed
+sub_11/ses-04,left,6,LEFT,8,2.37,-0.9,0.68,RIGHT,LEFT,"present, direction unclear",clear,direction not confirmed (weak/unclear shape)
+sub_11/ses-04,down,7,DOWN,13,2.28,-0.8,-0.75,RIGHT,RIGHT,LOOKS LIKE A TURN,clear,TURN-SHAPED (both checks)
+sub_11/ses-04,down,8,DOWN,13,2.5,-0.85,-0.86,RIGHT,RIGHT,LOOKS LIKE A TURN,clear,TURN-SHAPED (both checks)
+sub_11/ses-04,left,9,LEFT,1,3.69,0.75,-0.58,LEFT,unclear,"present, direction unclear",clear,direction confirmed
+sub_11/ses-04,left,10,LEFT,6,5.8,0.4,0.6,unclear,LEFT,OK,clear,direction confirmed
+sub_11/ses-05,right,1,RIGHT,8,1.8,-0.74,-0.78,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_11/ses-05,left,2,LEFT,10,1.92,-0.9,0.53,RIGHT,unclear,"present, direction unclear",clear,direction not confirmed (weak/unclear shape)
+sub_11/ses-05,down,3,DOWN,13,3.91,0.76,-0.34,LEFT,unclear,OK,clear,no turn shape
+sub_11/ses-05,left,4,LEFT,9,5.73,-0.86,0.3,RIGHT,unclear,"present, direction unclear",clear,direction not confirmed (weak/unclear shape)
+sub_11/ses-05,right,5,RIGHT,8,2.49,0.59,0.68,unclear,LEFT,weak but present,weak,direction not confirmed (weak/unclear shape)
+sub_11/ses-05,right,6,RIGHT,4,1.91,0.8,0.81,LEFT,LEFT,LOOKS LIKE THE OTHER DIRECTION,clear,OTHER DIRECTION (both checks)
+sub_11/ses-05,right,7,RIGHT,7,3.16,-0.51,-0.66,unclear,RIGHT,OK,clear,direction confirmed
+sub_11/ses-05,left,8,LEFT,5,1.87,0.47,-0.45,unclear,unclear,"present, direction unclear",clear,direction not confirmed (weak/unclear shape)
+sub_11/ses-05,down,9,DOWN,15,2.77,0.84,-0.62,LEFT,RIGHT,OK,clear,no turn shape
+sub_11/ses-05,down,10,DOWN,10,3.95,-0.89,-0.44,RIGHT,unclear,OK,clear,no turn shape
+sub_11/ses-06,right,2,RIGHT,6,2.71,-0.66,-0.7,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_11/ses-06,down,3,DOWN,12,2.64,0.6,0.49,unclear,unclear,LOOKS LIKE A TURN,clear,no turn shape
+sub_11/ses-06,left,4,LEFT,8,5.82,0.33,-0.54,unclear,unclear,LOOKS LIKE THE OTHER DIRECTION,clear,direction not confirmed (weak/unclear shape)
+sub_11/ses-06,left,5,LEFT,10,4.4,-0.76,-0.44,RIGHT,unclear,LOOKS LIKE THE OTHER DIRECTION,clear,OTHER DIRECTION (both checks)
+sub_11/ses-06,down,6,DOWN,11,2.38,-0.59,-0.22,unclear,unclear,OK,clear,no turn shape
+sub_11/ses-06,left,7,LEFT,5,6.28,-0.53,0.55,unclear,unclear,OK,clear,direction not confirmed (weak/unclear shape)
+sub_11/ses-06,right,8,RIGHT,8,8.06,-0.78,-0.8,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_11/ses-06,down,9,DOWN,10,3.18,-0.62,-0.7,RIGHT,RIGHT,LOOKS LIKE A TURN,clear,TURN-SHAPED (both checks)
+sub_11/ses-06,left,10,LEFT,4,2.27,0.43,0.5,unclear,unclear,OK,clear,direction not confirmed (weak/unclear shape)
+sub_11/ses-07,right,1,RIGHT,5,1.98,-0.74,-0.78,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_11/ses-07,down,2,DOWN,7,2.12,0.56,-0.26,unclear,unclear,OK,clear,no turn shape
+sub_11/ses-07,down,3,DOWN,3,2.33,-0.6,-0.6,unclear,RIGHT,OK,clear,no turn shape
+sub_11/ses-07,right,4,RIGHT,1,9.75,-0.77,-0.78,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_11/ses-07,right,5,RIGHT,4,2.15,-0.55,-0.37,unclear,unclear,OK,clear,direction not confirmed (weak/unclear shape)
+sub_11/ses-07,left,6,LEFT,8,2.43,-0.4,0.75,unclear,LEFT,"present, direction unclear",clear,direction confirmed
+sub_11/ses-07,right,7,RIGHT,7,1.85,0.32,-0.5,unclear,unclear,OK,clear,direction not confirmed (weak/unclear shape)
+sub_11/ses-07,left,8,LEFT,4,2.43,0.61,0.61,unclear,LEFT,OK,clear,direction confirmed
+sub_11/ses-07,right,9,RIGHT,5,2.21,-0.22,-0.36,unclear,unclear,OK,clear,direction not confirmed (weak/unclear shape)
+sub_11/ses-07,left,10,LEFT,12,3.57,-0.81,0.41,RIGHT,unclear,"present, direction unclear",clear,direction not confirmed (weak/unclear shape)
+sub_11/ses-08,down,1,DOWN,8,2.11,-0.9,-0.77,RIGHT,RIGHT,LOOKS LIKE A TURN,clear,TURN-SHAPED (both checks)
+sub_11/ses-08,left,2,LEFT,9,2.63,-0.58,0.51,unclear,unclear,"present, direction unclear",clear,direction not confirmed (weak/unclear shape)
+sub_11/ses-08,down,3,DOWN,9,2.38,-0.86,-0.66,RIGHT,RIGHT,LOOKS LIKE A TURN,clear,TURN-SHAPED (both checks)
+sub_11/ses-08,down,4,DOWN,8,3.09,-0.81,-0.84,RIGHT,RIGHT,LOOKS LIKE A TURN,clear,TURN-SHAPED (both checks)
+sub_11/ses-08,left,5,LEFT,3,3.0,0.36,0.53,unclear,unclear,OK,clear,direction not confirmed (weak/unclear shape)
+sub_11/ses-08,down,7,DOWN,7,2.49,-0.89,0.52,RIGHT,unclear,OK,clear,no turn shape
+sub_11/ses-08,down,8,DOWN,3,3.12,-0.85,-0.38,RIGHT,unclear,LOOKS LIKE A TURN,weak,no turn shape
+sub_11/ses-08,right,9,RIGHT,5,9.53,-0.64,-0.7,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_11/ses-08,right,10,RIGHT,6,3.85,-0.42,-0.5,unclear,unclear,OK,clear,direction not confirmed (weak/unclear shape)
+sub_11/ses-09,left,1,LEFT,5,3.7,0.3,0.44,unclear,unclear,OK,clear,direction not confirmed (weak/unclear shape)
+sub_11/ses-09,down,2,DOWN,6,2.87,-0.93,0.69,RIGHT,LEFT,OK,clear,no turn shape
+sub_11/ses-09,down,3,DOWN,9,2.61,-0.6,-0.47,unclear,unclear,LOOKS LIKE A TURN,clear,no turn shape
+sub_11/ses-09,right,4,RIGHT,7,3.48,-0.62,-0.7,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_11/ses-09,down,5,DOWN,7,2.9,-0.45,0.29,unclear,unclear,OK,clear,no turn shape
+sub_11/ses-09,down,6,DOWN,8,7.59,0.54,0.27,unclear,unclear,OK,clear,no turn shape
+sub_11/ses-09,right,7,RIGHT,6,3.41,-0.63,-0.76,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_11/ses-09,left,9,LEFT,1,5.91,0.37,0.48,unclear,unclear,LOOKS LIKE THE OTHER DIRECTION,clear,direction not confirmed (weak/unclear shape)
+sub_11/ses-09,right,10,RIGHT,5,2.73,0.7,0.81,LEFT,LEFT,LOOKS LIKE THE OTHER DIRECTION,clear,OTHER DIRECTION (both checks)
+sub_11/ses-10,left,1,LEFT,10,2.58,-0.66,0.61,RIGHT,LEFT,"present, direction unclear",clear,direction not confirmed (weak/unclear shape)
+sub_11/ses-10,right,2,RIGHT,7,3.2,-0.43,0.65,unclear,LEFT,LOOKS LIKE THE OTHER DIRECTION,clear,OTHER DIRECTION (both checks)
+sub_11/ses-10,left,3,LEFT,3,3.01,0.61,-0.36,unclear,unclear,OK,clear,direction not confirmed (weak/unclear shape)
+sub_11/ses-10,right,4,RIGHT,2,2.5,-0.21,0.73,unclear,LEFT,"present, direction unclear",clear,direction not confirmed (weak/unclear shape)
+sub_11/ses-10,left,5,LEFT,4,2.37,0.34,0.16,unclear,unclear,OK,clear,direction not confirmed (weak/unclear shape)
+sub_11/ses-10,right,6,RIGHT,13,3.43,-0.64,-0.34,RIGHT,unclear,OK,clear,direction confirmed
+sub_11/ses-10,right,8,RIGHT,5,2.67,-0.62,-0.68,RIGHT,RIGHT,OK,clear,direction confirmed
+sub_11/ses-10,right,9,RIGHT,7,2.56,0.59,0.81,unclear,LEFT,LOOKS LIKE THE OTHER DIRECTION,clear,OTHER DIRECTION (both checks)
+sub_11/ses-10,down,10,DOWN,15,2.53,0.31,-0.61,unclear,RIGHT,OK,clear,no turn shape

@@ -1,0 +1,598 @@
+{
+  "stamp": "a637e25b73900f43353a5ca11e5f51d3f8c3d0091c47584176918142adde6cd0",
+  "fingerprint": "f28e3c944d98",
+  "mode": "supervised",
+  "budget": 16,
+  "seed": 11,
+  "train_folds": [
+    1
+  ],
+  "indices": [
+    12851,
+    10795,
+    11604,
+    7855,
+    13259,
+    9168,
+    10394,
+    8311,
+    12167,
+    7310,
+    13008,
+    11079,
+    11680,
+    7681,
+    9312,
+    10466,
+    13146,
+    8136,
+    10230,
+    12718,
+    11330,
+    11933,
+    7562,
+    6863,
+    9144,
+    10772,
+    13250,
+    8222,
+    10034,
+    12725,
+    11495,
+    11906,
+    11900,
+    12624,
+    10705,
+    9942,
+    11162,
+    13124,
+    7507,
+    6841,
+    8858,
+    8051,
+    11868,
+    12658,
+    10730,
+    9911,
+    11224,
+    13142,
+    13077,
+    7453,
+    7513,
+    10761,
+    12762,
+    8980,
+    9711,
+    12049,
+    8421,
+    7087,
+    7537,
+    10708,
+    12831,
+    9102,
+    9771,
+    12235
+  ],
+  "trial_keys": [
+    "sub_01/ses-19/left/9",
+    "sub_01/ses-16/left/7",
+    "sub_01/ses-17/left/4",
+    "sub_01/ses-12/left/3",
+    "sub_01/ses-20/left/2",
+    "sub_01/ses-14/left/10",
+    "sub_01/ses-15/left/10",
+    "sub_01/ses-13/left/7",
+    "sub_01/ses-18/left/6",
+    "sub_01/ses-11/left/9",
+    "sub_01/ses-19/left/5",
+    "sub_01/ses-16/left/1",
+    "sub_01/ses-17/left/1",
+    "sub_01/ses-12/left/5",
+    "sub_01/ses-14/left/1",
+    "sub_01/ses-15/left/3",
+    "sub_01/ses-20/right/6",
+    "sub_01/ses-13/right/10",
+    "sub_01/ses-15/right/6",
+    "sub_01/ses-19/right/6",
+    "sub_01/ses-17/right/6",
+    "sub_01/ses-18/right/8",
+    "sub_01/ses-12/right/2",
+    "sub_01/ses-11/right/4",
+    "sub_01/ses-14/right/4",
+    "sub_01/ses-16/right/5",
+    "sub_01/ses-20/right/4",
+    "sub_01/ses-13/right/1",
+    "sub_01/ses-15/right/9",
+    "sub_01/ses-19/right/10",
+    "sub_01/ses-17/right/3",
+    "sub_01/ses-18/right/2",
+    "sub_01/ses-18/down/5",
+    "sub_01/ses-19/down/4",
+    "sub_01/ses-16/down/4",
+    "sub_01/ses-15/down/2",
+    "sub_01/ses-17/down/5",
+    "sub_01/ses-20/down/1",
+    "sub_01/ses-12/down/7",
+    "sub_01/ses-11/down/2",
+    "sub_01/ses-14/down/6",
+    "sub_01/ses-13/down/2",
+    "sub_01/ses-18/down/1",
+    "sub_01/ses-19/down/8",
+    "sub_01/ses-16/down/8",
+    "sub_01/ses-15/down/5",
+    "sub_01/ses-17/down/2",
+    "sub_01/ses-20/down/5",
+    "sub_01/ses-20/straight/3",
+    "sub_01/ses-11/left/5",
+    "sub_01/ses-12/down/8",
+    "sub_01/ses-16/right/9",
+    "sub_01/ses-19/right/1",
+    "sub_01/ses-14/right/9",
+    "sub_01/ses-15/straight/4",
+    "sub_01/ses-18/left/4",
+    "sub_01/ses-13/left/5",
+    "sub_01/ses-11/left/10",
+    "sub_01/ses-12/down/1",
+    "sub_01/ses-16/down/10",
+    "sub_01/ses-19/right/2",
+    "sub_01/ses-14/right/8",
+    "sub_01/ses-15/straight/8",
+    "sub_01/ses-18/left/9"
+  ],
+  "labels": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "trees": [
+    [
+      {
+        "op": "G",
+        "a": 0,
+        "b": 15,
+        "child": {
+          "op": "atom",
+          "signal": 15,
+          "sign": -1,
+          "threshold": -1.3024455923492038
+        }
+      },
+      {
+        "op": "and",
+        "left": {
+          "op": "G",
+          "a": 0,
+          "b": 15,
+          "child": {
+            "op": "atom",
+            "signal": 15,
+            "sign": -1,
+            "threshold": -1.3024455923492038
+          }
+        },
+        "right": {
+          "op": "G",
+          "a": 64,
+          "b": 95,
+          "child": {
+            "op": "atom",
+            "signal": 29,
+            "sign": 1,
+            "threshold": -2.7251087188720704
+          }
+        }
+      },
+      {
+        "op": "G",
+        "a": 0,
+        "b": 15,
+        "child": {
+          "op": "atom",
+          "signal": 15,
+          "sign": -1,
+          "threshold": -1.3024455923492038
+        }
+      }
+    ],
+    [
+      {
+        "op": "G",
+        "a": 0,
+        "b": 15,
+        "child": {
+          "op": "atom",
+          "signal": 11,
+          "sign": 1,
+          "threshold": -1.3843059301376344
+        }
+      },
+      {
+        "op": "and",
+        "left": {
+          "op": "G",
+          "a": 0,
+          "b": 15,
+          "child": {
+            "op": "atom",
+            "signal": 11,
+            "sign": 1,
+            "threshold": -1.3843059301376344
+          }
+        },
+        "right": {
+          "op": "F",
+          "a": 0,
+          "b": 95,
+          "child": {
+            "op": "atom",
+            "signal": 22,
+            "sign": -1,
+            "threshold": 2.7060946464538573
+          }
+        }
+      },
+      {
+        "op": "and",
+        "left": {
+          "op": "and",
+          "left": {
+            "op": "G",
+            "a": 0,
+            "b": 15,
+            "child": {
+              "op": "atom",
+              "signal": 11,
+              "sign": 1,
+              "threshold": -1.3843059301376344
+            }
+          },
+          "right": {
+            "op": "F",
+            "a": 0,
+            "b": 95,
+            "child": {
+              "op": "atom",
+              "signal": 12,
+              "sign": 1,
+              "threshold": 2.4266366004943847
+            }
+          }
+        },
+        "right": {
+          "op": "and",
+          "left": {
+            "op": "F",
+            "a": 0,
+            "b": 63,
+            "child": {
+              "op": "atom",
+              "signal": 30,
+              "sign": 1,
+              "threshold": 2.3564411640167235
+            }
+          },
+          "right": {
+            "op": "F",
+            "a": 0,
+            "b": 95,
+            "child": {
+              "op": "atom",
+              "signal": 22,
+              "sign": -1,
+              "threshold": 2.7060946464538573
+            }
+          }
+        }
+      }
+    ],
+    [
+      {
+        "op": "G",
+        "a": 0,
+        "b": 95,
+        "child": {
+          "op": "atom",
+          "signal": 14,
+          "sign": 1,
+          "threshold": -4.813492007993491
+        }
+      },
+      {
+        "op": "and",
+        "left": {
+          "op": "G",
+          "a": 0,
+          "b": 15,
+          "child": {
+            "op": "atom",
+            "signal": 33,
+            "sign": -1,
+            "threshold": -1.7059146696937528
+          }
+        },
+        "right": {
+          "op": "G",
+          "a": 32,
+          "b": 63,
+          "child": {
+            "op": "atom",
+            "signal": 14,
+            "sign": -1,
+            "threshold": -3.6272124162568766
+          }
+        }
+      },
+      {
+        "op": "and",
+        "left": {
+          "op": "G",
+          "a": 0,
+          "b": 15,
+          "child": {
+            "op": "atom",
+            "signal": 33,
+            "sign": -1,
+            "threshold": -1.7059146696937528
+          }
+        },
+        "right": {
+          "op": "G",
+          "a": 32,
+          "b": 63,
+          "child": {
+            "op": "atom",
+            "signal": 14,
+            "sign": -1,
+            "threshold": -3.6272124162568766
+          }
+        }
+      }
+    ],
+    [
+      {
+        "op": "G",
+        "a": 32,
+        "b": 63,
+        "child": {
+          "op": "atom",
+          "signal": 41,
+          "sign": -1,
+          "threshold": -1.6062982943535213
+        }
+      },
+      {
+        "op": "and",
+        "left": {
+          "op": "G",
+          "a": 32,
+          "b": 63,
+          "child": {
+            "op": "atom",
+            "signal": 41,
+            "sign": -1,
+            "threshold": -1.6062982943535213
+          }
+        },
+        "right": {
+          "op": "G",
+          "a": 32,
+          "b": 63,
+          "child": {
+            "op": "atom",
+            "signal": 42,
+            "sign": -1,
+            "threshold": -2.0039830826112084
+          }
+        }
+      },
+      {
+        "op": "and",
+        "left": {
+          "op": "G",
+          "a": 32,
+          "b": 63,
+          "child": {
+            "op": "atom",
+            "signal": 41,
+            "sign": -1,
+            "threshold": -1.6062982943535213
+          }
+        },
+        "right": {
+          "op": "G",
+          "a": 32,
+          "b": 63,
+          "child": {
+            "op": "atom",
+            "signal": 42,
+            "sign": -1,
+            "threshold": -2.0039830826112084
+          }
+        }
+      }
+    ]
+  ],
+  "scales": [
+    [
+      0.44522955508232115,
+      0.5162302197575569,
+      0.44522955508232115
+    ],
+    [
+      0.46721416127085685,
+      0.7104688652336597,
+      0.7141040914177894
+    ],
+    [
+      1.645222079515457,
+      0.874212433460904,
+      0.874212433460904
+    ],
+    [
+      1.0825933603048323,
+      0.992552882015705,
+      0.992552882015705
+    ]
+  ],
+  "diagnostics": [
+    {
+      "counts": {
+        "templates": 2620,
+        "refinements": 12,
+        "nested_candidates": 156
+      },
+      "history": [
+        {
+          "depth": 2,
+          "consistent": 47,
+          "in_band": 24
+        },
+        {
+          "depth": 3,
+          "consistent": 43,
+          "in_band": 5
+        }
+      ]
+    },
+    {
+      "counts": {
+        "templates": 2646,
+        "refinements": 12,
+        "nested_candidates": 182
+      },
+      "history": [
+        {
+          "depth": 2,
+          "consistent": 60,
+          "in_band": 30
+        },
+        {
+          "depth": 3,
+          "consistent": 45,
+          "in_band": 0
+        }
+      ]
+    },
+    {
+      "counts": {
+        "templates": 2646,
+        "refinements": 12,
+        "nested_candidates": 182
+      },
+      "history": [
+        {
+          "depth": 2,
+          "consistent": 48,
+          "in_band": 31
+        },
+        {
+          "depth": 3,
+          "consistent": 40,
+          "in_band": 14
+        }
+      ]
+    },
+    {
+      "counts": {
+        "templates": 2794,
+        "refinements": 12,
+        "nested_candidates": 330
+      },
+      "history": [
+        {
+          "depth": 2,
+          "consistent": 85,
+          "in_band": 50
+        },
+        {
+          "depth": 3,
+          "consistent": 71,
+          "in_band": 0
+        }
+      ]
+    }
+  ],
+  "formulas": [
+    [
+      "always[0:15]((pair_Fp2_F3 <= 1.3024455923492038))",
+      "(always[0:15]((pair_Fp2_F3 <= 1.3024455923492038)) and always[64:95]((pair_Fz_T4 >= -2.7251087188720704)))",
+      "always[0:15]((pair_Fp2_F3 <= 1.3024455923492038))"
+    ],
+    [
+      "always[0:15]((pair_Fp1_F4 >= -1.3843059301376344))",
+      "(always[0:15]((pair_Fp1_F4 >= -1.3843059301376344)) and eventually[0:95]((pair_F3_F4 <= -2.7060946464538573)))",
+      "((always[0:15]((pair_Fp1_F4 >= -1.3843059301376344)) and eventually[0:95]((pair_Fp1_T3 >= 2.4266366004943847))) and (eventually[0:63]((pair_F4_T3 >= 2.3564411640167235)) and eventually[0:95]((pair_F3_F4 <= -2.7060946464538573))))"
+    ],
+    [
+      "always[0:95]((pair_Fp1_T4 >= -4.8134920079934913))",
+      "(always[0:15]((pair_T3_Cz <= 1.7059146696937528)) and always[32:63]((pair_Fp1_T4 <= 3.6272124162568766)))",
+      "(always[0:15]((pair_T3_Cz <= 1.7059146696937528)) and always[32:63]((pair_Fp1_T4 <= 3.6272124162568766)))"
+    ],
+    [
+      "always[32:63]((energy_T3 <= 1.6062982943535213))",
+      "(always[32:63]((energy_T3 <= 1.6062982943535213)) and always[32:63]((energy_Cz <= 2.0039830826112084)))",
+      "(always[32:63]((energy_T3 <= 1.6062982943535213)) and always[32:63]((energy_Cz <= 2.0039830826112084)))"
+    ]
+  ]
+}

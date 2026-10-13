@@ -1,0 +1,62 @@
+baseline on sessions 1-30: 85.01%  (L  83.9 R  80.0 D  78.2 S  97.9)
+
+direction accuracy of the polarity-free reads, among turn windows (orientation from 1-30):
+   power_asym         57.5%   54.5%    5.0%
+   phase_f            50.8%   69.5%   53.0%
+   mag_imbalance      53.0%   35.3%   47.3%
+   centroid_shift     55.2%   57.8%   16.7%
+   centroid           59.0%   57.2%    5.0%
+   current F4-T3      92.6%  100.0%   70.5%
+
+m1_hist_z              CV  85.02% (+0.01) sessions +9/-1  L  83.9 R  80.0 D  78.1 S  98.1  
+                       folds: ['hist_z >= 1.498 AND the current gate', 'hist_z >= 1.502 AND the current gate', 'hist_z >= 1.606 AND the current gate']
+m2_share_temporal      CV  83.94% (-1.07) sessions +0/-3  L  83.9 R  80.0 D  73.9 S  97.9  
+                       folds: ['DOWN needs rel_share_temporal <= 0.4574', 'current', 'current']
+m2_share_midline       CV  85.05% (+0.05) sessions +2/-1  L  85.3 R  80.8 D  76.2 S  97.9  
+                       folds: ['DOWN needs rel_share_midline >= 0.055', 'DOWN needs rel_share_midline >= 0.03736', 'DOWN needs rel_share_midline >= 0.03583']
+m2_share_max           CV  85.01% (+0.00) sessions +0/-0  L  83.9 R  80.0 D  78.2 S  97.9  
+                       folds: ['current', 'current', 'current']
+m5_phase_nod_f         CV  84.11% (-0.90) sessions +1/-3  L  83.9 R  80.8 D  73.8 S  97.9  
+                       folds: ['DOWN needs phase_f >= 0.5274', 'current', 'current']
+m5_phase_nod_t         CV  84.95% (-0.06) sessions +2/-2  L  85.3 R  80.8 D  75.8 S  97.9  
+                       folds: ['DOWN needs phase_t >= -0.0027', 'DOWN needs phase_t >= -0.2267', 'DOWN needs phase_t >= -0.03164']
+m8_cm_diff             CV  83.97% (-1.04) sessions +0/-3  L  83.9 R  80.0 D  74.1 S  97.9  
+                       folds: ['DOWN needs cm_diff >= 0.1959', 'current', 'current']
+m9_coh_ratio           CV  84.65% (-0.36) sessions +3/-4  L  84.0 R  81.1 D  75.5 S  97.9  
+                       folds: ['DOWN needs coh_ratio <= 2.577', 'DOWN needs coh_ratio <= 2.696', 'current']
+m10_vel_gradient       CV  85.27% (+0.26) sessions +2/-1  L  85.3 R  81.0 D  76.9 S  97.9  
+                       folds: ['DOWN needs vel_gradient <= 3.226', 'DOWN needs vel_gradient <= 3.354', 'DOWN needs vel_gradient <= 3.379']
+m11_ocular_decay       CV  84.74% (-0.27) sessions +0/-1  L  83.9 R  80.0 D  77.1 S  97.9  
+                       folds: ['current', 'DOWN needs ocular_decay <= 14.98', 'DOWN needs ocular_decay <= 16.01']
+m11_ocular_decay_loud  CV  85.01% (+0.00) sessions +0/-0  L  83.9 R  80.0 D  78.2 S  97.9  
+                       folds: ['current', 'DOWN needs ocular_decay_loud <= 16.04', 'DOWN needs ocular_decay_loud <= 14.84']
+m3_delta_share         CV  85.00% (-0.01) sessions +9/-1  L  83.9 R  80.0 D  77.9 S  98.2  
+                       folds: ['gate needs delta_share >= 0.2846', 'gate needs delta_share >= 0.2694', 'gate needs delta_share >= 0.2727']
+m3_delta_share_range   CV  85.01% (+0.00) sessions +3/-0  L  83.9 R  80.0 D  78.2 S  97.9  
+                       folds: ['gate needs delta_share_range >= 0.2117', 'gate needs delta_share_range >= 0.2124', 'gate needs delta_share_range >= 0.2093']
+m12_flatness           CV  84.84% (-0.17) sessions +1/-1  L  83.9 R  80.0 D  77.5 S  97.9  
+                       folds: ['gate needs flatness <= 0.3736', 'current', 'current']
+m13_curvature          CV  84.72% (-0.29) sessions +0/-1  L  82.8 R  80.0 D  78.2 S  97.9  
+                       folds: ['gate needs curvature <= 0.2496', 'current', 'current']
+m4_power_asym          CV  85.01% (+0.00) sessions +0/-0  L  83.9 R  80.0 D  78.2 S  97.9  
+                       folds: ['current', 'current', 'current']
+m5_phase_side          CV  85.01% (+0.00) sessions +0/-0  L  83.9 R  80.0 D  78.2 S  97.9  
+                       folds: ['current', 'current', 'current']
+m6_mag_imbalance       CV  85.01% (+0.00) sessions +0/-0  L  83.9 R  80.0 D  78.2 S  97.9  
+                       folds: ['current', 'current', 'current']
+m7_centroid            CV  85.01% (+0.00) sessions +0/-0  L  83.9 R  80.0 D  78.2 S  97.9  
+                       folds: ['current', 'current', 'current']
+m7_centroid_abs        CV  85.01% (+0.00) sessions +0/-0  L  83.9 R  80.0 D  78.2 S  97.9  
+                       folds: ['current', 'current', 'current']
+m15_soft_veto          CV  85.01% (+0.00) sessions +0/-0  L  83.9 R  80.0 D  78.2 S  97.9  
+                       folds: ['current', 'current', 'current']
+   current F4-T3      92.6%  100.0%   70.5%
+
+m1_hist_z+m10_vel_gradient CV  85.28% (+0.27) sessions +9/-2  L  85.3 R  81.0 D  76.7 S  98.1  
+                       folds: ['hist_z >= 1.498 AND the current gate', 'hist_z >= 1.502 AND the current gate', 'hist_z >= 1.606 AND the current gate']
+m1_hist_z+m2_share_midline+m10_vel_gradient CV  85.28% (+0.27) sessions +9/-2  L  85.3 R  81.0 D  76.7 S  98.1  
+                       folds: ['hist_z >= 1.498 AND the current gate', 'hist_z >= 1.502 AND the current gate', 'hist_z >= 1.606 AND the current gate']
+m10_vel_gradient+m9_coh_ratio CV  85.27% (+0.26) sessions +2/-1  L  85.3 R  81.0 D  76.9 S  97.9  
+                       folds: ['DOWN needs vel_gradient <= 3.226', 'DOWN needs vel_gradient <= 3.354', 'DOWN needs vel_gradient <= 3.379']
+m1_hist_z+m3_delta_share CV  84.97% (-0.03) sessions +12/-2  L  83.9 R  80.0 D  77.8 S  98.2  
+                       folds: ['hist_z >= 1.498 AND the current gate', 'hist_z >= 1.502 AND the current gate', 'hist_z >= 1.606 AND the current gate']

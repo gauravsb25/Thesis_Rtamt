@@ -1,0 +1,49 @@
+A. DOWN movements: is there a nod in the signal?
+
+   sub_01 1-30: 68 nods, 748 windows
+   nod size / background: median 4.06, quartiles 3.49-5.22
+      blank-looking (< 1.5x background)       2 nods; share of their windows called STRAIGHT  80.0%
+      weak (1.5-2.5x)                         6 nods; share of their windows called STRAIGHT  73.3%
+      clear (>= 2.5x)                        60 nods; share of their windows called STRAIGHT   5.4%
+   nods with >= half their windows called STRAIGHT: 10 (size ratio median 2.20)
+   missed windows 103: failed contrast 92, delta 27, deflect 11
+
+   sub_01 31-36: 10 nods, 123 windows
+   nod size / background: median 2.84, quartiles 2.56-4.72
+      blank-looking (< 1.5x background)       0 nods; share of their windows called STRAIGHT   0.0%
+      weak (1.5-2.5x)                         1 nods; share of their windows called STRAIGHT   6.2%
+      clear (>= 2.5x)                         9 nods; share of their windows called STRAIGHT  32.8%
+   nods with >= half their windows called STRAIGHT: 4 (size ratio median 2.78)
+   missed windows 39: failed contrast 32, delta 18, deflect 2
+
+   sub_11: 30 nods, 285 windows
+   nod size / background: median 4.94, quartiles 2.78-8.59
+      blank-looking (< 1.5x background)       3 nods; share of their windows called STRAIGHT   0.0%
+      weak (1.5-2.5x)                         4 nods; share of their windows called STRAIGHT  48.3%
+      clear (>= 2.5x)                        23 nods; share of their windows called STRAIGHT   2.3%
+   nods with >= half their windows called STRAIGHT: 4 (size ratio median 2.33)
+   missed windows 29: failed contrast 28, delta 1, deflect 2
+
+
+B. STRAIGHT windows called DOWN: is there a movement in them?
+
+   sub_01 1-30: 995 false-DOWN windows = 175 separate bumps (median 3 windows per bump)
+   bump size / background: median 1.84;  bump size / this session's median real nod: median 0.45
+      < half a typical nod      103 bumps covering   530 windows
+      0.5-1x a typical nod       68 bumps covering   441 windows
+      >= a typical nod            4 bumps covering    24 windows
+   distance to the run's annotated movement: straight-task run (none) 22, 1-3 s 17, 3-6 s 49, > 6 s 87
+
+   sub_01 31-36: 94 false-DOWN windows = 17 separate bumps (median 3 windows per bump)
+   bump size / background: median 1.69;  bump size / this session's median real nod: median 0.57
+      < half a typical nod        5 bumps covering    31 windows
+      0.5-1x a typical nod       10 bumps covering    28 windows
+      >= a typical nod            2 bumps covering    35 windows
+   distance to the run's annotated movement: straight-task run (none) 2, 1-3 s 3, 3-6 s 8, > 6 s 4
+
+   sub_11: 51 false-DOWN windows = 12 separate bumps (median 2 windows per bump)
+   bump size / background: median 1.32;  bump size / this session's median real nod: median 0.32
+      < half a typical nod       12 bumps covering    51 windows
+      0.5-1x a typical nod        0 bumps covering     0 windows
+      >= a typical nod            0 bumps covering     0 windows
+   distance to the run's annotated movement: straight-task run (none) 0, 1-3 s 4, 3-6 s 6, > 6 s 2

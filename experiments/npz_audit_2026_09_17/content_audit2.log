@@ -1,0 +1,20 @@
+clear-shape level (95% of rest): T3-T4 |r| > 0.61, F4-T3 |r| > 0.59
+typical |r| of labelled turns: T3-T4 0.66, F4-T3 0.65
+
+sub_01 1-30 (design)
+  LEFT   92 movements | presence clear 81, weak 11, none 0 | direction confirmed: 57 (643 windows); direction not confirmed (weak/unclear shape): 33 (303 windows); OTHER DIRECTION (both checks): 2 (13 windows)
+  RIGHT  92 movements | presence clear 83, weak 9, none 0 | direction confirmed: 60 (637 windows); direction not confirmed (weak/unclear shape): 30 (301 windows); OTHER DIRECTION (both checks): 2 (25 windows)
+  DOWN   68 movements | presence clear 51, weak 16, none 1 | no turn shape: 67 (736 windows); TURN-SHAPED (both checks): 1 (12 windows)
+  STRAIGHT 15890 windows: turn-shaped on both pairs at some time 809 (5.1%, 5% expected by construction of the threshold per pair)
+
+sub_01 31-36 (test)
+  LEFT   11 movements | presence clear 10, weak 1, none 0 | direction not confirmed (weak/unclear shape): 7 (62 windows); direction confirmed: 4 (55 windows)
+  RIGHT  16 movements | presence clear 15, weak 1, none 0 | direction confirmed: 8 (88 windows); direction not confirmed (weak/unclear shape): 8 (95 windows)
+  DOWN   10 movements | presence clear 7, weak 3, none 0 | no turn shape: 9 (111 windows); TURN-SHAPED (both checks): 1 (12 windows)
+  STRAIGHT 846 windows: turn-shaped on both pairs at some time 53 (6.3%, 5% expected by construction of the threshold per pair)
+
+sub_11 (test)
+  LEFT   31 movements | presence clear 27, weak 4, none 0 | direction not confirmed (weak/unclear shape): 17 (114 windows); direction confirmed: 13 (63 windows); OTHER DIRECTION (both checks): 1 (10 windows)
+  RIGHT  34 movements | presence clear 31, weak 3, none 0 | direction confirmed: 19 (117 windows); OTHER DIRECTION (both checks): 9 (72 windows); direction not confirmed (weak/unclear shape): 6 (32 windows)
+  DOWN   30 movements | presence clear 25, weak 5, none 0 | no turn shape: 18 (162 windows); TURN-SHAPED (both checks): 12 (123 windows)
+  STRAIGHT 507 windows: turn-shaped on both pairs at some time 67 (13.2%, 5% expected by construction of the threshold per pair)

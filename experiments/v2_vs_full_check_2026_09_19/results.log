@@ -1,0 +1,17 @@
+pairing: 21029 v2 windows -> full-corpus rows; identical samples in 444/444 checked; the two label sets agree on 21029/21029 windows
+usable stream history (background gate active): v2's own history 74.3%  |  full continuous stream 86.7%
+
+the SAME v2 windows and labels, scored with two different histories
+              history                     balanced              LEFT             RIGHT              DOWN          STRAIGHT
+sub_01 1-30   A: rebuilt from v2            85.01%    805/959   83.9%    770/963   80.0%    585/748   78.2%  15559/15890 97.9%
+sub_01 1-30   B: full continuous stream     85.83%    818/959   85.3%    770/963   80.0%    597/748   79.8%  15613/15890 98.3%
+              windows whose verdict changes: 146 (fixed 103, broken 24)
+
+sub_01 31-36  A: rebuilt from v2            69.62%     69/117   59.0%    118/183   64.5%     71/123   57.7%    823/846   97.3%
+sub_01 31-36  B: full continuous stream     71.19%     69/117   59.0%    118/183   64.5%     78/123   63.4%    828/846   97.9%
+              windows whose verdict changes: 25 (fixed 12, broken 0)
+
+sub_11        A: rebuilt from v2            78.67%    105/187   56.1%    165/221   74.7%    252/285   88.4%    484/507   95.5%
+sub_11        B: full continuous stream     79.48%    107/187   57.2%    168/221   76.0%    247/285   86.7%    497/507   98.0%
+              windows whose verdict changes: 28 (fixed 18, broken 5)
+

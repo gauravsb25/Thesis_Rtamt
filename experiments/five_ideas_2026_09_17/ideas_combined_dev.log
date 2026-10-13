@@ -1,0 +1,4 @@
+current monitor, sessions 1-30: 82.74% (L  83.6 R  79.4 D  77.5 S  90.3)
+CF_replace[mean_4]+GEO_nod_or CV  85.80% (+3.06) sessions +29/-1  L  83.9 R  78.7 D  82.4 S  98.2  PASS  [['CF_replace[mean_4]: g=6.25', 'GEO_nod_or: t=-1.35'], ['CF_replace[mean_4]: g=7.25', 'GEO_nod_or: t=-1.44'], ['CF_replace[mean_4]: g=6.69', 'GEO_nod_or: t=-1.7']]
+CF_and[mean_4]+GEO_nod_or CV  85.50% (+2.76) sessions +28/-2  L  83.6 R  78.2 D  81.6 S  98.6  PASS  [['CF_and[mean_4]: g=7.48', 'GEO_nod_or: t=-1.35'], ['CF_and[mean_4]: g=7.25', 'GEO_nod_or: t=-1.44'], ['CF_and[mean_4]: g=6.69', 'GEO_nod_or: t=-1.7']]
+CF_replace[mean_4]+CONS_major CV  85.08% (+2.34) sessions +30/-0  L  83.9 R  80.0 D  78.2 S  98.2  PASS  [['CF_replace[mean_4]: g=6.25', 'CONS_major: current'], ['CF_replace[mean_4]: g=7.25', 'CONS_major: current'], ['CF_replace[mean_4]: g=6.69', 'CONS_major: current']]

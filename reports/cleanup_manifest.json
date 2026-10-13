@@ -1,0 +1,42 @@
+[
+  {
+    "path": "experiments\\unrestricted_2026_09_20",
+    "bytes": 358241613.0
+  },
+  {
+    "path": "experiments\\regularized_2026_09_20",
+    "bytes": 362701986.0
+  },
+  {
+    "path": "experiments\\multiscale_2026_09_20",
+    "bytes": 9120866.0
+  },
+  {
+    "path": "adaptive_monitoring",
+    "bytes": 232679.0
+  },
+  {
+    "path": "acquisition_eeg_only",
+    "bytes": 58128.0
+  },
+  {
+    "path": "tests\\test_adaptive_monitoring.py",
+    "bytes": 3760
+  },
+  {
+    "path": ".runtime\\adaptive_env",
+    "bytes": 836184438.0
+  },
+  {
+    "path": ".cache",
+    "bytes": 3314147.0
+  },
+  {
+    "path": ".pytest_cache",
+    "bytes": 27748.0
+  },
+  {
+    "path": "recordings\\eeg_only_repeatability",
+    "bytes": 7161.0
+  }
+]

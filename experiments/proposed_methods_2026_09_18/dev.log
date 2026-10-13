@@ -1,0 +1,30 @@
+baseline (shipped monitor), sessions 1-30: 85.01%  (L  83.9 R  80.0 D  78.2 S  97.9)
+
+M1_vote3           CV  85.01% (+0.00) sessions +0/-0  L  83.9 R  80.0 D  78.2 S  97.9  
+                   [['M1_vote3: current'], ['M1_vote3: current'], ['M1_vote3: current']]
+M1_abstain         CV  85.01% (+0.00) sessions +0/-0  L  83.9 R  80.0 D  78.2 S  97.9  
+                   [['M1_abstain: current'], ['M1_abstain: current'], ['M1_abstain: current']]
+M1_imbalance       CV  85.01% (+0.00) sessions +0/-0  L  83.9 R  80.0 D  78.2 S  97.9  
+                   [['M1_imbalance: current'], ['M1_imbalance: current'], ['M1_imbalance: current']]
+M1_magnitude       CV  85.01% (+0.00) sessions +0/-0  L  83.9 R  80.0 D  78.2 S  97.9  
+                   [['M1_magnitude: current'], ['M1_magnitude: current'], ['M1_magnitude: current']]
+M2_yaw             CV  84.28% (-0.73) sessions +1/-4  L  83.9 R  80.8 D  74.5 S  97.9  
+                   [['M2_yaw: t=3.119'], ['M2_yaw: current'], ['M2_yaw: t=5.697']]
+M2_yaw_loud        CV  86.39% (+1.38) sessions +4/-1  L  87.2 R  82.7 D  77.8 S  97.9  PASS
+                   [['M2_yaw_loud: t=3.696'], ['M2_yaw_loud: t=3.743'], ['M2_yaw_loud: t=3.671']]
+M3_ocular          CV  84.74% (-0.27) sessions +0/-1  L  83.9 R  80.0 D  77.1 S  97.9  
+                   [['M3_ocular: current'], ['M3_ocular: t=14.98'], ['M3_ocular: t=16.01']]
+M3_ocular_loud     CV  85.01% (+0.00) sessions +0/-0  L  83.9 R  80.0 D  78.2 S  97.9  
+                   [['M3_ocular_loud: current'], ['M3_ocular_loud: t=16.14'], ['M3_ocular_loud: t=14.5']]
+M3_sustain_32      CV  85.54% (+0.53) sessions +11/-17  L  85.6 R  81.5 D  80.3 S  94.7  
+                   [['M3_sustain_32: K=32 level=0.8x'], ['M3_sustain_32: K=32 level=0.6x'], ['M3_sustain_32: K=32 level=0.7x']]
+M3_sustain_76      CV  85.10% (+0.09) sessions +13/-15  L  85.6 R  81.2 D  79.4 S  94.2  
+                   [['M3_sustain_76: K=76 level=0.6x'], ['M3_sustain_76: K=76 level=0.5x'], ['M3_sustain_76: K=76 level=0.8x']]
+M3_sustain_128     CV  85.14% (+0.13) sessions +13/-16  L  85.4 R  81.1 D  79.8 S  94.2  
+                   [['M3_sustain_128: K=128 level=0.5x'], ['M3_sustain_128: K=128 level=0.4x'], ['M3_sustain_128: K=128 level=0.6x']]
+M3_sustain_192     CV  84.15% (-0.85) sessions +5/-15  L  82.6 R  80.9 D  79.1 S  94.0  
+                   [['M3_sustain_192: K=192 level=0.4x'], ['M3_sustain_192: K=192 level=0.3x'], ['M3_sustain_192: current']]
+M4_midline         CV  84.98% (-0.02) sessions +0/-5  L  83.9 R  80.0 D  78.2 S  97.8  
+                   [['M4_midline: t=2.189'], ['M4_midline: t=2.178'], ['M4_midline: current']]
+M4_midline4        CV  84.98% (-0.02) sessions +0/-5  L  83.9 R  80.0 D  78.2 S  97.8  
+                   [['M4_midline4: t=2.371'], ['M4_midline4: t=2.358'], ['M4_midline4: current']]

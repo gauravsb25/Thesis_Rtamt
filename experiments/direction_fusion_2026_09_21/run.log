@@ -1,0 +1,13 @@
+nod_specialist: nested movement macro 82.57; selected nod_specialist (32, 0.0); fits=36
+turn_specialist: nested movement macro 81.70; selected turn_specialist (128, 0.0); fits=36
+nested_specialists: nested movement macro 85.15; selected nested_specialists (128, 0.0); fits=36
+agreement: nested movement macro 88.33; selected agreement (128, 0.0); fits=36
+prior_fusion: nested movement macro 85.84; selected prior_fusion (128, 0.25); fits=36
+selected_pipeline: nested movement macro 88.33; selected agreement (128, 0.0); fits=36
+nod_specialist: external movement macro external_sub01 61.30, external_sub11 68.56; eligible=False
+turn_specialist: external movement macro external_sub01 54.74, external_sub11 56.03; eligible=False
+nested_specialists: external movement macro external_sub01 60.98, external_sub11 49.23; eligible=False
+agreement: external movement macro external_sub01 59.87, external_sub11 58.14; eligible=False
+prior_fusion: external movement macro external_sub01 61.28, external_sub11 59.27; eligible=False
+selected_pipeline: external movement macro external_sub01 59.87, external_sub11 58.14; eligible=False
+COMPLETE 42 8.429288864135742 []

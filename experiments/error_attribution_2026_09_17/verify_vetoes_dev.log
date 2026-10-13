@@ -1,0 +1,8 @@
+measuring 30 session(s) with compute_signals (cached afterwards) ...
+====================================================================================================
+sessions 1-30 (design): 18560 windows
+  without extra vetoes:  82.74%  (LEFT  83.6  RIGHT  79.4  DOWN  77.5  STRAIGHT  90.3)
+  WITH extra vetoes:     83.86%  (LEFT  86.9  RIGHT  82.0  DOWN  76.2  STRAIGHT  90.3)
+  windows fixed 56 ({np.str_('LEFT'): np.int64(31), np.str_('RIGHT'): np.int64(25)}), broken 10 ({np.str_('DOWN'): np.int64(10)}); sessions better 6, worse 6
+  RTAMT monitor agrees with the scored decisions on 40/40 sampled windows
+  module decisions == selected rule on 1.00000 of windows (0 differ)

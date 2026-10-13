@@ -1,0 +1,216 @@
+extracted sub_01/ses-01 1239
+extracted sub_01/ses-02 920
+extracted sub_01/ses-03 1126
+extracted sub_01/ses-04 778
+extracted sub_01/ses-05 732
+extracted sub_01/ses-06 468
+extracted sub_01/ses-07 257
+extracted sub_01/ses-08 425
+extracted sub_01/ses-09 484
+extracted sub_01/ses-10 373
+extracted sub_01/ses-11 693
+extracted sub_01/ses-12 478
+extracted sub_01/ses-13 780
+extracted sub_01/ses-14 931
+extracted sub_01/ses-15 1017
+extracted sub_01/ses-16 438
+extracted sub_01/ses-17 719
+extracted sub_01/ses-18 509
+extracted sub_01/ses-19 710
+extracted sub_01/ses-20 259
+extracted sub_01/ses-21 459
+extracted sub_01/ses-22 738
+extracted sub_01/ses-23 703
+extracted sub_01/ses-24 443
+extracted sub_01/ses-25 480
+extracted sub_01/ses-26 552
+extracted sub_01/ses-27 492
+extracted sub_01/ses-28 368
+extracted sub_01/ses-29 603
+extracted sub_01/ses-30 386
+extracted sub_01/ses-31 239
+extracted sub_01/ses-32 195
+extracted sub_01/ses-33 345
+extracted sub_01/ses-34 191
+extracted sub_01/ses-35 141
+extracted sub_01/ses-36 158
+extracted sub_11/ses-01 281
+extracted sub_11/ses-02 73
+extracted sub_11/ses-03 129
+extracted sub_11/ses-04 79
+extracted sub_11/ses-05 107
+extracted sub_11/ses-06 157
+extracted sub_11/ses-07 80
+extracted sub_11/ses-08 113
+extracted sub_11/ses-09 115
+extracted sub_11/ses-10 66
+joint_bandpower {"n": 18560, "correct": 17083, "accuracy": 92.04202586206897, "balanced_accuracy": 69.60569722714726, "movement_macro": 60.281898799191936, "recall": [57.35140771637121, 48.494288681204566, 75.0, 97.57709251101322], "sessions_better": 4, "sessions_worse": 26}
+ordered_bandpower {"n": 18560, "correct": 17536, "accuracy": 94.48275862068965, "balanced_accuracy": 76.1454359972713, "movement_macro": 68.52326226109847, "recall": [61.31386861313869, 63.2398753894081, 81.01604278074866, 99.0119572057898], "sessions_better": 5, "sessions_worse": 25}
+filterbank_csp {"n": 18560, "correct": 14825, "accuracy": 79.87607758620689, "balanced_accuracy": 62.03779239470971, "movement_macro": 54.61552516483636, "recall": [41.918665276329506, 53.47871235721703, 68.44919786096256, 84.30459408432976], "sessions_better": 3, "sessions_worse": 27}
+monitor_lda_control {"n": 18560, "correct": 17348, "accuracy": 93.4698275862069, "balanced_accuracy": 84.63758994533828, "movement_macro": 81.03136599382633, "recall": [87.06986444212723, 82.76220145379024, 73.2620320855615, 95.45626179987413], "sessions_better": 13, "sessions_worse": 11}
+monitor_plus_spectral {"n": 18560, "correct": 17864, "accuracy": 96.25, "balanced_accuracy": 83.32542221153217, "movement_macro": 77.95812535693275, "recall": [74.13972888425442, 74.03946002076843, 85.6951871657754, 99.4273127753304], "sessions_better": 13, "sessions_worse": 16}
+hybrid_csp {"n": 18560, "correct": 17051, "accuracy": 91.86961206896552, "balanced_accuracy": 67.79901476474986, "movement_macro": 57.759710057635836, "recall": [47.96663190823775, 44.02907580477674, 81.28342245989305, 97.91692888609188], "sessions_better": 1, "sessions_worse": 29}
+hybrid_ordered {"n": 18560, "correct": 17290, "accuracy": 93.15732758620689, "balanced_accuracy": 73.636344554515, "movement_macro": 65.54281644398938, "recall": [60.792492179353495, 61.37071651090342, 74.46524064171123, 97.91692888609188], "sessions_better": 0, "sessions_worse": 30}
+SELECTED monitor_lda_control ADOPT False
+{
+  "sub01_later": {
+    "current_monitor": {
+      "n": 1269,
+      "correct": 1081,
+      "accuracy": 85.18518518518519,
+      "balanced_accuracy": 69.61503360103494,
+      "movement_macro": 60.392936842357074,
+      "recall": [
+        58.97435897435898,
+        64.48087431693989,
+        57.72357723577236,
+        97.28132387706856
+      ],
+      "confusion": [
+        [
+          69,
+          0,
+          41,
+          7
+        ],
+        [
+          0,
+          118,
+          53,
+          12
+        ],
+        [
+          9,
+          4,
+          71,
+          39
+        ],
+        [
+          0,
+          0,
+          23,
+          823
+        ]
+      ]
+    },
+    "monitor_lda_control": {
+      "n": 1269,
+      "correct": 1037,
+      "accuracy": 81.71788810086682,
+      "balanced_accuracy": 66.42016588527346,
+      "movement_macro": 57.51215183442292,
+      "recall": [
+        42.73504273504273,
+        65.57377049180327,
+        64.22764227642277,
+        93.14420803782507
+      ],
+      "confusion": [
+        [
+          50,
+          0,
+          57,
+          10
+        ],
+        [
+          0,
+          120,
+          45,
+          18
+        ],
+        [
+          17,
+          2,
+          79,
+          25
+        ],
+        [
+          0,
+          0,
+          58,
+          788
+        ]
+      ]
+    }
+  },
+  "sub11": {
+    "current_monitor": {
+      "n": 1200,
+      "correct": 1006,
+      "accuracy": 83.83333333333334,
+      "balanced_accuracy": 78.67373239604724,
+      "movement_macro": 73.07713957868756,
+      "recall": [
+        56.14973262032086,
+        74.6606334841629,
+        88.42105263157895,
+        95.46351084812623
+      ],
+      "confusion": [
+        [
+          105,
+          62,
+          4,
+          16
+        ],
+        [
+          51,
+          165,
+          0,
+          5
+        ],
+        [
+          5,
+          0,
+          252,
+          28
+        ],
+        [
+          5,
+          1,
+          17,
+          484
+        ]
+      ]
+    },
+    "monitor_lda_control": {
+      "n": 1200,
+      "correct": 904,
+      "accuracy": 75.33333333333333,
+      "balanced_accuracy": 74.67726526073751,
+      "movement_macro": 75.76955552187749,
+      "recall": [
+        57.75401069518716,
+        76.92307692307693,
+        92.63157894736842,
+        71.40039447731755
+      ],
+      "confusion": [
+        [
+          108,
+          69,
+          5,
+          5
+        ],
+        [
+          51,
+          170,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          264,
+          21
+        ],
+        [
+          20,
+          13,
+          112,
+          362
+        ]
+      ]
+    }
+  }
+}

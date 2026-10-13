@@ -1,0 +1,78 @@
+{
+  "new_feature_checks": "280 features: positive global gain x10 on five random and five real windows passed; sign equivariance and finiteness passed; three optimized-search/AST comparisons passed.",
+  "development_first_search": {
+    "gain_95_interval": [
+      -1.4927361367313068,
+      5.542083895685828
+    ],
+    "accuracy_95_interval": [
+      83.77791154674068,
+      90.50730740680031
+    ],
+    "replicates_with_absent_classes": 0,
+    "note": "Paired session resampling of fixed predictions; selection is not refitted; not a new-subject uncertainty estimate."
+  },
+  "fixed_model_stage_ablations_development_only": {
+    "gate": 87.74883361204702,
+    "nod": 84.82957634079744,
+    "left": 84.77025316367472,
+    "gate+nod": 87.3675995509917,
+    "gate+left": 87.5126982729033,
+    "nod+left": 84.72346026496993
+  },
+  "held_out_first_search": {
+    "sub_01": {
+      "gain_95_interval": [
+        -1.4589089586981128,
+        11.337519270298046
+      ],
+      "accuracy_95_interval": [
+        69.34843943132574,
+        81.49791556197546
+      ],
+      "replicates_with_absent_classes": 3,
+      "note": "Paired session resampling of fixed predictions; selection is not refitted; not a new-subject uncertainty estimate."
+    },
+    "sub_11": {
+      "gain_95_interval": [
+        -15.379724788039285,
+        0.6142771476656488
+      ],
+      "accuracy_95_interval": [
+        62.93829366732054,
+        79.87685021554226
+      ],
+      "replicates_with_absent_classes": 0,
+      "note": "Paired session resampling of fixed predictions; selection is not refitted; not a new-subject uncertainty estimate."
+    }
+  },
+  "development_robust_search": {
+    "gain_95_interval": [
+      -2.1207791983946573,
+      4.695873305501661
+    ],
+    "accuracy_95_interval": [
+      82.93765686553911,
+      89.91464757057064
+    ],
+    "replicates_with_absent_classes": 0,
+    "note": "Paired session resampling of fixed predictions; selection is not refitted; not a new-subject uncertainty estimate."
+  },
+  "robust_recording_within_class_weighted_balanced_accuracy": {
+    "prediction": 85.58771382436173,
+    "baseline": 85.01416540509624
+  },
+  "development_pruned_search": {
+    "gain_95_interval": [
+      -1.2873454447145758,
+      4.024764987997204
+    ],
+    "accuracy_95_interval": [
+      82.88222921453116,
+      90.00634758299958
+    ],
+    "replicates_with_absent_classes": 0,
+    "note": "Paired session resampling of fixed predictions; selection is not refitted; not a new-subject uncertainty estimate."
+  },
+  "saved_training_fits": 100
+}

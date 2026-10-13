@@ -1,0 +1,44 @@
+
+==================== sub_01 sessions 1-30 (design): 18560 windows ====================
+
+1. Windows flagged, per true class
+                          LEFT           RIGHT            DOWN        STRAIGHT
+   BLINK           14 (  1.5%)     33 (  3.4%)      0 (  0.0%)     34 (  0.2%)
+   BLINK-LIKE     303 ( 31.6%)    262 ( 27.2%)    182 ( 24.3%)   8178 ( 51.5%)
+   POP              8 (  0.8%)      0 (  0.0%)     51 (  6.8%)      0 (  0.0%)
+   EMG            109 ( 11.4%)     30 (  3.1%)     98 ( 13.1%)     15 (  0.1%)
+   BIG             92 (  9.6%)     12 (  1.2%)     17 (  2.3%)      5 (  0.0%)
+   ANY            415 ( 43.3%)    313 ( 32.5%)    276 ( 36.9%)   8208 ( 51.7%)
+   ANY-STRICT     152 ( 15.8%)     66 (  6.9%)    131 ( 17.5%)     54 (  0.3%)
+
+2. Monitor accuracy (4-class balanced)
+   all windows                         18560   82.74%   L  83.6  R  79.4  D  77.5  S  90.3
+   without BLINK windows               18479   83.57%   L  84.8  R  81.6  D  77.5  S  90.4
+   only BLINK windows                     81   32.95%   L   7.1  R  18.2  D   -    S  73.5
+   without BLINK-LIKE windows           9635   83.46%   L  85.2  R  81.0  D  77.4  S  90.2
+   only BLINK-LIKE windows              8925   80.97%   L  80.2  R  75.2  D  78.0  S  90.5
+   without POP windows                 18501   82.29%   L  83.5  R  79.4  D  75.9  S  90.3
+   only POP windows                       59  100.00%   L 100.0  R   -    D 100.0  S   -  
+   without EMG windows                 18308   82.10%   L  83.3  R  80.6  D  74.2  S  90.3
+   only EMG windows                      252   82.39%   L  86.2  R  43.3  D 100.0  S 100.0
+   without BIG windows                 18434   83.04%   L  84.7  R  80.1  D  77.0  S  90.3
+   only BIG windows                      126   69.73%   L  73.9  R  25.0  D 100.0  S  80.0
+   without ANY windows                  9348   82.80%   L  83.5  R  84.6  D  72.9  S  90.2
+   only ANY windows                     9212   82.12%   L  83.9  R  68.7  D  85.5  S  90.4
+   without ANY-STRICT windows          18157   82.96%   L  85.6  R  83.1  D  72.8  S  90.4
+   only ANY-STRICT windows               403   71.20%   L  73.0  R  30.3  D 100.0  S  81.5
+
+3. Monitor with an artifact veto (flagged -> STRAIGHT), all windows kept
+   veto BLINK        82.57%   L  83.5  R  78.8  D  77.5  S  90.4
+   veto BLINK-LIKE   67.77%   L  58.3  R  59.0  D  58.6  S  95.3
+   veto POP          80.83%   L  82.8  R  79.4  D  70.7  S  90.3
+   veto EMG          76.68%   L  73.8  R  78.1  D  64.4  S  90.3
+   veto BIG          80.32%   L  76.5  R  79.1  D  75.3  S  90.4
+   veto ANY          61.43%   L  47.3  R  57.1  D  46.0  S  95.3
+   veto ANY-STRICT   74.96%   L  72.1  R  77.4  D  60.0  S  90.4
+
+4. Blocked 3-fold CV of the veto choice (choose on two blocks: none or one detector; score the third)
+   fold 1: chose none
+   fold 2: chose none
+   fold 3: chose none
+   CV accuracy  82.74% vs no veto  82.74%

@@ -1,0 +1,9 @@
+detector                    runs  found  |peak-centre|<=0.5s  <=1.0s  overlap>=50%  no overlap
+0.3-4 Hz (the dataset)       418    97%                  67%     87%           25%         13%
+    left     n=134  peak offset median +0.36 s  overlap median 0.29  >=50%:  30%
+    right    n=142  peak offset median +0.29 s  overlap median 0.25  >=50%:  25%
+    down     n=103  peak offset median +0.02 s  overlap median 0.21  >=50%:  17%
+0.1-1.2 Hz (first try)       418    94%                  47%     65%           35%         23%
+    left     n=130  peak offset median -0.07 s  overlap median 0.39  >=50%:  43%
+    right    n=131  peak offset median -0.02 s  overlap median 0.37  >=50%:  41%
+    down     n= 98  peak offset median -0.24 s  overlap median 0.21  >=50%:  15%

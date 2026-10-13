@@ -1,0 +1,501 @@
+{
+  "stamp": "a637e25b73900f43353a5ca11e5f51d3f8c3d0091c47584176918142adde6cd0",
+  "fingerprint": "f28e3c944d98",
+  "mode": "positive",
+  "budget": 8,
+  "seed": 11,
+  "train_folds": [
+    0
+  ],
+  "indices": [
+    6336,
+    5092,
+    5333,
+    1558,
+    6658,
+    3963,
+    4626,
+    2927,
+    5293,
+    4132,
+    1291,
+    6536,
+    3456,
+    5069,
+    5609,
+    6104,
+    4890,
+    150,
+    6086,
+    2463,
+    3410,
+    1252,
+    5273,
+    6477,
+    3060,
+    5,
+    5233,
+    1343,
+    6719,
+    3870,
+    5673,
+    4298
+  ],
+  "trial_keys": [
+    "sub_01/ses-09/left/3",
+    "sub_01/ses-06/left/6",
+    "sub_01/ses-07/left/2",
+    "sub_01/ses-02/left/6",
+    "sub_01/ses-10/left/1",
+    "sub_01/ses-04/left/9",
+    "sub_01/ses-05/left/1",
+    "sub_01/ses-03/left/1",
+    "sub_01/ses-07/right/3",
+    "sub_01/ses-05/right/7",
+    "sub_01/ses-02/right/8",
+    "sub_01/ses-10/right/5",
+    "sub_01/ses-04/right/8",
+    "sub_01/ses-06/right/9",
+    "sub_01/ses-08/right/5",
+    "sub_01/ses-09/right/1",
+    "sub_01/ses-06/down/1",
+    "sub_01/ses-01/down/5",
+    "sub_01/ses-09/down/7",
+    "sub_01/ses-03/down/3",
+    "sub_01/ses-04/down/5",
+    "sub_01/ses-02/down/4",
+    "sub_01/ses-07/down/9",
+    "sub_01/ses-10/down/4",
+    "sub_01/ses-03/left/7",
+    "sub_01/ses-01/straight/8",
+    "sub_01/ses-06/left/10",
+    "sub_01/ses-02/right/7",
+    "sub_01/ses-10/left/2",
+    "sub_01/ses-04/left/2",
+    "sub_01/ses-08/right/2",
+    "sub_01/ses-05/right/9"
+  ],
+  "labels": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "trees": [
+    [
+      {
+        "op": "F",
+        "a": 0,
+        "b": 15,
+        "child": {
+          "op": "atom",
+          "signal": 40,
+          "sign": 1,
+          "threshold": -0.239255229244789
+        }
+      },
+      {
+        "op": "U",
+        "a": 0,
+        "b": 15,
+        "left": {
+          "op": "aug",
+          "sign": 1,
+          "child": {
+            "op": "F",
+            "a": 0,
+            "b": 15,
+            "child": {
+              "op": "atom",
+              "signal": 40,
+              "sign": 1,
+              "threshold": -0.239255229244789
+            }
+          }
+        },
+        "right": {
+          "op": "aug",
+          "sign": 1,
+          "child": {
+            "op": "F",
+            "a": 0,
+            "b": 15,
+            "child": {
+              "op": "atom",
+              "signal": 40,
+              "sign": -1,
+              "threshold": -0.2392618490717877
+            }
+          }
+        }
+      },
+      {
+        "op": "G",
+        "a": 0,
+        "b": 3,
+        "child": {
+          "op": "aug",
+          "sign": 1,
+          "child": {
+            "op": "U",
+            "a": 0,
+            "b": 15,
+            "left": {
+              "op": "aug",
+              "sign": 1,
+              "child": {
+                "op": "F",
+                "a": 0,
+                "b": 15,
+                "child": {
+                  "op": "atom",
+                  "signal": 40,
+                  "sign": -1,
+                  "threshold": -0.2392618490717877
+                }
+              }
+            },
+            "right": {
+              "op": "aug",
+              "sign": 1,
+              "child": {
+                "op": "F",
+                "a": 0,
+                "b": 15,
+                "child": {
+                  "op": "atom",
+                  "signal": 38,
+                  "sign": -1,
+                  "threshold": -0.23926000147624674
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    [
+      {
+        "op": "F",
+        "a": 0,
+        "b": 15,
+        "child": {
+          "op": "atom",
+          "signal": 40,
+          "sign": -1,
+          "threshold": -0.23926600650572977
+        }
+      },
+      {
+        "op": "F",
+        "a": 0,
+        "b": 15,
+        "child": {
+          "op": "aug",
+          "sign": -1,
+          "child": {
+            "op": "F",
+            "a": 0,
+            "b": 15,
+            "child": {
+              "op": "atom",
+              "signal": 40,
+              "sign": -1,
+              "threshold": -0.23926600650572977
+            }
+          }
+        }
+      },
+      {
+        "op": "G",
+        "a": 0,
+        "b": 3,
+        "child": {
+          "op": "aug",
+          "sign": 1,
+          "child": {
+            "op": "F",
+            "a": 0,
+            "b": 15,
+            "child": {
+              "op": "aug",
+              "sign": -1,
+              "child": {
+                "op": "F",
+                "a": 0,
+                "b": 15,
+                "child": {
+                  "op": "atom",
+                  "signal": 40,
+                  "sign": -1,
+                  "threshold": -0.23926600650572977
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    [
+      {
+        "op": "F",
+        "a": 0,
+        "b": 15,
+        "child": {
+          "op": "atom",
+          "signal": 39,
+          "sign": -1,
+          "threshold": -0.23926252249519522
+        }
+      },
+      {
+        "op": "F",
+        "a": 0,
+        "b": 15,
+        "child": {
+          "op": "aug",
+          "sign": -1,
+          "child": {
+            "op": "F",
+            "a": 0,
+            "b": 15,
+            "child": {
+              "op": "atom",
+              "signal": 38,
+              "sign": -1,
+              "threshold": -0.23926032737739525
+            }
+          }
+        }
+      },
+      {
+        "op": "or",
+        "left": {
+          "op": "F",
+          "a": 0,
+          "b": 15,
+          "child": {
+            "op": "atom",
+            "signal": 36,
+            "sign": 1,
+            "threshold": 0.2607450305377802
+          }
+        },
+        "right": {
+          "op": "F",
+          "a": 0,
+          "b": 15,
+          "child": {
+            "op": "atom",
+            "signal": 43,
+            "sign": 1,
+            "threshold": 0.26074978252898556
+          }
+        }
+      }
+    ],
+    [
+      {
+        "op": "F",
+        "a": 0,
+        "b": 15,
+        "child": {
+          "op": "atom",
+          "signal": 43,
+          "sign": -1,
+          "threshold": -0.23926531839607754
+        }
+      },
+      {
+        "op": "F",
+        "a": 0,
+        "b": 31,
+        "child": {
+          "op": "aug",
+          "sign": -1,
+          "child": {
+            "op": "F",
+            "a": 0,
+            "b": 15,
+            "child": {
+              "op": "atom",
+              "signal": 43,
+              "sign": -1,
+              "threshold": -0.23926531839607754
+            }
+          }
+        }
+      },
+      {
+        "op": "G",
+        "a": 0,
+        "b": 3,
+        "child": {
+          "op": "aug",
+          "sign": 1,
+          "child": {
+            "op": "F",
+            "a": 0,
+            "b": 15,
+            "child": {
+              "op": "atom",
+              "signal": 42,
+              "sign": -1,
+              "threshold": -0.23927715673899494
+            }
+          }
+        }
+      }
+    ]
+  ],
+  "scales": [
+    [
+      0.34586022559404356,
+      0.1,
+      0.1
+    ],
+    [
+      0.1,
+      0.1289845172613859,
+      0.1289845172613859
+    ],
+    [
+      0.1,
+      0.1958630820840597,
+      0.21628581751585005
+    ],
+    [
+      0.1,
+      0.3998695559710264,
+      0.1
+    ]
+  ],
+  "diagnostics": [
+    {
+      "counts": {
+        "templates": 2744,
+        "refinements": 12,
+        "nested_candidates": 280
+      },
+      "history": [
+        {
+          "depth": 2,
+          "consistent": 75,
+          "in_band": 0
+        },
+        {
+          "depth": 3,
+          "consistent": 29,
+          "in_band": 2
+        }
+      ]
+    },
+    {
+      "counts": {
+        "templates": 2660,
+        "refinements": 12,
+        "nested_candidates": 196
+      },
+      "history": [
+        {
+          "depth": 2,
+          "consistent": 76,
+          "in_band": 1
+        },
+        {
+          "depth": 3,
+          "consistent": 8,
+          "in_band": 3
+        }
+      ]
+    },
+    {
+      "counts": {
+        "templates": 2750,
+        "refinements": 12,
+        "nested_candidates": 289
+      },
+      "history": [
+        {
+          "depth": 2,
+          "consistent": 86,
+          "in_band": 4
+        },
+        {
+          "depth": 3,
+          "consistent": 68,
+          "in_band": 0
+        }
+      ]
+    },
+    {
+      "counts": {
+        "templates": 2717,
+        "refinements": 12,
+        "nested_candidates": 253
+      },
+      "history": [
+        {
+          "depth": 2,
+          "consistent": 76,
+          "in_band": 3
+        },
+        {
+          "depth": 3,
+          "consistent": 41,
+          "in_band": 1
+        }
+      ]
+    }
+  ],
+  "formulas": [
+    [
+      "eventually[0:15]((energy_F4 >= -0.23925522924478901))",
+      "(eventually[0:15]((energy_F4 >= -0.23925522924478901)) until[0:15] eventually[0:15]((energy_F4 <= 0.23926184907178771)))",
+      "always[0:3]((eventually[0:15]((energy_F4 <= 0.23926184907178771)) until[0:15] eventually[0:15]((energy_F3 <= 0.23926000147624674))))"
+    ],
+    [
+      "eventually[0:15]((energy_F4 <= 0.23926600650572977))",
+      "eventually[0:15](not(eventually[0:15]((energy_F4 <= 0.23926600650572977))))",
+      "always[0:3](eventually[0:15](not(eventually[0:15]((energy_F4 <= 0.23926600650572977)))))"
+    ],
+    [
+      "eventually[0:15]((energy_Fz <= 0.23926252249519522))",
+      "eventually[0:15](not(eventually[0:15]((energy_F3 <= 0.23926032737739525))))",
+      "(eventually[0:15]((energy_Fp1 >= 0.2607450305377802)) or eventually[0:15]((energy_T4 >= 0.26074978252898556)))"
+    ],
+    [
+      "eventually[0:15]((energy_T4 <= 0.23926531839607754))",
+      "eventually[0:31](not(eventually[0:15]((energy_T4 <= 0.23926531839607754))))",
+      "always[0:3](eventually[0:15]((energy_Cz <= 0.23927715673899494)))"
+    ]
+  ]
+}

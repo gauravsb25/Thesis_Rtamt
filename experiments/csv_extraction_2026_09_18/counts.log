@@ -1,0 +1,16 @@
+
+=== v2 (.fif dataset)
+sub_01 1-30   with history   LEFT 805/959  RIGHT 770/963  DOWN 585/748  STRAIGHT 15559/15890   all 17719/18560   false alarms 331/15890   movements missed 176   wrong movement type 334  (of 2670)
+sub_01 1-30   window alone  LEFT 802/959  RIGHT 765/963  DOWN 580/748  STRAIGHT 14356/15890   all 16503/18560   false alarms 1534/15890   movements missed 187   wrong movement type 336  (of 2670)
+sub_01 31-36  with history   LEFT 69/117  RIGHT 118/183  DOWN 71/123  STRAIGHT 823/846   all 1081/1269   false alarms 23/846   movements missed 58   wrong movement type 107  (of 423)
+sub_01 31-36  window alone  LEFT 69/117  RIGHT 118/183  DOWN 71/123  STRAIGHT 742/846   all 1000/1269   false alarms 104/846   movements missed 58   wrong movement type 107  (of 423)
+sub_11        with history   LEFT 105/187  RIGHT 165/221  DOWN 252/285  STRAIGHT 484/507   all 1006/1200   false alarms 23/507   movements missed 49   wrong movement type 122  (of 693)
+sub_11        window alone  LEFT 105/187  RIGHT 165/221  DOWN 252/285  STRAIGHT 450/507   all 972/1200   false alarms 57/507   movements missed 50   wrong movement type 121  (of 693)
+
+=== v3 (CSV-only dataset)
+sub_01 1-30   with history   LEFT 1256/1625  RIGHT 1201/1431  DOWN 909/1062  STRAIGHT 3830/4071   all 7196/8189   false alarms 241/4071   movements missed 206   wrong movement type 546  (of 4118)
+sub_01 1-30   window alone  LEFT 1265/1625  RIGHT 1194/1431  DOWN 912/1062  STRAIGHT 3471/4071   all 6842/8189   false alarms 600/4071   movements missed 207   wrong movement type 540  (of 4118)
+sub_01 31-36  with history   LEFT 84/180  RIGHT 171/281  DOWN 94/161  STRAIGHT 412/439   all 761/1061   false alarms 27/439   movements missed 85   wrong movement type 188  (of 622)
+sub_01 31-36  window alone  LEFT 84/180  RIGHT 171/281  DOWN 106/161  STRAIGHT 358/439   all 719/1061   false alarms 81/439   movements missed 57   wrong movement type 204  (of 622)
+sub_11        with history   LEFT 349/618  RIGHT 386/566  DOWN 410/451  STRAIGHT 185/252   all 1330/1887   false alarms 67/252   movements missed 73   wrong movement type 417  (of 1635)
+sub_11        window alone  LEFT 348/618  RIGHT 375/566  DOWN 413/451  STRAIGHT 170/252   all 1306/1887   false alarms 82/252   movements missed 83   wrong movement type 416  (of 1635)

@@ -1,0 +1,42 @@
+baseline on sessions 1-30: 85.01%  (L  83.9 R  80.0 D  78.2 S  97.9)
+
+   direction from lap_turn       84.0%   56.7%   67.9%
+   direction from phase_diff     50.0%   63.1%   48.3%
+   direction from F4-T3 (current)   92.6%  100.0%   70.5%
+
+P1_all         CV  85.01% (+0.00) sessions +0/-0  L  83.9 R  80.0 D  78.2 S  97.9  
+               folds: ['current', 'current', 'current']
+P1_nod         CV  85.01% (+0.00) sessions +0/-0  L  83.9 R  80.0 D  78.2 S  97.9  
+               folds: ['current', 'current', 'current']
+P1_sideways    CV  85.01% (+0.00) sessions +0/-0  L  83.9 R  80.0 D  78.2 S  97.9  
+               folds: ['current', 'current', 'lap_sideways <= 6.977']
+P1_side        CV  85.01% (+0.00) sessions +0/-0  L  83.9 R  80.0 D  78.2 S  97.9  
+               folds: ['current', 'current', 'current']
+P2_gate        CV  85.01% (+0.00) sessions +0/-0  L  83.9 R  80.0 D  78.2 S  97.9  
+               folds: ['current', 'current', 'current']
+P2_extra       CV  84.98% (-0.03) sessions +0/-1  L  83.9 R  79.9 D  78.2 S  97.9  
+               folds: ['pe_drop >= 0.01093', 'current', 'current']
+P3_sprt_0.0    CV  85.01% (+0.00) sessions +0/-0  L  83.9 R  80.0 D  78.2 S  97.9  
+               folds: ['current', 'current', 'current']
+P3_sprt_0.05   CV  85.01% (+0.00) sessions +0/-0  L  83.9 R  80.0 D  78.2 S  97.9  
+               folds: ['current', 'current', 'current']
+P3_sprt_0.1    CV  85.01% (+0.00) sessions +0/-0  L  83.9 R  80.0 D  78.2 S  97.9  
+               folds: ['current', 'current', 'current']
+P3_sprt_0.2    CV  85.01% (+0.00) sessions +0/-0  L  83.9 R  80.0 D  78.2 S  97.9  
+               folds: ['current', 'current', 'current']
+P4_side        CV  85.01% (+0.00) sessions +0/-0  L  83.9 R  80.0 D  78.2 S  97.9  
+               folds: ['current', 'current', 'current']
+P4_jump        CV  85.01% (+0.00) sessions +0/-0  L  83.9 R  80.0 D  78.2 S  97.9  
+               folds: ['current', 'current', 'current']
+P4_jump_ratio  CV  85.01% (+0.00) sessions +0/-0  L  83.9 R  80.0 D  78.2 S  97.9  
+               folds: ['current', 'current', 'current']
+P4_rough       CV  85.01% (+0.00) sessions +0/-0  L  83.9 R  80.0 D  78.2 S  97.9  
+               folds: ['current', 'current', 'current']
+
+P5. What the system is actually good at (the reframing)
+
+   split               MOVE vs STRAIGHT   nod vs turn   left vs right   4-class
+   sub_01 1-30                    95.7%         91.7%           92.6%    85.01%
+   sub_01 31-36                   91.8%         70.7%          100.0%    69.62%
+   sub_11                         94.2%         98.6%           70.5%    78.67%
+   (movement detection is balanced over the two classes; nod-vs-turn and left-vs-right are measured only on windows the monitor already calls a movement)

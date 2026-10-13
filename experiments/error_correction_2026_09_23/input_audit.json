@@ -1,0 +1,146 @@
+{
+  "files": {
+    "measurements_v2.npz": "7bf7b32269f1884f80b3d6bd4afa1e0908cfb8fc0663af1e93d05a06b8e46840",
+    "monitor_labels_v2.npz": "6556e21edbe5a6d0fc731388342ce66bc38d84363e50f8bdac401cc0b3c739fe",
+    "experiments\\spectral_patterns_2026_09_23\\features.npz": "d2bd8c6e02ae39c778b9d00f06ada1075f62a8f8ee0df12bf23b1d838b6e9dbb",
+    "experiments\\proposed_methods_2026_09_18\\features.npz": "bb64d1d9cfc71c95df4d14092ce787f45ca4b03efbae90c6bb23ef10bbe881d6",
+    "experiments\\phase_shape_2026_09_18\\features.npz": "3014c8d1d2dcdba4f4eae2b6841bacbbbfb02828e56a5cd6cba24a3685aefdd5",
+    "experiments\\fifteen_methods_2026_09_18\\features.npz": "a7d279aa37a9f54df87ad92cb802c816c3d27670abfc74e30a8d9e4a25e508ba",
+    "experiments\\five_paradigms_2026_09_18\\features.npz": "71bec3940f3661572125b29566f9c019a0e1af75c46cf067589116ee496ac7fc"
+  },
+  "feature_matrices": {
+    "monitor": {
+      "shape": [
+        21029,
+        18
+      ],
+      "sha256": "a69f40e232974e8613a5e134fea88817c6d957d6553f2908ab67f41402e7ef86"
+    },
+    "combined": {
+      "shape": [
+        21029,
+        324
+      ],
+      "sha256": "3d56252b382bd339bd350d3c61da7474dc48f32bfc2654e2e4515fd2446b394e"
+    }
+  },
+  "folds": [
+    {
+      "outer": 0,
+      "train_sessions": [
+        "sub_01/ses-11",
+        "sub_01/ses-12",
+        "sub_01/ses-13",
+        "sub_01/ses-14",
+        "sub_01/ses-15",
+        "sub_01/ses-16",
+        "sub_01/ses-17",
+        "sub_01/ses-18",
+        "sub_01/ses-19",
+        "sub_01/ses-20",
+        "sub_01/ses-21",
+        "sub_01/ses-22",
+        "sub_01/ses-23",
+        "sub_01/ses-24",
+        "sub_01/ses-25",
+        "sub_01/ses-26",
+        "sub_01/ses-27",
+        "sub_01/ses-28",
+        "sub_01/ses-29",
+        "sub_01/ses-30"
+      ],
+      "test_sessions": [
+        "sub_01/ses-01",
+        "sub_01/ses-02",
+        "sub_01/ses-03",
+        "sub_01/ses-04",
+        "sub_01/ses-05",
+        "sub_01/ses-06",
+        "sub_01/ses-07",
+        "sub_01/ses-08",
+        "sub_01/ses-09",
+        "sub_01/ses-10"
+      ],
+      "train_recordings": 183,
+      "test_recordings": 92
+    },
+    {
+      "outer": 1,
+      "train_sessions": [
+        "sub_01/ses-01",
+        "sub_01/ses-02",
+        "sub_01/ses-03",
+        "sub_01/ses-04",
+        "sub_01/ses-05",
+        "sub_01/ses-06",
+        "sub_01/ses-07",
+        "sub_01/ses-08",
+        "sub_01/ses-09",
+        "sub_01/ses-10",
+        "sub_01/ses-21",
+        "sub_01/ses-22",
+        "sub_01/ses-23",
+        "sub_01/ses-24",
+        "sub_01/ses-25",
+        "sub_01/ses-26",
+        "sub_01/ses-27",
+        "sub_01/ses-28",
+        "sub_01/ses-29",
+        "sub_01/ses-30"
+      ],
+      "test_sessions": [
+        "sub_01/ses-11",
+        "sub_01/ses-12",
+        "sub_01/ses-13",
+        "sub_01/ses-14",
+        "sub_01/ses-15",
+        "sub_01/ses-16",
+        "sub_01/ses-17",
+        "sub_01/ses-18",
+        "sub_01/ses-19",
+        "sub_01/ses-20"
+      ],
+      "train_recordings": 188,
+      "test_recordings": 87
+    },
+    {
+      "outer": 2,
+      "train_sessions": [
+        "sub_01/ses-01",
+        "sub_01/ses-02",
+        "sub_01/ses-03",
+        "sub_01/ses-04",
+        "sub_01/ses-05",
+        "sub_01/ses-06",
+        "sub_01/ses-07",
+        "sub_01/ses-08",
+        "sub_01/ses-09",
+        "sub_01/ses-10",
+        "sub_01/ses-11",
+        "sub_01/ses-12",
+        "sub_01/ses-13",
+        "sub_01/ses-14",
+        "sub_01/ses-15",
+        "sub_01/ses-16",
+        "sub_01/ses-17",
+        "sub_01/ses-18",
+        "sub_01/ses-19",
+        "sub_01/ses-20"
+      ],
+      "test_sessions": [
+        "sub_01/ses-21",
+        "sub_01/ses-22",
+        "sub_01/ses-23",
+        "sub_01/ses-24",
+        "sub_01/ses-25",
+        "sub_01/ses-26",
+        "sub_01/ses-27",
+        "sub_01/ses-28",
+        "sub_01/ses-29",
+        "sub_01/ses-30"
+      ],
+      "train_recordings": 179,
+      "test_recordings": 96
+    }
+  ]
+}

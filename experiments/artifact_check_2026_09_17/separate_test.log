@@ -1,0 +1,80 @@
+C:\Users\gaura\miniconda3\Lib\site-packages\numpy\_core\fromnumeric.py:3904: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+C:\Users\gaura\miniconda3\Lib\site-packages\numpy\_core\_methods.py:147: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+==================== sub_01 sessions 31-36 (test): 1269 windows ====================
+
+1. Windows flagged, per true class
+                          LEFT           RIGHT            DOWN        STRAIGHT
+   BLINK            0 (  0.0%)      0 (  0.0%)      0 (  0.0%)      0 (  0.0%)
+   BLINK-LIKE      21 ( 17.9%)     43 ( 23.5%)     23 ( 18.7%)    481 ( 56.9%)
+   POP             18 ( 15.4%)      0 (  0.0%)      0 (  0.0%)      0 (  0.0%)
+   EMG              9 (  7.7%)      0 (  0.0%)      0 (  0.0%)      0 (  0.0%)
+   BIG             18 ( 15.4%)      0 (  0.0%)      0 (  0.0%)      0 (  0.0%)
+   ANY             39 ( 33.3%)     43 ( 23.5%)     23 ( 18.7%)    481 ( 56.9%)
+   ANY-STRICT      18 ( 15.4%)      0 (  0.0%)      0 (  0.0%)      0 (  0.0%)
+
+2. Monitor accuracy (4-class balanced)
+   all windows                          1269   67.22%   L  59.0  R  64.5  D  57.7  S  87.7
+   without BLINK windows                1269   67.22%   L  59.0  R  64.5  D  57.7  S  87.7
+   only BLINK windows                      0     nan%   L   -    R   -    D   -    S   -  
+   without BLINK-LIKE windows            701   70.84%   L  70.8  R  59.3  D  62.0  S  91.2
+   only BLINK-LIKE windows               568   52.58%   L   4.8  R  81.4  D  39.1  S  85.0
+   without POP windows                  1251   65.36%   L  51.5  R  64.5  D  57.7  S  87.7
+   only POP windows                       18  100.00%   L 100.0  R   -    D   -    S   -  
+   without EMG windows                  1260   66.37%   L  55.6  R  64.5  D  57.7  S  87.7
+   only EMG windows                        9  100.00%   L 100.0  R   -    D   -    S   -  
+   without BIG windows                  1251   65.36%   L  51.5  R  64.5  D  57.7  S  87.7
+   only BIG windows                       18  100.00%   L 100.0  R   -    D   -    S   -  
+   without ANY windows                   683   69.16%   L  64.1  R  59.3  D  62.0  S  91.2
+   only ANY windows                      586   63.57%   L  48.7  R  81.4  D  39.1  S  85.0
+   without ANY-STRICT windows           1251   65.36%   L  51.5  R  64.5  D  57.7  S  87.7
+   only ANY-STRICT windows                18  100.00%   L 100.0  R   -    D   -    S   -  
+
+3. Monitor with an artifact veto (flagged -> STRAIGHT), all windows kept
+   veto BLINK        67.22%   L  59.0  R  64.5  D  57.7  S  87.7
+   veto BLINK-LIKE   62.52%   L  58.1  R  45.4  D  50.4  S  96.2
+   veto POP          63.38%   L  43.6  R  64.5  D  57.7  S  87.7
+   veto EMG          65.30%   L  51.3  R  64.5  D  57.7  S  87.7
+   veto BIG          63.38%   L  43.6  R  64.5  D  57.7  S  87.7
+   veto ANY          58.68%   L  42.7  R  45.4  D  50.4  S  96.2
+   veto ANY-STRICT   63.38%   L  43.6  R  64.5  D  57.7  S  87.7
+
+==================== sub_11 (test): 1200 windows ====================
+
+1. Windows flagged, per true class
+                          LEFT           RIGHT            DOWN        STRAIGHT
+   BLINK            0 (  0.0%)      0 (  0.0%)      1 (  0.4%)      0 (  0.0%)
+   BLINK-LIKE      46 ( 24.6%)     73 ( 33.0%)     61 ( 21.4%)    110 ( 21.7%)
+   POP              0 (  0.0%)      0 (  0.0%)      0 (  0.0%)      0 (  0.0%)
+   EMG              4 (  2.1%)      5 (  2.3%)      9 (  3.2%)      0 (  0.0%)
+   BIG            172 ( 92.0%)    142 ( 64.3%)     32 ( 11.2%)     46 (  9.1%)
+   ANY            176 ( 94.1%)    179 ( 81.0%)     84 ( 29.5%)    137 ( 27.0%)
+   ANY-STRICT     172 ( 92.0%)    142 ( 64.3%)     33 ( 11.6%)     46 (  9.1%)
+
+2. Monitor accuracy (4-class balanced)
+   all windows                          1200   77.00%   L  56.1  R  74.7  D  88.4  S  88.8
+   without BLINK windows                1199   76.99%   L  56.1  R  74.7  D  88.4  S  88.8
+   only BLINK windows                      1  100.00%   L   -    R   -    D 100.0  S   -  
+   without BLINK-LIKE windows            910   76.76%   L  53.9  R  73.6  D  91.1  S  88.4
+   only BLINK-LIKE windows               290   77.11%   L  63.0  R  76.7  D  78.7  S  90.0
+   without POP windows                  1200   77.00%   L  56.1  R  74.7  D  88.4  S  88.8
+   only POP windows                        0     nan%   L   -    R   -    D   -    S   -  
+   without EMG windows                  1182   76.52%   L  55.2  R  74.1  D  88.0  S  88.8
+   only EMG windows                       18  100.00%   L 100.0  R 100.0  D 100.0  S   -  
+   without BIG windows                   808   88.18%   L  93.3  R  84.8  D  87.0  S  87.6
+   only BIG windows                      392   80.48%   L  52.9  R  69.0  D 100.0  S 100.0
+   without ANY windows                   624   87.37%   L  90.9  R  81.0  D  90.0  S  87.6
+   only ANY windows                      576   75.91%   L  54.0  R  73.2  D  84.5  S  92.0
+   without ANY-STRICT windows            807   88.17%   L  93.3  R  84.8  D  86.9  S  87.6
+   only ANY-STRICT windows               393   80.48%   L  52.9  R  69.0  D 100.0  S 100.0
+
+3. Monitor with an artifact veto (flagged -> STRAIGHT), all windows kept
+   veto BLINK        76.91%   L  56.1  R  74.7  D  88.1  S  88.8
+   veto BLINK-LIKE   63.12%   L  40.6  R  49.3  D  71.6  S  90.9
+   veto POP          77.00%   L  56.1  R  74.7  D  88.4  S  88.8
+   veto EMG          75.11%   L  54.0  R  72.4  D  85.3  S  88.8
+   veto BIG          50.94%   L   7.5  R  30.3  D  77.2  S  88.8
+   veto ANY          43.79%   L   5.3  R  15.4  D  63.5  S  90.9
+   veto ANY-STRICT   50.85%   L   7.5  R  30.3  D  76.8  S  88.8

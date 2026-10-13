@@ -1,0 +1,699 @@
+{
+ "DETECT": {
+  "families": {
+   "baseline": {
+    "cv": 90.87581694502866,
+    "better": 0,
+    "worse": 0
+   },
+   "single": {
+    "cv": 90.92128344654371,
+    "better": 9,
+    "worse": 11
+   },
+   "and_2": {
+    "cv": 88.20076832014566,
+    "better": 8,
+    "worse": 12
+   },
+   "and_3": {
+    "cv": 87.52959401114636,
+    "better": 9,
+    "worse": 11
+   },
+   "or_2": {
+    "cv": 92.06240975885522,
+    "better": 11,
+    "worse": 9
+   },
+   "or_3": {
+    "cv": 92.01235287652506,
+    "better": 11,
+    "worse": 9
+   },
+   "vote_3": {
+    "cv": 91.82609280066553,
+    "better": 9,
+    "worse": 11
+   },
+   "vote_5": {
+    "cv": 92.08251699414089,
+    "better": 10,
+    "worse": 10
+   },
+   "vote_9": {
+    "cv": 92.61836088194435,
+    "better": 10,
+    "worse": 10
+   },
+   "vote_15": {
+    "cv": 92.64784853703742,
+    "better": 10,
+    "worse": 10
+   },
+   "vote_25": {
+    "cv": 92.6066751884057,
+    "better": 10,
+    "worse": 10
+   },
+   "base_and": {
+    "cv": 89.82580572132707,
+    "better": 12,
+    "worse": 8
+   },
+   "base_or": {
+    "cv": 91.84278409039028,
+    "better": 9,
+    "worse": 11
+   },
+   "regime": {
+    "cv": 91.24145616971147,
+    "better": 11,
+    "worse": 9
+   },
+   "cascade": {
+    "cv": 91.48302499148684,
+    "better": 11,
+    "worse": 9
+   }
+  },
+  "null": {
+   "real_best_train": 93.5710697892035,
+   "shuffled_best_train": [
+    75.12724292615597,
+    75.14244648632001,
+    75.1732516678169,
+    75.11358408097539,
+    75.1342349789505
+   ]
+  },
+  "user": {
+   "left Fp1+F3+T3": {
+    "single": {
+     "cv": 86.88213300176085,
+     "better": 0,
+     "worse": 0
+    },
+    "vote_3": {
+     "cv": 87.43755761636265,
+     "better": 0,
+     "worse": 0
+    }
+   },
+   "right Fp2+F4+T4": {
+    "single": {
+     "cv": 86.48882170600425,
+     "better": 0,
+     "worse": 0
+    },
+    "vote_3": {
+     "cv": 89.75955251076333,
+     "better": 0,
+     "worse": 0
+    }
+   },
+   "midline Fz+Cz": {
+    "single": {
+     "cv": 82.08459879464166,
+     "better": 0,
+     "worse": 0
+    },
+    "vote_3": {
+     "cv": 83.60536416888363,
+     "better": 0,
+     "worse": 0
+    }
+   },
+   "front Fp1+Fp2+F3+Fz+F4": {
+    "single": {
+     "cv": 85.9882425901813,
+     "better": 0,
+     "worse": 0
+    },
+    "vote_3": {
+     "cv": 88.77862050599066,
+     "better": 0,
+     "worse": 0
+    }
+   },
+   "T3+Cz+T4": {
+    "single": {
+     "cv": 89.55974195407335,
+     "better": 0,
+     "worse": 0
+    },
+    "vote_3": {
+     "cv": 90.4316988354315,
+     "better": 0,
+     "worse": 0
+    }
+   },
+   "all 8": {
+    "single": {
+     "cv": 92.12007883930725,
+     "better": 0,
+     "worse": 0
+    },
+    "vote_3": {
+     "cv": 93.67244099871584,
+     "better": 0,
+     "worse": 0
+    }
+   }
+  }
+ },
+ "NOD": {
+  "families": {
+   "baseline": {
+    "cv": 86.91325878553326,
+    "better": 0,
+    "worse": 0
+   },
+   "single": {
+    "cv": 84.73227296688486,
+    "better": 6,
+    "worse": 10
+   },
+   "and_2": {
+    "cv": 81.06459230668253,
+    "better": 5,
+    "worse": 14
+   },
+   "and_3": {
+    "cv": 80.93694339774244,
+    "better": 5,
+    "worse": 14
+   },
+   "or_2": {
+    "cv": 87.71590942674095,
+    "better": 7,
+    "worse": 10
+   },
+   "or_3": {
+    "cv": 87.2929612203861,
+    "better": 7,
+    "worse": 10
+   },
+   "vote_3": {
+    "cv": 88.74295510668424,
+    "better": 8,
+    "worse": 8
+   },
+   "vote_5": {
+    "cv": 88.53839132977733,
+    "better": 8,
+    "worse": 8
+   },
+   "vote_9": {
+    "cv": 87.2506526540745,
+    "better": 8,
+    "worse": 8
+   },
+   "vote_15": {
+    "cv": 85.10957459444164,
+    "better": 7,
+    "worse": 7
+   },
+   "vote_25": {
+    "cv": 85.15115526472204,
+    "better": 6,
+    "worse": 8
+   },
+   "base_and": {
+    "cv": 78.52501460009485,
+    "better": 4,
+    "worse": 13
+   },
+   "base_or": {
+    "cv": 90.13128089145458,
+    "better": 7,
+    "worse": 5
+   },
+   "regime": {
+    "cv": 81.98001372443281,
+    "better": 4,
+    "worse": 14
+   },
+   "cascade": {
+    "cv": 84.66954582349189,
+    "better": 7,
+    "worse": 10
+   }
+  },
+  "null": {
+   "real_best_train": 93.95789124583513,
+   "shuffled_best_train": [
+    67.9295819008933,
+    68.1097627227635,
+    67.75540544027652,
+    68.09868651942212,
+    68.0505735289643
+   ]
+  },
+  "user": {
+   "left Fp1+F3+T3 vs right Fp2+F4+T4": {
+    "single": {
+     "cv": 77.34882208615252,
+     "better": 0,
+     "worse": 0
+    },
+    "vote_3": {
+     "cv": 84.34175987016084,
+     "better": 0,
+     "worse": 0
+    },
+    "or_2": {
+     "cv": 80.51561187034103,
+     "better": 0,
+     "worse": 0
+    },
+    "and_2": {
+     "cv": 80.23714009211977,
+     "better": 0,
+     "worse": 0
+    }
+   },
+   "front Fp1+Fp2+F3+Fz+F4 vs T3+Cz+T4": {
+    "single": {
+     "cv": 70.12293726604625,
+     "better": 0,
+     "worse": 0
+    },
+    "vote_3": {
+     "cv": 63.842895544170375,
+     "better": 0,
+     "worse": 0
+    },
+    "or_2": {
+     "cv": 67.6035157190866,
+     "better": 0,
+     "worse": 0
+    },
+    "and_2": {
+     "cv": 64.11276221673519,
+     "better": 0,
+     "worse": 0
+    }
+   },
+   "midline Fz+Cz vs temples T3+T4": {
+    "single": {
+     "cv": 85.00701466844835,
+     "better": 0,
+     "worse": 0
+    },
+    "vote_3": {
+     "cv": 71.23586061959385,
+     "better": 0,
+     "worse": 0
+    },
+    "or_2": {
+     "cv": 78.1261369470466,
+     "better": 0,
+     "worse": 0
+    },
+    "and_2": {
+     "cv": 75.06403454463356,
+     "better": 0,
+     "worse": 0
+    }
+   },
+   "T3 vs T4": {
+    "single": {
+     "cv": 90.00818211371386,
+     "better": 0,
+     "worse": 0
+    },
+    "vote_3": {
+     "cv": 92.16324327478738,
+     "better": 0,
+     "worse": 0
+    },
+    "or_2": {
+     "cv": 90.94377374917002,
+     "better": 0,
+     "worse": 0
+    },
+    "and_2": {
+     "cv": 88.90924810964151,
+     "better": 0,
+     "worse": 0
+    }
+   },
+   "F3 vs F4": {
+    "single": {
+     "cv": 84.58170939103968,
+     "better": 0,
+     "worse": 0
+    },
+    "vote_3": {
+     "cv": 85.95607394249046,
+     "better": 0,
+     "worse": 0
+    },
+    "or_2": {
+     "cv": 84.66715438824775,
+     "better": 0,
+     "worse": 0
+    },
+    "and_2": {
+     "cv": 86.19418029316152,
+     "better": 0,
+     "worse": 0
+    }
+   },
+   "Fp1 vs Fp2": {
+    "single": {
+     "cv": 74.46374681014403,
+     "better": 0,
+     "worse": 0
+    },
+    "vote_3": {
+     "cv": 75.09823941006557,
+     "better": 0,
+     "worse": 0
+    },
+    "or_2": {
+     "cv": 74.61986801276824,
+     "better": 0,
+     "worse": 0
+    },
+    "and_2": {
+     "cv": 74.18826471648012,
+     "better": 0,
+     "worse": 0
+    }
+   },
+   "F4 vs T3 (current direction pair)": {
+    "single": {
+     "cv": 84.46606139456256,
+     "better": 0,
+     "worse": 0
+    },
+    "vote_3": {
+     "cv": 86.88916167807965,
+     "better": 0,
+     "worse": 0
+    },
+    "or_2": {
+     "cv": 89.1876745896119,
+     "better": 0,
+     "worse": 0
+    },
+    "and_2": {
+     "cv": 82.29612210109158,
+     "better": 0,
+     "worse": 0
+    }
+   },
+   "left+midline Fp1+F3+T3+Fz+Cz vs right Fp2+F4+T4": {
+    "single": {
+     "cv": 80.19750568461808,
+     "better": 0,
+     "worse": 0
+    },
+    "vote_3": {
+     "cv": 85.14000564697368,
+     "better": 0,
+     "worse": 0
+    },
+    "or_2": {
+     "cv": 83.11765274085971,
+     "better": 0,
+     "worse": 0
+    },
+    "and_2": {
+     "cv": 81.91381423580944,
+     "better": 0,
+     "worse": 0
+    }
+   }
+  }
+ },
+ "DIRECTION": {
+  "families": {
+   "baseline": {
+    "cv": 89.10888843528157,
+    "better": 0,
+    "worse": 0
+   },
+   "single": {
+    "cv": 84.05797101449275,
+    "better": 4,
+    "worse": 9
+   },
+   "and_2": {
+    "cv": 82.61436574357579,
+    "better": 3,
+    "worse": 9
+   },
+   "and_3": {
+    "cv": 82.70055113288427,
+    "better": 1,
+    "worse": 12
+   },
+   "or_2": {
+    "cv": 84.85064979247466,
+    "better": 3,
+    "worse": 10
+   },
+   "or_3": {
+    "cv": 82.35467555736999,
+    "better": 3,
+    "worse": 13
+   },
+   "vote_3": {
+    "cv": 83.84137352294118,
+    "better": 4,
+    "worse": 8
+   },
+   "vote_5": {
+    "cv": 86.03229684062508,
+    "better": 4,
+    "worse": 8
+   },
+   "vote_9": {
+    "cv": 86.27611077090562,
+    "better": 5,
+    "worse": 6
+   },
+   "vote_15": {
+    "cv": 85.5650813091107,
+    "better": 4,
+    "worse": 6
+   },
+   "vote_25": {
+    "cv": 85.4845660112041,
+    "better": 4,
+    "worse": 6
+   },
+   "base_and": {
+    "cv": 90.59558640085278,
+    "better": 5,
+    "worse": 6
+   },
+   "base_or": {
+    "cv": 82.50663400694019,
+    "better": 0,
+    "worse": 9
+   },
+   "regime": {
+    "cv": 81.97477943344447,
+    "better": 4,
+    "worse": 11
+   },
+   "cascade": {
+    "cv": 83.04302465355742,
+    "better": 3,
+    "worse": 10
+   }
+  },
+  "null": {
+   "real_best_train": 92.23084076115322,
+   "shuffled_best_train": [
+    59.39874350774552,
+    59.25585720441815,
+    59.34657866684836,
+    59.21163049148351,
+    60.76296749903622
+   ]
+  },
+  "user": {
+   "left Fp1+F3+T3 vs right Fp2+F4+T4": {
+    "single": {
+     "cv": 88.12115851307524,
+     "better": 0,
+     "worse": 0
+    },
+    "vote_3": {
+     "cv": 82.55653081127667,
+     "better": 0,
+     "worse": 0
+    },
+    "or_2": {
+     "cv": 85.1262162346057,
+     "better": 0,
+     "worse": 0
+    },
+    "and_2": {
+     "cv": 82.06550089587445,
+     "better": 0,
+     "worse": 0
+    }
+   },
+   "front Fp1+Fp2+F3+Fz+F4 vs T3+Cz+T4": {
+    "single": {
+     "cv": 40.94373001292781,
+     "better": 0,
+     "worse": 0
+    },
+    "vote_3": {
+     "cv": 50.621442017645336,
+     "better": 0,
+     "worse": 0
+    },
+    "or_2": {
+     "cv": 47.668458415549665,
+     "better": 0,
+     "worse": 0
+    },
+    "and_2": {
+     "cv": 46.85876936336213,
+     "better": 0,
+     "worse": 0
+    }
+   },
+   "midline Fz+Cz vs temples T3+T4": {
+    "single": {
+     "cv": 52.20906761016988,
+     "better": 0,
+     "worse": 0
+    },
+    "vote_3": {
+     "cv": 54.697103717311926,
+     "better": 0,
+     "worse": 0
+    },
+    "or_2": {
+     "cv": 56.442357850808555,
+     "better": 0,
+     "worse": 0
+    },
+    "and_2": {
+     "cv": 55.07473180467669,
+     "better": 0,
+     "worse": 0
+    }
+   },
+   "T3 vs T4": {
+    "single": {
+     "cv": 86.32147150212062,
+     "better": 0,
+     "worse": 0
+    },
+    "vote_3": {
+     "cv": 85.05023700982059,
+     "better": 0,
+     "worse": 0
+    },
+    "or_2": {
+     "cv": 84.2042593726611,
+     "better": 0,
+     "worse": 0
+    },
+    "and_2": {
+     "cv": 85.51064843165273,
+     "better": 0,
+     "worse": 0
+    }
+   },
+   "F3 vs F4": {
+    "single": {
+     "cv": 82.04622258510807,
+     "better": 0,
+     "worse": 0
+    },
+    "vote_3": {
+     "cv": 80.9031321584904,
+     "better": 0,
+     "worse": 0
+    },
+    "or_2": {
+     "cv": 78.7847860107505,
+     "better": 0,
+     "worse": 0
+    },
+    "and_2": {
+     "cv": 81.65725431493955,
+     "better": 0,
+     "worse": 0
+    }
+   },
+   "Fp1 vs Fp2": {
+    "single": {
+     "cv": 84.49230001587625,
+     "better": 0,
+     "worse": 0
+    },
+    "vote_3": {
+     "cv": 83.08725136649203,
+     "better": 0,
+     "worse": 0
+    },
+    "or_2": {
+     "cv": 82.62457190809916,
+     "better": 0,
+     "worse": 0
+    },
+    "and_2": {
+     "cv": 80.28169014084507,
+     "better": 0,
+     "worse": 0
+    }
+   },
+   "F4 vs T3 (current direction pair)": {
+    "single": {
+     "cv": 86.62312036470028,
+     "better": 0,
+     "worse": 0
+    },
+    "vote_3": {
+     "cv": 87.2627066748316,
+     "better": 0,
+     "worse": 0
+    },
+    "or_2": {
+     "cv": 85.77260665441928,
+     "better": 0,
+     "worse": 0
+    },
+    "and_2": {
+     "cv": 82.19024290671567,
+     "better": 0,
+     "worse": 0
+    }
+   },
+   "left+midline Fp1+F3+T3+Fz+Cz vs right Fp2+F4+T4": {
+    "single": {
+     "cv": 86.28291488058788,
+     "better": 0,
+     "worse": 0
+    },
+    "vote_3": {
+     "cv": 81.843233312921,
+     "better": 0,
+     "worse": 0
+    },
+    "or_2": {
+     "cv": 82.09611938944457,
+     "better": 0,
+     "worse": 0
+    },
+    "and_2": {
+     "cv": 81.82168696559388,
+     "better": 0,
+     "worse": 0
+    }
+   }
+  }
+ }
+}

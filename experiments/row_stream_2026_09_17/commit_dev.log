@@ -1,0 +1,10 @@
+policy                             4-class      L     R     D     S   median latency from onset (correct movements)   rest committed early
+commit after  1 steps (0.062 s), t>=0.5    65.37   69.8  32.5  70.1  89.2   +0.64 s (commit at t median 1.56 s)   9.8%
+commit after  2 steps (0.125 s), t>=0.5    66.35   69.8  34.2  72.1  89.4   +0.72 s (commit at t median 1.62 s)   9.2%
+commit after  4 steps (0.250 s), t>=0.5    68.17   68.4  40.3  74.2  89.8   +0.90 s (commit at t median 1.81 s)   7.9%
+commit after  8 steps (0.500 s), t>=0.5    74.10   72.8  55.3  78.2  90.1   +1.32 s (commit at t median 2.19 s)   5.6%
+commit after 12 steps (0.750 s), t>=0.5    80.10   80.9  71.3  77.9  90.2   +1.64 s (commit at t median 2.44 s)   4.0%
+commit after 16 steps (1.000 s), t>=0.5    82.08   83.0  76.9  78.1  90.3   +1.86 s (commit at t median 2.69 s)   2.6%
+commit after  4 steps (0.250 s), t>=1.0    68.29   68.2  40.3  74.9  89.8   +0.90 s (commit at t median 1.81 s)   7.9%
+commit after  8 steps (0.500 s), t>=1.0    74.10   72.8  55.3  78.2  90.1   +1.32 s (commit at t median 2.19 s)   5.6%
+wait for the full 3 s (current)      82.74   83.6  79.4  77.5  90.3   +2.22 s

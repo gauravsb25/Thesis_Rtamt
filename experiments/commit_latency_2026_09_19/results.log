@@ -1,0 +1,17 @@
+21029 windows, a verdict every 0.125 s
+
+decision                             sub_01 1-30              sub_01 31-36                    sub_11
+                         balanced   median delay   balanced   median delay   balanced   median delay
+wait for row 768          85.01%          2.22 s    69.62%          2.20 s    78.67%          2.31 s
+commit after 0.5 s        74.85%          1.24 s    67.53%          1.31 s    77.53%          1.23 s
+commit after 0.75 s       80.89%          1.56 s    69.98%          1.67 s    78.97%          1.50 s
+commit after 1.0 s        83.92%          1.79 s    69.93%          1.85 s    79.57%          1.76 s
+commit after 1.5 s        84.95%          2.03 s    69.60%          2.06 s    78.67%          2.15 s
+
+(delay = time from the movement's start inside the window to the decision, over correctly classified movement windows; STRAIGHT is never committed early)
+
+real	9m51.415s
+user	0m0.296s
+sys	0m0.514s
+
+[exited with code 0]

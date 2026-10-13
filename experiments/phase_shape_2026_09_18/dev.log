@@ -1,0 +1,64 @@
+A. What one known turn per session would buy (this breaks the no-per-session rule on purpose)
+
+   split              monitor now   1-turn calibration   oracle sign (ceiling)
+   sub_01 1-30             84.49%               80.53%                  84.49%
+   sub_01 31-36            59.07%               59.07%                  59.07%
+   sub_11                  78.65%               70.06%                  80.49%
+   sub_01 1-30      direction among turn windows: now  92.2%  1-turn  83.2%  oracle  92.2%   (1419 windows)
+   sub_01 31-36     direction among turn windows: now 100.0%  1-turn 100.0%  oracle 100.0%   (120 windows)
+   sub_11           direction among turn windows: now  73.5%  1-turn  53.9%  oracle  77.5%   (306 windows)
+
+   sessions whose sign is inverted: 2 of 46 -> [np.str_('sub_11/ses-08'), np.str_('sub_11/ses-09')]
+
+B and C. baseline on sessions 1-30: 85.01%  (L  83.9 R  80.0 D  78.2 S  97.9)
+
+   direction accuracy among turn windows (no fitting, orientation from sessions 1-30):
+      lag_f3f4      51.1%  47.6%  56.1%   (current rule: 92.6% / 100.0% / 70.5%)
+      lag_t3t4      59.3%  26.7%  49.6%   (current rule: 92.6% / 100.0% / 70.5%)
+      lag_env       59.1%  53.5%  49.3%   (current rule: 92.6% / 100.0% / 70.5%)
+      lag_env alignment quality: median 0.49
+
+B_lag_f3f4       CV  85.01% (+0.00) sessions +0/-0  L  83.9 R  80.0 D  78.2 S  97.9  
+                 [['B_lag_f3f4: current'], ['B_lag_f3f4: current'], ['B_lag_f3f4: current']]
+B_lag_t3t4       CV  85.01% (+0.00) sessions +0/-0  L  83.9 R  80.0 D  78.2 S  97.9  
+                 [['B_lag_t3t4: current'], ['B_lag_t3t4: current'], ['B_lag_t3t4: current']]
+B_lag_env        CV  85.01% (+0.00) sessions +0/-0  L  83.9 R  80.0 D  78.2 S  97.9  
+                 [['B_lag_env: current'], ['B_lag_env: current'], ['B_lag_env: current']]
+Traceback (most recent call last):
+  File "C:\Users\gaura\thesis_rtamt\experiments\phase_shape_2026_09_18\run.py", line 193, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\gaura\thesis_rtamt\experiments\phase_shape_2026_09_18\run.py", line 181, in main
+    names, pred = select(design.split("+"), DEV & ~held)
+                  ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\thesis_rtamt\experiments\phase_shape_2026_09_18\run.py", line 140, in select
+    for label, m_, n_, s_ in candidates(design, train):
+                             ~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\gaura\thesis_rtamt\experiments\phase_shape_2026_09_18\run.py", line 117, in candidates
+    key = {"B_lag_f3f4": "lag_f3f4", "B_lag_t3t4": "lag_t3t4", "B_lag_env": "lag_env"}[design]
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'B_lag_tiebreak'
+   direction accuracy among turn windows (no fitting, orientation from sessions 1-30):
+      lag_f3f4      51.1%  47.6%  56.1%   (current rule: 92.6% / 100.0% / 70.5%)
+      lag_t3t4      59.3%  26.7%  49.6%   (current rule: 92.6% / 100.0% / 70.5%)
+      lag_env       59.1%  53.5%  49.3%   (current rule: 92.6% / 100.0% / 70.5%)
+      lag_env alignment quality: median 0.49
+
+B_lag_f3f4       CV  85.01% (+0.00) sessions +0/-0  L  83.9 R  80.0 D  78.2 S  97.9  
+                 [['B_lag_f3f4: current'], ['B_lag_f3f4: current'], ['B_lag_f3f4: current']]
+B_lag_t3t4       CV  85.01% (+0.00) sessions +0/-0  L  83.9 R  80.0 D  78.2 S  97.9  
+                 [['B_lag_t3t4: current'], ['B_lag_t3t4: current'], ['B_lag_t3t4: current']]
+B_lag_env        CV  85.01% (+0.00) sessions +0/-0  L  83.9 R  80.0 D  78.2 S  97.9  
+                 [['B_lag_env: current'], ['B_lag_env: current'], ['B_lag_env: current']]
+B_lag_tiebreak   CV  84.33% (-0.68) sessions +0/-3  L  82.4 R  78.8 D  78.2 S  97.9  
+                 [['B_lag_tiebreak: use timing when |turn| < 2.09'], ['B_lag_tiebreak: current'], ['B_lag_tiebreak: current']]
+C_asym           CV  84.94% (-0.07) sessions +0/-1  L  83.9 R  80.0 D  77.9 S  97.9  
+                 [['C_asym: current'], ['C_asym: DOWN needs asym <= 0.9289'], ['C_asym: DOWN needs asym <= 0.9289']]
+C_rise           CV  84.94% (-0.07) sessions +0/-1  L  83.9 R  80.0 D  77.9 S  97.9  
+                 [['C_rise: current'], ['C_rise: DOWN needs rise >= 0.03516'], ['C_rise: DOWN needs rise >= 0.03516']]
+C_fall           CV  83.87% (-1.14) sessions +0/-3  L  83.9 R  80.0 D  73.7 S  97.9  
+                 [['C_fall: current'], ['C_fall: DOWN needs fall >= 0.1914'], ['C_fall: current']]
+C_steep          CV  85.01% (+0.00) sessions +0/-0  L  83.9 R  80.0 D  78.2 S  97.9  
+                 [['C_steep: current'], ['C_steep: current'], ['C_steep: current']]
+C_width          CV  85.01% (+0.00) sessions +0/-0  L  83.9 R  80.0 D  78.2 S  97.9  
+                 [['C_width: current'], ['C_width: current'], ['C_width: current']]

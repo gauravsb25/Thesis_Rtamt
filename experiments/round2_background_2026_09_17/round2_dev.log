@@ -1,0 +1,11 @@
+shipped monitor with stream history, sessions 1-30: 85.01% (L  83.9 R  80.0 D  78.2 S  97.9)
+A_nodbg          CV  84.42% (-0.58) sessions +0/-3  L  83.5 R  79.6 D  76.6 S  97.9    [['A_nodbg: t=-0.1471'], ['A_nodbg: t=1.297'], ['A_nodbg: current']]
+A_sidebg         CV  85.35% (+0.34) sessions +2/-2  L  87.2 R  80.0 D  76.3 S  97.9    [['A_sidebg: t=8.316'], ['A_sidebg: t=7.619'], ['A_sidebg: t=8.419']]
+A_both           CV  83.42% (-1.59) sessions +2/-9  L  86.1 R  78.1 D  71.5 S  97.9    [['A_both: t1=-0.004783 t2=8.672'], ['A_both: t1=1.198 t2=8.985'], ['A_both: t1=-3.696 t2=6.672']]
+A_topo           CV  85.01% (+0.00) sessions +0/-0  L  83.9 R  80.0 D  78.2 S  97.9    [['A_topo: current'], ['A_topo: current'], ['A_topo: current']]
+A_nodbg_or       CV  84.93% (-0.08) sessions +0/-1  L  83.9 R  79.6 D  78.2 S  97.9    [['A_nodbg_or: t=-0.1471'], ['A_nodbg_or: current'], ['A_nodbg_or: current']]
+A_nodbg_and      CV  84.61% (-0.40) sessions +0/-1  L  83.9 R  80.0 D  76.6 S  97.9    [['A_nodbg_and: current'], ['A_nodbg_and: t=1.297'], ['A_nodbg_and: current']]
+A_topo_and       CV  84.61% (-0.40) sessions +0/-1  L  83.9 R  80.0 D  76.6 S  97.9    [['A_topo_and: current'], ['A_topo_and: t=0.5292'], ['A_topo_and: current']]
+B_gate           CV  84.69% (-0.32) sessions +13/-13  L  83.2 R  79.8 D  77.9 S  97.8    [['B_gate: d=0.14 q=2.6 b=7.0'], ['B_gate: d=0.14 q=2.0 b=7.0'], ['B_gate: d=0.14 q=2.8 b=8.0']]
+B_nod            CV  83.45% (-1.56) sessions +2/-6  L  83.1 R  81.1 D  71.7 S  97.9    [['B_nod: n=-0.1 v=7.5'], ['B_nod: n=-0.8 v=7.0'], ['B_nod: n=-0.6 v=7.5']]
+B_gate+B_nod     CV  83.13% (-1.88) sessions +11/-16  L  82.4 R  80.9 D  71.4 S  97.8    [['B_gate: d=0.14 q=2.6 b=7.0', 'B_nod: n=-0.1 v=7.5'], ['B_gate: d=0.14 q=2.0 b=7.0', 'B_nod: n=-0.8 v=7.0'], ['B_gate: d=0.14 q=2.8 b=8.0', 'B_nod: n=-0.6 v=7.5']]

@@ -1,0 +1,19 @@
+current monitor on ICA windows      :  82.74%  (L  83.6 R  79.4 D  77.5 S  90.3)
+current monitor on PRE-ICA windows  :  76.90%  (L  83.5 R  83.9 D  78.1 S  62.1)
+
+LEFT vs RIGHT on all sessions 1-30 turn windows (rule fixed in advance; no fitting)
+direction read                                       accuracy  sessions >= 50%  sessions >= 70%
+F4-T3 largest peak, ICA (current: turn > 0 -> LEFT)     91.1%         30/30         28/30
+F4-T3 largest peak, PRE-ICA                             94.0%         29/30         28/30
+eye peak  Fp1Fp2 > 0 -> LEFT, PRE-ICA                   45.6%         15/30          5/30
+eye first Fp1Fp2 > 0 -> LEFT, PRE-ICA                   24.0%          3/30          0/30
+eye level Fp1Fp2 > 0 -> LEFT, PRE-ICA                   61.3%         20/30         10/30
+eye peak  F3F4 > 0 -> LEFT, PRE-ICA                     50.9%         16/30          3/30
+eye first F3F4 > 0 -> LEFT, PRE-ICA                     31.3%          6/30          2/30
+eye level F3F4 > 0 -> LEFT, PRE-ICA                     87.2%         30/30         26/30
+eye peak  Fp1Fp2 > 0 -> LEFT, ICA                       49.2%         17/30          3/30
+eye first Fp1Fp2 > 0 -> LEFT, ICA                       24.0%          5/30          0/30
+eye level Fp1Fp2 > 0 -> LEFT, ICA                       60.4%         20/30         13/30
+eye peak  F3F4 > 0 -> LEFT, ICA                         53.0%         17/30          9/30
+eye first F3F4 > 0 -> LEFT, ICA                         31.4%          5/30          0/30
+eye level F3F4 > 0 -> LEFT, ICA                         85.3%         29/30         25/30

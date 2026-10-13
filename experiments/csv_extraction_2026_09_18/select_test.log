@@ -1,0 +1,26 @@
+v3 (CSV-only): 11137 windows, LEFT 2423 RIGHT 2278 DOWN 1674 STRAIGHT 4762, history for 67%
+v2 (.fif):     21029 windows, LEFT 1263 RIGHT 1367 DOWN 1156 STRAIGHT 17243
+
+thresholds selected on v3 sub_01 sessions 1-30: {'b': 5.5, 'g': 5.5, 'd': 0.18, 'q': 2.6, 'n': -0.6, 'v': 6.5}
+
+v3 (CSV-only)
+  sub_01 1-30 (design)
+   shipped thresholds                  85.22%   L  77.3 R  83.9 D  85.6 S  94.1   type  86.0%  false alarms   5.9%
+   selected on v3 sessions 1-30        86.49%   L  83.2 R  86.8 D  85.3 S  90.6   type  86.5%  false alarms   9.4%
+  sub_01 31-36 (test)
+   shipped thresholds                  64.94%   L  46.7 R  60.9 D  58.4 S  93.8   type  65.0%  false alarms   6.2%
+   selected on v3 sessions 1-30        64.59%   L  47.8 R  64.4 D  59.6 S  86.6   type  64.2%  false alarms  13.4%
+  sub_11 (test)
+   shipped thresholds                  72.25%   L  56.5 R  68.2 D  90.9 S  73.4   type  73.3%  false alarms  26.6%
+   selected on v3 sessions 1-30        70.71%   L  59.5 R  68.9 D  90.9 S  63.5   type  72.2%  false alarms  36.5%
+
+v2 (.fif)
+  sub_01 1-30 (design)
+   shipped thresholds                  85.01%   L  83.9 R  80.0 D  78.2 S  97.9   type  86.6%  false alarms   2.1%
+   selected on v3 sessions 1-30        86.25%   L  88.2 R  82.9 D  78.9 S  95.0   type  85.9%  false alarms   5.0%
+  sub_01 31-36 (test)
+   shipped thresholds                  69.62%   L  59.0 R  64.5 D  57.7 S  97.3   type  70.7%  false alarms   2.7%
+   selected on v3 sessions 1-30        71.46%   L  59.8 R  69.9 D  65.0 S  91.0   type  71.1%  false alarms   9.0%
+  sub_11 (test)
+   shipped thresholds                  78.67%   L  56.1 R  74.7 D  88.4 S  95.5   type  81.1%  false alarms   4.5%
+   selected on v3 sessions 1-30        78.45%   L  59.9 R  76.9 D  94.7 S  82.2   type  80.5%  false alarms  17.8%

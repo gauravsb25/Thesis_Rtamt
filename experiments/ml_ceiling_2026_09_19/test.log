@@ -1,0 +1,9 @@
+87 signals per window, 21029 windows (design 18560, sub_01 31-36 1269, sub_11 1200)
+monitors for comparison: 4-class 85.01 / 69.62 / 78.67 ; direction 92.6 / 100.0 / 70.5
+
+trained on all of sub_01 sessions 1-30, scored once on the held-out sets
+
+model                   4-class 31-36  4-class sub_11  direction 31-36  direction sub_11
+logistic regression            74.60%          39.99%            85.2%             42.0%
+random forest                  65.69%          78.27%            83.0%             66.4%
+gradient boosting              61.65%          71.27%            79.4%             75.6%

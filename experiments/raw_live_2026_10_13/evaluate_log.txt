@@ -1,0 +1,10 @@
+
+===== RAW recordings, real history
+baseline (current thresholds)      | CV/fit 1-20  75.66 (FA 4238) | sub_01 21-36  77.67 (FA 1282) | sub_01 31-36  62.66 (FA 127) | sub_11  76.31 (FA 166)
+T2 blink veto                      | CV/fit 1-20  78.94 (FA 796) | sub_01 21-36  81.35 (FA 309) | sub_01 31-36  65.18 (FA 42) | sub_11  77.94 (FA 108) | sessions +17/-3
+   final model: thresholds {'b': 8.0, 'g': 5.0, 'd': 0.16, 'q': 2.8, 'n': -0.6, 'v': 7.5}, veto (fp_dom >=, width <=) (np.float64(2.0), 0.3)
+   sub_01 21-36  LEFT 328/437  RIGHT 384/525  DOWN 322/387  STRAIGHT 4835/5144
+   sub_01 31-36  LEFT 41/117  RIGHT 62/183  DOWN 119/123  STRAIGHT 804/846
+   sub_11        LEFT 115/187  RIGHT 162/221  DOWN 280/285  STRAIGHT 399/507
+T1 thresholds re-selected          | CV/fit 1-20  73.50 (FA 4601) | sub_01 21-36  79.43 (FA 1500) | sub_01 31-36  66.87 (FA 165) | sub_11  76.80 (FA 179) | sessions +9/-11
+   final model: thresholds {'b': 5.5, 'g': 5.0, 'd': 0.16, 'q': 2.3, 'n': 0.0, 'v': 8.75}, veto (fp_dom >=, width <=) None

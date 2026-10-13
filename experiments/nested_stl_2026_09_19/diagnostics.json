@@ -1,0 +1,66 @@
+{
+  "operator_checks": "10 brute-force past extrema comparisons, 12 homogeneity comparisons, 6 RTAMT comparisons passed",
+  "session_cluster_bootstrap_gain_95_percent": [
+    -0.35990858339859855,
+    1.3820037818400264
+  ],
+  "bootstrap_note": "Resamples 30 development sessions of fixed OOF predictions; does not rerun selection and does not quantify new-subject generalization.",
+  "fixed_errors": 38,
+  "introduced_errors": 19,
+  "per_class": {
+    "LEFT": {
+      "baseline": 83.94160583941606,
+      "nested": 82.79457768508863
+    },
+    "RIGHT": {
+      "baseline": 79.95846313603323,
+      "nested": 83.07372793354102
+    },
+    "DOWN": {
+      "baseline": 78.20855614973262,
+      "nested": 78.20855614973262
+    },
+    "STRAIGHT": {
+      "baseline": 97.91692888609188,
+      "nested": 97.91692888609188
+    }
+  },
+  "spearman_development": {
+    "double_2_32": {
+      "turn": -0.09177625970195369,
+      "nod": -0.0015259404744235564,
+      "background": -0.008706755068052633,
+      "lag_env": -0.026690214259758743,
+      "rise": -0.0005535907115689294,
+      "fall": -0.024192146049230204,
+      "width": -0.012041594858163472
+    },
+    "triple_4_32": {
+      "turn": 0.04940344925579056,
+      "nod": 0.01519637153498618,
+      "background": -0.016776258803621606,
+      "lag_env": 0.009589720778927257,
+      "rise": -0.011743272927110323,
+      "fall": 0.00787201883301531,
+      "width": 0.020495916403496444
+    },
+    "burst_4": {
+      "turn": 0.006234646571865289,
+      "nod": -0.12986875890413505,
+      "background": 0.06832389113723673,
+      "lag_env": -0.030824509145702016,
+      "rise": 0.08408952513744068,
+      "fall": -0.03001056078556791,
+      "width": -0.41083338175861367
+    },
+    "nodsync_4": {
+      "turn": -0.04159586904407891,
+      "nod": -0.2432990864451235,
+      "background": -0.05344444422147488,
+      "lag_env": -0.011665585699373624,
+      "rise": 0.032573567431009476,
+      "fall": -0.024999949175740173,
+      "width": -0.04437846911543412
+    }
+  }
+}

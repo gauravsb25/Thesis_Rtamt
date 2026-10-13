@@ -1,0 +1,98 @@
+
+===================================================================================
+  RTAMT MONITOR ACCURACY - 30 SEPTEMBER 2026
+===================================================================================
+  BALANCED ACCURACY: average recall of LEFT, RIGHT, DOWN and STRAIGHT.
+  All windows count. No abstention. External checks are retrospective.
+
+  NEW SIGNAL METHODS: OUTER SESSION-VALIDATION BALANCED ACCURACY
+  Controls show whether the new features actually help learned rules.
+  Fixed family                                           Online     Offline
+  Shapelet study / morphology:3                          81.54%      85.50%
+  Shapelet study / morphology:5                          79.00%      84.08%
+  Shapelet study / shapelets:3                           80.70%      83.50%
+  Shapelet study / shapelets:5                           80.67%      83.35%
+  Scattering study / morphology:depth3                   83.68%      85.27%
+  Scattering study / morphology:depth5                   82.45%      84.36%
+  Scattering study / first_order:depth3                  82.78%      85.51%
+  Scattering study / first_order:depth5                  82.13%      84.89%
+  Scattering study / second_order:depth3                 82.65%      83.10%
+  Scattering study / second_order:depth5                 80.61%      81.07%
+  Existing fixed monitor                                 85.01%      86.73%
+  Both studies selected the original monitor in every outer block.
+
+  SCATTERING FOUR-CLASS CORRECTIONS: ONLINE
+  -----------------------------------------------------------------------------
+  Evaluation                           Existing      Candidate      Change
+  Whole-session validation               85.01%         84.99%      -0.01
+  sub01_later                            69.62%         72.43%      +2.82
+  sub11                                  78.67%         69.39%      -9.29
+  Frozen choice: first_order:depth3
+  Candidate acceptance: REJECTED
+
+  SCATTERING FOUR-CLASS CORRECTIONS: OFFLINE
+  -----------------------------------------------------------------------------
+  Evaluation                           Existing      Candidate      Change
+  Whole-session validation               86.73%         86.36%      -0.37
+  sub01_later                            71.80%         73.71%      +1.91
+  sub11                                  79.37%         68.56%     -10.81
+  Frozen choice: first_order:depth3
+  Candidate acceptance: REJECTED
+
+  ONLINE: reconstructed dataset history
+  -----------------------------------------------------------------------------
+  Evaluation                           Existing      Candidate      Change
+  Whole-session validation               85.01%         84.93%      -0.08
+  sub01_later                            69.62%         69.62%      +0.00
+  sub11                                  78.67%         78.67%      +0.00
+  Candidate acceptance: REJECTED
+
+  OFFLINE: completed-recording context
+  -----------------------------------------------------------------------------
+  Evaluation                           Existing      Candidate      Change
+  Whole-session validation               86.73%         86.54%      -0.19
+  sub01_later                            71.80%         69.72%      -2.08
+  sub11                                  79.37%         80.25%      +0.88
+  Candidate acceptance: REJECTED
+
+  ONLINE: genuine preceding CSV samples
+  -----------------------------------------------------------------------------
+  Evaluation                           Existing      Candidate      Change
+  Whole-session validation               85.18%         84.84%      -0.35
+  sub01_later                            70.29%         70.29%      +0.00
+  sub11                                  78.63%         78.63%      +0.00
+  Candidate acceptance: REJECTED
+
+  INPUT CONTEXT CHECK: existing formulas, existing thresholds
+  -----------------------------------------------------------------------------
+  Evaluation                        NPZ history    CSV history      Change
+  Development (fixed rule)               85.01%         85.18%      +0.18
+  sub01_later                            69.62%         70.29%      +0.67
+  sub11                                  78.67%         78.63%      -0.04
+
+  CSV history changes the information supplied to the same formulas.
+  It is a separate input protocol, not proof that a new rule is better.
+  Dataset windows use their completed-window mean; the stream wrapper
+  applies that same preprocessing. Existing raw StreamMonitor differs.
+  Causality concerns decisions on already ICA-cleaned EEG; live ICA
+  preprocessing and a prospective continuous-stream test are unvalidated.
+
+  RAW COUNTS FOR THE FROZEN CSV CANDIDATE ON EXTERNAL SETS
+
+  sub01_later: 1092/1269 correct; ordinary accuracy 86.05%
+  LEFT          69/117   recall  58.97%
+  RIGHT        118/183   recall  64.48%
+  DOWN          73/123   recall  59.35%
+  STRAIGHT     832/846   recall  98.35%
+
+  sub11: 1008/1200 correct; ordinary accuracy 84.00%
+  LEFT         105/187   recall  56.15%
+  RIGHT        167/221   recall  75.57%
+  DOWN         245/285   recall  85.96%
+  STRAIGHT     491/507   recall  96.84%
+
+  Current monitor fingerprint: 57008869ab00
+  Current offline fingerprint: 87d22b997ad6
+  Production monitor files were preserved throughout these experiments.
+===================================================================================
+

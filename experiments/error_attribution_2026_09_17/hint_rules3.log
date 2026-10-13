@@ -1,0 +1,14 @@
+nested CV (both thresholds chosen on training blocks): gain +0.84 pts; per-fold thresholds [(6.885, 5.674), (6.885, 6.647), (7.381, 6.647)]
+CV sessions better 6 worse 6
+
+Fp1-Fp2 only 6.974: all sessions 1-30 +0.46 pts; windows fixed 28 ({np.str_('LEFT'): np.int64(12), np.str_('RIGHT'): np.int64(16)}) broken 8 ({np.str_('DOWN'): np.int64(8)}); movements fixed 3 broken 0
+   fixed windows by session: {np.str_('sub_01/ses-08'): np.int64(10), np.str_('sub_01/ses-18'): np.int64(15), np.str_('sub_01/ses-28'): np.int64(3)}
+   broken windows by session: {np.str_('sub_01/ses-09'): np.int64(2), np.str_('sub_01/ses-10'): np.int64(2), np.str_('sub_01/ses-16'): np.int64(1), np.str_('sub_01/ses-19'): np.int64(3)}
+
+Fp2-T3 only 6.725: all sessions 1-30 +0.74 pts; windows fixed 31 ({np.str_('LEFT'): np.int64(18), np.str_('RIGHT'): np.int64(13)}) broken 2 ({np.str_('DOWN'): np.int64(2)}); movements fixed 2 broken 0
+   fixed windows by session: {np.str_('sub_01/ses-01'): np.int64(13), np.str_('sub_01/ses-17'): np.int64(3), np.str_('sub_01/ses-18'): np.int64(8), np.str_('sub_01/ses-28'): np.int64(2), np.str_('sub_01/ses-29'): np.int64(5)}
+   broken windows by session: {np.str_('sub_01/ses-24'): np.int64(2)}
+
+both (6.974, 6.725): all sessions 1-30 +1.04 pts; windows fixed 53 ({np.str_('LEFT'): np.int64(30), np.str_('RIGHT'): np.int64(23)}) broken 10 ({np.str_('DOWN'): np.int64(10)}); movements fixed 4 broken 0
+   fixed windows by session: {np.str_('sub_01/ses-01'): np.int64(13), np.str_('sub_01/ses-08'): np.int64(10), np.str_('sub_01/ses-17'): np.int64(3), np.str_('sub_01/ses-18'): np.int64(17), np.str_('sub_01/ses-28'): np.int64(5), np.str_('sub_01/ses-29'): np.int64(5)}
+   broken windows by session: {np.str_('sub_01/ses-09'): np.int64(2), np.str_('sub_01/ses-10'): np.int64(2), np.str_('sub_01/ses-16'): np.int64(1), np.str_('sub_01/ses-19'): np.int64(3), np.str_('sub_01/ses-24'): np.int64(2)}

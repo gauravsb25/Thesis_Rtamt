@@ -1,0 +1,92 @@
+split,session,task,run,true,majority_prediction,windows,wrong_windows,main_cause,main_hint
+design 1-30,sub_01/ses-01,left,4,LEFT,DOWN,13,13,nod 1.06 >= -0.661,"turn-sized sideways swing on Fp2-T3,F4-Fz,Fp2-F3"
+design 1-30,sub_01/ses-03,right,4,RIGHT,LEFT,13,10,F4-T3 largest excursion pointed LEFT,1 other pair(s) point RIGHT
+design 1-30,sub_01/ses-03,down,10,DOWN,RIGHT,6,4,"nod -0.80 < -0.661, mostly from symmetry",none
+design 1-30,sub_01/ses-04,right,1,RIGHT,LEFT,8,8,F4-T3 largest excursion pointed LEFT,no other pair points RIGHT
+design 1-30,sub_01/ses-05,right,3,RIGHT,STRAIGHT,7,4,contrast low,7 channel(s) pass the gate alone
+design 1-30,sub_01/ses-05,right,8,RIGHT,LEFT,9,9,F4-T3 largest excursion pointed LEFT,1 other pair(s) point RIGHT
+design 1-30,sub_01/ses-06,down,5,DOWN,RIGHT,14,14,"nod -2.04 < -0.661, mostly from symmetry",none
+design 1-30,sub_01/ses-06,down,7,DOWN,LEFT,14,14,contrast low,none
+design 1-30,sub_01/ses-06,right,9,RIGHT,STRAIGHT,11,6,contrast low,8 channel(s) pass the gate alone
+design 1-30,sub_01/ses-07,right,1,RIGHT,DOWN,10,10,contrast low,none
+design 1-30,sub_01/ses-07,down,9,DOWN,STRAIGHT,13,12,contrast low,4 channel(s) pass the gate alone
+design 1-30,sub_01/ses-08,left,3,LEFT,RIGHT,3,3,F4-T3 largest excursion pointed RIGHT,no other pair points LEFT
+design 1-30,sub_01/ses-08,right,5,RIGHT,DOWN,13,13,nod 0.26 >= -0.661,"turn-sized sideways swing on Fp1-Fp2,F4-Cz"
+design 1-30,sub_01/ses-10,down,4,DOWN,LEFT,15,15,"nod -1.31 < -0.661, mostly from symmetry","no sideways swing on T3-T4,F3-F4"
+design 1-30,sub_01/ses-10,down,9,DOWN,STRAIGHT,14,10,contrast low,7 channel(s) pass the gate alone
+design 1-30,sub_01/ses-10,right,10,RIGHT,STRAIGHT,3,3,contrast low,8 channel(s) pass the gate alone
+design 1-30,sub_01/ses-12,down,8,DOWN,LEFT,12,12,"nod -1.74 < -0.661, mostly from symmetry",Fp1/Fp2 common-mode like a nod
+design 1-30,sub_01/ses-13,right,1,RIGHT,LEFT,12,12,F4-T3 largest excursion pointed LEFT,no other pair points RIGHT
+design 1-30,sub_01/ses-13,down,2,DOWN,STRAIGHT,15,12,contrast low + delta low,"slow-wave rise on Fp1,Fp2,F3,Fz,T3,Cz,T4"
+design 1-30,sub_01/ses-13,right,4,RIGHT,DOWN,8,8,nod -0.14 >= -0.661,T3/T4 move in opposite directions
+design 1-30,sub_01/ses-14,left,1,LEFT,DOWN,10,10,delta low,turn-sized sideways swing on Fz-T3
+design 1-30,sub_01/ses-14,right,4,RIGHT,DOWN,12,12,nod 0.31 >= -0.661,"turn-sized sideways swing on Fp2-T3,Cz-T3"
+design 1-30,sub_01/ses-14,right,8,RIGHT,LEFT,8,8,F4-T3 largest excursion pointed LEFT,no other pair points RIGHT
+design 1-30,sub_01/ses-14,left,10,LEFT,RIGHT,6,6,F4-T3 largest excursion pointed RIGHT,2 other pair(s) point LEFT
+design 1-30,sub_01/ses-15,right,6,RIGHT,LEFT,12,12,F4-T3 largest excursion pointed LEFT,1 other pair(s) point RIGHT
+design 1-30,sub_01/ses-16,left,7,LEFT,DOWN,11,11,nod 1.12 >= -0.661,T3/T4 move in opposite directions
+design 1-30,sub_01/ses-17,left,1,LEFT,DOWN,13,11,nod 0.37 >= -0.661,"turn-sized sideways swing on Fp2-T3,F3-T4,Fz-T3,F4-Fz,Cz-T3"
+design 1-30,sub_01/ses-17,right,6,RIGHT,LEFT,13,13,F4-T3 largest excursion pointed LEFT,1 other pair(s) point RIGHT
+design 1-30,sub_01/ses-18,right,2,RIGHT,DOWN,11,9,nod -0.64 >= -0.661,T3/T4 move in opposite directions
+design 1-30,sub_01/ses-18,left,3,LEFT,DOWN,10,10,nod 1.14 >= -0.661,"turn-sized sideways swing on F3-F4,Fp1-Fp2,F3-T4,F4-Fz,F4-Cz,Cz-T3"
+design 1-30,sub_01/ses-18,left,4,LEFT,DOWN,10,6,nod -0.61 >= -0.661,T3/T4 move in opposite directions
+design 1-30,sub_01/ses-18,left,6,LEFT,DOWN,12,12,nod -0.41 >= -0.661,T3/T4 move in opposite directions
+design 1-30,sub_01/ses-18,right,7,RIGHT,LEFT,13,13,F4-T3 largest excursion pointed LEFT,4 other pair(s) point RIGHT
+design 1-30,sub_01/ses-19,left,5,LEFT,RIGHT,6,6,F4-T3 largest excursion pointed RIGHT,no other pair points LEFT
+design 1-30,sub_01/ses-21,left,1,LEFT,STRAIGHT,14,8,contrast low,8 channel(s) pass the gate alone
+design 1-30,sub_01/ses-22,right,5,RIGHT,DOWN,7,7,nod 1.23 >= -0.661,none
+design 1-30,sub_01/ses-23,down,1,DOWN,STRAIGHT,10,6,contrast low,6 channel(s) pass the gate alone
+design 1-30,sub_01/ses-23,left,3,LEFT,RIGHT,9,9,F4-T3 largest excursion pointed RIGHT,no other pair points LEFT
+design 1-30,sub_01/ses-23,down,4,DOWN,STRAIGHT,11,10,contrast low,7 channel(s) pass the gate alone
+design 1-30,sub_01/ses-23,right,7,RIGHT,STRAIGHT,13,13,contrast low,6 channel(s) pass the gate alone
+design 1-30,sub_01/ses-24,left,9,LEFT,RIGHT,12,12,F4-T3 largest excursion pointed RIGHT,no other pair points LEFT
+design 1-30,sub_01/ses-25,down,3,DOWN,STRAIGHT,10,8,contrast low,7 channel(s) pass the gate alone
+design 1-30,sub_01/ses-28,down,1,DOWN,STRAIGHT,5,5,contrast low,6 channel(s) pass the gate alone
+design 1-30,sub_01/ses-28,left,9,LEFT,DOWN,13,13,nod 0.24 >= -0.661,T3/T4 move in opposite directions
+design 1-30,sub_01/ses-28,down,10,DOWN,STRAIGHT,15,15,contrast low,"no sideways swing on T3-T4,F3-F4,Fp1-Fp2"
+design 1-30,sub_01/ses-29,right,7,RIGHT,DOWN,15,15,contrast low,turn-sized sideways swing on Fp2-T3
+design 1-30,sub_01/ses-30,down,2,DOWN,STRAIGHT,10,10,contrast low,7 channel(s) pass the gate alone
+design 1-30,sub_01/ses-30,down,3,DOWN,STRAIGHT,9,9,contrast low,6 channel(s) pass the gate alone
+sub_11,sub_11/ses-01,down,3,DOWN,STRAIGHT,10,10,contrast low,8 channel(s) pass the gate alone
+sub_11,sub_11/ses-01,down,9,DOWN,STRAIGHT,12,10,contrast low,7 channel(s) pass the gate alone
+sub_11,sub_11/ses-02,left,8,LEFT,STRAIGHT,3,2,contrast low,6 channel(s) pass the gate alone
+sub_11,sub_11/ses-02,left,9,LEFT,RIGHT,5,5,F4-T3 largest excursion pointed RIGHT,1 other pair(s) point LEFT
+sub_11,sub_11/ses-02,left,10,LEFT,STRAIGHT,4,4,F4-T3 largest excursion pointed RIGHT,1 other pair(s) point LEFT
+sub_11,sub_11/ses-03,left,1,LEFT,STRAIGHT,3,2,delta low,"slow-wave rise on Fp1,Fp2,F3,Fz,F4,T3,Cz,T4"
+sub_11,sub_11/ses-03,left,3,LEFT,STRAIGHT,7,7,contrast low,2 other pair(s) point LEFT
+sub_11,sub_11/ses-03,down,7,DOWN,STRAIGHT,15,8,contrast low,7 channel(s) pass the gate alone
+sub_11,sub_11/ses-03,left,8,LEFT,RIGHT,5,5,F4-T3 largest excursion pointed RIGHT,1 other pair(s) point LEFT
+sub_11,sub_11/ses-04,right,2,RIGHT,LEFT,5,5,F4-T3 largest excursion pointed LEFT,no other pair points RIGHT
+sub_11,sub_11/ses-04,left,5,LEFT,RIGHT,5,5,F4-T3 largest excursion pointed RIGHT,2 other pair(s) point LEFT
+sub_11,sub_11/ses-04,left,10,LEFT,RIGHT,6,6,F4-T3 largest excursion pointed RIGHT,2 other pair(s) point LEFT
+sub_11,sub_11/ses-05,left,2,LEFT,RIGHT,10,10,F4-T3 largest excursion pointed RIGHT,1 other pair(s) point LEFT
+sub_11,sub_11/ses-05,right,6,RIGHT,LEFT,4,4,F4-T3 largest excursion pointed LEFT,2 other pair(s) point RIGHT
+sub_11,sub_11/ses-05,right,7,RIGHT,LEFT,7,7,F4-T3 largest excursion pointed LEFT,3 other pair(s) point RIGHT
+sub_11,sub_11/ses-06,left,5,LEFT,RIGHT,10,10,F4-T3 largest excursion pointed RIGHT,2 other pair(s) point LEFT
+sub_11,sub_11/ses-07,right,4,RIGHT,LEFT,1,1,F4-T3 largest excursion pointed LEFT,no other pair points RIGHT
+sub_11,sub_11/ses-07,right,5,RIGHT,LEFT,4,4,F4-T3 largest excursion pointed LEFT,4 other pair(s) point RIGHT
+sub_11,sub_11/ses-07,right,9,RIGHT,LEFT,5,5,F4-T3 largest excursion pointed LEFT,1 other pair(s) point RIGHT
+sub_11,sub_11/ses-08,left,2,LEFT,RIGHT,9,9,F4-T3 largest excursion pointed RIGHT,1 other pair(s) point LEFT
+sub_11,sub_11/ses-08,left,5,LEFT,RIGHT,3,3,F4-T3 largest excursion pointed RIGHT,no other pair points LEFT
+sub_11,sub_11/ses-08,right,9,RIGHT,LEFT,5,5,F4-T3 largest excursion pointed LEFT,2 other pair(s) point RIGHT
+sub_11,sub_11/ses-08,right,10,RIGHT,LEFT,6,6,F4-T3 largest excursion pointed LEFT,2 other pair(s) point RIGHT
+sub_11,sub_11/ses-09,left,1,LEFT,RIGHT,5,5,F4-T3 largest excursion pointed RIGHT,2 other pair(s) point LEFT
+sub_11,sub_11/ses-09,right,4,RIGHT,LEFT,7,7,F4-T3 largest excursion pointed LEFT,5 other pair(s) point RIGHT
+sub_11,sub_11/ses-09,left,9,LEFT,RIGHT,1,1,F4-T3 largest excursion pointed RIGHT,no other pair points LEFT
+sub_11,sub_11/ses-10,right,4,RIGHT,LEFT,2,2,F4-T3 largest excursion pointed LEFT,2 other pair(s) point RIGHT
+sub_11,sub_11/ses-10,left,5,LEFT,DOWN,4,4,nod 0.19 >= -0.661,T3/T4 move in opposite directions
+sub_11,sub_11/ses-10,right,8,RIGHT,LEFT,5,5,F4-T3 largest excursion pointed LEFT,no other pair points RIGHT
+test 31-36,sub_01/ses-31,down,4,DOWN,LEFT,14,9,"nod -0.73 < -0.661, mostly from symmetry","no sideways swing on T3-T4,F3-F4,Fp1-Fp2"
+test 31-36,sub_01/ses-31,down,5,DOWN,STRAIGHT,10,7,contrast low,6 channel(s) pass the gate alone
+test 31-36,sub_01/ses-32,right,3,RIGHT,DOWN,14,10,nod -0.61 >= -0.661,F4-T3 has one dominant lobe
+test 31-36,sub_01/ses-32,down,6,DOWN,STRAIGHT,14,14,contrast low + delta low,6 channel(s) pass the gate alone
+test 31-36,sub_01/ses-33,right,3,RIGHT,DOWN,15,15,nod 0.76 >= -0.661,turn-sized sideways swing on F4-Fz
+test 31-36,sub_01/ses-33,left,8,LEFT,DOWN,15,15,nod 1.00 >= -0.661,T3/T4 move in opposite directions
+test 31-36,sub_01/ses-33,left,9,LEFT,DOWN,10,8,nod -0.55 >= -0.661,turn-sized sideways swing on F4-Cz
+test 31-36,sub_01/ses-34,right,6,RIGHT,STRAIGHT,14,14,contrast low + delta low,6 channel(s) pass the gate alone
+test 31-36,sub_01/ses-34,right,7,RIGHT,DOWN,12,12,nod 0.75 >= -0.661,T3/T4 move in opposite directions
+test 31-36,sub_01/ses-35,left,1,LEFT,DOWN,6,6,nod 0.10 >= -0.661,T3/T4 move in opposite directions
+test 31-36,sub_01/ses-35,left,3,LEFT,STRAIGHT,9,9,delta low,"slow-wave rise on Fp1,Fp2,Fz,F4,T3,Cz,T4"
+test 31-36,sub_01/ses-35,left,7,LEFT,DOWN,10,10,nod 0.67 >= -0.661,turn-sized sideways swing on F4-Cz
+test 31-36,sub_01/ses-36,right,1,RIGHT,DOWN,11,11,nod -0.05 >= -0.661,none
+test 31-36,sub_01/ses-36,down,9,DOWN,STRAIGHT,12,12,delta low,"slow-wave rise on Fp1,Fp2,F3,Fz,F4,T3,Cz,T4"

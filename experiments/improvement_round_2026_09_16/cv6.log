@@ -1,0 +1,16 @@
+design                                pooled     f1     f2     f3   dpooled  sess +/-
+CUSUM gate (reference)                 81.28  78.63  78.92  85.34  
+marginal nod -> r_F4T3 decides         80.95  78.63  77.82  85.34     -0.33    1/2   
+      nod_lo/nod_hi/sec per fold: [(-0.11, -0.66, -0.0), (-1.52, -0.66, -0.09), (-2.15, -0.6, 0.23)]
+marginal nod -> rF_1.0 decides         80.88  78.21  78.92  84.58     -0.40    0/2   
+      nod_lo/nod_hi/sec per fold: [(-0.11, 0.64, 1.06), (-1.21, -0.82, 0.86), (-0.6, -0.46, 0.51)]
+marginal nod -> dE_bal decides         81.18  78.63  78.62  85.34     -0.10    0/1   
+      nod_lo/nod_hi/sec per fold: [(-0.11, -0.66, -1.58), (-1.43, -0.82, -1.25), (-0.6, -0.66, -1.45)]
+marginal nod -> balance_T3 decides     81.01  80.20  78.92  83.52     -0.27    4/7   
+      nod_lo/nod_hi/sec per fold: [(-1.83, 0.39, -1.47), (-0.82, -5.64, -1.49), (-1.99, 0.12, -1.37)]
+marginal nod -> sym_n decides          80.68  78.42  78.11  84.58     -0.60    0/3   
+      nod_lo/nod_hi/sec per fold: [(-0.11, 0.64, 1.0), (-5.64, -0.82, 0.82), (-5.64, -0.39, 1.08)]
+marginal nod -> symmetry decides       81.30  77.75  79.87  85.34     +0.02    6/5   
+      nod_lo/nod_hi/sec per fold: [(-0.11, 1.21, 1.07), (-0.66, -0.66, 0.76), (-0.6, -0.66, 0.76)]
+marginal nod -> balance decides        81.28  78.63  78.92  85.34     +0.00    0/0   
+      nod_lo/nod_hi/sec per fold: [(-0.11, -0.66, -1.41), (-0.82, -5.64, -1.53), (-0.6, -0.66, -1.48)]

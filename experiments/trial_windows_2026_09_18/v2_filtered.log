@@ -1,0 +1,28 @@
+v2 movement windows: 3786
+  annotated movement fully inside the window: 100.0%  (v2 was built with that rule)
+  my detected core fully inside: 91.5%, >= 90% inside: 94.4%, centred within 0.5 s: 70.8%
+
+=== all windows: 3786 of 3786 movement windows kept, all 17243 rest windows
+   sub_01 1-30   4-class  85.01%   L 805/959 (83.9%) R 770/963 (80.0%) D 585/748 (78.2%) S 15559/15890 (97.9%)   type  86.6%  false alarms  2.1%
+   sub_01 31-36  4-class  69.62%   L 69/117 (59.0%) R 118/183 (64.5%) D 71/123 (57.7%) S 823/846 (97.3%)   type  70.7%  false alarms  2.7%
+   sub_11        4-class  78.67%   L 105/187 (56.1%) R 165/221 (74.7%) D 252/285 (88.4%) S 484/507 (95.5%)   type  81.1%  false alarms  4.5%
+
+=== annotated movement 100% inside: 3786 of 3786 movement windows kept, all 17243 rest windows
+   sub_01 1-30   4-class  85.01%   L 805/959 (83.9%) R 770/963 (80.0%) D 585/748 (78.2%) S 15559/15890 (97.9%)   type  86.6%  false alarms  2.1%
+   sub_01 31-36  4-class  69.62%   L 69/117 (59.0%) R 118/183 (64.5%) D 71/123 (57.7%) S 823/846 (97.3%)   type  70.7%  false alarms  2.7%
+   sub_11        4-class  78.67%   L 105/187 (56.1%) R 165/221 (74.7%) D 252/285 (88.4%) S 484/507 (95.5%)   type  81.1%  false alarms  4.5%
+
+=== my detected core >= 90% inside: 3573 of 3786 movement windows kept, all 17243 rest windows
+   sub_01 1-30   4-class  86.18%   L 742/879 (84.4%) R 747/912 (81.9%) D 553/687 (80.5%) S 15559/15890 (97.9%)   type  86.9%  false alarms  2.1%
+   sub_01 31-36  4-class  69.48%   L 68/116 (58.6%) R 110/175 (62.9%) D 71/120 (59.2%) S 823/846 (97.3%)   type  69.9%  false alarms  2.7%
+   sub_11        4-class  78.74%   L 103/183 (56.3%) R 165/221 (74.7%) D 248/280 (88.6%) S 484/507 (95.5%)   type  81.1%  false alarms  4.5%
+
+=== my detected core 100% inside: 3463 of 3786 movement windows kept, all 17243 rest windows
+   sub_01 1-30   4-class  87.08%   L 732/865 (84.6%) R 736/896 (82.1%) D 536/641 (83.6%) S 15559/15890 (97.9%)   type  87.1%  false alarms  2.1%
+   sub_01 31-36  4-class  69.45%   L 65/113 (57.5%) R 105/169 (62.1%) D 70/115 (60.9%) S 823/846 (97.3%)   type  69.4%  false alarms  2.7%
+   sub_11        4-class  78.80%   L 99/177 (55.9%) R 161/217 (74.2%) D 242/270 (89.6%) S 484/507 (95.5%)   type  80.8%  false alarms  4.5%
+
+=== core 100% inside and centred +-0.5 s: 2648 of 3786 movement windows kept, all 17243 rest windows
+   sub_01 1-30   4-class  87.36%   L 564/661 (85.3%) R 567/669 (84.8%) D 395/485 (81.4%) S 15559/15890 (97.9%)   type  88.2%  false alarms  2.1%
+   sub_01 31-36  4-class  68.71%   L 55/95 (57.9%) R 81/131 (61.8%) D 48/83 (57.8%) S 823/846 (97.3%)   type  69.4%  false alarms  2.7%
+   sub_11        4-class  79.88%   L 79/137 (57.7%) R 142/186 (76.3%) D 181/201 (90.0%) S 484/507 (95.5%)   type  81.9%  false alarms  4.5%

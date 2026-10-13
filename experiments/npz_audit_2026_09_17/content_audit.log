@@ -1,0 +1,59 @@
+rest reference: contrast median 4.8, 90% 10.3;  turn index 90%: T3-T4 13.1 uV, F4-T3 12.7 uV
+
+==========================================================================================
+sub_01 1-30 (design)
+  LEFT   92 movements (959 windows); burst at the labelled time for 100% of visible ones
+        OK                                71 movements    770 windows
+        weak but present                  10 movements    102 windows
+        LOOKS LIKE THE OTHER DIRECTION     7 movements     55 windows
+        present, direction unclear         4 movements     32 windows
+  RIGHT  92 movements (963 windows); burst at the labelled time for 99% of visible ones
+        OK                                69 movements    712 windows
+        present, direction unclear         8 movements     99 windows
+        LOOKS LIKE THE OTHER DIRECTION     8 movements     88 windows
+        weak but present                   7 movements     64 windows
+  DOWN   68 movements (748 windows); burst at the labelled time for 100% of visible ones
+        OK                                41 movements    459 windows
+        weak but present                  14 movements    168 windows
+        LOOKS LIKE A TURN                 12 movements    112 windows
+        NO VISIBLE MOVEMENT                1 movements      9 windows
+  STRAIGHT 15890 windows: movement-sized burst (contrast >= 26.3, the median clear movement) 64 (0.4%); strong turn-like pattern on both pairs 421 (2.6%)
+        movement-sized burst by task file: down 0.1% of 962, left 0.5% of 8913, right 0.3% of 4281, straight 0.4% of 1734
+
+==========================================================================================
+sub_01 31-36 (test)
+  LEFT   11 movements (117 windows); burst at the labelled time for 100% of visible ones
+        OK                                 6 movements     65 windows
+        LOOKS LIKE THE OTHER DIRECTION     2 movements     19 windows
+        present, direction unclear         2 movements     24 windows
+        weak but present                   1 movements      9 windows
+  RIGHT  16 movements (183 windows); burst at the labelled time for 100% of visible ones
+        OK                                 9 movements    100 windows
+        present, direction unclear         3 movements     38 windows
+        LOOKS LIKE THE OTHER DIRECTION     3 movements     31 windows
+        weak but present                   1 movements     14 windows
+  DOWN   10 movements (123 windows); burst at the labelled time for 100% of visible ones
+        OK                                 6 movements     71 windows
+        weak but present                   3 movements     40 windows
+        LOOKS LIKE A TURN                  1 movements     12 windows
+  STRAIGHT 846 windows: movement-sized burst (contrast >= 26.3, the median clear movement) 3 (0.4%); strong turn-like pattern on both pairs 24 (2.8%)
+        movement-sized burst by task file: down 0.0% of 2, left 0.4% of 469, right 0.4% of 285, straight 0.0% of 90
+
+==========================================================================================
+sub_11 (test)
+  LEFT   31 movements (187 windows); burst at the labelled time for 100% of visible ones
+        present, direction unclear        12 movements     96 windows
+        OK                                12 movements     51 windows
+        weak but present                   4 movements     21 windows
+        LOOKS LIKE THE OTHER DIRECTION     3 movements     19 windows
+  RIGHT  34 movements (221 windows); burst at the labelled time for 100% of visible ones
+        OK                                21 movements    128 windows
+        LOOKS LIKE THE OTHER DIRECTION     9 movements     72 windows
+        weak but present                   3 movements     19 windows
+        present, direction unclear         1 movements      2 windows
+  DOWN   30 movements (285 windows); burst at the labelled time for 100% of visible ones
+        LOOKS LIKE A TURN                 16 movements    151 windows
+        OK                                11 movements    102 windows
+        weak but present                   3 movements     32 windows
+  STRAIGHT 507 windows: movement-sized burst (contrast >= 26.3, the median clear movement) 0 (0.0%); strong turn-like pattern on both pairs 19 (3.7%)
+        movement-sized burst by task file: down 0.0% of 154, left 0.0% of 157, right 0.0% of 196

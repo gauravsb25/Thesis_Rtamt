@@ -1,0 +1,24 @@
+
+===== ICA-CLEANED recordings
+split          movements          right    wrong class        missed median delay  false commands/min  rest verdicts flagged
+sub_01 1-20          163    105 ( 64.4%)     57 ( 35.0%)     1 (  0.6%)       1.12 s         3.60 (76 in 21 min)     245/5070 ( 4.8%)
+sub_01 21-36         126     91 ( 72.2%)     33 ( 26.2%)     2 (  1.6%)       1.15 s         4.12 (40 in 10 min)     102/2328 ( 4.4%)
+sub_11                95     55 ( 57.9%)     39 ( 41.1%)     1 (  1.1%)       0.62 s        16.00 (17 in 1 min)      42/255 (16.5%)
+   sub_01 21-36 LEFT   40: right 25, wrong:DOWN 9, wrong:RIGHT 6
+   sub_01 21-36 RIGHT  50: right 38, wrong:DOWN 8, wrong:LEFT 4
+   sub_01 21-36 DOWN   36: missed 2, right 28, wrong:LEFT 1, wrong:RIGHT 5
+   sub_11 LEFT   31: right 15, wrong:DOWN 3, wrong:RIGHT 13
+   sub_11 RIGHT  34: right 11, wrong:DOWN 3, wrong:LEFT 20
+   sub_11 DOWN   30: missed 1, right 29
+
+===== RAW recordings (no ICA: what a headset gives)
+split          movements          right    wrong class        missed median delay  false commands/min  rest verdicts flagged
+sub_01 1-20          163     96 ( 58.9%)     65 ( 39.9%)     2 (  1.2%)       1.15 s         9.70 (205 in 21 min)    2010/5070 (39.6%)
+sub_01 21-36         126     84 ( 66.7%)     39 ( 31.0%)     3 (  2.4%)       1.19 s         8.66 (84 in 10 min)     628/2328 (27.0%)
+sub_11                95     54 ( 56.8%)     41 ( 43.2%)     0 (  0.0%)       0.62 s        20.71 (22 in 1 min)      87/255 (34.1%)
+   sub_01 21-36 LEFT   40: right 20, wrong:DOWN 13, wrong:RIGHT 7
+   sub_01 21-36 RIGHT  50: missed 1, right 33, wrong:DOWN 12, wrong:LEFT 4
+   sub_01 21-36 DOWN   36: missed 2, right 31, wrong:LEFT 2, wrong:RIGHT 1
+   sub_11 LEFT   31: right 13, wrong:DOWN 6, wrong:RIGHT 12
+   sub_11 RIGHT  34: right 12, wrong:DOWN 5, wrong:LEFT 17
+   sub_11 DOWN   30: right 29, wrong:LEFT 1

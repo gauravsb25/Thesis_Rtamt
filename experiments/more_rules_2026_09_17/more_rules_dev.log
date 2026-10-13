@@ -1,0 +1,12 @@
+current monitor on sessions 1-30: 82.74%
+best gate_kofn  fitted AND scored on all of 1-30 (optimistic): 85.31%  [gate_kofn p=0.97 k=3]
+best gate_extra fitted AND scored on all of 1-30 (optimistic): 83.68%  [gate_extra p=0.95 k=4]
+best down_kofn  fitted AND scored on all of 1-30 (optimistic): 81.06%  [down_kofn k=7]
+
+Blocked 3-fold CV (fit on two blocks, score the third):
+   gate_kofn  CV  84.93% (+2.19)  sessions +20/-9  per class: L  86.5 R  81.4 D  81.4 S  90.3
+              chosen per fold: ['gate_kofn p=0.95 k=5', 'gate_kofn p=0.97 k=3', 'gate_kofn p=0.97 k=3']
+   gate_extra CV  83.46% (+0.72)  sessions +24/-6  per class: L  83.1 R  79.3 D  75.8 S  95.6
+              chosen per fold: ['gate_extra p=0.95 k=4', 'gate_extra p=0.93 k=5', 'gate_extra p=0.97 k=3']
+   down_kofn  CV  82.74% (+0.00)  sessions +0/-0  per class: L  83.6 R  79.4 D  77.5 S  90.3
+              chosen per fold: ['current', 'current', 'current']

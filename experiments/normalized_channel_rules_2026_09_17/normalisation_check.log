@@ -1,0 +1,9 @@
+signal                                                         rest 1-30 rest 31-36 rest sub_11 move 1-30 move sub_11   sub_11 rest per channel
+raw amplitude: log energy (uV^2), NOT normalised                     10%        16%         14%       59%         78%   Fp1   7 Fp2  19 F3   0 Fz   0 F4   6 T3  27 Cz   6 T4  46
+old slow-wave rule: max-min share (used in the 27-rule gate)         10%        17%         58%       72%         90%   Fp1  66 Fp2  71 F3  53 Fz  39 F4  67 T3  62 Cz  62 T4  43
+lc: loudest/quietest 0.5 s, own spread                               10%        12%         12%       64%         71%   Fp1  11 Fp2   9 F3  21 Fz   7 F4   6 T3  16 Cz   7 T4  19
+lp: largest excursion / own spread                                   10%        14%         10%       51%         47%   Fp1  10 Fp2  11 F3  10 Fz  11 F4  17 T3  12 Cz   2 T4   4
+dr: slow-wave rise / own median share                                10%         8%          1%        4%          0%   Fp1   0 Fp2   2 F3   0 Fz   2 F4   0 T3   1 Cz   1 T4   1
+rel_lc: lc minus 8-channel median                                    10%        10%         12%       17%         20%   Fp1  10 Fp2   9 F3  22 Fz  10 F4   5 T3  13 Cz   7 T4  17
+rel_lp: lp minus 8-channel median                                    10%        10%         10%       17%         16%   Fp1   8 Fp2   8 F3   8 Fz  16 F4  17 T3  11 Cz   8 T4   6
+rel_dr: dr minus 8-channel median                                    10%         9%          7%        8%          4%   Fp1   5 Fp2   4 F3   4 Fz  18 F4   2 T3  13 Cz   3 T4  10

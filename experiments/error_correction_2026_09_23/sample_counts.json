@@ -1,0 +1,35 @@
+{
+  "development": {
+    "windows": 18560,
+    "sessions": 30,
+    "recordings": 275,
+    "recordings_containing_class": {
+      "LEFT": 92,
+      "RIGHT": 92,
+      "DOWN": 68,
+      "STRAIGHT": 223
+    }
+  },
+  "sub01_later": {
+    "windows": 1269,
+    "sessions": 6,
+    "recordings": 40,
+    "recordings_containing_class": {
+      "LEFT": 11,
+      "RIGHT": 16,
+      "DOWN": 10,
+      "STRAIGHT": 25
+    }
+  },
+  "sub11": {
+    "windows": 1200,
+    "sessions": 10,
+    "recordings": 96,
+    "recordings_containing_class": {
+      "LEFT": 31,
+      "RIGHT": 34,
+      "DOWN": 30,
+      "STRAIGHT": 18
+    }
+  }
+}

@@ -1,0 +1,179 @@
+Direction read of each pair on sessions 1-30 (oriented so + = LEFT): F4-T3 91%, T3-T4 91%, Fz-T3 86%, Fp2-T3 85%, Cz-T3 84%, F3-T4 82%, F3-F4 82%, F4-Fz 78%, Fp2-F3 77%, Fp1-Fp2 76%, F4-Cz 75%
+
+====================================================================================================
+design 1-30: 18560 windows, 2057 wrong (11.1%); wrong movements 48
+
+  false alarm (STRAIGHT -> DOWN): 995 windows
+      cause: all gate tests passed                                                    995 (100%)
+      hint:  none                                                                     544 (55%)
+      hint:  burst shorter than 0.25 s                                                409 (41%)
+      hint:  frontopolar-dominant                                                      63 (6%)
+      strongest channel: Fp2 167, Cz 145, Fz 133, Fp1 126, T3 116, F4 109, F3 100, T4 99
+
+  false alarm (STRAIGHT -> LEFT): 347 windows
+      cause: all gate tests passed                                                    347 (100%)
+      hint:  burst shorter than 0.25 s                                                172 (50%)
+      hint:  none                                                                     151 (44%)
+      hint:  frontopolar-dominant                                                      43 (12%)
+      strongest channel: T3 79, Fp2 65, Fp1 63, F3 42, T4 37, F4 34, Cz 16, Fz 11
+
+  false alarm (STRAIGHT -> RIGHT): 192 windows
+      cause: all gate tests passed                                                    192 (100%)
+      hint:  none                                                                     129 (67%)
+      hint:  burst shorter than 0.25 s                                                 54 (28%)
+      hint:  frontopolar-dominant                                                      12 (6%)
+      strongest channel: Fp2 43, T4 33, T3 27, Fp1 21, F4 21, F3 21, Cz 15, Fz 11
+
+  missed movement (-> STRAIGHT): 187 windows
+      cause: contrast low                                                             135 (72%)
+      cause: delta low                                                                 18 (10%)
+      cause: contrast low + delta low                                                  17 (9%)
+      cause: contrast low + deflect low                                                10 (5%)
+      hint:  7 channel(s) pass the gate alone                                          63 (34%)
+      hint:  6 channel(s) pass the gate alone                                          43 (23%)
+      hint:  8 channel(s) pass the gate alone                                          36 (19%)
+      hint:  slow-wave rise on Fp1,Fp2,F3,Fz,F4,T3,Cz,T4                               15 (8%)
+      hint:  4 channel(s) pass the gate alone                                          13 (7%)
+      channels that alone show the burst: F3 174, T3 167, Fp1 161, Cz 160, Fp2 160, F4 158, Fz 132, T4 123
+
+  turn called a nod: 149 windows
+      cause: nod 1.12 >= -0.661                                                         7 (5%)
+      cause: nod 1.14 >= -0.661                                                         7 (5%)
+      cause: nod 0.37 >= -0.661                                                         5 (3%)
+      cause: nod 1.10 >= -0.661                                                         4 (3%)
+      hint:  T3/T4 move in opposite directions                                         59 (40%)
+      hint:  F4-T3 has one dominant lobe                                               36 (24%)
+      hint:  turn-sized sideways swing on Fp1-Fp2,F4-Cz                                11 (7%)
+      hint:  turn-sized sideways swing on Fp2-T3                                       11 (7%)
+      hint:  turn-sized sideways swing on Fp1-Fp2,Fp2-T3,F4-Cz                         11 (7%)
+
+  direction swapped: 122 windows
+      cause: F4-T3 largest excursion pointed LEFT                                      86 (70%)
+      cause: F4-T3 largest excursion pointed RIGHT                                     36 (30%)
+      hint:  1 other pair(s) point RIGHT                                               42 (34%)
+      hint:  no other pair points LEFT                                                 30 (25%)
+      hint:  no other pair points RIGHT                                                28 (23%)
+      hint:  4 other pair(s) point RIGHT                                               11 (9%)
+      hint:  2 other pair(s) point LEFT                                                 6 (5%)
+
+  nod called a turn: 65 windows
+      cause: nod -2.04 < -0.661, mostly from symmetry                                   5 (8%)
+      cause: nod -1.31 < -0.661, mostly from symmetry                                   3 (5%)
+      cause: nod -2.13 < -0.661, mostly from symmetry                                   2 (3%)
+      cause: nod -2.16 < -0.661, mostly from balance                                    2 (3%)
+      hint:  none                                                                      27 (42%)
+      hint:  no sideways swing on T3-T4,F3-F4                                          20 (31%)
+      hint:  Fp1/Fp2 common-mode like a nod                                            12 (18%)
+      hint:  no sideways swing on T3-T4,F3-F4,Fp1-Fp2                                   6 (9%)
+
+====================================================================================================
+test 31-36: 1269 windows, 269 wrong (21.2%); wrong movements 14
+
+  false alarm (STRAIGHT -> DOWN): 94 windows
+      cause: all gate tests passed                                                     94 (100%)
+      hint:  none                                                                      48 (51%)
+      hint:  burst shorter than 0.25 s                                                 45 (48%)
+      hint:  frontopolar-dominant                                                       2 (2%)
+      strongest channel: Cz 34, F3 19, Fp2 14, F4 10, T4 7, Fp1 5, Fz 4, T3 1
+
+  turn called a nod: 94 windows
+      cause: nod 0.75 >= -0.661                                                         7 (7%)
+      cause: nod 0.76 >= -0.661                                                         5 (5%)
+      cause: nod -0.61 >= -0.661                                                        3 (3%)
+      cause: nod 0.78 >= -0.661                                                         3 (3%)
+      hint:  T3/T4 move in opposite directions                                         35 (37%)
+      hint:  none                                                                      17 (18%)
+      hint:  turn-sized sideways swing on F4-Cz                                        16 (17%)
+      hint:  turn-sized sideways swing on T3-T4,F3-F4,Fp1-Fp2                          11 (12%)
+      hint:  F4-T3 has one dominant lobe                                               10 (11%)
+
+  missed movement (-> STRAIGHT): 58 windows
+      cause: contrast low                                                              24 (41%)
+      cause: contrast low + delta low                                                  19 (33%)
+      cause: delta low                                                                 13 (22%)
+      cause: contrast low + deflect low                                                 2 (3%)
+      hint:  6 channel(s) pass the gate alone                                          23 (40%)
+      hint:  slow-wave rise on Fp1,Fp2,F3,Fz,F4,T3,Cz,T4                               14 (24%)
+      hint:  5 channel(s) pass the gate alone                                          10 (17%)
+      hint:  7 channel(s) pass the gate alone                                          10 (17%)
+      hint:  slow-wave rise on Fp1,Fp2,Fz,F4,T3,Cz,T4                                   6 (10%)
+      channels that alone show the burst: F4 58, Fp2 52, Cz 47, F3 46, T3 44, T4 42, Fz 37, Fp1 33
+
+  nod called a turn: 13 windows
+      cause: nod -0.73 < -0.661, mostly from symmetry                                   2 (15%)
+      cause: nod -0.68 < -0.661, mostly from symmetry                                   1 (8%)
+      cause: nod -0.66 < -0.661, mostly from symmetry                                   1 (8%)
+      cause: nod -0.71 < -0.661, mostly from symmetry                                   1 (8%)
+      hint:  no sideways swing on T3-T4,F3-F4,Fp1-Fp2                                   6 (46%)
+      hint:  no sideways swing on F3-F4,Fp1-Fp2                                         5 (38%)
+      hint:  no sideways swing on T3-T4,F3-F4                                           2 (15%)
+
+  false alarm (STRAIGHT -> RIGHT): 8 windows
+      cause: all gate tests passed                                                      8 (100%)
+      hint:  burst shorter than 0.25 s                                                  6 (75%)
+      hint:  none                                                                       2 (25%)
+      strongest channel: T3 4, Fp2 3, T4 1
+
+  false alarm (STRAIGHT -> LEFT): 2 windows
+      cause: all gate tests passed                                                      2 (100%)
+      hint:  none                                                                       2 (100%)
+      strongest channel: T3 1, F4 1
+
+====================================================================================================
+sub_11: 1200 windows, 228 wrong (19.0%); wrong movements 29
+
+  direction swapped: 113 windows
+      cause: F4-T3 largest excursion pointed RIGHT                                     62 (55%)
+      cause: F4-T3 largest excursion pointed LEFT                                      51 (45%)
+      hint:  2 other pair(s) point LEFT                                                29 (26%)
+      hint:  1 other pair(s) point LEFT                                                26 (23%)
+      hint:  2 other pair(s) point RIGHT                                               19 (17%)
+      hint:  no other pair points RIGHT                                                11 (10%)
+      hint:  3 other pair(s) point RIGHT                                                8 (7%)
+
+  false alarm (STRAIGHT -> DOWN): 51 windows
+      cause: all gate tests passed                                                     51 (100%)
+      hint:  none                                                                      41 (80%)
+      hint:  burst shorter than 0.25 s                                                 10 (20%)
+      strongest channel: T4 18, F3 9, Fp1 9, T3 8, Fp2 3, F4 3, Cz 1
+
+  missed movement (-> STRAIGHT): 50 windows
+      cause: contrast low                                                              39 (78%)
+      cause: delta low                                                                  7 (14%)
+      cause: deflect low                                                                1 (2%)
+      cause: contrast low + deflect low                                                 1 (2%)
+      hint:  7 channel(s) pass the gate alone                                          17 (34%)
+      hint:  8 channel(s) pass the gate alone                                          10 (20%)
+      hint:  slow-wave rise on Fp1,Fp2,F3,Fz,F4,T3,Cz,T4                                9 (18%)
+      hint:  6 channel(s) pass the gate alone                                           8 (16%)
+      hint:  5 channel(s) pass the gate alone                                           6 (12%)
+      channels that alone show the burst: T4 50, Cz 49, Fp1 44, T3 42, F4 41, Fz 38, Fp2 38, F3 32
+
+  false alarm (STRAIGHT -> LEFT): 5 windows
+      cause: all gate tests passed                                                      5 (100%)
+      hint:  none                                                                       5 (100%)
+      strongest channel: F3 3, T3 2
+
+  nod called a turn: 4 windows
+      cause: nod -0.81 < -0.661, mostly from symmetry                                   2 (50%)
+      cause: nod -0.85 < -0.661, mostly from symmetry                                   1 (25%)
+      cause: nod -0.80 < -0.661, mostly from symmetry                                   1 (25%)
+      hint:  no sideways swing on T3-T4,F3-F4,Fp1-Fp2                                   2 (50%)
+      hint:  no sideways swing on F3-F4,Fp1-Fp2                                         1 (25%)
+      hint:  none                                                                       1 (25%)
+
+  turn called a nod: 4 windows
+      cause: nod 0.19 >= -0.661                                                         1 (25%)
+      cause: nod 0.24 >= -0.661                                                         1 (25%)
+      cause: nod 0.21 >= -0.661                                                         1 (25%)
+      cause: nod 0.14 >= -0.661                                                         1 (25%)
+      hint:  T3/T4 move in opposite directions                                          4 (100%)
+      hint:  turn-sized sideways swing on Fp2-F3                                        1 (25%)
+      hint:  turn-sized sideways swing on F4-Fz,Fp2-F3                                  1 (25%)
+      hint:  turn-sized sideways swing on F4-Fz                                         1 (25%)
+      hint:  turn-sized sideways swing on F3-T4                                         1 (25%)
+
+  false alarm (STRAIGHT -> RIGHT): 1 windows
+      cause: all gate tests passed                                                      1 (100%)
+      hint:  none                                                                       1 (100%)
+      strongest channel: F3 1

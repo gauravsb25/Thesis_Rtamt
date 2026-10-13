@@ -1,0 +1,20 @@
+orientations fixed on sessions 1-30: frontal -1, temporal -1, imbalance +1
+direction rule                         sub_01 1-30  sub_01 31-36    sub_11
+current: F4-T3 peak                         92.6%       100.0%        70.5%
+frontal F4-F3                               83.7%        93.6%        65.8%
+temporal T4-T3                              92.5%       100.0%        42.6%
+signed imbalance (F4-T4 vs F3-T3)           75.8%        85.6%        54.6%
+magnitude imbalance                         47.9%        41.7%        95.8%
+majority of the three pairs                 91.2%       100.0%        68.4%
+
+sub_11 turn windows: 383. How often the three pairs agree with each other: 31%
+   sub_11/ses-01: current rule right in 100.0% of  37 windows
+   sub_11/ses-02: current rule right in  90.4% of  52 windows
+   sub_11/ses-03: current rule right in  71.4% of  28 windows
+   sub_11/ses-04: current rule right in  54.3% of  35 windows
+   sub_11/ses-05: current rule right in  58.8% of  51 windows
+   sub_11/ses-06: current rule right in  75.6% of  41 windows
+   sub_11/ses-07: current rule right in  78.3% of  46 windows
+   sub_11/ses-08: current rule right in   0.0% of  23 windows
+   sub_11/ses-09: current rule right in  43.5% of  23 windows
+   sub_11/ses-10: current rule right in  85.1% of  47 windows

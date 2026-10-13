@@ -1,0 +1,4 @@
+current monitor, sessions 1-30: 82.74% (L  83.6 R  79.4 D  77.5 S  90.3)
+PRE_dir                CV  82.43% (-0.31) sessions +3/-6  L  83.8 R  78.0 D  77.5 S  90.3    ['current', 'LEFT when pre-ICA turn > 0', 'current']
+CF_replace[mean_4]+PRE_dir CV  84.76% (+2.03) sessions +27/-3  L  84.2 R  78.5 D  78.2 S  98.2  PASS  [['CF_replace[mean_4]: g=6.25', 'PRE_dir: current'], ['CF_replace[mean_4]: g=7.25', 'PRE_dir: LEFT when pre-ICA turn > 0'], ['CF_replace[mean_4]: g=6.69', 'PRE_dir: current']]
+CF_replace[mean_4]+GEO_nod_or+PRE_dir CV  85.33% (+2.59) sessions +27/-3  L  83.5 R  77.3 D  82.4 S  98.2  PASS  [['CF_replace[mean_4]: g=6.25', 'GEO_nod_or: t=-1.35', 'PRE_dir: current'], ['CF_replace[mean_4]: g=7.25', 'GEO_nod_or: t=-1.44', 'PRE_dir: LEFT when pre-ICA turn > 0'], ['CF_replace[mean_4]: g=6.69', 'GEO_nod_or: t=-1.7', 'PRE_dir: current']]

@@ -1,0 +1,15 @@
+
+CF_replace[mean_4]: fitted on all of sessions 1-30 -> ['CF_replace[mean_4]: g=6.61']
+   sessions 1-30  current  82.74% (L  83.6 R  79.4 D  77.5 S  90.3)  ->   85.01% (L  83.9 R  80.0 D  78.2 S  97.9)
+   sub_01 31-36   current  67.22% (L  59.0 R  64.5 D  57.7 S  87.7)  ->   69.62% (L  59.0 R  64.5 D  57.7 S  97.3)
+   sub_11         current  77.00% (L  56.1 R  74.7 D  88.4 S  88.8)  ->   78.67% (L  56.1 R  74.7 D  88.4 S  95.5)
+
+GEO_nod_or: fitted on all of sessions 1-30 -> ['GEO_nod_or: t=-1.37']
+   sessions 1-30  current  82.74% (L  83.6 R  79.4 D  77.5 S  90.3)  ->   83.84% (L  83.6 R  79.4 D  82.0 S  90.3)
+   sub_01 31-36   current  67.22% (L  59.0 R  64.5 D  57.7 S  87.7)  ->   66.79% (L  57.3 R  64.5 D  57.7 S  87.7)
+   sub_11         current  77.00% (L  56.1 R  74.7 D  88.4 S  88.8)  ->   67.77% (L  48.7 R  45.2 D  88.4 S  88.8)
+
+CF_replace[mean_4]+GEO_nod_or: fitted on all of sessions 1-30 -> ['CF_replace[mean_4]: g=6.61', 'GEO_nod_or: t=-1.37']
+   sessions 1-30  current  82.74% (L  83.6 R  79.4 D  77.5 S  90.3)  ->   86.11% (L  83.9 R  80.0 D  82.6 S  97.9)
+   sub_01 31-36   current  67.22% (L  59.0 R  64.5 D  57.7 S  87.7)  ->   69.19% (L  57.3 R  64.5 D  57.7 S  97.3)
+   sub_11         current  77.00% (L  56.1 R  74.7 D  88.4 S  88.8)  ->   69.45% (L  48.7 R  45.2 D  88.4 S  95.5)

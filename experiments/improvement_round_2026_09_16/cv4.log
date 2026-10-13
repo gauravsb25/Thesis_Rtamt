@@ -1,0 +1,31 @@
+design                                        pooled     f1     f2     f3   dpooled  sess +/-
+BASELINE (refit)                               80.55  78.66  77.78  84.43  
+CUSUM gate (reference)                         81.28  78.63  78.92  85.34     +0.73   22/8   
+m77: gate (contrast) filtered                  75.93  74.94  76.65  75.95     -4.62    8/22  
+m77: gate (CUSUM) filtered                     76.64  75.59  76.13  77.92     -3.91   10/20  
+m77: CUSUM gate + nod filtered                 80.33  78.03  77.80  84.10     -0.22   20/10  
+m77: CUSUM gate + veto filtered                81.05  78.63  78.07  85.49     +0.50   21/9   
+m77: CUSUM gate + nod,veto filtered            80.24  78.03  77.39  84.19     -0.31   20/10  
+m77: CUSUM gate + turn filtered                76.35  73.45  76.34  78.98     -4.20   13/17  
+m77: everything but turn filtered              75.57  73.67  74.75  77.62     -4.98    8/22  
+m129: gate (contrast) filtered                 60.40  59.26  59.64  62.34    -20.15    0/30  
+m129: gate (CUSUM) filtered                    58.44  59.52  59.57  58.03    -22.11    0/30  
+m129: CUSUM gate + nod filtered                79.69  79.15  77.21  81.95     -0.86   16/14  
+m129: CUSUM gate + veto filtered               81.15  78.53  78.60  85.34     +0.60   20/10  
+m129: CUSUM gate + nod,veto filtered           80.02  78.91  77.42  82.90     -0.53   16/14  
+m129: CUSUM gate + turn filtered               69.90  69.10  66.63  73.62    -10.65    4/26  
+m129: everything but turn filtered             57.56  61.64  57.90  55.17    -22.99    0/30  
+m77c: gate (contrast) filtered                 66.26  65.12  66.12  67.89    -14.29    0/30  
+m77c: gate (CUSUM) filtered                    68.00  66.80  67.83  69.56    -12.55    0/30  
+m77c: CUSUM gate + nod filtered                80.05  77.24  79.24  82.77     -0.50   16/14  
+m77c: CUSUM gate + veto filtered               81.16  78.63  78.40  85.49     +0.61   21/9   
+m77c: CUSUM gate + nod,veto filtered           80.41  77.24  79.25  83.78     -0.14   16/14  
+m77c: CUSUM gate + turn filtered               75.63  72.32  75.60  78.62     -4.92    7/23  
+m77c: everything but turn filtered             66.82  65.25  66.55  68.28    -13.73    0/30  
+m129c: gate (contrast) filtered                61.19  59.83  59.68  63.22    -19.36    0/30  
+m129c: gate (CUSUM) filtered                   61.19  59.78  59.71  63.24    -19.36    0/30  
+m129c: CUSUM gate + nod filtered               78.66  77.14  78.12  80.41     -1.89   11/19  
+m129c: CUSUM gate + veto filtered              81.18  78.63  78.60  85.34     +0.63   20/10  
+m129c: CUSUM gate + nod,veto filtered          74.63  74.58  72.47  76.28     -5.92    3/27  
+m129c: CUSUM gate + turn filtered              68.16  65.58  68.28  70.63    -12.39    3/27  
+m129c: everything but turn filtered            55.14  54.47  53.52  56.61    -25.41    0/30  

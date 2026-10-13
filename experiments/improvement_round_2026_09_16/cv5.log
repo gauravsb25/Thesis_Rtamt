@@ -1,0 +1,12 @@
+design                                pooled     f1     f2     f3   dpooled  sess +/-  L/R swaps(windows)  swap events
+BASELINE (refit)                       80.55  78.66  77.78  84.43                       140        14
+CUSUM gate                             81.28  78.63  78.92  85.34     +0.73   22/8          138        13
+since h=0.7 (shipped gate)             79.93  78.87  78.80  81.73     -0.62   13/8          148        14
+since h=0.75 (shipped gate)            80.23  79.83  78.61  81.73     -0.32   13/6          136        13
+since h=0.8 (shipped gate)             80.59  79.97  79.68  81.72     +0.04   13/6          121        12
+since h=0.85 (shipped gate)            81.53  80.71  79.59  83.66     +0.98    7/3           99        10
+since h=0.9 (shipped gate)             81.34  80.17  79.59  83.66     +0.79    6/3          107        11
+since h=0.95 (shipped gate)            81.24  79.90  78.69  84.49     +0.69    7/1          111        11
+CUSUM gate + since h=0.8               81.39  79.88  80.81  83.01     +0.84   23/7          119        11
+CUSUM gate + since h=0.85              82.23  80.69  80.73  84.53     +1.68   23/7           97         9
+CUSUM gate + since h=0.9               82.07  80.15  80.73  84.57     +1.52   21/9          105        10

@@ -1,0 +1,57 @@
+C:\Users\gaura\miniconda3\Lib\site-packages\numpy\_core\fromnumeric.py:3904: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+C:\Users\gaura\miniconda3\Lib\site-packages\numpy\_core\_methods.py:147: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+1. T3 / T4 per class (median over windows, uV).  Other channels for scale: median over the 6 others
+
+   sub_01
+   class       T3 sd   T4 sd  others sd  T3 peak  T4 peak   T3 hf   T4 hf  others hf  T3 slow  T4 slow
+   LEFT         12.3    12.0        7.5     48.5     47.5    2.25    2.38       1.95     0.49     0.43
+   RIGHT        11.4    11.9        6.9     43.4     41.7    2.10    2.34       1.70     0.48     0.46
+   DOWN          9.8    10.1        7.2     33.0     33.6    2.12    2.13       1.89     0.38     0.37
+   STRAIGHT      8.3     8.7        5.5     28.2     28.6    1.95    2.02       1.73     0.25     0.23
+
+   sub_11
+   class       T3 sd   T4 sd  others sd  T3 peak  T4 peak   T3 hf   T4 hf  others hf  T3 slow  T4 slow
+   LEFT         11.5    74.8        8.0     47.5    429.4    2.18    9.86       1.41     0.54     0.78
+   RIGHT        24.0    15.9        6.3    121.9     57.3    3.00    3.79       1.40     0.85     0.72
+   DOWN          9.9    10.2        8.5     38.0     42.4    1.94    3.28       1.67     0.66     0.61
+   STRAIGHT      6.6     7.3        4.3     20.3     22.6    1.57    2.68       1.16     0.36     0.36
+
+2. Does T4 follow its neighbours at rest? (median correlation, STRAIGHT windows, 0.5-10 Hz)
+   sub_01: T4-Cz -0.05  T4-F4 0.46  |  T3-Cz -0.14  T3-F3 0.40  |  T3-T4 0.28
+   sub_11: T4-Cz 0.34  T4-F4 0.22  |  T3-Cz 0.02  T3-F3 0.61  |  T3-T4 0.12
+
+3. Per session: T4 and T3 rest SD, and share of MOVEMENTS whose T4 / T3 peak exceeds 100 uV
+   session         rest T3 sd rest T4 sd    LEFT: T4>100  LEFT: T3>100  RIGHT: T4>100  RIGHT: T3>100  DOWN: T4>100
+   sub_01/ses-01          7.4        8.5             0/4           0/4            0/2            0/2           0/2
+   sub_01/ses-10          8.2        9.3             1/4           0/4            0/1            0/1           0/3
+   sub_01/ses-20          8.1        7.3             0/1           0/1            0/2            0/2           0/2
+   sub_01/ses-30         10.3        9.9             0/3           0/3            0/3            0/3           0/4
+   sub_01/ses-32          8.5        9.1             1/2           2/2            0/1            0/1           0/3
+   sub_01/ses-36         10.5        9.5               -             -            0/5            0/5           0/3
+   sub_11/ses-01          6.6        7.0             0/1           0/1            0/4            4/4           0/5
+   sub_11/ses-02          nan        nan             3/3           0/3            0/5            2/5           0/1
+   sub_11/ses-03          6.6        7.3             5/5           0/5            0/1            0/1           0/4
+   sub_11/ses-04          7.3       63.1             3/3           0/3            2/3            3/3           0/2
+   sub_11/ses-05          7.0       37.9             3/3           0/3            0/4            4/4           0/3
+   sub_11/ses-06          7.0       26.8             4/4           0/4            1/2            2/2           0/3
+   sub_11/ses-07          7.2        6.9             3/3           0/3            2/4            3/4           0/1
+   sub_11/ses-08          6.0        5.7             2/2           0/2            1/2            2/2           0/5
+   sub_11/ses-09          5.9        6.0             1/1           0/1            0/3            1/3           1/4
+   sub_11/ses-10          nan        nan             2/2           0/2            3/5            2/5           0/1
+   sub_01 all sessions LEFT : 102 movements, T4 peak median   48.2 uV (>100:    7%), T3 peak median   48.3 uV (>100:    4%)
+   sub_01 all sessions RIGHT: 107 movements, T4 peak median   41.6 uV (>100:    0%), T3 peak median   44.9 uV (>100:    0%)
+   sub_01 all sessions DOWN : 77 movements, T4 peak median   35.0 uV (>100:    1%), T3 peak median   33.9 uV (>100:    1%)
+   sub_11 all sessions LEFT : 27 movements, T4 peak median  429.4 uV (>100:   96%), T3 peak median   48.2 uV (>100:    0%)
+   sub_11 all sessions RIGHT: 33 movements, T4 peak median   71.4 uV (>100:   27%), T3 peak median  123.7 uV (>100:   70%)
+   sub_11 all sessions DOWN : 29 movements, T4 peak median   44.3 uV (>100:    3%), T3 peak median   37.4 uV (>100:    0%)
+
+4. Is the swing time-locked with a repeatable shape? Correlation of each movement's snippet with the
+   average of the OTHER movements of the same subject and class (0.5 s before to 2 s after onset)
+   sub_01 LEFT  n=102: T3 median r +0.38 (r>0.3 in  59%)   T4 median r +0.33 (r>0.3 in  53%)
+   sub_01 RIGHT n=107: T3 median r +0.32 (r>0.3 in  51%)   T4 median r +0.32 (r>0.3 in  53%)
+   sub_01 DOWN  n= 77: T3 median r +0.11 (r>0.3 in  27%)   T4 median r +0.08 (r>0.3 in  29%)
+   sub_11 LEFT  n= 27: T3 median r +0.04 (r>0.3 in  15%)   T4 median r +0.55 (r>0.3 in  67%)
+   sub_11 RIGHT n= 33: T3 median r +0.76 (r>0.3 in  76%)   T4 median r +0.48 (r>0.3 in  67%)
+   sub_11 DOWN  n= 29: T3 median r +0.15 (r>0.3 in  41%)   T4 median r +0.06 (r>0.3 in  38%)

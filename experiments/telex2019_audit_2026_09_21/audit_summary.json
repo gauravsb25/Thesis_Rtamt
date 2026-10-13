@@ -1,0 +1,40 @@
+{
+  "stats": {
+    "learner_runs": 52,
+    "class_structure_searches": 208,
+    "numerical_threshold_refinements": 2496,
+    "evaluated_candidates_including_reranking": 560335,
+    "independent_recordings": 411,
+    "sampling_audits_passed": 52
+  },
+  "movement_gain_intervals": {
+    "positive": {
+      "development": [
+        -55.0594321377009,
+        -45.49139033677136
+      ],
+      "external_sub01": [
+        -47.90954089989402,
+        -23.143703188633182
+      ],
+      "external_sub11": [
+        -43.63014055130935,
+        -30.03505027875419
+      ]
+    },
+    "supervised": {
+      "development": [
+        -40.60874766542538,
+        -29.763508149841737
+      ],
+      "external_sub01": [
+        -27.38522334014778,
+        -13.374743876100645
+      ],
+      "external_sub11": [
+        -34.933330807015324,
+        -25.269684774450273
+      ]
+    }
+  }
+}

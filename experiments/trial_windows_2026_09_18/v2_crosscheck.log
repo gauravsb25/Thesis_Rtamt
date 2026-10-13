@@ -1,0 +1,10 @@
+
+shipped: {'b': 6.61, 'g': 7.81, 'd': 0.208, 'q': 2.72, 'n': -0.661, 'v': 7.54}
+   sub_01 1-30    4-class  85.01%   L  83.9 R  80.0 D  78.2 S  97.9   false alarms   2.1%
+   sub_01 31-36   4-class  69.62%   L  59.0 R  64.5 D  57.7 S  97.3   false alarms   2.7%
+   sub_11         4-class  78.67%   L  56.1 R  74.7 D  88.4 S  95.5   false alarms   4.5%
+
+selected on the 442 trials: {'b': 3.0, 'g': 5.0, 'd': 0.16, 'q': 2.0, 'n': -0.6, 'v': 5.75}
+   sub_01 1-30    4-class  82.44%   L  88.6 R  83.0 D  80.6 S  77.6   false alarms  22.4%
+   sub_01 31-36   4-class  69.39%   L  59.8 R  71.6 D  71.5 S  74.6   false alarms  25.4%
+   sub_11         4-class  75.09%   L  60.4 R  76.9 D  96.1 S  66.9   false alarms  33.1%

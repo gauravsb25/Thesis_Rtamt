@@ -1,0 +1,12 @@
+==========================================================================================
+TEST sub_01 31-36
+  commit after 0.50 s:  65.87%  L  51.3 R  59.6 D  65.0 S  87.6  latency from onset median +1.45 s; rest committed early 6.6%
+  commit after 0.75 s:  67.73%  L  56.4 R  63.4 D  63.4 S  87.7  latency from onset median +1.74 s; rest committed early 4.5%
+  commit after 1.00 s:  67.75%  L  58.1 R  63.4 D  61.8 S  87.7  latency from onset median +1.87 s; rest committed early 3.4%
+  full 3 s (default):  67.22%  L  59.0 R  64.5 D  57.7 S  87.7  latency +2.20 s
+==========================================================================================
+TEST sub_11
+  commit after 0.50 s:  75.94%  L  51.3 R  76.0 D  88.4 S  88.0  latency from onset median +1.27 s; rest committed early 8.1%
+  commit after 0.75 s:  77.00%  L  52.9 R  78.3 D  88.4 S  88.4  latency from onset median +1.55 s; rest committed early 5.7%
+  commit after 1.00 s:  77.83%  L  57.2 R  76.9 D  88.4 S  88.8  latency from onset median +1.80 s; rest committed early 4.7%
+  full 3 s (default):  77.00%  L  56.1 R  74.7 D  88.4 S  88.8  latency +2.31 s

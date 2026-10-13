@@ -1,0 +1,12 @@
+group                                      n              cm_share       sign_agree (of 8)            T3-T4 corr
+false alarms (rest called movement)     1534    0.50 [ 0.31, 0.66]      6.00 [ 5.00, 7.00]    0.17 [-0.29, 0.67]
+correct rest (random 1500)              1500    0.41 [ 0.27, 0.56]      6.00 [ 5.00, 7.00]    0.34 [-0.17, 0.67]
+LEFT detected                            920    0.14 [ 0.07, 0.29]      5.00 [ 4.00, 6.00]   -0.82 [-0.93,-0.37]
+RIGHT detected                           918    0.13 [ 0.08, 0.27]      5.00 [ 5.00, 6.00]   -0.84 [-0.93,-0.59]
+DOWN detected                            645    0.65 [ 0.29, 0.76]      6.00 [ 5.00, 8.00]    0.75 [ 0.42, 0.94]
+
+false alarms by predicted class: {'LEFT': 347, 'RIGHT': 192, 'DOWN': 995}
+cm_share >= 0.5: false alarms  49.9%  correct rest  35.1%  LEFT   9.3%  RIGHT   5.1%  DOWN  67.3%
+cm_share >= 0.6: false alarms  35.9%  correct rest  20.1%  LEFT   6.1%  RIGHT   0.8%  DOWN  56.0%
+cm_share >= 0.7: false alarms  20.5%  correct rest   7.0%  LEFT   2.8%  RIGHT   0.0%  DOWN  41.6%
+cm_share >= 0.8: false alarms   5.7%  correct rest   1.4%  LEFT   0.0%  RIGHT   0.0%  DOWN  16.9%

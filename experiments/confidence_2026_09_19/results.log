@@ -1,0 +1,35 @@
+C:\Users\gaura\thesis_rtamt\experiments\confidence_2026_09_19\run.py:73: RuntimeWarning: Mean of empty slice
+  draws[k].append(np.nanmean(values[k]))
+
+sub_01 sessions 1-30   (30 sessions, 18560 windows)
+   measure                   value          95% interval
+   balanced                 85.01%   [ 81.93,  89.22]
+   LEFT                     83.94%   [ 76.41,  90.65]
+   RIGHT                    79.96%   [ 71.58,  87.62]
+   DOWN                     78.21%   [ 69.72,  89.98]
+   STRAIGHT                 97.92%   [ 97.12,  98.59]
+   movement vs still        95.66%   [ 94.48,  96.95]
+   nod vs turn              91.66%   [ 87.56,  94.93]
+   left vs right            92.59%   [ 88.17,  95.72]
+
+sub_01 sessions 31-36   (6 sessions, 1269 windows)
+   measure                   value          95% interval
+   balanced                 69.62%   [ 66.50,  80.16]
+   LEFT                     58.97%   [ 43.76, 100.00]
+   RIGHT                    64.48%   [ 31.00,  85.60]
+   DOWN                     57.72%   [ 51.47,  62.54]
+   STRAIGHT                 97.28%   [ 91.58,  99.51]
+   movement vs still        91.78%   [ 85.73,  95.07]
+   nod vs turn              70.68%   [ 58.28,  80.07]
+   left vs right           100.00%   [100.00, 100.00]
+
+sub_11   (10 sessions, 1200 windows)
+   measure                   value          95% interval
+   balanced                 78.67%   [ 66.63,  83.20]
+   LEFT                     56.15%   [ 29.55,  70.13]
+   RIGHT                    74.66%   [ 50.30,  86.56]
+   DOWN                     88.42%   [ 76.30, 100.00]
+   STRAIGHT                 95.46%   [ 95.23,  98.98]
+   movement vs still        94.20%   [ 92.23,  99.32]
+   nod vs turn              98.60%   [ 96.71, 100.00]
+   left vs right            70.50%   [ 48.17,  81.01]

@@ -1,0 +1,78 @@
+
+=== DETECT: 13336 training rows, 768 features (3 s)
+   baseline   CV  90.88   sessions better  0 / worse  0
+   single     CV  90.92   sessions better  9 / worse 11
+   and_2      CV  88.20   sessions better  8 / worse 12
+   and_3      CV  87.53   sessions better  9 / worse 11
+   or_2       CV  92.06   sessions better 11 / worse  9
+   or_3       CV  92.01   sessions better 11 / worse  9
+   vote_3     CV  91.83   sessions better  9 / worse 11
+   vote_5     CV  92.08   sessions better 10 / worse 10
+   vote_9     CV  92.62   sessions better 10 / worse 10
+   vote_15    CV  92.65   sessions better 10 / worse 10
+   vote_25    CV  92.61   sessions better 10 / worse 10
+   base_and   CV  89.83   sessions better 12 / worse  8
+   base_or    CV  91.84   sessions better  9 / worse 11
+   regime     CV  91.24   sessions better 11 / worse  9
+   cascade    CV  91.48   sessions better 11 / worse  9
+   null control: best single rule on training, real 93.57 vs shuffled 75.13, 75.14, 75.17, 75.11, 75.13
+   your group left Fp1+F3+T3               single CV  86.88  vote3  87.44
+   your group right Fp2+F4+T4              single CV  86.49  vote3  89.76
+   your group midline Fz+Cz                single CV  82.08  vote3  83.61
+   your group front Fp1+Fp2+F3+Fz+F4       single CV  85.99  vote3  88.78
+   your group T3+Cz+T4                     single CV  89.56  vote3  90.43
+   your group all 8                        single CV  92.12  vote3  93.67
+
+=== NOD: 1744 training rows, 48404 features (108 s)
+   baseline   CV  86.91   sessions better  0 / worse  0
+   single     CV  84.73   sessions better  6 / worse 10
+   and_2      CV  81.06   sessions better  5 / worse 14
+   and_3      CV  80.94   sessions better  5 / worse 14
+   or_2       CV  87.72   sessions better  7 / worse 10
+   or_3       CV  87.29   sessions better  7 / worse 10
+   vote_3     CV  88.74   sessions better  8 / worse  8
+   vote_5     CV  88.54   sessions better  8 / worse  8
+   vote_9     CV  87.25   sessions better  8 / worse  8
+   vote_15    CV  85.11   sessions better  7 / worse  7
+   vote_25    CV  85.15   sessions better  6 / worse  8
+   base_and   CV  78.53   sessions better  4 / worse 13
+   base_or    CV  90.13   sessions better  7 / worse  5
+   regime     CV  81.98   sessions better  4 / worse 14
+   cascade    CV  84.67   sessions better  7 / worse 10
+   null control: best single rule on training, real 93.96 vs shuffled 67.93, 68.11, 67.76, 68.10, 68.05
+   your grouping left Fp1+F3+T3 vs right Fp2+F4+T4        single  77.35  vote3  84.34  or2  80.52  and2  80.24
+   your grouping front Fp1+Fp2+F3+Fz+F4 vs T3+Cz+T4       single  70.12  vote3  63.84  or2  67.60  and2  64.11
+   your grouping midline Fz+Cz vs temples T3+T4           single  85.01  vote3  71.24  or2  78.13  and2  75.06
+   your grouping T3 vs T4                                 single  90.01  vote3  92.16  or2  90.94  and2  88.91
+   your grouping F3 vs F4                                 single  84.58  vote3  85.96  or2  84.67  and2  86.19
+   your grouping Fp1 vs Fp2                               single  74.46  vote3  75.10  or2  74.62  and2  74.19
+   your grouping F4 vs T3 (current direction pair)        single  84.47  vote3  86.89  or2  89.19  and2  82.30
+   your grouping left+midline Fp1+F3+T3+Fz+Cz vs right Fp2+F4+T4 single  80.20  vote3  85.14  or2  83.12  and2  81.91
+
+=== DIRECTION: 1260 training rows, 48404 features (204 s)
+   baseline   CV  89.11   sessions better  0 / worse  0
+   single     CV  84.06   sessions better  4 / worse  9
+   and_2      CV  82.61   sessions better  3 / worse  9
+   and_3      CV  82.70   sessions better  1 / worse 12
+   or_2       CV  84.85   sessions better  3 / worse 10
+   or_3       CV  82.35   sessions better  3 / worse 13
+   vote_3     CV  83.84   sessions better  4 / worse  8
+   vote_5     CV  86.03   sessions better  4 / worse  8
+   vote_9     CV  86.28   sessions better  5 / worse  6
+   vote_15    CV  85.57   sessions better  4 / worse  6
+   vote_25    CV  85.48   sessions better  4 / worse  6
+   base_and   CV  90.60   sessions better  5 / worse  6
+   base_or    CV  82.51   sessions better  0 / worse  9
+   regime     CV  81.97   sessions better  4 / worse 11
+   cascade    CV  83.04   sessions better  3 / worse 10
+   null control: best single rule on training, real 92.23 vs shuffled 59.40, 59.26, 59.35, 59.21, 60.76
+   your grouping left Fp1+F3+T3 vs right Fp2+F4+T4        single  88.12  vote3  82.56  or2  85.13  and2  82.07
+   your grouping front Fp1+Fp2+F3+Fz+F4 vs T3+Cz+T4       single  40.94  vote3  50.62  or2  47.67  and2  46.86
+   your grouping midline Fz+Cz vs temples T3+T4           single  52.21  vote3  54.70  or2  56.44  and2  55.07
+   your grouping T3 vs T4                                 single  86.32  vote3  85.05  or2  84.20  and2  85.51
+   your grouping F3 vs F4                                 single  82.05  vote3  80.90  or2  78.78  and2  81.66
+   your grouping Fp1 vs Fp2                               single  84.49  vote3  83.09  or2  82.62  and2  80.28
+   your grouping F4 vs T3 (current direction pair)        single  86.62  vote3  87.26  or2  85.77  and2  82.19
+   your grouping left+midline Fp1+F3+T3+Fz+Cz vs right Fp2+F4+T4 single  86.28  vote3  81.84  or2  82.10  and2  81.82
+
+saved cv_report.json (268 s)

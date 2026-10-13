@@ -1,0 +1,131 @@
+{
+  "note": "Forced learned challenger; original selection may choose baseline",
+  "modes": {
+    "positive": {
+      "config": [
+        8,
+        2,
+        true
+      ],
+      "outer_configs": [
+        [
+          8,
+          1,
+          true
+        ],
+        [
+          8,
+          1,
+          true
+        ],
+        [
+          16,
+          2,
+          true
+        ]
+      ],
+      "nested_validation": {
+        "correct": 16367,
+        "n": 18560,
+        "accuracy": 88.18426724137932,
+        "balanced_accuracy": 47.23533947789207,
+        "movement_macro": 30.34147634182546,
+        "recall": {
+          "LEFT": 39.83315954118874,
+          "RIGHT": 20.041536863966773,
+          "DOWN": 31.149732620320858,
+          "STRAIGHT": 97.91692888609188
+        },
+        "confusion": [
+          [
+            382,
+            161,
+            374,
+            42
+          ],
+          [
+            437,
+            193,
+            297,
+            36
+          ],
+          [
+            342,
+            75,
+            233,
+            98
+          ],
+          [
+            218,
+            38,
+            75,
+            15559
+          ]
+        ]
+      }
+    },
+    "supervised": {
+      "config": [
+        8,
+        2,
+        true
+      ],
+      "outer_configs": [
+        [
+          16,
+          3,
+          true
+        ],
+        [
+          16,
+          3,
+          true
+        ],
+        [
+          16,
+          3,
+          true
+        ]
+      ],
+      "nested_validation": {
+        "correct": 16827,
+        "n": 18560,
+        "accuracy": 90.66271551724138,
+        "balanced_accuracy": 58.595610278057244,
+        "movement_macro": 45.48850407537903,
+        "recall": {
+          "LEFT": 54.64025026068822,
+          "RIGHT": 61.37071651090342,
+          "DOWN": 20.454545454545457,
+          "STRAIGHT": 97.91692888609188
+        },
+        "confusion": [
+          [
+            524,
+            314,
+            79,
+            42
+          ],
+          [
+            285,
+            591,
+            51,
+            36
+          ],
+          [
+            233,
+            264,
+            153,
+            98
+          ],
+          [
+            68,
+            137,
+            126,
+            15559
+          ]
+        ]
+      }
+    }
+  }
+}

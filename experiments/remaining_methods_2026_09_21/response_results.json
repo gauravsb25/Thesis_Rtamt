@@ -1,0 +1,26 @@
+{
+  "source_sha256": "ddd3544c42510f118d23db3f4f5705dfeffa8f284c7278808683f95d8441b16a",
+  "original": {
+    "balanced_accuracy": 85.15826460301781,
+    "gain": 0.1518761001993596,
+    "sessions_improved": 2,
+    "sessions_harmed": 1,
+    "picks": [
+      "pr_Fp2T3|resp|nod+|0.0807",
+      "pr_Fp2T3|resp|nod+|0.0885",
+      "pr_FzT4|resp|nod+|0.0874"
+    ]
+  },
+  "corrected": {
+    "balanced_accuracy": 84.36547412781981,
+    "gain": -0.6409143749986441,
+    "sessions_improved": 2,
+    "sessions_harmed": 4,
+    "picks": [
+      "en_Fp1|resp|dirtie|2.0219",
+      "pr_T3T4|resp (negated)|nod-|-0.0536",
+      "pr_T3T4|resp (negated)|nod-|-0.0536"
+    ]
+  },
+  "elapsed_seconds": 4.7317728996276855
+}

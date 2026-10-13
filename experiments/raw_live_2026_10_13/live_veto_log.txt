@@ -1,0 +1,21 @@
+k=1 raw       sub_01 1-20   right  56.4%  wrong  37.4%  missed   6.1%  false commands  233 = 11.03/min
+k=1 raw       sub_01 21-36  right  65.1%  wrong  31.0%  missed   4.0%  false commands  101 = 10.41/min
+k=1 raw       sub_11        right  60.0%  wrong  37.9%  missed   2.1%  false commands   24 = 22.59/min
+k=1 raw+veto  sub_01 1-20   right  65.6%  wrong  30.7%  missed   3.7%  false commands  170 =  8.05/min
+k=1 raw+veto  sub_01 21-36  right  67.5%  wrong  29.4%  missed   3.2%  false commands   87 =  8.97/min
+k=1 raw+veto  sub_11        right  61.1%  wrong  37.9%  missed   1.1%  false commands   19 = 17.88/min
+
+k=2 raw       sub_01 1-20   right  59.5%  wrong  34.4%  missed   6.1%  false commands  180 =  8.52/min
+k=2 raw       sub_01 21-36  right  73.0%  wrong  20.6%  missed   6.3%  false commands   69 =  7.11/min
+k=2 raw       sub_11        right  62.1%  wrong  37.9%  missed   0.0%  false commands   18 = 16.94/min
+k=2 raw+veto  sub_01 1-20   right  70.6%  wrong  25.2%  missed   4.3%  false commands   96 =  4.54/min
+k=2 raw+veto  sub_01 21-36  right  75.4%  wrong  19.0%  missed   5.6%  false commands   45 =  4.64/min
+k=2 raw+veto  sub_11        right  63.2%  wrong  36.8%  missed   0.0%  false commands   15 = 14.12/min
+
+k=4 raw       sub_01 1-20   right  73.6%  wrong  20.2%  missed   6.1%  false commands  136 =  6.44/min
+k=4 raw       sub_01 21-36  right  78.6%  wrong  14.3%  missed   7.1%  false commands   42 =  4.33/min
+k=4 raw       sub_11        right  71.6%  wrong  28.4%  missed   0.0%  false commands   10 =  9.41/min
+k=4 raw+veto  sub_01 1-20   right  76.1%  wrong  11.0%  missed  12.9%  false commands   33 =  1.56/min
+k=4 raw+veto  sub_01 21-36  right  77.8%  wrong  15.1%  missed   7.1%  false commands   12 =  1.24/min
+k=4 raw+veto  sub_11        right  72.6%  wrong  27.4%  missed   0.0%  false commands    6 =  5.65/min
+

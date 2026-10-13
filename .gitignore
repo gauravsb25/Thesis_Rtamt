@@ -1,0 +1,28 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+
+# Data: too large for GitHub; restore it from the backup (see README "Installing and running after a fresh clone")
+dataset/
+extracted_npz_dataset_v2/
+*.npz
+*.npy
+experiments/**/cache/
+experiments/**/vendor/
+
+# Retired code: only the dataset-building scripts and their helpers are published
+_archive/*
+!_archive/README.md
+!_archive/pipeline/
+!_archive/lib/
+telex2019_paper/
+
+# .runtime/rtamt (RTAMT with the Python 3.13 patch) IS published: the monitors need it and pip only has RTAMT 0.3.5
+
+# docs are kept locally, not in git
+docs/
+*.tex
+telex2019_paper/
+PROJECT_CONTEXT.md
+START_HERE.txt

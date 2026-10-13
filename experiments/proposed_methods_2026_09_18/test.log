@@ -1,0 +1,5 @@
+
+M2_yaw_loud: fitted on all of sessions 1-30 -> ['M2_yaw_loud: t=3.67']
+   sessions 1-30  current  85.01% (L  83.9 R  80.0 D  78.2 S  97.9)  ->   86.39% (L  87.2 R  82.7 D  77.8 S  97.9)
+   sub_01 31-36   current  69.62% (L  59.0 R  64.5 D  57.7 S  97.3)  ->   69.03% (L  60.7 R  64.5 D  53.7 S  97.3)
+   sub_11         current  78.67% (L  56.1 R  74.7 D  88.4 S  95.5)  ->   74.81% (L  56.1 R  74.7 D  73.0 S  95.5)

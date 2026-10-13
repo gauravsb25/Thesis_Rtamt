@@ -1,0 +1,24 @@
+{
+  "development_gain_ci": [
+    0.9237135809830157,
+    6.71644265037919
+  ],
+  "errors": {
+    "LEFT": {
+      "fixed": 55,
+      "broken": 34
+    },
+    "RIGHT": {
+      "fixed": 83,
+      "broken": 23
+    },
+    "DOWN": {
+      "fixed": 66,
+      "broken": 26
+    },
+    "STRAIGHT": {
+      "fixed": 256,
+      "broken": 60
+    }
+  }
+}

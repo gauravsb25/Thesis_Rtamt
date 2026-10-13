@@ -1,0 +1,266 @@
+{
+  "source_sha256": "90847cbbb46f56a51b08ca1ae1b9b3557cf5a8c0713e80400513e467e431e68b",
+  "source_unchanged": true,
+  "operator_support": [
+    {
+      "formula": "x + y >= 0",
+      "offline": "PASS",
+      "online": "PASS",
+      "pastified": "PASS"
+    },
+    {
+      "formula": "x - y >= 0",
+      "offline": "PASS",
+      "online": "PASS",
+      "pastified": "PASS"
+    },
+    {
+      "formula": "x * y >= 0",
+      "offline": "PASS",
+      "online": "PASS",
+      "pastified": "PASS"
+    },
+    {
+      "formula": "x / y >= 0",
+      "offline": "PASS",
+      "online": "PASS",
+      "pastified": "PASS"
+    },
+    {
+      "formula": "abs(x) >= 0",
+      "offline": "PASS",
+      "online": "PASS",
+      "pastified": "PASS"
+    },
+    {
+      "formula": "sqrt(abs(x)) >= 0",
+      "offline": "PASS",
+      "online": "PASS",
+      "pastified": "PASS"
+    },
+    {
+      "formula": "exp(x) >= 0",
+      "offline": "PASS",
+      "online": "PASS",
+      "pastified": "PASS"
+    },
+    {
+      "formula": "pow(x, 2) >= 0",
+      "offline": "PASS",
+      "online": "PASS",
+      "pastified": "PASS"
+    },
+    {
+      "formula": "x > y",
+      "offline": "PASS",
+      "online": "PASS",
+      "pastified": "PASS"
+    },
+    {
+      "formula": "x >= y",
+      "offline": "PASS",
+      "online": "PASS",
+      "pastified": "PASS"
+    },
+    {
+      "formula": "x < y",
+      "offline": "PASS",
+      "online": "PASS",
+      "pastified": "PASS"
+    },
+    {
+      "formula": "x <= y",
+      "offline": "PASS",
+      "online": "PASS",
+      "pastified": "PASS"
+    },
+    {
+      "formula": "x == y",
+      "offline": "PASS",
+      "online": "PASS",
+      "pastified": "PASS"
+    },
+    {
+      "formula": "x !== y",
+      "offline": "PASS",
+      "online": "PASS",
+      "pastified": "PASS"
+    },
+    {
+      "formula": "not(x >= 0)",
+      "offline": "PASS",
+      "online": "PASS",
+      "pastified": "PASS"
+    },
+    {
+      "formula": "(x >= 0) and (y >= 0)",
+      "offline": "PASS",
+      "online": "PASS",
+      "pastified": "PASS"
+    },
+    {
+      "formula": "(x >= 0) or (y >= 0)",
+      "offline": "PASS",
+      "online": "PASS",
+      "pastified": "PASS"
+    },
+    {
+      "formula": "(x >= 0) implies (y >= 0)",
+      "offline": "PASS",
+      "online": "PASS",
+      "pastified": "PASS"
+    },
+    {
+      "formula": "(x >= 0) iff (y >= 0)",
+      "offline": "PASS",
+      "online": "PASS",
+      "pastified": "PASS"
+    },
+    {
+      "formula": "(x >= 0) xor (y >= 0)",
+      "offline": "PASS",
+      "online": "PASS",
+      "pastified": "PASS"
+    },
+    {
+      "formula": "rise(x >= 0)",
+      "offline": "PASS",
+      "online": "PASS",
+      "pastified": "PASS"
+    },
+    {
+      "formula": "fall(x >= 0)",
+      "offline": "PASS",
+      "online": "PASS",
+      "pastified": "PASS"
+    },
+    {
+      "formula": "prev(x >= 0)",
+      "offline": "PASS",
+      "online": "PASS",
+      "pastified": "PASS"
+    },
+    {
+      "formula": "s_prev(x >= 0)",
+      "offline": "PASS",
+      "online": "PASS",
+      "pastified": "PASS"
+    },
+    {
+      "formula": "next(x >= 0)",
+      "offline": "PASS",
+      "online": "RTAMTException: RTAMT Exception: Next operator not implemented in STL online monitor. ",
+      "pastified": "PASS"
+    },
+    {
+      "formula": "s_next(x >= 0)",
+      "offline": "PASS",
+      "online": "RTAMTException: RTAMT Exception: Strong Next operator not implemented in STL online monitor. ",
+      "pastified": "PASS"
+    },
+    {
+      "formula": "always(x >= 0)",
+      "offline": "PASS",
+      "online": "RTAMTException: RTAMT Exception: Always operator is not implemented in the STL online monitor. ",
+      "pastified": "RTAMTException: RTAMT Exception: Cannot pastify an unbounded always. "
+    },
+    {
+      "formula": "always[0:2](x >= 0)",
+      "offline": "PASS",
+      "online": "RTAMTException: RTAMT Exception: Bounded always operator not implemented in STL online monitor. ",
+      "pastified": "PASS"
+    },
+    {
+      "formula": "eventually(x >= 0)",
+      "offline": "PASS",
+      "online": "RTAMTException: RTAMT Exception: Eventually operator is not implemented in the STL online monitor. ",
+      "pastified": "RTAMTException: RTAMT Exception: Cannot pastify an unbounded eventually. "
+    },
+    {
+      "formula": "eventually[0:2](x >= 0)",
+      "offline": "PASS",
+      "online": "RTAMTException: RTAMT Exception: Bounded eventually operator not implemented in STL online monitor. ",
+      "pastified": "PASS"
+    },
+    {
+      "formula": "historically(x >= 0)",
+      "offline": "PASS",
+      "online": "PASS",
+      "pastified": "PASS"
+    },
+    {
+      "formula": "historically[0:2](x >= 0)",
+      "offline": "PASS",
+      "online": "PASS",
+      "pastified": "PASS"
+    },
+    {
+      "formula": "once(x >= 0)",
+      "offline": "PASS",
+      "online": "PASS",
+      "pastified": "PASS"
+    },
+    {
+      "formula": "once[0:2](x >= 0)",
+      "offline": "PASS",
+      "online": "PASS",
+      "pastified": "PASS"
+    },
+    {
+      "formula": "(x >= 0) until (y >= 0)",
+      "offline": "PASS",
+      "online": "RTAMTException: RTAMT Exception: Until operator is not implemented in the STL online monitor. ",
+      "pastified": "RTAMTException: RTAMT Exception: Cannot pastify an unbounded until. "
+    },
+    {
+      "formula": "(x >= 0) until[0:2] (y >= 0)",
+      "offline": "PASS",
+      "online": "RTAMTException: RTAMT Exception: Bounded until operator not implemented in STL online monitor. ",
+      "pastified": "PASS"
+    },
+    {
+      "formula": "(x >= 0) unless (y >= 0)",
+      "offline": "AttributeError: 'NoneType' object has no attribute 'accept'",
+      "online": "AttributeError: 'NoneType' object has no attribute 'accept'",
+      "pastified": "AttributeError: 'NoneType' object has no attribute 'accept'"
+    },
+    {
+      "formula": "(x >= 0) unless[0:2] (y >= 0)",
+      "offline": "PASS",
+      "online": "RTAMTException: RTAMT Exception: Bounded always operator not implemented in STL online monitor. ",
+      "pastified": "PASS"
+    },
+    {
+      "formula": "(x >= 0) since (y >= 0)",
+      "offline": "PASS",
+      "online": "PASS",
+      "pastified": "PASS"
+    },
+    {
+      "formula": "(x >= 0) since[0:2] (y >= 0)",
+      "offline": "PASS",
+      "online": "PASS",
+      "pastified": "PASS"
+    }
+  ],
+  "counterexamples": [
+    {
+      "trace": "quiet",
+      "resp_feature": 1.0,
+      "feature_response_satisfied": false,
+      "actual_response_satisfied": true,
+      "rise_feature": 0.0,
+      "signed_rise_events": 0,
+      "absolute_rise_events": 0
+    },
+    {
+      "trace": "negative_excursion",
+      "resp_feature": 1.0,
+      "feature_response_satisfied": false,
+      "actual_response_satisfied": true,
+      "rise_feature": 3.0,
+      "signed_rise_events": 0,
+      "absolute_rise_events": 3
+    }
+  ]
+}

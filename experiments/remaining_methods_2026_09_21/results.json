@@ -1,0 +1,3166 @@
+{
+  "protocol": "PROTOCOL.md",
+  "fingerprint": "f28e3c944d98",
+  "hashes": {
+    "measurements_v2.npz": "7bf7b32269f1884f80b3d6bd4afa1e0908cfb8fc0663af1e93d05a06b8e46840",
+    "monitor_labels_v2.npz": "6556e21edbe5a6d0fc731388342ce66bc38d84363e50f8bdac401cc0b3c739fe",
+    "experiments\\operator_sweep_2026_09_21\\bank.npz": "572b7b31f1f5dfa2f46f4c6cb4ccd8ea12e782cf0063dc80bea5fa7a520865de",
+    "monitoring\\__init__.py": "fcd417f31f4ad1a69ee8aa43dc2a3cfd68f19247de4a8f5e196e1905c03fb0b2",
+    "monitoring\\__main__.py": "b02f01fb56711374ffd8a9116aeb7fa2c771d43eaa7e7461370cee95be40e4cb",
+    "monitoring\\live_session.py": "0fb8d7f20ad299e27554e3392e8113e46b1128b959410f2cd8b99b18fa305151",
+    "monitoring\\row_stream.py": "3da0821baebf22808945ad3bf2cea3c4e2e5518f54342aec82c0597891731b4a",
+    "monitoring\\rtamt_monitors.py": "3221003c4be925bb5b623b754ca2b8c11cfa757f93aa57d5fc0841ae681ee412",
+    "monitoring\\rtamt_persistence.py": "c149e28ad2fe389946e46ae997230298f9551da8de1b18251cc3ec367a93f420",
+    "monitoring\\rtamt_signals.py": "ca578af87e973abc3db7e97dfbd9bf0694f5c9a2eb8e2bd808f5f880fc15fd93",
+    "monitoring\\stream_history.py": "ee8f706908f6103fb8262857d6b9159eb902c9a05c7c51379d03fbb793a600ba",
+    "monitoring\\threshold_report.py": "1663f7a194fa83255767a680bafad2f56a666f211cc6aff4f26167b011b60790",
+    "experiments\\operator_sweep_2026_09_21\\signals.py": "90847cbbb46f56a51b08ca1ae1b9b3557cf5a8c0713e80400513e467e431e68b"
+  },
+  "response_corrected_values": {
+    "ch_Cz|resp": 1662,
+    "ch_F3|resp": 1979,
+    "ch_F4|resp": 2078,
+    "ch_Fp1|resp": 1642,
+    "ch_Fp2|resp": 2061,
+    "ch_Fz|resp": 2052,
+    "ch_T3|resp": 1353,
+    "ch_T4|resp": 1110,
+    "en_Cz|resp": 4621,
+    "en_F3|resp": 4617,
+    "en_F4|resp": 3859,
+    "en_Fp1|resp": 4368,
+    "en_Fp2|resp": 4248,
+    "en_Fz|resp": 4948,
+    "en_T3|resp": 3945,
+    "en_T4|resp": 4180,
+    "pr_CzT4|resp": 1667,
+    "pr_F3Cz|resp": 1925,
+    "pr_F3F4|resp": 2082,
+    "pr_F3Fz|resp": 2443,
+    "pr_F3T3|resp": 2050,
+    "pr_F3T4|resp": 1705,
+    "pr_F4Cz|resp": 1867,
+    "pr_F4T3|resp": 1748,
+    "pr_F4T4|resp": 1834,
+    "pr_Fp1Cz|resp": 1777,
+    "pr_Fp1F3|resp": 2055,
+    "pr_Fp1F4|resp": 1998,
+    "pr_Fp1Fp2|resp": 2069,
+    "pr_Fp1Fz|resp": 1945,
+    "pr_Fp1T3|resp": 2008,
+    "pr_Fp1T4|resp": 1747,
+    "pr_Fp2Cz|resp": 2392,
+    "pr_Fp2F3|resp": 2173,
+    "pr_Fp2F4|resp": 2089,
+    "pr_Fp2Fz|resp": 2202,
+    "pr_Fp2T3|resp": 2067,
+    "pr_Fp2T4|resp": 1907,
+    "pr_FzCz|resp": 2235,
+    "pr_FzF4|resp": 2118,
+    "pr_FzT3|resp": 2074,
+    "pr_FzT4|resp": 1681,
+    "pr_T3Cz|resp": 1512,
+    "pr_T3T4|resp": 1414
+  },
+  "baseline": {
+    "development": {
+      "n": 18560,
+      "correct": 17719,
+      "accuracy": 95.46875,
+      "balanced_accuracy": 85.00638850281845,
+      "recall": {
+        "LEFT": 83.94160583941606,
+        "RIGHT": 79.95846313603323,
+        "DOWN": 78.20855614973262,
+        "STRAIGHT": 97.91692888609188
+      },
+      "confusion": [
+        [
+          805,
+          36,
+          76,
+          42
+        ],
+        [
+          90,
+          770,
+          67,
+          36
+        ],
+        [
+          42,
+          23,
+          585,
+          98
+        ],
+        [
+          67,
+          19,
+          245,
+          15559
+        ]
+      ]
+    },
+    "external_sub01": {
+      "n": 1269,
+      "correct": 1081,
+      "accuracy": 85.18518518518519,
+      "balanced_accuracy": 69.61503360103494,
+      "recall": {
+        "LEFT": 58.97435897435898,
+        "RIGHT": 64.48087431693989,
+        "DOWN": 57.72357723577236,
+        "STRAIGHT": 97.28132387706856
+      },
+      "confusion": [
+        [
+          69,
+          0,
+          41,
+          7
+        ],
+        [
+          0,
+          118,
+          53,
+          12
+        ],
+        [
+          9,
+          4,
+          71,
+          39
+        ],
+        [
+          0,
+          0,
+          23,
+          823
+        ]
+      ]
+    },
+    "external_sub11": {
+      "n": 1200,
+      "correct": 1006,
+      "accuracy": 83.83333333333333,
+      "balanced_accuracy": 78.67373239604724,
+      "recall": {
+        "LEFT": 56.14973262032086,
+        "RIGHT": 74.6606334841629,
+        "DOWN": 88.42105263157895,
+        "STRAIGHT": 95.46351084812623
+      },
+      "confusion": [
+        [
+          105,
+          62,
+          4,
+          16
+        ],
+        [
+          51,
+          165,
+          0,
+          5
+        ],
+        [
+          5,
+          0,
+          252,
+          28
+        ],
+        [
+          5,
+          1,
+          17,
+          484
+        ]
+      ]
+    }
+  },
+  "families": {
+    "original_ridge": {
+      "outer_selections": [
+        {
+          "config": [
+            8,
+            100.0
+          ],
+          "inner_scores": [
+            82.11610574297823,
+            82.07450410654879,
+            82.23602727410568
+          ]
+        },
+        {
+          "config": [
+            8,
+            100.0
+          ],
+          "inner_scores": [
+            84.29149752267662,
+            84.30864261917903,
+            84.42656149082092
+          ]
+        },
+        {
+          "config": [
+            8,
+            100.0
+          ],
+          "inner_scores": [
+            82.9032474447703,
+            82.90540410453565,
+            83.02966454253126
+          ]
+        }
+      ],
+      "full_config": [
+        8,
+        100.0
+      ],
+      "development_selection_scores": [
+        84.66928589518,
+        84.67243252828257,
+        84.7205277816899
+      ],
+      "nested_validation": {
+        "n": 18560,
+        "correct": 16774,
+        "accuracy": 90.3771551724138,
+        "balanced_accuracy": 84.7205277816899,
+        "recall": {
+          "LEFT": 86.33993743482795,
+          "RIGHT": 81.72377985462099,
+          "DOWN": 79.14438502673798,
+          "STRAIGHT": 91.67400881057269
+        },
+        "confusion": [
+          [
+            828,
+            35,
+            53,
+            43
+          ],
+          [
+            103,
+            787,
+            52,
+            21
+          ],
+          [
+            42,
+            29,
+            592,
+            85
+          ],
+          [
+            176,
+            226,
+            921,
+            14567
+          ]
+        ]
+      },
+      "validation_comparison": {
+        "gain": -0.2858607211285573,
+        "paired_session_bootstrap_95": [
+          -3.5356838431833446,
+          2.601341752758338
+        ],
+        "sessions_improved": 13,
+        "sessions_harmed": 17
+      },
+      "training_fit": {
+        "n": 18560,
+        "correct": 16873,
+        "accuracy": 90.91056034482759,
+        "balanced_accuracy": 85.42670194721372,
+        "recall": {
+          "LEFT": 87.2784150156413,
+          "RIGHT": 82.45067497403946,
+          "DOWN": 79.81283422459893,
+          "STRAIGHT": 92.16488357457521
+        },
+        "confusion": [
+          [
+            837,
+            35,
+            50,
+            37
+          ],
+          [
+            105,
+            794,
+            40,
+            24
+          ],
+          [
+            39,
+            22,
+            597,
+            90
+          ],
+          [
+            161,
+            225,
+            859,
+            14645
+          ]
+        ]
+      },
+      "external": {
+        "external_sub01": {
+          "metrics": {
+            "n": 1269,
+            "correct": 987,
+            "accuracy": 77.77777777777777,
+            "balanced_accuracy": 67.76799463884204,
+            "recall": {
+              "LEFT": 47.863247863247864,
+              "RIGHT": 55.73770491803278,
+              "DOWN": 81.30081300813008,
+              "STRAIGHT": 86.17021276595744
+            },
+            "confusion": [
+              [
+                56,
+                0,
+                51,
+                10
+              ],
+              [
+                0,
+                102,
+                58,
+                23
+              ],
+              [
+                1,
+                0,
+                100,
+                22
+              ],
+              [
+                0,
+                2,
+                115,
+                729
+              ]
+            ]
+          },
+          "comparison": {
+            "gain": -1.8470389621928973,
+            "paired_session_bootstrap_95": [
+              -8.741462602032325,
+              4.799604179734218
+            ],
+            "sessions_improved": 3,
+            "sessions_harmed": 3
+          }
+        },
+        "external_sub11": {
+          "metrics": {
+            "n": 1200,
+            "correct": 736,
+            "accuracy": 61.333333333333336,
+            "balanced_accuracy": 65.4393847797039,
+            "recall": {
+              "LEFT": 56.14973262032086,
+              "RIGHT": 69.23076923076923,
+              "DOWN": 96.14035087719299,
+              "STRAIGHT": 40.23668639053255
+            },
+            "confusion": [
+              [
+                105,
+                61,
+                11,
+                10
+              ],
+              [
+                56,
+                153,
+                11,
+                1
+              ],
+              [
+                0,
+                0,
+                274,
+                11
+              ],
+              [
+                43,
+                33,
+                227,
+                204
+              ]
+            ]
+          },
+          "comparison": {
+            "gain": -13.234347616343342,
+            "paired_session_bootstrap_95": [
+              -17.34763977801381,
+              -7.573438189664586
+            ],
+            "sessions_improved": 1,
+            "sessions_harmed": 8
+          }
+        }
+      },
+      "abstention": {
+        "0.1": {
+          "training_margin_threshold": 0.10338842378277237,
+          "external": {
+            "external_sub01": {
+              "coverage": 78.4869976359338,
+              "metrics": {
+                "n": 996,
+                "correct": 851,
+                "accuracy": 85.4417670682731,
+                "balanced_accuracy": 72.09434958977874,
+                "recall": {
+                  "LEFT": 41.0958904109589,
+                  "RIGHT": 68.59504132231406,
+                  "DOWN": 85.86956521739131,
+                  "STRAIGHT": 92.8169014084507
+                },
+                "confusion": [
+                  [
+                    30,
+                    0,
+                    41,
+                    2
+                  ],
+                  [
+                    0,
+                    83,
+                    32,
+                    6
+                  ],
+                  [
+                    0,
+                    0,
+                    79,
+                    13
+                  ],
+                  [
+                    0,
+                    0,
+                    51,
+                    659
+                  ]
+                ]
+              }
+            },
+            "external_sub11": {
+              "coverage": 83.16666666666667,
+              "metrics": {
+                "n": 998,
+                "correct": 657,
+                "accuracy": 65.83166332665331,
+                "balanced_accuracy": 66.99316822364376,
+                "recall": {
+                  "LEFT": 57.89473684210527,
+                  "RIGHT": 70.24390243902438,
+                  "DOWN": 96.69117647058823,
+                  "STRAIGHT": 43.142857142857146
+                },
+                "confusion": [
+                  [
+                    99,
+                    61,
+                    8,
+                    3
+                  ],
+                  [
+                    53,
+                    144,
+                    8,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    263,
+                    9
+                  ],
+                  [
+                    20,
+                    10,
+                    169,
+                    151
+                  ]
+                ]
+              }
+            }
+          }
+        },
+        "0.25": {
+          "training_margin_threshold": 0.24313265799064626,
+          "external": {
+            "external_sub01": {
+              "coverage": 55.71315996847912,
+              "metrics": {
+                "n": 707,
+                "correct": 657,
+                "accuracy": 92.92786421499292,
+                "balanced_accuracy": 77.60794538450263,
+                "recall": {
+                  "LEFT": 33.33333333333333,
+                  "RIGHT": 84.4155844155844,
+                  "DOWN": 95.8904109589041,
+                  "STRAIGHT": 96.79245283018868
+                },
+                "confusion": [
+                  [
+                    9,
+                    0,
+                    18,
+                    0
+                  ],
+                  [
+                    0,
+                    65,
+                    12,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    70,
+                    3
+                  ],
+                  [
+                    0,
+                    0,
+                    17,
+                    513
+                  ]
+                ]
+              }
+            },
+            "external_sub11": {
+              "coverage": 58.75,
+              "metrics": {
+                "n": 705,
+                "correct": 518,
+                "accuracy": 73.47517730496453,
+                "balanced_accuracy": 70.5008001742788,
+                "recall": {
+                  "LEFT": 64.28571428571429,
+                  "RIGHT": 76.51006711409396,
+                  "DOWN": 96.82539682539682,
+                  "STRAIGHT": 44.38202247191011
+                },
+                "confusion": [
+                  [
+                    81,
+                    41,
+                    4,
+                    0
+                  ],
+                  [
+                    31,
+                    114,
+                    4,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    244,
+                    8
+                  ],
+                  [
+                    4,
+                    2,
+                    93,
+                    79
+                  ]
+                ]
+              }
+            }
+          }
+        },
+        "0.5": {
+          "training_margin_threshold": 0.4175945296514193,
+          "external": {
+            "external_sub01": {
+              "coverage": 30.33884948778566,
+              "metrics": {
+                "n": 385,
+                "correct": 380,
+                "accuracy": 98.7012987012987,
+                "balanced_accuracy": 74.64664310954063,
+                "recall": {
+                  "LEFT": 0.0,
+                  "RIGHT": 100.0,
+                  "DOWN": 100.0,
+                  "STRAIGHT": 98.58657243816255
+                },
+                "confusion": [
+                  [
+                    0,
+                    0,
+                    1,
+                    0
+                  ],
+                  [
+                    0,
+                    40,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    61,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    4,
+                    279
+                  ]
+                ]
+              }
+            },
+            "external_sub11": {
+              "coverage": 28.5,
+              "metrics": {
+                "n": 342,
+                "correct": 288,
+                "accuracy": 84.21052631578948,
+                "balanced_accuracy": 72.60477543765958,
+                "recall": {
+                  "LEFT": 78.04878048780488,
+                  "RIGHT": 72.54901960784314,
+                  "DOWN": 99.00497512437812,
+                  "STRAIGHT": 40.816326530612244
+                },
+                "confusion": [
+                  [
+                    32,
+                    7,
+                    2,
+                    0
+                  ],
+                  [
+                    14,
+                    37,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    199,
+                    2
+                  ],
+                  [
+                    0,
+                    0,
+                    29,
+                    20
+                  ]
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "operator_ridge": {
+      "outer_selections": [
+        {
+          "config": [
+            128,
+            100.0
+          ],
+          "inner_scores": [
+            70.05400700026865,
+            71.08867845206791,
+            72.38319653380411,
+            75.0281666650102
+          ]
+        },
+        {
+          "config": [
+            32,
+            10.0
+          ],
+          "inner_scores": [
+            81.26980304463135,
+            81.24353011231263,
+            77.82930257182392,
+            80.59886160979065
+          ]
+        },
+        {
+          "config": [
+            128,
+            100.0
+          ],
+          "inner_scores": [
+            75.58633305602771,
+            76.75858395271216,
+            80.74639396244918,
+            83.66724096592438
+          ]
+        }
+      ],
+      "full_config": [
+        32,
+        10.0
+      ],
+      "development_selection_scores": [
+        84.15538275954198,
+        84.01881918370724,
+        82.03220745657326,
+        83.09707489593396
+      ],
+      "nested_validation": {
+        "n": 18560,
+        "correct": 17057,
+        "accuracy": 91.90193965517241,
+        "balanced_accuracy": 82.44470479640617,
+        "recall": {
+          "LEFT": 84.8800834202294,
+          "RIGHT": 85.56593977154725,
+          "DOWN": 65.37433155080214,
+          "STRAIGHT": 93.95846444304594
+        },
+        "confusion": [
+          [
+            814,
+            69,
+            38,
+            38
+          ],
+          [
+            66,
+            824,
+            26,
+            47
+          ],
+          [
+            21,
+            23,
+            489,
+            215
+          ],
+          [
+            171,
+            106,
+            683,
+            14930
+          ]
+        ]
+      },
+      "validation_comparison": {
+        "gain": -2.561683706412282,
+        "paired_session_bootstrap_95": [
+          -7.12883288854133,
+          1.4523436930745368
+        ],
+        "sessions_improved": 13,
+        "sessions_harmed": 17
+      },
+      "training_fit": {
+        "n": 18560,
+        "correct": 17271,
+        "accuracy": 93.05495689655173,
+        "balanced_accuracy": 89.6488777867592,
+        "recall": {
+          "LEFT": 87.06986444212723,
+          "RIGHT": 92.00415368639668,
+          "DOWN": 85.6951871657754,
+          "STRAIGHT": 93.82630585273756
+        },
+        "confusion": [
+          [
+            835,
+            87,
+            16,
+            21
+          ],
+          [
+            47,
+            886,
+            8,
+            22
+          ],
+          [
+            2,
+            0,
+            641,
+            105
+          ],
+          [
+            184,
+            248,
+            549,
+            14909
+          ]
+        ]
+      },
+      "external": {
+        "external_sub01": {
+          "metrics": {
+            "n": 1269,
+            "correct": 1007,
+            "accuracy": 79.3538219070134,
+            "balanced_accuracy": 65.6094681603627,
+            "recall": {
+              "LEFT": 51.28205128205128,
+              "RIGHT": 60.10928961748634,
+              "DOWN": 60.97560975609756,
+              "STRAIGHT": 90.0709219858156
+            },
+            "confusion": [
+              [
+                60,
+                15,
+                20,
+                22
+              ],
+              [
+                4,
+                110,
+                34,
+                35
+              ],
+              [
+                0,
+                17,
+                75,
+                31
+              ],
+              [
+                2,
+                23,
+                59,
+                762
+              ]
+            ]
+          },
+          "comparison": {
+            "gain": -4.0055654406722425,
+            "paired_session_bootstrap_95": [
+              -8.858736475603202,
+              1.9770790576198793
+            ],
+            "sessions_improved": 1,
+            "sessions_harmed": 5
+          }
+        },
+        "external_sub11": {
+          "metrics": {
+            "n": 1200,
+            "correct": 665,
+            "accuracy": 55.416666666666664,
+            "balanced_accuracy": 51.681089014978035,
+            "recall": {
+              "LEFT": 46.524064171122994,
+              "RIGHT": 27.149321266968325,
+              "DOWN": 70.52631578947368,
+              "STRAIGHT": 62.52465483234714
+            },
+            "confusion": [
+              [
+                87,
+                87,
+                8,
+                5
+              ],
+              [
+                134,
+                60,
+                20,
+                7
+              ],
+              [
+                74,
+                3,
+                201,
+                7
+              ],
+              [
+                4,
+                21,
+                165,
+                317
+              ]
+            ]
+          },
+          "comparison": {
+            "gain": -26.992643381069207,
+            "paired_session_bootstrap_95": [
+              -33.68021858110787,
+              -18.19474171219832
+            ],
+            "sessions_improved": 0,
+            "sessions_harmed": 10
+          }
+        }
+      },
+      "abstention": {
+        "0.1": {
+          "training_margin_threshold": 0.13689093000432578,
+          "external": {
+            "external_sub01": {
+              "coverage": 80.53585500394011,
+              "metrics": {
+                "n": 1022,
+                "correct": 864,
+                "accuracy": 84.54011741682974,
+                "balanced_accuracy": 68.84915319564907,
+                "recall": {
+                  "LEFT": 52.38095238095239,
+                  "RIGHT": 65.21739130434783,
+                  "DOWN": 62.37623762376238,
+                  "STRAIGHT": 95.42203147353362
+                },
+                "confusion": [
+                  [
+                    44,
+                    15,
+                    16,
+                    9
+                  ],
+                  [
+                    0,
+                    90,
+                    21,
+                    27
+                  ],
+                  [
+                    0,
+                    13,
+                    63,
+                    25
+                  ],
+                  [
+                    0,
+                    11,
+                    21,
+                    667
+                  ]
+                ]
+              }
+            },
+            "external_sub11": {
+              "coverage": 69.91666666666667,
+              "metrics": {
+                "n": 839,
+                "correct": 492,
+                "accuracy": 58.64123957091776,
+                "balanced_accuracy": 52.60496752497412,
+                "recall": {
+                  "LEFT": 35.53719008264463,
+                  "RIGHT": 31.97278911564626,
+                  "DOWN": 76.33928571428571,
+                  "STRAIGHT": 66.57060518731988
+                },
+                "confusion": [
+                  [
+                    43,
+                    76,
+                    0,
+                    2
+                  ],
+                  [
+                    86,
+                    47,
+                    14,
+                    0
+                  ],
+                  [
+                    50,
+                    1,
+                    171,
+                    2
+                  ],
+                  [
+                    0,
+                    13,
+                    103,
+                    231
+                  ]
+                ]
+              }
+            }
+          }
+        },
+        "0.25": {
+          "training_margin_threshold": 0.29927856579316575,
+          "external": {
+            "external_sub01": {
+              "coverage": 54.05831363278172,
+              "metrics": {
+                "n": 686,
+                "correct": 604,
+                "accuracy": 88.0466472303207,
+                "balanced_accuracy": 68.17409073686036,
+                "recall": {
+                  "LEFT": 38.095238095238095,
+                  "RIGHT": 73.14814814814815,
+                  "DOWN": 62.295081967213115,
+                  "STRAIGHT": 99.1578947368421
+                },
+                "confusion": [
+                  [
+                    16,
+                    11,
+                    15,
+                    0
+                  ],
+                  [
+                    0,
+                    79,
+                    10,
+                    19
+                  ],
+                  [
+                    0,
+                    4,
+                    38,
+                    19
+                  ],
+                  [
+                    0,
+                    4,
+                    0,
+                    471
+                  ]
+                ]
+              }
+            },
+            "external_sub11": {
+              "coverage": 42.833333333333336,
+              "metrics": {
+                "n": 514,
+                "correct": 338,
+                "accuracy": 65.75875486381322,
+                "balanced_accuracy": 56.449233710394786,
+                "recall": {
+                  "LEFT": 28.767123287671232,
+                  "RIGHT": 33.734939759036145,
+                  "DOWN": 87.33333333333333,
+                  "STRAIGHT": 75.96153846153845
+                },
+                "confusion": [
+                  [
+                    21,
+                    52,
+                    0,
+                    0
+                  ],
+                  [
+                    46,
+                    28,
+                    9,
+                    0
+                  ],
+                  [
+                    19,
+                    0,
+                    131,
+                    0
+                  ],
+                  [
+                    0,
+                    2,
+                    48,
+                    158
+                  ]
+                ]
+              }
+            }
+          }
+        },
+        "0.5": {
+          "training_margin_threshold": 0.49654707597081776,
+          "external": {
+            "external_sub01": {
+              "coverage": 27.34436564223798,
+              "metrics": {
+                "n": 347,
+                "correct": 319,
+                "accuracy": 91.93083573487031,
+                "balanced_accuracy": 69.7465034965035,
+                "recall": {
+                  "LEFT": 23.076923076923077,
+                  "RIGHT": 90.9090909090909,
+                  "DOWN": 65.0,
+                  "STRAIGHT": 100.0
+                },
+                "confusion": [
+                  [
+                    3,
+                    3,
+                    7,
+                    0
+                  ],
+                  [
+                    0,
+                    40,
+                    3,
+                    1
+                  ],
+                  [
+                    0,
+                    1,
+                    26,
+                    13
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    250
+                  ]
+                ]
+              }
+            },
+            "external_sub11": {
+              "coverage": 18.25,
+              "metrics": {
+                "n": 219,
+                "correct": 162,
+                "accuracy": 73.97260273972603,
+                "balanced_accuracy": 59.12183026313461,
+                "recall": {
+                  "LEFT": 28.57142857142857,
+                  "RIGHT": 25.925925925925924,
+                  "DOWN": 98.91304347826086,
+                  "STRAIGHT": 83.07692307692308
+                },
+                "confusion": [
+                  [
+                    10,
+                    25,
+                    0,
+                    0
+                  ],
+                  [
+                    14,
+                    7,
+                    6,
+                    0
+                  ],
+                  [
+                    1,
+                    0,
+                    91,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    11,
+                    54
+                  ]
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "operator_lda": {
+      "outer_selections": [
+        {
+          "config": [
+            128,
+            0.5
+          ],
+          "inner_scores": [
+            72.49908649972748,
+            69.539784488568,
+            82.8076555193082,
+            80.71064419880918
+          ]
+        },
+        {
+          "config": [
+            128,
+            0.5
+          ],
+          "inner_scores": [
+            81.66821071761044,
+            80.9818835788811,
+            82.32964058015872,
+            80.76616469299776
+          ]
+        },
+        {
+          "config": [
+            128,
+            0.5
+          ],
+          "inner_scores": [
+            76.50574205871902,
+            74.2107580036587,
+            86.7834750012699,
+            85.52542029167593
+          ]
+        }
+      ],
+      "full_config": [
+        128,
+        0.5
+      ],
+      "development_selection_scores": [
+        82.04452620248468,
+        77.52189239684772,
+        86.87744131242515,
+        84.58912794777488
+      ],
+      "nested_validation": {
+        "n": 18560,
+        "correct": 17872,
+        "accuracy": 96.29310344827586,
+        "balanced_accuracy": 86.87744131242515,
+        "recall": {
+          "LEFT": 88.00834202294057,
+          "RIGHT": 87.85046728971963,
+          "DOWN": 73.2620320855615,
+          "STRAIGHT": 98.38892385147892
+        },
+        "confusion": [
+          [
+            844,
+            60,
+            23,
+            32
+          ],
+          [
+            39,
+            846,
+            29,
+            49
+          ],
+          [
+            16,
+            19,
+            548,
+            165
+          ],
+          [
+            117,
+            59,
+            80,
+            15634
+          ]
+        ]
+      },
+      "validation_comparison": {
+        "gain": 1.8710528096066952,
+        "paired_session_bootstrap_95": [
+          -2.5764561652384854,
+          5.72700087054405
+        ],
+        "sessions_improved": 17,
+        "sessions_harmed": 11
+      },
+      "training_fit": {
+        "n": 18560,
+        "correct": 18134,
+        "accuracy": 97.70474137931035,
+        "balanced_accuracy": 93.41147028299855,
+        "recall": {
+          "LEFT": 93.32638164754952,
+          "RIGHT": 92.73104880581516,
+          "DOWN": 88.90374331550802,
+          "STRAIGHT": 98.68470736312146
+        },
+        "confusion": [
+          [
+            895,
+            39,
+            5,
+            20
+          ],
+          [
+            11,
+            893,
+            26,
+            33
+          ],
+          [
+            0,
+            0,
+            665,
+            83
+          ],
+          [
+            105,
+            73,
+            31,
+            15681
+          ]
+        ]
+      },
+      "external": {
+        "external_sub01": {
+          "metrics": {
+            "n": 1269,
+            "correct": 1067,
+            "accuracy": 84.08195429472025,
+            "balanced_accuracy": 65.75256694921595,
+            "recall": {
+              "LEFT": 51.28205128205128,
+              "RIGHT": 60.65573770491803,
+              "DOWN": 52.84552845528455,
+              "STRAIGHT": 98.22695035460993
+            },
+            "confusion": [
+              [
+                60,
+                15,
+                25,
+                17
+              ],
+              [
+                0,
+                111,
+                37,
+                35
+              ],
+              [
+                0,
+                0,
+                65,
+                58
+              ],
+              [
+                0,
+                14,
+                1,
+                831
+              ]
+            ]
+          },
+          "comparison": {
+            "gain": -3.862466651818991,
+            "paired_session_bootstrap_95": [
+              -15.448078541447185,
+              6.437611917717279
+            ],
+            "sessions_improved": 2,
+            "sessions_harmed": 4
+          }
+        },
+        "external_sub11": {
+          "metrics": {
+            "n": 1200,
+            "correct": 837,
+            "accuracy": 69.75,
+            "balanced_accuracy": 62.54441478185227,
+            "recall": {
+              "LEFT": 73.2620320855615,
+              "RIGHT": 12.217194570135746,
+              "DOWN": 72.98245614035088,
+              "STRAIGHT": 91.71597633136095
+            },
+            "confusion": [
+              [
+                137,
+                49,
+                1,
+                0
+              ],
+              [
+                190,
+                27,
+                4,
+                0
+              ],
+              [
+                60,
+                10,
+                208,
+                7
+              ],
+              [
+                1,
+                0,
+                41,
+                465
+              ]
+            ]
+          },
+          "comparison": {
+            "gain": -16.129317614194974,
+            "paired_session_bootstrap_95": [
+              -22.341702804662322,
+              -10.341190747515476
+            ],
+            "sessions_improved": 1,
+            "sessions_harmed": 9
+          }
+        }
+      },
+      "abstention": {
+        "0.1": {
+          "training_margin_threshold": 5.540716768266342,
+          "external": {
+            "external_sub01": {
+              "coverage": 75.96532702915681,
+              "metrics": {
+                "n": 964,
+                "correct": 871,
+                "accuracy": 90.35269709543569,
+                "balanced_accuracy": 71.91651832933468,
+                "recall": {
+                  "LEFT": 55.55555555555556,
+                  "RIGHT": 74.57627118644068,
+                  "DOWN": 57.534246575342465,
+                  "STRAIGHT": 100.0
+                },
+                "confusion": [
+                  [
+                    40,
+                    14,
+                    18,
+                    0
+                  ],
+                  [
+                    0,
+                    88,
+                    24,
+                    6
+                  ],
+                  [
+                    0,
+                    0,
+                    42,
+                    31
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    701
+                  ]
+                ]
+              }
+            },
+            "external_sub11": {
+              "coverage": 53.583333333333336,
+              "metrics": {
+                "n": 643,
+                "correct": 474,
+                "accuracy": 73.71695178849144,
+                "balanced_accuracy": 68.79578528957656,
+                "recall": {
+                  "LEFT": 83.33333333333334,
+                  "RIGHT": 1.4388489208633095,
+                  "DOWN": 90.41095890410958,
+                  "STRAIGHT": 100.0
+                },
+                "confusion": [
+                  [
+                    90,
+                    18,
+                    0,
+                    0
+                  ],
+                  [
+                    137,
+                    2,
+                    0,
+                    0
+                  ],
+                  [
+                    14,
+                    0,
+                    132,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    250
+                  ]
+                ]
+              }
+            }
+          }
+        },
+        "0.25": {
+          "training_margin_threshold": 8.194278489587548,
+          "external": {
+            "external_sub01": {
+              "coverage": 55.7919621749409,
+              "metrics": {
+                "n": 708,
+                "correct": 656,
+                "accuracy": 92.65536723163842,
+                "balanced_accuracy": 77.71672914714152,
+                "recall": {
+                  "LEFT": 60.0,
+                  "RIGHT": 80.41237113402062,
+                  "DOWN": 70.45454545454545,
+                  "STRAIGHT": 100.0
+                },
+                "confusion": [
+                  [
+                    30,
+                    10,
+                    10,
+                    0
+                  ],
+                  [
+                    0,
+                    78,
+                    19,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    31,
+                    13
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    517
+                  ]
+                ]
+              }
+            },
+            "external_sub11": {
+              "coverage": 34.0,
+              "metrics": {
+                "n": 408,
+                "correct": 277,
+                "accuracy": 67.8921568627451,
+                "balanced_accuracy": 69.44444444444444,
+                "recall": {
+                  "LEFT": 82.53968253968253,
+                  "RIGHT": 0.0,
+                  "DOWN": 95.23809523809523,
+                  "STRAIGHT": 100.0
+                },
+                "confusion": [
+                  [
+                    52,
+                    11,
+                    0,
+                    0
+                  ],
+                  [
+                    115,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    5,
+                    0,
+                    100,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    125
+                  ]
+                ]
+              }
+            }
+          }
+        },
+        "0.5": {
+          "training_margin_threshold": 10.53531747418605,
+          "external": {
+            "external_sub01": {
+              "coverage": 33.72734436564224,
+              "metrics": {
+                "n": 428,
+                "correct": 390,
+                "accuracy": 91.1214953271028,
+                "balanced_accuracy": 78.28698987235572,
+                "recall": {
+                  "LEFT": 54.54545454545454,
+                  "RIGHT": 82.92682926829268,
+                  "DOWN": 75.67567567567568,
+                  "STRAIGHT": 100.0
+                },
+                "confusion": [
+                  [
+                    18,
+                    5,
+                    10,
+                    0
+                  ],
+                  [
+                    0,
+                    68,
+                    14,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    28,
+                    9
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    276
+                  ]
+                ]
+              }
+            },
+            "external_sub11": {
+              "coverage": 22.25,
+              "metrics": {
+                "n": 267,
+                "correct": 159,
+                "accuracy": 59.550561797752806,
+                "balanced_accuracy": 68.1686046511628,
+                "recall": {
+                  "LEFT": 75.0,
+                  "RIGHT": 0.0,
+                  "DOWN": 97.67441860465115,
+                  "STRAIGHT": 100.0
+                },
+                "confusion": [
+                  [
+                    30,
+                    10,
+                    0,
+                    0
+                  ],
+                  [
+                    96,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    2,
+                    0,
+                    84,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    45
+                  ]
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "nonlinear_ridge": {
+      "outer_selections": [
+        {
+          "config": [
+            32,
+            0.3
+          ],
+          "inner_scores": [
+            71.72302525985013,
+            69.58793384217367,
+            59.02061268756346
+          ]
+        },
+        {
+          "config": [
+            32,
+            0.3
+          ],
+          "inner_scores": [
+            81.51928623054751,
+            80.04593525578031,
+            70.7460040891965
+          ]
+        },
+        {
+          "config": [
+            32,
+            0.3
+          ],
+          "inner_scores": [
+            77.4357497642862,
+            76.0032492033689,
+            68.25248939438524
+          ]
+        }
+      ],
+      "full_config": [
+        32,
+        0.3
+      ],
+      "development_selection_scores": [
+        83.03823937573662,
+        79.37783236681229,
+        71.09244140181784
+      ],
+      "nested_validation": {
+        "n": 18560,
+        "correct": 16929,
+        "accuracy": 91.21228448275862,
+        "balanced_accuracy": 83.03823937573662,
+        "recall": {
+          "LEFT": 85.71428571428571,
+          "RIGHT": 77.67393561786086,
+          "DOWN": 75.66844919786097,
+          "STRAIGHT": 93.09628697293896
+        },
+        "confusion": [
+          [
+            822,
+            97,
+            15,
+            25
+          ],
+          [
+            133,
+            748,
+            41,
+            41
+          ],
+          [
+            14,
+            18,
+            566,
+            150
+          ],
+          [
+            187,
+            155,
+            755,
+            14793
+          ]
+        ]
+      },
+      "validation_comparison": {
+        "gain": -1.9681491270818299,
+        "paired_session_bootstrap_95": [
+          -6.499097702700221,
+          2.136077382520854
+        ],
+        "sessions_improved": 11,
+        "sessions_harmed": 19
+      },
+      "training_fit": {
+        "n": 18560,
+        "correct": 17349,
+        "accuracy": 93.47521551724138,
+        "balanced_accuracy": 92.05263988402561,
+        "recall": {
+          "LEFT": 91.55370177267987,
+          "RIGHT": 93.97715472481828,
+          "DOWN": 88.90374331550802,
+          "STRAIGHT": 93.77595972309629
+        },
+        "confusion": [
+          [
+            878,
+            60,
+            11,
+            10
+          ],
+          [
+            28,
+            905,
+            14,
+            16
+          ],
+          [
+            0,
+            1,
+            665,
+            82
+          ],
+          [
+            165,
+            196,
+            628,
+            14901
+          ]
+        ]
+      },
+      "external": {
+        "external_sub01": {
+          "metrics": {
+            "n": 1269,
+            "correct": 1013,
+            "accuracy": 79.82663514578408,
+            "balanced_accuracy": 65.7817224083271,
+            "recall": {
+              "LEFT": 48.717948717948715,
+              "RIGHT": 58.46994535519126,
+              "DOWN": 65.04065040650406,
+              "STRAIGHT": 90.89834515366431
+            },
+            "confusion": [
+              [
+                57,
+                18,
+                24,
+                18
+              ],
+              [
+                9,
+                107,
+                41,
+                26
+              ],
+              [
+                4,
+                8,
+                80,
+                31
+              ],
+              [
+                1,
+                19,
+                57,
+                769
+              ]
+            ]
+          },
+          "comparison": {
+            "gain": -3.833311192707839,
+            "paired_session_bootstrap_95": [
+              -10.390019138417054,
+              3.3056615577675044
+            ],
+            "sessions_improved": 2,
+            "sessions_harmed": 4
+          }
+        },
+        "external_sub11": {
+          "metrics": {
+            "n": 1200,
+            "correct": 660,
+            "accuracy": 55.0,
+            "balanced_accuracy": 53.19630437039344,
+            "recall": {
+              "LEFT": 64.70588235294117,
+              "RIGHT": 12.217194570135746,
+              "DOWN": 79.64912280701755,
+              "STRAIGHT": 56.213017751479285
+            },
+            "confusion": [
+              [
+                121,
+                52,
+                14,
+                0
+              ],
+              [
+                183,
+                27,
+                11,
+                0
+              ],
+              [
+                48,
+                0,
+                227,
+                10
+              ],
+              [
+                2,
+                21,
+                199,
+                285
+              ]
+            ]
+          },
+          "comparison": {
+            "gain": -25.4774280256538,
+            "paired_session_bootstrap_95": [
+              -32.50754454689576,
+              -14.73892725526471
+            ],
+            "sessions_improved": 2,
+            "sessions_harmed": 8
+          }
+        }
+      },
+      "abstention": {
+        "0.1": {
+          "training_margin_threshold": 0.1663960078026223,
+          "external": {
+            "external_sub01": {
+              "coverage": 79.3538219070134,
+              "metrics": {
+                "n": 1007,
+                "correct": 856,
+                "accuracy": 85.00496524329692,
+                "balanced_accuracy": 67.92697267380812,
+                "recall": {
+                  "LEFT": 48.484848484848484,
+                  "RIGHT": 62.16216216216216,
+                  "DOWN": 65.82278481012658,
+                  "STRAIGHT": 95.23809523809523
+                },
+                "confusion": [
+                  [
+                    32,
+                    14,
+                    16,
+                    4
+                  ],
+                  [
+                    5,
+                    92,
+                    29,
+                    22
+                  ],
+                  [
+                    1,
+                    3,
+                    52,
+                    23
+                  ],
+                  [
+                    0,
+                    8,
+                    26,
+                    680
+                  ]
+                ]
+              }
+            },
+            "external_sub11": {
+              "coverage": 71.41666666666667,
+              "metrics": {
+                "n": 857,
+                "correct": 498,
+                "accuracy": 58.109684947491246,
+                "balanced_accuracy": 56.46560411932289,
+                "recall": {
+                  "LEFT": 73.64341085271317,
+                  "RIGHT": 5.555555555555555,
+                  "DOWN": 87.5598086124402,
+                  "STRAIGHT": 59.103641456582636
+                },
+                "confusion": [
+                  [
+                    95,
+                    30,
+                    4,
+                    0
+                  ],
+                  [
+                    148,
+                    9,
+                    5,
+                    0
+                  ],
+                  [
+                    21,
+                    0,
+                    183,
+                    5
+                  ],
+                  [
+                    0,
+                    13,
+                    133,
+                    211
+                  ]
+                ]
+              }
+            }
+          }
+        },
+        "0.25": {
+          "training_margin_threshold": 0.38548303065206846,
+          "external": {
+            "external_sub01": {
+              "coverage": 51.694247438928286,
+              "metrics": {
+                "n": 656,
+                "correct": 610,
+                "accuracy": 92.98780487804878,
+                "balanced_accuracy": 76.14222908579936,
+                "recall": {
+                  "LEFT": 66.66666666666666,
+                  "RIGHT": 80.41237113402062,
+                  "DOWN": 57.89473684210527,
+                  "STRAIGHT": 99.59514170040485
+                },
+                "confusion": [
+                  [
+                    18,
+                    1,
+                    8,
+                    0
+                  ],
+                  [
+                    0,
+                    78,
+                    13,
+                    6
+                  ],
+                  [
+                    0,
+                    0,
+                    22,
+                    16
+                  ],
+                  [
+                    0,
+                    2,
+                    0,
+                    492
+                  ]
+                ]
+              }
+            },
+            "external_sub11": {
+              "coverage": 38.75,
+              "metrics": {
+                "n": 465,
+                "correct": 297,
+                "accuracy": 63.87096774193548,
+                "balanced_accuracy": 63.0022180617634,
+                "recall": {
+                  "LEFT": 80.64516129032258,
+                  "RIGHT": 3.9603960396039604,
+                  "DOWN": 100.0,
+                  "STRAIGHT": 67.40331491712708
+                },
+                "confusion": [
+                  [
+                    50,
+                    12,
+                    0,
+                    0
+                  ],
+                  [
+                    97,
+                    4,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    121,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    59,
+                    122
+                  ]
+                ]
+              }
+            }
+          }
+        },
+        "0.5": {
+          "training_margin_threshold": 0.6408763926124718,
+          "external": {
+            "external_sub01": {
+              "coverage": 28.13238770685579,
+              "metrics": {
+                "n": 357,
+                "correct": 341,
+                "accuracy": 95.51820728291317,
+                "balanced_accuracy": 80.99802371541503,
+                "recall": {
+                  "LEFT": 81.81818181818183,
+                  "RIGHT": 90.0,
+                  "DOWN": 52.17391304347826,
+                  "STRAIGHT": 100.0
+                },
+                "confusion": [
+                  [
+                    9,
+                    0,
+                    2,
+                    0
+                  ],
+                  [
+                    0,
+                    27,
+                    3,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    12,
+                    11
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    293
+                  ]
+                ]
+              }
+            },
+            "external_sub11": {
+              "coverage": 13.833333333333334,
+              "metrics": {
+                "n": 166,
+                "correct": 116,
+                "accuracy": 69.87951807228916,
+                "balanced_accuracy": 67.70833333333334,
+                "recall": {
+                  "LEFT": 100.0,
+                  "RIGHT": 0.0,
+                  "DOWN": 100.0,
+                  "STRAIGHT": 70.83333333333334
+                },
+                "confusion": [
+                  [
+                    9,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    36,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    73,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    14,
+                    34
+                  ]
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "hybrid_gate": {
+      "outer_selections": [
+        {
+          "config": [
+            32,
+            100.0
+          ],
+          "inner_scores": [
+            81.25571727115857,
+            82.66030284772124,
+            80.32320885899817,
+            82.5535800566631
+          ]
+        },
+        {
+          "config": [
+            128,
+            100.0
+          ],
+          "inner_scores": [
+            82.63735682927363,
+            83.76785670898073,
+            85.0679774925482,
+            85.86277975232306
+          ]
+        },
+        {
+          "config": [
+            128,
+            100.0
+          ],
+          "inner_scores": [
+            86.7343016858688,
+            87.19998137237741,
+            86.60707139524709,
+            90.28208373355342
+          ]
+        }
+      ],
+      "full_config": [
+        128,
+        100.0
+      ],
+      "development_selection_scores": [
+        87.48461209550496,
+        87.69315018332719,
+        88.4352356487607,
+        89.64800093439027
+      ],
+      "nested_validation": {
+        "n": 18560,
+        "correct": 17883,
+        "accuracy": 96.35237068965517,
+        "balanced_accuracy": 89.37650506645797,
+        "recall": {
+          "LEFT": 91.76225234619395,
+          "RIGHT": 87.74662512980271,
+          "DOWN": 80.08021390374331,
+          "STRAIGHT": 97.91692888609188
+        },
+        "confusion": [
+          [
+            880,
+            18,
+            19,
+            42
+          ],
+          [
+            23,
+            845,
+            59,
+            36
+          ],
+          [
+            40,
+            11,
+            599,
+            98
+          ],
+          [
+            9,
+            13,
+            309,
+            15559
+          ]
+        ]
+      },
+      "validation_comparison": {
+        "gain": 4.370116563639513,
+        "paired_session_bootstrap_95": [
+          1.2543951982591606,
+          7.3303005160834855
+        ],
+        "sessions_improved": 17,
+        "sessions_harmed": 6
+      },
+      "training_fit": {
+        "n": 18560,
+        "correct": 18031,
+        "accuracy": 97.14978448275862,
+        "balanced_accuracy": 93.60171337831953,
+        "recall": {
+          "LEFT": 94.16058394160584,
+          "RIGHT": 95.43094496365524,
+          "DOWN": 86.89839572192514,
+          "STRAIGHT": 97.91692888609188
+        },
+        "confusion": [
+          [
+            903,
+            11,
+            3,
+            42
+          ],
+          [
+            1,
+            919,
+            7,
+            36
+          ],
+          [
+            0,
+            0,
+            650,
+            98
+          ],
+          [
+            15,
+            13,
+            303,
+            15559
+          ]
+        ]
+      },
+      "external": {
+        "external_sub01": {
+          "metrics": {
+            "n": 1269,
+            "correct": 1089,
+            "accuracy": 85.81560283687944,
+            "balanced_accuracy": 69.87475877079609,
+            "recall": {
+              "LEFT": 45.2991452991453,
+              "RIGHT": 74.31693989071039,
+              "DOWN": 62.601626016260155,
+              "STRAIGHT": 97.28132387706856
+            },
+            "confusion": [
+              [
+                53,
+                23,
+                34,
+                7
+              ],
+              [
+                0,
+                136,
+                35,
+                12
+              ],
+              [
+                7,
+                0,
+                77,
+                39
+              ],
+              [
+                0,
+                0,
+                23,
+                823
+              ]
+            ]
+          },
+          "comparison": {
+            "gain": 0.259725169761154,
+            "paired_session_bootstrap_95": [
+              -6.155104560861191,
+              4.823452176713805
+            ],
+            "sessions_improved": 5,
+            "sessions_harmed": 1
+          }
+        },
+        "external_sub11": {
+          "metrics": {
+            "n": 1200,
+            "correct": 862,
+            "accuracy": 71.83333333333333,
+            "balanced_accuracy": 62.86318587342641,
+            "recall": {
+              "LEFT": 59.35828877005348,
+              "RIGHT": 13.122171945701359,
+              "DOWN": 83.50877192982456,
+              "STRAIGHT": 95.46351084812623
+            },
+            "confusion": [
+              [
+                111,
+                52,
+                8,
+                16
+              ],
+              [
+                185,
+                29,
+                2,
+                5
+              ],
+              [
+                15,
+                4,
+                238,
+                28
+              ],
+              [
+                1,
+                0,
+                22,
+                484
+              ]
+            ]
+          },
+          "comparison": {
+            "gain": -15.810546522620832,
+            "paired_session_bootstrap_95": [
+              -22.224820125051135,
+              -8.750069581459563
+            ],
+            "sessions_improved": 1,
+            "sessions_harmed": 8
+          }
+        }
+      },
+      "abstention": {
+        "0.1": {
+          "training_margin_threshold": 0.17584172294351633,
+          "external": {
+            "external_sub01": {
+              "coverage": 84.63356973995272,
+              "metrics": {
+                "n": 1074,
+                "correct": 948,
+                "accuracy": 88.26815642458101,
+                "balanced_accuracy": 73.22205973485173,
+                "recall": {
+                  "LEFT": 48.275862068965516,
+                  "RIGHT": 82.25806451612904,
+                  "DOWN": 65.38461538461539,
+                  "STRAIGHT": 96.96969696969697
+                },
+                "confusion": [
+                  [
+                    42,
+                    12,
+                    26,
+                    7
+                  ],
+                  [
+                    0,
+                    102,
+                    14,
+                    8
+                  ],
+                  [
+                    6,
+                    0,
+                    68,
+                    30
+                  ],
+                  [
+                    0,
+                    0,
+                    23,
+                    736
+                  ]
+                ]
+              }
+            },
+            "external_sub11": {
+              "coverage": 81.33333333333333,
+              "metrics": {
+                "n": 976,
+                "correct": 719,
+                "accuracy": 73.66803278688525,
+                "balanced_accuracy": 64.33878738835035,
+                "recall": {
+                  "LEFT": 61.6,
+                  "RIGHT": 13.114754098360656,
+                  "DOWN": 87.44588744588745,
+                  "STRAIGHT": 95.19450800915332
+                },
+                "confusion": [
+                  [
+                    77,
+                    36,
+                    3,
+                    9
+                  ],
+                  [
+                    154,
+                    24,
+                    0,
+                    5
+                  ],
+                  [
+                    1,
+                    0,
+                    202,
+                    28
+                  ],
+                  [
+                    0,
+                    0,
+                    21,
+                    416
+                  ]
+                ]
+              }
+            }
+          }
+        },
+        "0.25": {
+          "training_margin_threshold": 0.3644958710768128,
+          "external": {
+            "external_sub01": {
+              "coverage": 67.69109535066981,
+              "metrics": {
+                "n": 859,
+                "correct": 790,
+                "accuracy": 91.9674039580908,
+                "balanced_accuracy": 79.20812597454821,
+                "recall": {
+                  "LEFT": 54.54545454545454,
+                  "RIGHT": 90.78947368421053,
+                  "DOWN": 74.69879518072288,
+                  "STRAIGHT": 96.79878048780488
+                },
+                "confusion": [
+                  [
+                    24,
+                    0,
+                    13,
+                    7
+                  ],
+                  [
+                    0,
+                    69,
+                    2,
+                    5
+                  ],
+                  [
+                    1,
+                    0,
+                    62,
+                    20
+                  ],
+                  [
+                    0,
+                    0,
+                    21,
+                    635
+                  ]
+                ]
+              }
+            },
+            "external_sub11": {
+              "coverage": 62.5,
+              "metrics": {
+                "n": 750,
+                "correct": 541,
+                "accuracy": 72.13333333333334,
+                "balanced_accuracy": 63.99363726639401,
+                "recall": {
+                  "LEFT": 64.86486486486487,
+                  "RIGHT": 11.612903225806452,
+                  "DOWN": 85.31073446327684,
+                  "STRAIGHT": 94.18604651162791
+                },
+                "confusion": [
+                  [
+                    48,
+                    18,
+                    0,
+                    8
+                  ],
+                  [
+                    133,
+                    18,
+                    0,
+                    4
+                  ],
+                  [
+                    0,
+                    0,
+                    151,
+                    26
+                  ],
+                  [
+                    0,
+                    0,
+                    20,
+                    324
+                  ]
+                ]
+              }
+            }
+          }
+        },
+        "0.5": {
+          "training_margin_threshold": 0.5867793252078191,
+          "external": {
+            "external_sub01": {
+              "coverage": 47.59653270291568,
+              "metrics": {
+                "n": 604,
+                "correct": 571,
+                "accuracy": 94.5364238410596,
+                "balanced_accuracy": 89.95748505079612,
+                "recall": {
+                  "LEFT": 83.33333333333334,
+                  "RIGHT": 96.61016949152543,
+                  "DOWN": 83.5820895522388,
+                  "STRAIGHT": 96.30434782608695
+                },
+                "confusion": [
+                  [
+                    15,
+                    0,
+                    3,
+                    0
+                  ],
+                  [
+                    0,
+                    57,
+                    0,
+                    2
+                  ],
+                  [
+                    0,
+                    0,
+                    56,
+                    11
+                  ],
+                  [
+                    0,
+                    0,
+                    17,
+                    443
+                  ]
+                ]
+              }
+            },
+            "external_sub11": {
+              "coverage": 38.416666666666664,
+              "metrics": {
+                "n": 461,
+                "correct": 357,
+                "accuracy": 77.44034707158352,
+                "balanced_accuracy": 64.78200086154632,
+                "recall": {
+                  "LEFT": 70.27027027027027,
+                  "RIGHT": 7.142857142857142,
+                  "DOWN": 87.5,
+                  "STRAIGHT": 94.21487603305785
+                },
+                "confusion": [
+                  [
+                    26,
+                    7,
+                    0,
+                    4
+                  ],
+                  [
+                    63,
+                    5,
+                    0,
+                    2
+                  ],
+                  [
+                    0,
+                    0,
+                    98,
+                    14
+                  ],
+                  [
+                    0,
+                    0,
+                    14,
+                    228
+                  ]
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "polarity_invariant": {
+      "outer_selections": [
+        {
+          "config": [
+            32,
+            100.0
+          ],
+          "inner_scores": [
+            62.85088485238166,
+            63.53500016532859,
+            58.97914209002286,
+            60.81434774530528
+          ]
+        },
+        {
+          "config": [
+            32,
+            100.0
+          ],
+          "inner_scores": [
+            64.29811632739396,
+            64.97520150117614,
+            61.29232392872829,
+            63.23660550308915
+          ]
+        },
+        {
+          "config": [
+            32,
+            100.0
+          ],
+          "inner_scores": [
+            71.24880743986684,
+            72.09342512535186,
+            69.70158610196466,
+            71.62214806452266
+          ]
+        }
+      ],
+      "full_config": [
+        128,
+        100.0
+      ],
+      "development_selection_scores": [
+        68.89027466449782,
+        69.15034604025766,
+        69.31110705081865,
+        69.60950142956108
+      ],
+      "nested_validation": {
+        "n": 18560,
+        "correct": 16553,
+        "accuracy": 89.18642241379311,
+        "balanced_accuracy": 69.15034604025766,
+        "recall": {
+          "LEFT": 58.70698644421272,
+          "RIGHT": 42.782969885773625,
+          "DOWN": 80.88235294117648,
+          "STRAIGHT": 94.22907488986783
+        },
+        "confusion": [
+          [
+            563,
+            309,
+            30,
+            57
+          ],
+          [
+            477,
+            412,
+            21,
+            53
+          ],
+          [
+            17,
+            7,
+            605,
+            119
+          ],
+          [
+            132,
+            100,
+            685,
+            14973
+          ]
+        ]
+      },
+      "validation_comparison": {
+        "gain": -15.856042462560794,
+        "paired_session_bootstrap_95": [
+          -20.79367031495591,
+          -10.975194929503914
+        ],
+        "sessions_improved": 3,
+        "sessions_harmed": 27
+      },
+      "training_fit": {
+        "n": 18560,
+        "correct": 18056,
+        "accuracy": 97.28448275862068,
+        "balanced_accuracy": 92.3554243385784,
+        "recall": {
+          "LEFT": 88.52971845672576,
+          "RIGHT": 88.26583592938732,
+          "DOWN": 94.11764705882352,
+          "STRAIGHT": 98.50849590937698
+        },
+        "confusion": [
+          [
+            849,
+            86,
+            3,
+            21
+          ],
+          [
+            103,
+            850,
+            2,
+            8
+          ],
+          [
+            0,
+            0,
+            704,
+            44
+          ],
+          [
+            114,
+            74,
+            49,
+            15653
+          ]
+        ]
+      },
+      "external": {
+        "external_sub01": {
+          "metrics": {
+            "n": 1269,
+            "correct": 970,
+            "accuracy": 76.43814026792751,
+            "balanced_accuracy": 52.28099158590791,
+            "recall": {
+              "LEFT": 39.31623931623932,
+              "RIGHT": 26.775956284153008,
+              "DOWN": 46.34146341463415,
+              "STRAIGHT": 96.6903073286052
+            },
+            "confusion": [
+              [
+                46,
+                9,
+                39,
+                23
+              ],
+              [
+                43,
+                49,
+                55,
+                36
+              ],
+              [
+                0,
+                8,
+                57,
+                58
+              ],
+              [
+                15,
+                10,
+                3,
+                818
+              ]
+            ]
+          },
+          "comparison": {
+            "gain": -17.334042015127025,
+            "paired_session_bootstrap_95": [
+              -26.519108203986065,
+              -11.63841659588915
+            ],
+            "sessions_improved": 0,
+            "sessions_harmed": 6
+          }
+        },
+        "external_sub11": {
+          "metrics": {
+            "n": 1200,
+            "correct": 754,
+            "accuracy": 62.833333333333336,
+            "balanced_accuracy": 55.79473079115851,
+            "recall": {
+              "LEFT": 49.73262032085562,
+              "RIGHT": 27.601809954751133,
+              "DOWN": 62.807017543859644,
+              "STRAIGHT": 83.03747534516765
+            },
+            "confusion": [
+              [
+                93,
+                77,
+                11,
+                6
+              ],
+              [
+                145,
+                61,
+                12,
+                3
+              ],
+              [
+                65,
+                37,
+                179,
+                4
+              ],
+              [
+                23,
+                5,
+                58,
+                421
+              ]
+            ]
+          },
+          "comparison": {
+            "gain": -22.879001604888735,
+            "paired_session_bootstrap_95": [
+              -33.63825754397537,
+              -10.820408110279763
+            ],
+            "sessions_improved": 2,
+            "sessions_harmed": 8
+          }
+        }
+      },
+      "abstention": {
+        "0.1": {
+          "training_margin_threshold": 0.2557533247448765,
+          "external": {
+            "external_sub01": {
+              "coverage": 71.8676122931442,
+              "metrics": {
+                "n": 912,
+                "correct": 819,
+                "accuracy": 89.80263157894737,
+                "balanced_accuracy": 61.22898915697829,
+                "recall": {
+                  "LEFT": 51.42857142857142,
+                  "RIGHT": 34.92063492063492,
+                  "DOWN": 58.97435897435898,
+                  "STRAIGHT": 99.59239130434783
+                },
+                "confusion": [
+                  [
+                    18,
+                    0,
+                    14,
+                    3
+                  ],
+                  [
+                    10,
+                    22,
+                    23,
+                    8
+                  ],
+                  [
+                    0,
+                    3,
+                    46,
+                    29
+                  ],
+                  [
+                    2,
+                    1,
+                    0,
+                    733
+                  ]
+                ]
+              }
+            },
+            "external_sub11": {
+              "coverage": 60.0,
+              "metrics": {
+                "n": 720,
+                "correct": 488,
+                "accuracy": 67.77777777777777,
+                "balanced_accuracy": 60.232644127311815,
+                "recall": {
+                  "LEFT": 46.55172413793103,
+                  "RIGHT": 22.875816993464053,
+                  "DOWN": 74.70588235294117,
+                  "STRAIGHT": 96.79715302491103
+                },
+                "confusion": [
+                  [
+                    54,
+                    59,
+                    0,
+                    3
+                  ],
+                  [
+                    112,
+                    35,
+                    5,
+                    1
+                  ],
+                  [
+                    31,
+                    12,
+                    127,
+                    0
+                  ],
+                  [
+                    3,
+                    1,
+                    5,
+                    272
+                  ]
+                ]
+              }
+            }
+          }
+        },
+        "0.25": {
+          "training_margin_threshold": 0.45157785717900123,
+          "external": {
+            "external_sub01": {
+              "coverage": 53.90070921985816,
+              "metrics": {
+                "n": 684,
+                "correct": 652,
+                "accuracy": 95.32163742690058,
+                "balanced_accuracy": 69.46739130434783,
+                "recall": {
+                  "LEFT": 60.86956521739131,
+                  "RIGHT": 32.0,
+                  "DOWN": 85.0,
+                  "STRAIGHT": 100.0
+                },
+                "confusion": [
+                  [
+                    14,
+                    0,
+                    9,
+                    0
+                  ],
+                  [
+                    3,
+                    8,
+                    14,
+                    0
+                  ],
+                  [
+                    0,
+                    2,
+                    34,
+                    4
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    596
+                  ]
+                ]
+              }
+            },
+            "external_sub11": {
+              "coverage": 33.166666666666664,
+              "metrics": {
+                "n": 398,
+                "correct": 281,
+                "accuracy": 70.60301507537689,
+                "balanced_accuracy": 62.660146976846235,
+                "recall": {
+                  "LEFT": 47.45762711864407,
+                  "RIGHT": 17.441860465116278,
+                  "DOWN": 86.40776699029125,
+                  "STRAIGHT": 99.33333333333333
+                },
+                "confusion": [
+                  [
+                    28,
+                    31,
+                    0,
+                    0
+                  ],
+                  [
+                    66,
+                    15,
+                    5,
+                    0
+                  ],
+                  [
+                    7,
+                    7,
+                    89,
+                    0
+                  ],
+                  [
+                    1,
+                    0,
+                    0,
+                    149
+                  ]
+                ]
+              }
+            }
+          }
+        },
+        "0.5": {
+          "training_margin_threshold": 0.6301496215205435,
+          "external": {
+            "external_sub01": {
+              "coverage": 29.62962962962963,
+              "metrics": {
+                "n": 376,
+                "correct": 365,
+                "accuracy": 97.07446808510639,
+                "balanced_accuracy": 70.27777777777777,
+                "recall": {
+                  "LEFT": 61.111111111111114,
+                  "RIGHT": 20.0,
+                  "DOWN": 100.0,
+                  "STRAIGHT": 100.0
+                },
+                "confusion": [
+                  [
+                    11,
+                    0,
+                    7,
+                    0
+                  ],
+                  [
+                    1,
+                    1,
+                    3,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    20,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    333
+                  ]
+                ]
+              }
+            },
+            "external_sub11": {
+              "coverage": 17.5,
+              "metrics": {
+                "n": 210,
+                "correct": 141,
+                "accuracy": 67.14285714285714,
+                "balanced_accuracy": 62.03585863260521,
+                "recall": {
+                  "LEFT": 45.94594594594595,
+                  "RIGHT": 10.416666666666668,
+                  "DOWN": 91.78082191780823,
+                  "STRAIGHT": 100.0
+                },
+                "confusion": [
+                  [
+                    17,
+                    20,
+                    0,
+                    0
+                  ],
+                  [
+                    38,
+                    5,
+                    5,
+                    0
+                  ],
+                  [
+                    4,
+                    2,
+                    67,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    52
+                  ]
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "fits": 138,
+  "elapsed_seconds": 54.02533483505249,
+  "concurrent_changes": []
+}

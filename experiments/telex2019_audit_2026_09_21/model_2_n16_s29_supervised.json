@@ -1,0 +1,598 @@
+{
+  "stamp": "a637e25b73900f43353a5ca11e5f51d3f8c3d0091c47584176918142adde6cd0",
+  "fingerprint": "f28e3c944d98",
+  "mode": "supervised",
+  "budget": 16,
+  "seed": 29,
+  "train_folds": [
+    2
+  ],
+  "indices": [
+    15547,
+    18135,
+    17511,
+    17087,
+    13728,
+    16323,
+    18511,
+    14918,
+    15980,
+    14108,
+    15376,
+    17452,
+    17062,
+    16671,
+    18457,
+    14789,
+    14651,
+    15296,
+    13701,
+    16251,
+    13899,
+    18003,
+    17351,
+    17049,
+    18305,
+    15888,
+    14696,
+    15304,
+    13713,
+    16234,
+    14061,
+    18045,
+    15724,
+    17990,
+    16168,
+    13337,
+    16712,
+    18189,
+    13887,
+    14634,
+    15278,
+    17239,
+    15680,
+    16208,
+    13369,
+    18202,
+    14600,
+    15252,
+    16581,
+    13797,
+    17168,
+    13433,
+    17845,
+    15789,
+    15463,
+    18396,
+    17236,
+    14779,
+    16182,
+    14368,
+    16970,
+    13511,
+    18031,
+    15714
+  ],
+  "trial_keys": [
+    "sub_01/ses-24/left/7",
+    "sub_01/ses-29/left/10",
+    "sub_01/ses-28/left/9",
+    "sub_01/ses-27/left/5",
+    "sub_01/ses-21/left/1",
+    "sub_01/ses-26/left/4",
+    "sub_01/ses-30/left/5",
+    "sub_01/ses-23/left/2",
+    "sub_01/ses-25/left/6",
+    "sub_01/ses-22/left/6",
+    "sub_01/ses-24/left/9",
+    "sub_01/ses-28/left/2",
+    "sub_01/ses-27/left/9",
+    "sub_01/ses-26/left/8",
+    "sub_01/ses-30/left/6",
+    "sub_01/ses-23/left/3",
+    "sub_01/ses-23/right/9",
+    "sub_01/ses-24/right/6",
+    "sub_01/ses-21/right/5",
+    "sub_01/ses-26/right/3",
+    "sub_01/ses-22/right/9",
+    "sub_01/ses-29/right/7",
+    "sub_01/ses-28/right/6",
+    "sub_01/ses-27/right/8",
+    "sub_01/ses-30/right/9",
+    "sub_01/ses-25/right/8",
+    "sub_01/ses-23/right/7",
+    "sub_01/ses-24/right/8",
+    "sub_01/ses-21/right/6",
+    "sub_01/ses-26/right/1",
+    "sub_01/ses-22/right/7",
+    "sub_01/ses-29/right/2",
+    "sub_01/ses-25/down/4",
+    "sub_01/ses-29/down/9",
+    "sub_01/ses-26/down/5",
+    "sub_01/ses-21/down/4",
+    "sub_01/ses-27/down/3",
+    "sub_01/ses-30/down/1",
+    "sub_01/ses-22/down/1",
+    "sub_01/ses-23/down/4",
+    "sub_01/ses-24/down/1",
+    "sub_01/ses-28/down/10",
+    "sub_01/ses-25/down/3",
+    "sub_01/ses-26/down/2",
+    "sub_01/ses-21/down/10",
+    "sub_01/ses-30/down/2",
+    "sub_01/ses-23/down/1",
+    "sub_01/ses-24/down/2",
+    "sub_01/ses-26/left/9",
+    "sub_01/ses-22/straight/8",
+    "sub_01/ses-27/left/2",
+    "sub_01/ses-21/down/8",
+    "sub_01/ses-29/straight/1",
+    "sub_01/ses-25/right/1",
+    "sub_01/ses-24/left/3",
+    "sub_01/ses-30/left/7",
+    "sub_01/ses-28/straight/8",
+    "sub_01/ses-23/right/6",
+    "sub_01/ses-26/down/7",
+    "sub_01/ses-22/left/2",
+    "sub_01/ses-27/right/4",
+    "sub_01/ses-21/right/7",
+    "sub_01/ses-29/right/4",
+    "sub_01/ses-25/down/9"
+  ],
+  "labels": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "trees": [
+    [
+      {
+        "op": "G",
+        "a": 0,
+        "b": 31,
+        "child": {
+          "op": "atom",
+          "signal": 1,
+          "sign": 1,
+          "threshold": -1.91047953067236
+        }
+      },
+      {
+        "op": "and",
+        "left": {
+          "op": "G",
+          "a": 0,
+          "b": 31,
+          "child": {
+            "op": "atom",
+            "signal": 1,
+            "sign": 1,
+            "threshold": -1.91047953067236
+          }
+        },
+        "right": {
+          "op": "G",
+          "a": 0,
+          "b": 15,
+          "child": {
+            "op": "atom",
+            "signal": 12,
+            "sign": -1,
+            "threshold": -1.5889667207429454
+          }
+        }
+      },
+      {
+        "op": "and",
+        "left": {
+          "op": "and",
+          "left": {
+            "op": "G",
+            "a": 0,
+            "b": 31,
+            "child": {
+              "op": "atom",
+              "signal": 1,
+              "sign": 1,
+              "threshold": -1.91047953067236
+            }
+          },
+          "right": {
+            "op": "G",
+            "a": 0,
+            "b": 15,
+            "child": {
+              "op": "atom",
+              "signal": 12,
+              "sign": -1,
+              "threshold": -1.5889667207429454
+            }
+          }
+        },
+        "right": {
+          "op": "and",
+          "left": {
+            "op": "G",
+            "a": 0,
+            "b": 31,
+            "child": {
+              "op": "atom",
+              "signal": 4,
+              "sign": 1,
+              "threshold": -2.2182367936917036
+            }
+          },
+          "right": {
+            "op": "G",
+            "a": 0,
+            "b": 15,
+            "child": {
+              "op": "atom",
+              "signal": 27,
+              "sign": -1,
+              "threshold": -1.5846297733830772
+            }
+          }
+        }
+      }
+    ],
+    [
+      {
+        "op": "G",
+        "a": 64,
+        "b": 95,
+        "child": {
+          "op": "atom",
+          "signal": 8,
+          "sign": 1,
+          "threshold": -1.7150698714711474
+        }
+      },
+      {
+        "op": "and",
+        "left": {
+          "op": "G",
+          "a": 64,
+          "b": 95,
+          "child": {
+            "op": "atom",
+            "signal": 8,
+            "sign": 1,
+            "threshold": -1.7150698714711474
+          }
+        },
+        "right": {
+          "op": "F",
+          "a": 32,
+          "b": 63,
+          "child": {
+            "op": "atom",
+            "signal": 0,
+            "sign": 1,
+            "threshold": 2.0388401985168456
+          }
+        }
+      },
+      {
+        "op": "G",
+        "a": 64,
+        "b": 95,
+        "child": {
+          "op": "atom",
+          "signal": 8,
+          "sign": 1,
+          "threshold": -1.7150698714711474
+        }
+      }
+    ],
+    [
+      {
+        "op": "G",
+        "a": 64,
+        "b": 95,
+        "child": {
+          "op": "atom",
+          "signal": 32,
+          "sign": -1,
+          "threshold": -2.2837670872258324
+        }
+      },
+      {
+        "op": "and",
+        "left": {
+          "op": "G",
+          "a": 64,
+          "b": 95,
+          "child": {
+            "op": "atom",
+            "signal": 32,
+            "sign": -1,
+            "threshold": -2.2837670872258324
+          }
+        },
+        "right": {
+          "op": "G",
+          "a": 0,
+          "b": 63,
+          "child": {
+            "op": "atom",
+            "signal": 22,
+            "sign": 1,
+            "threshold": -3.1503207645023004
+          }
+        }
+      },
+      {
+        "op": "and",
+        "left": {
+          "op": "G",
+          "a": 64,
+          "b": 95,
+          "child": {
+            "op": "atom",
+            "signal": 32,
+            "sign": -1,
+            "threshold": -2.2837670872258324
+          }
+        },
+        "right": {
+          "op": "G",
+          "a": 0,
+          "b": 63,
+          "child": {
+            "op": "atom",
+            "signal": 14,
+            "sign": 1,
+            "threshold": -3.436590299225051
+          }
+        }
+      }
+    ],
+    [
+      {
+        "op": "G",
+        "a": 0,
+        "b": 95,
+        "child": {
+          "op": "atom",
+          "signal": 41,
+          "sign": -1,
+          "threshold": -1.9013843844567697
+        }
+      },
+      {
+        "op": "and",
+        "left": {
+          "op": "G",
+          "a": 32,
+          "b": 63,
+          "child": {
+            "op": "atom",
+            "signal": 20,
+            "sign": 1,
+            "threshold": -2.3926517541114283
+          }
+        },
+        "right": {
+          "op": "G",
+          "a": 0,
+          "b": 95,
+          "child": {
+            "op": "atom",
+            "signal": 38,
+            "sign": -1,
+            "threshold": -2.002951197064014
+          }
+        }
+      },
+      {
+        "op": "or",
+        "left": {
+          "op": "G",
+          "a": 32,
+          "b": 63,
+          "child": {
+            "op": "atom",
+            "signal": 20,
+            "sign": 1,
+            "threshold": -1.8926517541114283
+          }
+        },
+        "right": {
+          "op": "G",
+          "a": 0,
+          "b": 95,
+          "child": {
+            "op": "atom",
+            "signal": 38,
+            "sign": -1,
+            "threshold": -1.502951197064014
+          }
+        }
+      }
+    ]
+  ],
+  "scales": [
+    [
+      0.6325943078756332,
+      0.6766738879586256,
+      0.6368462239214099
+    ],
+    [
+      0.8017574792325496,
+      0.6434440925002097,
+      0.8017574792325496
+    ],
+    [
+      0.6234295594811439,
+      0.9878530104196894,
+      0.8515583503246307
+    ],
+    [
+      0.6341560681700706,
+      0.9720238597512245,
+      0.5435803523192836
+    ]
+  ],
+  "diagnostics": [
+    {
+      "counts": {
+        "templates": 2730,
+        "refinements": 12,
+        "nested_candidates": 266
+      },
+      "history": [
+        {
+          "depth": 2,
+          "consistent": 56,
+          "in_band": 43
+        },
+        {
+          "depth": 3,
+          "consistent": 53,
+          "in_band": 0
+        }
+      ]
+    },
+    {
+      "counts": {
+        "templates": 2577,
+        "refinements": 12,
+        "nested_candidates": 113
+      },
+      "history": [
+        {
+          "depth": 2,
+          "consistent": 38,
+          "in_band": 18
+        },
+        {
+          "depth": 3,
+          "consistent": 25,
+          "in_band": 1
+        }
+      ]
+    },
+    {
+      "counts": {
+        "templates": 2603,
+        "refinements": 12,
+        "nested_candidates": 139
+      },
+      "history": [
+        {
+          "depth": 2,
+          "consistent": 48,
+          "in_band": 36
+        },
+        {
+          "depth": 3,
+          "consistent": 29,
+          "in_band": 3
+        }
+      ]
+    },
+    {
+      "counts": {
+        "templates": 2554,
+        "refinements": 12,
+        "nested_candidates": 90
+      },
+      "history": [
+        {
+          "depth": 2,
+          "consistent": 30,
+          "in_band": 19
+        },
+        {
+          "depth": 3,
+          "consistent": 26,
+          "in_band": 1
+        }
+      ]
+    }
+  ],
+  "formulas": [
+    [
+      "always[0:31]((ch_Fp2 >= -1.9104795306723601))",
+      "(always[0:31]((ch_Fp2 >= -1.9104795306723601)) and always[0:15]((pair_Fp1_T3 <= 1.5889667207429454)))",
+      "((always[0:31]((ch_Fp2 >= -1.9104795306723601)) and always[0:15]((pair_Fp1_T3 <= 1.5889667207429454))) and (always[0:31]((ch_F4 >= -2.2182367936917036)) and always[0:15]((pair_Fz_T3 <= 1.5846297733830772))))"
+    ],
+    [
+      "always[64:95]((pair_Fp1_Fp2 >= -1.7150698714711474))",
+      "(always[64:95]((pair_Fp1_Fp2 >= -1.7150698714711474)) and eventually[32:63]((ch_Fp1 >= 2.0388401985168456)))",
+      "always[64:95]((pair_Fp1_Fp2 >= -1.7150698714711474))"
+    ],
+    [
+      "always[64:95]((pair_F4_T4 <= 2.2837670872258324))",
+      "(always[64:95]((pair_F4_T4 <= 2.2837670872258324)) and always[0:63]((pair_F3_F4 >= -3.1503207645023004)))",
+      "(always[64:95]((pair_F4_T4 <= 2.2837670872258324)) and always[0:63]((pair_Fp1_T4 >= -3.4365902992250512)))"
+    ],
+    [
+      "always[0:95]((energy_T3 <= 1.9013843844567697))",
+      "(always[32:63]((pair_Fp2_T4 >= -2.3926517541114283)) and always[0:95]((energy_F3 <= 2.0029511970640139)))",
+      "(always[32:63]((pair_Fp2_T4 >= -1.8926517541114283)) or always[0:95]((energy_F3 <= 1.5029511970640139)))"
+    ]
+  ]
+}

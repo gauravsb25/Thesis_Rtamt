@@ -1,0 +1,16 @@
+
+v3 (CSV-only)
+  sub_01 1-30 (design)   with stream history   85.22%  | LEFT 1256/1625 (77.3%) | RIGHT 1201/1431 (83.9%) | DOWN 909/1062 (85.6%) | STRAIGHT 3830/4071 (94.1%) | type 86.0% FA 5.9%
+  sub_01 1-30 (design)   each window alone     83.11%  | LEFT 1265/1625 (77.8%) | RIGHT 1194/1431 (83.4%) | DOWN 912/1062 (85.9%) | STRAIGHT 3471/4071 (85.3%) | type 86.2% FA 14.7%
+  sub_01 31-36 (test)    with stream history   64.94%  | LEFT 84/180 (46.7%) | RIGHT 171/281 (60.9%) | DOWN 94/161 (58.4%) | STRAIGHT 412/439 (93.8%) | type 65.0% FA 6.2%
+  sub_01 31-36 (test)    each window alone     63.73%  | LEFT 84/180 (46.7%) | RIGHT 171/281 (60.9%) | DOWN 106/161 (65.8%) | STRAIGHT 358/439 (81.5%) | type 63.9% FA 18.5%
+  sub_11 (test)          with stream history   72.25%  | LEFT 349/618 (56.5%) | RIGHT 386/566 (68.2%) | DOWN 410/451 (90.9%) | STRAIGHT 185/252 (73.4%) | type 73.3% FA 26.6%
+  sub_11 (test)          each window alone     70.40%  | LEFT 348/618 (56.3%) | RIGHT 375/566 (66.3%) | DOWN 413/451 (91.6%) | STRAIGHT 170/252 (67.5%) | type 73.2% FA 32.5%
+
+v2 (.fif)
+  sub_01 1-30 (design)   with stream history   85.01%  | LEFT 805/959 (83.9%) | RIGHT 770/963 (80.0%) | DOWN 585/748 (78.2%) | STRAIGHT 15559/15890 (97.9%) | type 86.6% FA 2.1%
+  sub_01 1-30 (design)   each window alone     82.74%  | LEFT 802/959 (83.6%) | RIGHT 765/963 (79.4%) | DOWN 580/748 (77.5%) | STRAIGHT 14356/15890 (90.3%) | type 86.5% FA 9.7%
+  sub_01 31-36 (test)    with stream history   69.62%  | LEFT 69/117 (59.0%) | RIGHT 118/183 (64.5%) | DOWN 71/123 (57.7%) | STRAIGHT 823/846 (97.3%) | type 70.7% FA 2.7%
+  sub_01 31-36 (test)    each window alone     67.22%  | LEFT 69/117 (59.0%) | RIGHT 118/183 (64.5%) | DOWN 71/123 (57.7%) | STRAIGHT 742/846 (87.7%) | type 70.7% FA 12.3%
+  sub_11 (test)          with stream history   78.67%  | LEFT 105/187 (56.1%) | RIGHT 165/221 (74.7%) | DOWN 252/285 (88.4%) | STRAIGHT 484/507 (95.5%) | type 81.1% FA 4.5%
+  sub_11 (test)          each window alone     77.00%  | LEFT 105/187 (56.1%) | RIGHT 165/221 (74.7%) | DOWN 252/285 (88.4%) | STRAIGHT 450/507 (88.8%) | type 81.2% FA 11.2%

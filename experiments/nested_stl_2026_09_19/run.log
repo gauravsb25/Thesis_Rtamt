@@ -1,0 +1,38 @@
+RTAMT nested robustness checks: 6
+extracted sub_01/ses-01 1239
+extracted sub_01/ses-02 920
+extracted sub_01/ses-03 1126
+extracted sub_01/ses-04 778
+extracted sub_01/ses-05 732
+extracted sub_01/ses-06 468
+extracted sub_01/ses-07 257
+extracted sub_01/ses-08 425
+extracted sub_01/ses-09 484
+extracted sub_01/ses-10 373
+extracted sub_01/ses-11 693
+extracted sub_01/ses-12 478
+extracted sub_01/ses-13 780
+extracted sub_01/ses-14 931
+extracted sub_01/ses-15 1017
+extracted sub_01/ses-16 438
+extracted sub_01/ses-17 719
+extracted sub_01/ses-18 509
+extracted sub_01/ses-19 710
+extracted sub_01/ses-20 259
+extracted sub_01/ses-21 459
+extracted sub_01/ses-22 738
+extracted sub_01/ses-23 703
+extracted sub_01/ses-24 443
+extracted sub_01/ses-25 480
+extracted sub_01/ses-26 552
+extracted sub_01/ses-27 492
+extracted sub_01/ses-28 368
+extracted sub_01/ses-29 603
+extracted sub_01/ses-30 386
+burst {"cv": 85.28597078445902, "gain": 0.27958228164057175, "sessions_up": 7, "sessions_down": 13, "selected": ["burst_2:rescue:2.0", "burst_2:rescue:2.0", "burst_2:rescue:2.0"], "pass": false}
+double {"cv": 85.49844766361355, "gain": 0.49205916079509393, "sessions_up": 7, "sessions_down": 3, "selected": ["double_2_32:sign=-1:margin=1.0", "double_4_32:sign=-1:margin=1.0", "double_2_32:sign=-1:margin=1.0"], "pass": false}
+nodsync {"cv": 85.00638850281845, "gain": 0.0, "sessions_up": 0, "sessions_down": 0, "selected": ["baseline", "baseline", "baseline"], "pass": false}
+quietburst {"cv": 85.17053788347376, "gain": 0.16414938065530293, "sessions_up": 5, "sessions_down": 8, "selected": ["quietburst_4:rescue:2.0", "quietburst_2:rescue:2.0", "quietburst_2:rescue:2.0"], "pass": false}
+triple {"cv": 84.92818203775067, "gain": -0.07820646506777962, "sessions_up": 0, "sessions_down": 2, "selected": ["triple_4_32:sign=1:margin=2.0", "baseline", "baseline"], "pass": false}
+all_families {"cv": 85.49844766361355, "gain": 0.49205916079509393, "sessions_up": 7, "sessions_down": 3, "selected": ["double_2_32:sign=-1:margin=1.0", "double_4_32:sign=-1:margin=1.0", "double_2_32:sign=-1:margin=1.0"], "pass": false}
+"Not evaluated: entire search failed development adoption rule."

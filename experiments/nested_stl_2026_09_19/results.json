@@ -1,0 +1,113 @@
+{
+  "protocol": "3 blocked session folds; >=0.5 point CV gain and sessions improved > harmed; family selection also nested within folds; no subject/session constants",
+  "rtamt_checks": 6,
+  "baseline": 85.00638850281845,
+  "candidates": 145,
+  "families": {
+    "burst": {
+      "cv": 85.28597078445902,
+      "gain": 0.27958228164057175,
+      "sessions_up": 7,
+      "sessions_down": 13,
+      "selected": [
+        "burst_2:rescue:2.0",
+        "burst_2:rescue:2.0",
+        "burst_2:rescue:2.0"
+      ],
+      "pass": false
+    },
+    "double": {
+      "cv": 85.49844766361355,
+      "gain": 0.49205916079509393,
+      "sessions_up": 7,
+      "sessions_down": 3,
+      "selected": [
+        "double_2_32:sign=-1:margin=1.0",
+        "double_4_32:sign=-1:margin=1.0",
+        "double_2_32:sign=-1:margin=1.0"
+      ],
+      "pass": false
+    },
+    "nodsync": {
+      "cv": 85.00638850281845,
+      "gain": 0.0,
+      "sessions_up": 0,
+      "sessions_down": 0,
+      "selected": [
+        "baseline",
+        "baseline",
+        "baseline"
+      ],
+      "pass": false
+    },
+    "quietburst": {
+      "cv": 85.17053788347376,
+      "gain": 0.16414938065530293,
+      "sessions_up": 5,
+      "sessions_down": 8,
+      "selected": [
+        "quietburst_4:rescue:2.0",
+        "quietburst_2:rescue:2.0",
+        "quietburst_2:rescue:2.0"
+      ],
+      "pass": false
+    },
+    "triple": {
+      "cv": 84.92818203775067,
+      "gain": -0.07820646506777962,
+      "sessions_up": 0,
+      "sessions_down": 2,
+      "selected": [
+        "triple_4_32:sign=1:margin=2.0",
+        "baseline",
+        "baseline"
+      ],
+      "pass": false
+    },
+    "all_families": {
+      "cv": 85.49844766361355,
+      "gain": 0.49205916079509393,
+      "sessions_up": 7,
+      "sessions_down": 3,
+      "selected": [
+        "double_2_32:sign=-1:margin=1.0",
+        "double_4_32:sign=-1:margin=1.0",
+        "double_2_32:sign=-1:margin=1.0"
+      ],
+      "pass": false
+    }
+  },
+  "held_out": "Not evaluated: entire search failed development adoption rule.",
+  "correlations": {
+    "double_4_32": {
+      "turn": -0.11799762549702564,
+      "nod": 0.0006900260485923224,
+      "background": 0.024787903958728746,
+      "deflect": 0.04079256636298968
+    },
+    "triple_4_32": {
+      "turn": 0.05439273566567515,
+      "nod": 0.03802779388251006,
+      "background": -0.0019402041435834932,
+      "deflect": -0.012228031139018403
+    },
+    "burst_4": {
+      "turn": 0.019076419375394033,
+      "nod": -0.23426717855240725,
+      "background": 0.40760057520742615,
+      "deflect": 0.7441943206261591
+    },
+    "quietburst_4": {
+      "turn": 0.009783869421109908,
+      "nod": -0.24355684114718465,
+      "background": 0.3909233337898914,
+      "deflect": 0.7182223286195011
+    },
+    "nodsync_4": {
+      "turn": -0.04137791858549521,
+      "nod": -0.2246275317116952,
+      "background": 0.18757547095337615,
+      "deflect": 0.2779236111739614
+    }
+  }
+}

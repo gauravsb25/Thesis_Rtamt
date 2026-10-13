@@ -1,0 +1,11 @@
+row 768 unchanged: True
+anytime t=1.0s  31.02%  L   6.4 R   6.7 D  11.2 S  99.7
+anytime t=1.5s  47.50%  L  24.0 R  28.1 D  39.2 S  98.7
+anytime t=2.0s  66.83%  L  53.4 R  54.9 D  62.3 S  96.7
+anytime t=2.5s  78.37%  L  73.8 R  73.7 D  71.9 S  94.0
+commit after  2 steps (0.125 s):  68.17%  L  56.2 R  53.4 D  73.7 S  89.4  latency from onset median +0.70 s; rest committed early 9.2%
+commit after  4 steps (0.250 s):  68.43%  L  55.0 R  54.1 D  74.9 S  89.8  latency from onset median +0.91 s; rest committed early 7.9%
+commit after  8 steps (0.500 s):  73.73%  L  64.1 R  62.5 D  78.2 S  90.1  latency from onset median +1.31 s; rest committed early 5.6%
+commit after 12 steps (0.750 s):  79.79%  L  78.4 R  72.6 D  77.9 S  90.2  latency from onset median +1.62 s; rest committed early 4.0%
+commit after 16 steps (1.000 s):  81.97%  L  82.3 R  77.3 D  78.1 S  90.3  latency from onset median +1.83 s; rest committed early 2.6%
+full 3 s:  82.74%  latency +2.22 s

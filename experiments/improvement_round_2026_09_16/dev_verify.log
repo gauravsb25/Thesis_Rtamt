@@ -1,0 +1,16 @@
+measured dev sub_01 1-30 (tuning): 20373 windows
+scratchpad design D on dev: 83.50%
+MODULE new design on dev:   83.50%   agreement 1.00000 (0 windows differ)
+cusum max rel diff module vs scratchpad: 0.00017624938490509072
+SINCE direction agreement: 1.0
+MODULE previous design on dev: 82.30%   agreement with the old cached monitor decisions 1.00000
+   previous (contrast gate, peak)    82.30%  L  84.1  R  78.3  D  77.5  S  89.2
+   CUSUM gate only                   82.81%  L  85.6  R  79.2  D  77.7  S  88.7
+   SINCE direction only              82.99%  L  83.0  R  82.2  D  77.5  S  89.2
+   NEW (CUSUM gate + SINCE)          83.50%  L  84.4  R  83.2  D  77.7  S  88.7
+
+real	3m53.471s
+user	0m0.171s
+sys	0m0.295s
+
+[exited with code 0]

@@ -1,0 +1,18 @@
+baseline: 85.01 / 69.62 / 78.67 (direction 92.6 / 100.0 / 70.5); tangent features 36
+
+A. rules from the session's rest state, blocked 3-fold CV on sessions 1-30
+   A_gate       CV  84.00% (-1.00) sessions +4/-16  L  85.4 R  79.1 D  77.9 S  93.5    folds: ['current', 'rest_energy >= 1.365', 'rest_energy >= 1.316']
+   A_gate_and   CV  84.38% (-0.63) sessions +11/-2  L  83.9 R  78.5 D  76.9 S  98.2    folds: ['gate and rest_energy >= 0.8706', 'gate and rest_energy >= 0.8853', 'gate and rest_energy >= 1.272']
+   A_deflect    CV  84.69% (-0.31) sessions +7/-8  L  84.3 R  78.5 D  78.1 S  97.9    folds: ['rest_deflect >= 2.709', 'rest_deflect >= 2.702', 'rest_deflect >= 3.506']
+   A_nod        CV  85.01% (+0.00) sessions +0/-0  L  83.9 R  80.0 D  78.2 S  97.9    folds: ['current', 'current', 'current']
+   A_sideways   CV  85.25% (+0.25) sessions +2/-2  L  86.2 R  80.8 D  76.1 S  97.9    folds: ['rest_sideways <= 8.625', 'rest_sideways <= 10.29', 'rest_sideways <= 5.918']
+   A_side       CV  85.01% (+0.00) sessions +0/-0  L  83.9 R  80.0 D  78.2 S  97.9    folds: ['current', 'current', 'current']
+
+B. models on the Riemannian tangent space, 5-fold grouped CV inside sessions 1-30
+   logistic regression    4-class  38.33%   direction   61.6%
+   random forest          4-class  34.71%   direction   48.2%
+   (the monitors: 85.01% and 92.6%; yesterday's 87 hand-made signals: 87.58% and 90.2%)
+
+   tangent space + the 87 hand-made signals together:
+   logistic regression    4-class  75.54%   direction   80.9%
+   random forest          4-class  83.29%   direction   90.5%
